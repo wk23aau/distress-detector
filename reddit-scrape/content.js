@@ -11,7 +11,7 @@
     // Helper: wait for a specified number of milliseconds.
     const wait = ms => new Promise(resolve => setTimeout(resolve, ms));
   
-    // Returns a human-readable timestamp in the format YYYY-MM-DD_HH-mm-ss.
+    // Return a human-readable timestamp in the format YYYY-MM-DD_HH-mm-ss.
     function getHumanReadableTimestamp() {
       const now = new Date();
       const year = now.getFullYear();
@@ -23,10 +23,10 @@
       return `${year}-${month}-${day}_${hour}-${minute}-${second}`;
     }
   
-    // Global maps/arrays for collected posts.
-    const collectedPosts = new Map(); // To avoid duplicates across batches.
-    let currentBatch = []; // Stores posts for current batch.
-    let cumulativeCount = 0; // Total posts collected (unique).
+    // Global storage.
+    const collectedPosts = new Map(); // All unique posts across batches.
+    let currentBatch = [];            // Posts in current batch.
+    let cumulativeCount = 0;          // Total posts collected.
   
     // Extract data from a <shreddit-post> element.
     const extractPostData = (post) => {
@@ -40,7 +40,7 @@
       const titleElement = post.querySelector('a[slot="title"]');
       const title = titleElement ? titleElement.textContent.trim() : "Not found";
   
-      // Extract post content (paragraphs) from the element with slot="text-body".
+      // Extract content (paragraphs) from element with slot="text-body".
       let content = "";
       const contentElement = post.querySelector('a[slot="text-body"] div.md');
       if (contentElement) {
@@ -51,13 +51,13 @@
         content = "Not found";
       }
   
-      // Extract vote count (score) from the shadow DOM.
+      // Extract vote count (score) from shadow DOM.
       const scoreElement = shadow.querySelector('[data-post-click-location="vote"] faceplate-number[pretty]');
       const score = scoreElement 
         ? (scoreElement.getAttribute('number') || scoreElement.textContent.trim())
         : 'Not found';
   
-      // Extract comments count from the shadow DOM.
+      // Extract comments count from shadow DOM.
       const commentElement = shadow.querySelector('[data-post-click-location="comments-button"] faceplate-number');
       const comments = commentElement 
         ? (commentElement.getAttribute('number') || commentElement.textContent.trim())
@@ -106,7 +106,7 @@
       }).then(response => response.json());
     }
   
-    // Extract subreddit name from the URL.
+    // Extract subreddit name from URL.
     function getSubredditName() {
       const parts = window.location.pathname.split("/");
       return parts.length >= 3 ? parts[2] : "UnknownSubreddit";
@@ -114,7 +114,7 @@
   
     // Automatically upload the current batch as CSV and JSON files.
     async function autoUploadBatch(batchPosts) {
-    //   const token = "";
+      const token = "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";
       const subreddit = getSubredditName();
       const timestamp = getHumanReadableTimestamp();
       const count = batchPosts.length;
@@ -152,7 +152,7 @@
         await wait(1000);
         document.querySelectorAll('shreddit-post').forEach(post => extractPostData(post));
   
-        // If batch condition is met, upload the batch.
+        // If batch time or batch size condition met, upload current batch.
         if ((Date.now() - batchStartTime) >= batchTimeMs || currentBatch.length >= batchSize) {
           console.log(`Batch condition met: uploading batch of ${currentBatch.length} posts.`);
           await autoUploadBatch(currentBatch);
@@ -172,96 +172,117 @@
       displayCollectedPosts(Array.from(collectedPosts.values()));
     }
   
-    // Display collected posts in a modal overlay with download options.
-    function displayCollectedPosts(posts) {
-      const existingContainer = document.getElementById("redditPostsContainer");
-      if (existingContainer) existingContainer.remove();
-  
+    // Enhanced UI Initialization inspired by Amazon script.
+    function addStylishCollectButton() {
       const container = document.createElement("div");
-      container.id = "redditPostsContainer";
       Object.assign(container.style, {
         position: "fixed",
-        top: "50%",
-        left: "50%",
-        transform: "translate(-50%, -50%)",
+        top: "15px",
+        right: "15px",
+        zIndex: "99999",
+        display: "flex",
+        flexDirection: "column",
+        gap: "10px"
+      });
+  
+      const collectBtn = document.createElement("button");
+      collectBtn.textContent = "🚀 Collect Reddit Posts";
+      Object.assign(collectBtn.style, {
+        padding: "10px 15px",
+        backgroundColor: "#007bff",
+        color: "#fff",
+        borderRadius: "5px",
+        border: "none",
+        cursor: "pointer",
+        fontSize: "15px",
+        fontFamily: "'Segoe UI', Tahoma, Geneva, Verdana, sans-serif",
+        boxShadow: "0 4px 12px rgba(0,0,0,0.2)",
+        transition: "transform 0.2s, background-color 0.3s"
+      });
+  
+      collectBtn.onmouseover = () => collectBtn.style.backgroundColor = "#0056b3";
+      collectBtn.onmouseout = () => collectBtn.style.backgroundColor = "#007bff";
+      collectBtn.onmousedown = () => collectBtn.style.transform = "scale(0.96)";
+      collectBtn.onmouseup = () => collectBtn.style.transform = "scale(1)";
+  
+      collectBtn.onclick = collectPostsBatched;
+  
+      container.appendChild(collectBtn);
+      document.body.appendChild(container);
+    }
+  
+    // Enhanced Modal UI for Displaying Collected Posts.
+    function displayCollectedPosts(posts) {
+      const existing = document.getElementById("redditPostsContainer");
+      if (existing) existing.remove();
+  
+      const overlay = document.createElement("div");
+      Object.assign(overlay.style, {
+        position: "fixed",
+        top: 0,
+        left: 0,
+        width: "100%",
+        height: "100%",
+        backgroundColor: "rgba(0,0,0,0.6)",
+        zIndex: "9999",
+        display: "flex",
+        justifyContent: "center",
+        alignItems: "center",
+        fontFamily: "'Segoe UI', Tahoma, Geneva, Verdana, sans-serif"
+      });
+  
+      const modal = document.createElement("div");
+      Object.assign(modal.style, {
         backgroundColor: "#fff",
-        padding: "20px",
-        border: "1px solid #ccc",
-        borderRadius: "8px",
+        borderRadius: "12px",
+        width: "80%",
+        maxWidth: "700px",
         maxHeight: "80vh",
         overflowY: "auto",
-        zIndex: "10000",
-        width: "80%",
-        maxWidth: "600px",
-        fontFamily: "Arial, sans-serif"
+        padding: "20px",
+        boxShadow: "0 6px 16px rgba(0,0,0,0.3)"
       });
   
-      let html = `<h2>Collected Posts (${posts.length})</h2>`;
-      posts.forEach(post => {
-        html += `<div style="margin-bottom: 20px; padding-bottom: 10px; border-bottom: 1px solid #eee;">
-          <p><strong>Post ID:</strong> ${post.postId}</p>
-          <p><strong>Title:</strong> ${post.title}</p>
-          <p><strong>Content:</strong> ${post.content}</p>
-          <p><strong>Votes:</strong> ${post.score} &nbsp; <strong>Comments:</strong> ${post.comments}</p>
-        </div>`;
-      });
-      html += `<div style="text-align: right;">
-        <button id="downloadCSV" style="padding: 8px 12px; margin-right: 10px;">Download CSV</button>
-        <button id="downloadJSON" style="padding: 8px 12px; margin-right: 10px;">Download JSON</button>
-        <button id="closeRedditPosts" style="padding: 8px 12px;">Close</button>
-      </div>`;
-      container.innerHTML = html;
-      document.body.appendChild(container);
+      modal.innerHTML = `
+        <h2 style="margin-top:0; color:#333;">✅ Collected ${posts.length} Posts</h2>
+        ${posts.map(post => `
+          <div style="padding-bottom:10px; margin-bottom:10px; border-bottom:1px solid #ddd;">
+            <p><strong>🆔 ID:</strong> ${post.postId}</p>
+            <p><strong>📌 Title:</strong> ${post.title}</p>
+            <p><strong>📖 Content:</strong> ${post.content}</p>
+            <p>👍 <strong>Votes:</strong> ${post.score} &nbsp;&nbsp; 💬 <strong>Comments:</strong> ${post.comments}</p>
+          </div>`).join('')}
+        <div style="text-align:right;">
+          <button id="downloadCSV" style="margin-right:10px;padding:8px 16px;background:#28a745;color:#fff;border:none;border-radius:6px;cursor:pointer;">📥 CSV</button>
+          <button id="downloadJSON" style="margin-right:10px;padding:8px 16px;background:#f39c12;color:#fff;border:none;border-radius:6px;cursor:pointer;">📥 JSON</button>
+          <button id="closeModal" style="padding:8px 16px;background:#e74c3c;color:#fff;border:none;border-radius:6px;cursor:pointer;">✖ Close</button>
+        </div>
+      `;
   
-      document.getElementById("closeRedditPosts").onclick = () => container.remove();
+      overlay.appendChild(modal);
+      document.body.appendChild(overlay);
+  
+      document.getElementById("closeModal").onclick = () => overlay.remove();
       document.getElementById("downloadCSV").onclick = () => {
         const csvData = generateCSVFromArray(posts);
         const blob = new Blob([csvData], { type: "text/csv;charset=utf-8;" });
         const link = document.createElement("a");
         link.href = URL.createObjectURL(blob);
-        link.download = "reddit_posts.csv";
-        document.body.appendChild(link);
+        link.download = `Collected_Posts_${getHumanReadableTimestamp()}.csv`;
         link.click();
-        link.remove();
       };
+  
       document.getElementById("downloadJSON").onclick = () => {
         const jsonData = getJSONData(posts);
         const blob = new Blob([jsonData], { type: "application/json;charset=utf-8;" });
         const link = document.createElement("a");
         link.href = URL.createObjectURL(blob);
-        link.download = "reddit_posts.json";
-        document.body.appendChild(link);
+        link.download = `Collected_Posts_${getHumanReadableTimestamp()}.json`;
         link.click();
-        link.remove();
       };
     }
   
-    // Add a floating button to trigger the batched post collection process.
-    function addCollectButton() {
-      const btnContainer = document.createElement("div");
-      Object.assign(btnContainer.style, {
-        position: "fixed",
-        top: "10px",
-        right: "10px",
-        zIndex: "10000"
-      });
-      const button = document.createElement("button");
-      button.innerText = "Collect Posts";
-      Object.assign(button.style, {
-        padding: "10px 15px",
-        backgroundColor: "#007bff",
-        color: "#fff",
-        border: "none",
-        borderRadius: "5px",
-        cursor: "pointer",
-        fontFamily: "Arial, sans-serif"
-      });
-      button.onclick = collectPostsBatched;
-      btnContainer.appendChild(button);
-      document.body.appendChild(btnContainer);
-    }
-  
-    // Initialize the script when the page loads.
-    window.addEventListener("load", addCollectButton);
+    // Initialize the stylish collect button on page load.
+    window.addEventListener("load", addStylishCollectButton);
   })();
   
