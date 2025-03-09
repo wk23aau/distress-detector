@@ -1,0 +1,28 @@
+
+{
+    "manifest_version": 3,
+    "name": "A Distress Detector",
+    "version": "0.1",
+    "description": "Sends Amazon product review texts to a live API to analyze hidden sentiment for each review.",
+    "permissions": [
+      "activeTab",
+      "scripting"
+    ],
+    "host_permissions": [
+      "*://www.reddit.com/*"
+    ],
+    "content_scripts": [
+      {
+        "matches": ["*://www.reddit.com/*"],
+        "js": ["content.js"],
+        "run_at": "document_end"
+      }
+    ]
+    // "action": {
+    //   "default_icon": {
+    //     "16": "icon.png"
+    //   }
+    // }
+}
+
+  
