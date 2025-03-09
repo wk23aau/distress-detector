@@ -114,7 +114,7 @@
   
     // Automatically upload the current batch as CSV and JSON files.
     async function autoUploadBatch(batchPosts) {
-      const token = "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";
+    //   const token = "";
       const subreddit = getSubredditName();
       const timestamp = getHumanReadableTimestamp();
       const count = batchPosts.length;
