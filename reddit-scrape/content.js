@@ -328,16 +328,19 @@
             const btn = document.createElement('button');
             btn.textContent = `.Download ${format}`;
             btn.style.cssText = `
-                flex: 1;
-                padding: 1rem;
-                border: none;
-                border-radius: 8px;
-                cursor: pointer;
-                font-weight: 500;
-                transition: transform 0.2s;
-                background: ${format === 'CSV' ? '#4CAF50' : '#FF9800'};
-                color: white;
-            `;
+            flex: 1;
+            padding: 1rem;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-weight: 500;
+            transition: transform 0.2s;
+            background: ${format === 'CSV' ? '#4CAF50' : '#FF9800'};
+            color: white;
+            display: flex;          /* Added */
+            align-items: center;    /* Added */
+            justify-content: center; /* Added */
+        `;
             
             btn.addEventListener('click', () => {
                 const data = format === 'CSV' 
