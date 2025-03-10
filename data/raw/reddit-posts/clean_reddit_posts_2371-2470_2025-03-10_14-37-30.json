@@ -1,0 +1,3536 @@
+[
+  {
+    "author_flair_text": null,
+    "created_utc": "2025-03-10 14:36:23 UTC",
+    "id": "1j8029k",
+    "link_flair_text": null,
+    "media": {
+      "reddit_video": {
+        "bitrate_kbps": 5000,
+        "dash_url": "https://v.redd.it/tue7mzlmivne1/DASHPlaylist.mpd?a=1744209449%2CZjE5YWZmY2RkNDllODc0NDQ4MzUwY2QyN2QzNzJlZjNlMGViZTNkNDhhN2UxNWI3OGExYmMxNGZiYjI3MmEwMw%3D%3D&amp;v=1&amp;f=sd",
+        "duration": 74,
+        "fallback_url": "https://v.redd.it/tue7mzlmivne1/DASH_1080.mp4?source=fallback",
+        "has_audio": true,
+        "height": 1080,
+        "hls_url": "https://v.redd.it/tue7mzlmivne1/HLSPlaylist.m3u8?a=1744209449%2CMjVjY2I4NWQ5MDExYjAxMjZkYjA2NWY0NzFhZGE4N2U3NzY3MDFiYmE2NDI0MGNkOGVhMDJhNzg0NTRmZGZmZQ%3D%3D&amp;v=1&amp;f=sd",
+        "is_gif": false,
+        "scrubber_media_url": "https://v.redd.it/tue7mzlmivne1/DASH_96.mp4",
+        "transcoding_status": "completed",
+        "width": 1920
+      }
+    },
+    "num_comments": 0,
+    "preview": {
+      "enabled": false,
+      "images": [
+        {
+          "id": "cmMydXQ3Zm1pdm5lMU-0eFHkrWYGH1ypte5jnoE_C5M7nT73qtXXaonPF1Q6",
+          "resolutions": [
+            {
+              "height": 60,
+              "url": "https://external-preview.redd.it/cmMydXQ3Zm1pdm5lMU-0eFHkrWYGH1ypte5jnoE_C5M7nT73qtXXaonPF1Q6.png?width=108&amp;crop=smart&amp;format=pjpg&amp;auto=webp&amp;s=cf9cdf647411c7bc768ed9b7dca13dd4c213f715",
+              "width": 108
+            },
+            {
+              "height": 121,
+              "url": "https://external-preview.redd.it/cmMydXQ3Zm1pdm5lMU-0eFHkrWYGH1ypte5jnoE_C5M7nT73qtXXaonPF1Q6.png?width=216&amp;crop=smart&amp;format=pjpg&amp;auto=webp&amp;s=1cd415490bff9b02a2bafcc9d3bd671f33d0d483",
+              "width": 216
+            },
+            {
+              "height": 179,
+              "url": "https://external-preview.redd.it/cmMydXQ3Zm1pdm5lMU-0eFHkrWYGH1ypte5jnoE_C5M7nT73qtXXaonPF1Q6.png?width=320&amp;crop=smart&amp;format=pjpg&amp;auto=webp&amp;s=cd533f9ea3ab1f79ea4b7193c780d9f7a2b30608",
+              "width": 320
+            },
+            {
+              "height": 359,
+              "url": "https://external-preview.redd.it/cmMydXQ3Zm1pdm5lMU-0eFHkrWYGH1ypte5jnoE_C5M7nT73qtXXaonPF1Q6.png?width=640&amp;crop=smart&amp;format=pjpg&amp;auto=webp&amp;s=9ba8ee4451211cbc1c822290042127c0bb12c6f1",
+              "width": 640
+            },
+            {
+              "height": 539,
+              "url": "https://external-preview.redd.it/cmMydXQ3Zm1pdm5lMU-0eFHkrWYGH1ypte5jnoE_C5M7nT73qtXXaonPF1Q6.png?width=960&amp;crop=smart&amp;format=pjpg&amp;auto=webp&amp;s=667f8c98b1cd8e4faffd1086c63cbeaa8b885728",
+              "width": 960
+            },
+            {
+              "height": 607,
+              "url": "https://external-preview.redd.it/cmMydXQ3Zm1pdm5lMU-0eFHkrWYGH1ypte5jnoE_C5M7nT73qtXXaonPF1Q6.png?width=1080&amp;crop=smart&amp;format=pjpg&amp;auto=webp&amp;s=6e13777d75dd0c2802b3327ca7a30f512367f450",
+              "width": 1080
+            }
+          ],
+          "source": {
+            "height": 607,
+            "url": "https://external-preview.redd.it/cmMydXQ3Zm1pdm5lMU-0eFHkrWYGH1ypte5jnoE_C5M7nT73qtXXaonPF1Q6.png?format=pjpg&amp;auto=webp&amp;s=ccfcadf851a12ad5219cd94522158b6aa46eeaad",
+            "width": 1080
+          },
+          "variants": {}
+        }
+      ]
+    },
+    "score": 1,
+    "secure_media": {
+      "reddit_video": {
+        "bitrate_kbps": 5000,
+        "dash_url": "https://v.redd.it/tue7mzlmivne1/DASHPlaylist.mpd?a=1744209449%2CZjE5YWZmY2RkNDllODc0NDQ4MzUwY2QyN2QzNzJlZjNlMGViZTNkNDhhN2UxNWI3OGExYmMxNGZiYjI3MmEwMw%3D%3D&amp;v=1&amp;f=sd",
+        "duration": 74,
+        "fallback_url": "https://v.redd.it/tue7mzlmivne1/DASH_1080.mp4?source=fallback",
+        "has_audio": true,
+        "height": 1080,
+        "hls_url": "https://v.redd.it/tue7mzlmivne1/HLSPlaylist.m3u8?a=1744209449%2CMjVjY2I4NWQ5MDExYjAxMjZkYjA2NWY0NzFhZGE4N2U3NzY3MDFiYmE2NDI0MGNkOGVhMDJhNzg0NTRmZGZmZQ%3D%3D&amp;v=1&amp;f=sd",
+        "is_gif": false,
+        "scrubber_media_url": "https://v.redd.it/tue7mzlmivne1/DASH_96.mp4",
+        "transcoding_status": "completed",
+        "width": 1920
+      }
+    },
+    "selftext": "",
+    "subreddit": "CombatFootageUkraineR",
+    "title": "The occupier, hearing the drone, hid under a tree where the corpses of his comrades were already lying He also pretended to be dead in the hopes that he would not be eliminated. The problem is that the reconnaissance drone had been watching him for a long time.",
+    "upvote_ratio": 1.0,
+    "url": "https://v.redd.it/tue7mzlmivne1",
+    "url_overridden_by_dest": "https://v.redd.it/tue7mzlmivne1"
+  },
+  {
+    "author_flair_text": null,
+    "created_utc": "2025-03-10 14:36:23 UTC",
+    "id": "1j8029j",
+    "link_flair_text": null,
+    "media": null,
+    "num_comments": 0,
+    "score": 1,
+    "secure_media": null,
+    "selftext": "",
+    "subreddit": "OttawaWxRecords",
+    "title": "With a current snow-depth of 45cm, given historical trends, the most likely day that the airport will be snow free is now April 1st.",
+    "upvote_ratio": 1.0,
+    "url": "https://www.reddit.com/gallery/1j8029j",
+    "url_overridden_by_dest": "https://www.reddit.com/gallery/1j8029j"
+  },
+  {
+    "author_flair_text": "",
+    "created_utc": "2025-03-10 14:36:23 UTC",
+    "id": "1j8029i",
+    "link_flair_text": null,
+    "media": {
+      "reddit_video": {
+        "bitrate_kbps": 800,
+        "dash_url": "https://v.redd.it/f7yjk0lmivne1/DASHPlaylist.mpd?a=1744209449%2CNzVhZDM3ODFkNjI4MzRiMjdjOTI0NDMyNjA1ZWQyYjExY2RmMDY1MmE5ZmVhY2I5N2JjMWJmM2I3N2RiMjhkMg%3D%3D&amp;v=1&amp;f=sd",
+        "duration": 173,
+        "fallback_url": "https://v.redd.it/f7yjk0lmivne1/DASH_360.mp4?source=fallback",
+        "has_audio": true,
+        "height": 360,
+        "hls_url": "https://v.redd.it/f7yjk0lmivne1/HLSPlaylist.m3u8?a=1744209449%2CNDY2YzAzOGVmMjhlOWQ3YjdlOGE3OTA5ODE0Y2NhNjFjMjQxZjFhMWZmMTgyY2FmMzY1MWIyZDFlNDFiMDVmZQ%3D%3D&amp;v=1&amp;f=sd",
+        "is_gif": false,
+        "scrubber_media_url": "https://v.redd.it/f7yjk0lmivne1/DASH_96.mp4",
+        "transcoding_status": "completed",
+        "width": 482
+      }
+    },
+    "num_comments": 0,
+    "preview": {
+      "enabled": false,
+      "images": [
+        {
+          "id": "Z2htbmFqaW1pdm5lMckoOMKWzIu-i_qbweeP5E2OiERQ4ah5RdEYNJHPC6nN",
+          "resolutions": [
+            {
+              "height": 80,
+              "url": "https://external-preview.redd.it/Z2htbmFqaW1pdm5lMckoOMKWzIu-i_qbweeP5E2OiERQ4ah5RdEYNJHPC6nN.png?width=108&amp;crop=smart&amp;format=pjpg&amp;auto=webp&amp;s=448b1290d34d31e1070ecea6ab20f86139c8807a",
+              "width": 108
+            },
+            {
+              "height": 161,
+              "url": "https://external-preview.redd.it/Z2htbmFqaW1pdm5lMckoOMKWzIu-i_qbweeP5E2OiERQ4ah5RdEYNJHPC6nN.png?width=216&amp;crop=smart&amp;format=pjpg&amp;auto=webp&amp;s=003c57ad1ad96aa683643c348e5d0540ca678181",
+              "width": 216
+            },
+            {
+              "height": 239,
+              "url": "https://external-preview.redd.it/Z2htbmFqaW1pdm5lMckoOMKWzIu-i_qbweeP5E2OiERQ4ah5RdEYNJHPC6nN.png?width=320&amp;crop=smart&amp;format=pjpg&amp;auto=webp&amp;s=2f36aee567b02a9439a0fd8653cec8c23030e7c4",
+              "width": 320
+            }
+          ],
+          "source": {
+            "height": 360,
+            "url": "https://external-preview.redd.it/Z2htbmFqaW1pdm5lMckoOMKWzIu-i_qbweeP5E2OiERQ4ah5RdEYNJHPC6nN.png?format=pjpg&amp;auto=webp&amp;s=a424bd81c450d55413bae05ecffef5988ca852bb",
+            "width": 482
+          },
+          "variants": {}
+        }
+      ]
+    },
+    "score": 2,
+    "secure_media": {
+      "reddit_video": {
+        "bitrate_kbps": 800,
+        "dash_url": "https://v.redd.it/f7yjk0lmivne1/DASHPlaylist.mpd?a=1744209449%2CNzVhZDM3ODFkNjI4MzRiMjdjOTI0NDMyNjA1ZWQyYjExY2RmMDY1MmE5ZmVhY2I5N2JjMWJmM2I3N2RiMjhkMg%3D%3D&amp;v=1&amp;f=sd",
+        "duration": 173,
+        "fallback_url": "https://v.redd.it/f7yjk0lmivne1/DASH_360.mp4?source=fallback",
+        "has_audio": true,
+        "height": 360,
+        "hls_url": "https://v.redd.it/f7yjk0lmivne1/HLSPlaylist.m3u8?a=1744209449%2CNDY2YzAzOGVmMjhlOWQ3YjdlOGE3OTA5ODE0Y2NhNjFjMjQxZjFhMWZmMTgyY2FmMzY1MWIyZDFlNDFiMDVmZQ%3D%3D&amp;v=1&amp;f=sd",
+        "is_gif": false,
+        "scrubber_media_url": "https://v.redd.it/f7yjk0lmivne1/DASH_96.mp4",
+        "transcoding_status": "completed",
+        "width": 482
+      }
+    },
+    "selftext": "",
+    "subreddit": "PostHardcore",
+    "title": "Alexisonfire - Pulmonary Archery (Open Mike 2003)",
+    "upvote_ratio": 1.0,
+    "url": "https://v.redd.it/f7yjk0lmivne1",
+    "url_overridden_by_dest": "https://v.redd.it/f7yjk0lmivne1"
+  },
+  {
+    "author_flair_text": "NeopetsInsider.com",
+    "created_utc": "2025-03-10 14:36:23 UTC",
+    "id": "1j8029g",
+    "link_flair_text": "Celebration",
+    "media": null,
+    "num_comments": 0,
+    "score": 1,
+    "secure_media": null,
+    "selftext": "https://preview.redd.it/d1mkqt2givne1.png?width=1329&amp;format=png&amp;auto=webp&amp;s=aa0039e6818027a517f1ffd0e23b45000b16f030\n\nIt took me a morning of clearing out my most expensive items in my SDB but I figured they've been there collecting dust for so long, why bother keeping them? \n\n  \nNext goal: 100 mil",
+    "subreddit": "neopets",
+    "title": "Finally got enough on my bank account to buy stocks with my interest",
+    "upvote_ratio": 1.0,
+    "url": "https://www.reddit.com/r/neopets/comments/1j8029g/finally_got_enough_on_my_bank_account_to_buy/"
+  },
+  {
+    "author_flair_text": null,
+    "created_utc": "2025-03-10 14:36:23 UTC",
+    "id": "1j8029f",
+    "link_flair_text": null,
+    "media": {
+      "reddit_video": {
+        "bitrate_kbps": 800,
+        "dash_url": "https://v.redd.it/ihnap6slivne1/DASHPlaylist.mpd?a=1744209449%2CMzU0ZGNmNDExMTE4OGQ4MmFlNTYwNWIxMWM2NjU2MGVmMjFjOGU0ODIzYWVlYzc3ZDNhYmM3ZWEyMDc4ODFkNA%3D%3D&amp;v=1&amp;f=sd",
+        "duration": 4,
+        "fallback_url": "https://v.redd.it/ihnap6slivne1/DASH_360.mp4?source=fallback",
+        "has_audio": true,
+        "height": 360,
+        "hls_url": "https://v.redd.it/ihnap6slivne1/HLSPlaylist.m3u8?a=1744209449%2CNWVkYjEzOTliNTA3NWI4OTAzNTNiMjY4OWFkMmYyN2E1Y2MxNmM1NDE2OGQwOTQ4NDBjZjQxODE0MmU1NTZmMw%3D%3D&amp;v=1&amp;f=sd",
+        "is_gif": false,
+        "scrubber_media_url": "https://v.redd.it/ihnap6slivne1/DASH_96.mp4",
+        "transcoding_status": "completed",
+        "width": 640
+      }
+    },
+    "num_comments": 1,
+    "preview": {
+      "enabled": false,
+      "images": [
+        {
+          "id": "a2R1ZGs4c2xpdm5lMeFXkdq-PEk6jf5BE7kP_TIvz63cbSisOXnzxuQc6eas",
+          "resolutions": [
+            {
+              "height": 60,
+              "url": "https://external-preview.redd.it/a2R1ZGs4c2xpdm5lMeFXkdq-PEk6jf5BE7kP_TIvz63cbSisOXnzxuQc6eas.png?width=108&amp;crop=smart&amp;format=pjpg&amp;auto=webp&amp;s=a50d85cbc63422def9810f5e534b39033227a96f",
+              "width": 108
+            },
+            {
+              "height": 121,
+              "url": "https://external-preview.redd.it/a2R1ZGs4c2xpdm5lMeFXkdq-PEk6jf5BE7kP_TIvz63cbSisOXnzxuQc6eas.png?width=216&amp;crop=smart&amp;format=pjpg&amp;auto=webp&amp;s=8a4992751262ec46974233eb8c8cad0ab2d6fc75",
+              "width": 216
+            },
+            {
+              "height": 180,
+              "url": "https://external-preview.redd.it/a2R1ZGs4c2xpdm5lMeFXkdq-PEk6jf5BE7kP_TIvz63cbSisOXnzxuQc6eas.png?width=320&amp;crop=smart&amp;format=pjpg&amp;auto=webp&amp;s=24eaa56a00f5acc0f47e9b8bd98a140385afbb1f",
+              "width": 320
+            },
+            {
+              "height": 360,
+              "url": "https://external-preview.redd.it/a2R1ZGs4c2xpdm5lMeFXkdq-PEk6jf5BE7kP_TIvz63cbSisOXnzxuQc6eas.png?width=640&amp;crop=smart&amp;format=pjpg&amp;auto=webp&amp;s=d6c44a780f0eb3b33ad9f9dc9a17367a8784e10b",
+              "width": 640
+            }
+          ],
+          "source": {
+            "height": 360,
+            "url": "https://external-preview.redd.it/a2R1ZGs4c2xpdm5lMeFXkdq-PEk6jf5BE7kP_TIvz63cbSisOXnzxuQc6eas.png?format=pjpg&amp;auto=webp&amp;s=1e40c4d3499fb189126b96558a484dcaaa5b203f",
+            "width": 640
+          },
+          "variants": {}
+        }
+      ]
+    },
+    "score": 1,
+    "secure_media": {
+      "reddit_video": {
+        "bitrate_kbps": 800,
+        "dash_url": "https://v.redd.it/ihnap6slivne1/DASHPlaylist.mpd?a=1744209449%2CMzU0ZGNmNDExMTE4OGQ4MmFlNTYwNWIxMWM2NjU2MGVmMjFjOGU0ODIzYWVlYzc3ZDNhYmM3ZWEyMDc4ODFkNA%3D%3D&amp;v=1&amp;f=sd",
+        "duration": 4,
+        "fallback_url": "https://v.redd.it/ihnap6slivne1/DASH_360.mp4?source=fallback",
+        "has_audio": true,
+        "height": 360,
+        "hls_url": "https://v.redd.it/ihnap6slivne1/HLSPlaylist.m3u8?a=1744209449%2CNWVkYjEzOTliNTA3NWI4OTAzNTNiMjY4OWFkMmYyN2E1Y2MxNmM1NDE2OGQwOTQ4NDBjZjQxODE0MmU1NTZmMw%3D%3D&amp;v=1&amp;f=sd",
+        "is_gif": false,
+        "scrubber_media_url": "https://v.redd.it/ihnap6slivne1/DASH_96.mp4",
+        "transcoding_status": "completed",
+        "width": 640
+      }
+    },
+    "selftext": "",
+    "subreddit": "IndianDankMemes",
+    "title": "title",
+    "upvote_ratio": 1.0,
+    "url": "https://v.redd.it/ihnap6slivne1",
+    "url_overridden_by_dest": "https://v.redd.it/ihnap6slivne1"
+  },
+  {
+    "author_flair_text": null,
+    "created_utc": "2025-03-10 14:36:23 UTC",
+    "id": "1j8029e",
+    "link_flair_text": null,
+    "media": null,
+    "num_comments": 0,
+    "score": 1,
+    "secure_media": null,
+    "selftext": "Hi all, really in need of some advice / reassurance.\n\nMe and my husband have been married for 8 years, he had absolutely no mental health concerns before we were married. His mum sadly died in 2020 due to covid-19, which triggered his OCD. Since then, it\u2019s gone from bad, to worse. \n\nI must take responsibility and say that I am to blame for his condition worsening, we have two kids together, and for ease, I enabled my husbands compulsions ie, he\u2019d tell me to wash all the groceries before packing them away, to remove my clothes at the front door, and go straight in the shower, not to answer the front door, not to enter certain \u201ccontaminated\u201d rooms etc and I\u2019d follow his orders. However, as I\u2019ve done more research I\u2019ve learnt that, my behaviour has made him worse, therefore I\u2019ve tried to stand my ground and say that me and the kids will not be following his extreme rules anymore. I have tried a number of times and failed however this time around, I feel very strong, and am adamant that I will see it through.\n\nWhat I\u2019m struggling with though, is the nasty things he says when I refuse to comply. He\u2019ll say things like \u201cI\u2019m starting to hate you, I don\u2019t like spending time with you, we should get a divorce\u201d etc. he\u2019ll then calm down and apologise. I tell myself that he\u2019s saying these things because he\u2019s going through an anxiety attack, but I wonder how true that is\u2026 \n\nI\u2019d like to hear from anyone going through a similar situation, is this just the way it\u2019ll go until he eventually gets better? Or\u2026??\n\nThanks in advance!",
+    "subreddit": "ContaminationOCD",
+    "title": "Help/advice on being a wife to someone with severe contamination OCD",
+    "upvote_ratio": 1.0,
+    "url": "https://www.reddit.com/r/ContaminationOCD/comments/1j8029e/helpadvice_on_being_a_wife_to_someone_with_severe/"
+  },
+  {
+    "author_flair_text": null,
+    "created_utc": "2025-03-10 14:36:22 UTC",
+    "id": "1j80298",
+    "link_flair_text": null,
+    "media": null,
+    "num_comments": 0,
+    "score": 1,
+    "secure_media": null,
+    "selftext": "Text post body",
+    "subreddit": "automationContentCom",
+    "title": "Text post title 683",
+    "upvote_ratio": 1.0,
+    "url": "https://www.reddit.com/r/automationContentCom/comments/1j80298/text_post_title_683/"
+  },
+  {
+    "author_flair_text": null,
+    "created_utc": "2025-03-10 14:36:22 UTC",
+    "id": "1j80297",
+    "link_flair_text": null,
+    "media": null,
+    "num_comments": 0,
+    "score": 1,
+    "secure_media": null,
+    "selftext": "",
+    "subreddit": "ThingsToDoInTokyo",
+    "title": "Sumo Practice Tour with Ring-Side Seat and Photoshoot",
+    "upvote_ratio": 1.0,
+    "url": "https://www.getyourguide.com/tokyo-l193/tokyo-sumo-practice-tour-with-ring-side-seat-and-photoshoot-t694697/?partner_id=VF7NIT2&amp;utm_medium=online_publisher",
+    "url_overridden_by_dest": "https://www.getyourguide.com/tokyo-l193/tokyo-sumo-practice-tour-with-ring-side-seat-and-photoshoot-t694697/?partner_id=VF7NIT2&amp;utm_medium=online_publisher"
+  },
+  {
+    "author_flair_text": null,
+    "created_utc": "2025-03-10 14:36:22 UTC",
+    "id": "1j80294",
+    "link_flair_text": "Actriz",
+    "media": null,
+    "num_comments": 0,
+    "preview": {
+      "enabled": true,
+      "images": [
+        {
+          "id": "TJXdEBwi8CF23XY599p5jJer5iIq_3nIrtGyR8l2GWs",
+          "resolutions": [
+            {
+              "height": 143,
+              "url": "https://preview.redd.it/30j48cymivne1.jpeg?width=108&amp;crop=smart&amp;auto=webp&amp;s=e6ff6fe87f6663cc3905e7ed9db053efc430079c",
+              "width": 108
+            },
+            {
+              "height": 287,
+              "url": "https://preview.redd.it/30j48cymivne1.jpeg?width=216&amp;crop=smart&amp;auto=webp&amp;s=ba65d71abba3b60b7f8dde9a30f5d74d4a1eb6d3",
+              "width": 216
+            },
+            {
+              "height": 425,
+              "url": "https://preview.redd.it/30j48cymivne1.jpeg?width=320&amp;crop=smart&amp;auto=webp&amp;s=cf4b6c2f4f03adffe0f14d3e89723e0901a41fa5",
+              "width": 320
+            },
+            {
+              "height": 851,
+              "url": "https://preview.redd.it/30j48cymivne1.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=a8f06cbc356895c786db8a3f2833888d8c43705f",
+              "width": 640
+            }
+          ],
+          "source": {
+            "height": 1272,
+            "url": "https://preview.redd.it/30j48cymivne1.jpeg?auto=webp&amp;s=7a98102b6d0baa4e47fd056e93aec9fa48fb6539",
+            "width": 956
+          },
+          "variants": {}
+        }
+      ]
+    },
+    "score": 1,
+    "secure_media": null,
+    "selftext": "",
+    "subreddit": "actricesjuveniles",
+    "title": "Tania Nicole",
+    "upvote_ratio": 1.0,
+    "url": "https://i.redd.it/30j48cymivne1.jpeg",
+    "url_overridden_by_dest": "https://i.redd.it/30j48cymivne1.jpeg"
+  },
+  {
+    "author_flair_text": null,
+    "created_utc": "2025-03-10 14:36:22 UTC",
+    "id": "1j80293",
+    "link_flair_text": null,
+    "media": null,
+    "num_comments": 1,
+    "score": 1,
+    "secure_media": null,
+    "selftext": "Possible spoilers I guess?\n\nThe only thing I can remember is that at the end of the movie multiple people gather into a house to preform an exorcism. I remember one character is an african american female. The girl possessed is caucasian. The exorcism fails and the demon wins and kills everyone in the house(Its a house with 2 floors and they were on the second). The possessed girl then walks out of the house and walks through the neighborhood burning people around just by here presence and I believe also a firetruck drives past by and the movie ends(I think). Apologies for grammar, english isn't a first language. I'd appreciate any help/information you could give me on this.",
+    "subreddit": "HorrorMovies",
+    "title": "Can't remember the name of a horror movie, only remember the ending",
+    "upvote_ratio": 1.0,
+    "url": "https://www.reddit.com/r/HorrorMovies/comments/1j80293/cant_remember_the_name_of_a_horror_movie_only/"
+  },
+  {
+    "author_flair_text": null,
+    "created_utc": "2025-03-10 14:36:22 UTC",
+    "id": "1j80290",
+    "link_flair_text": "[Cuboid Outpost]",
+    "media": null,
+    "num_comments": 0,
+    "preview": {
+      "enabled": true,
+      "images": [
+        {
+          "id": "FoMXqJO8FwYBSrRWw4_NHGA6Q229Gva18AH4NDuyA5I",
+          "resolutions": [
+            {
+              "height": 74,
+              "url": "https://preview.redd.it/tp02h8ukivne1.png?width=108&amp;crop=smart&amp;auto=webp&amp;s=dcbea70c928e70f390c1960149716e630aac8c69",
+              "width": 108
+            },
+            {
+              "height": 148,
+              "url": "https://preview.redd.it/tp02h8ukivne1.png?width=216&amp;crop=smart&amp;auto=webp&amp;s=ef3624584d49fb81b5ac73d89d34d82dfe1906c7",
+              "width": 216
+            },
+            {
+              "height": 220,
+              "url": "https://preview.redd.it/tp02h8ukivne1.png?width=320&amp;crop=smart&amp;auto=webp&amp;s=0f38be4f9072470127c6c508f763e0440ad4c2c9",
+              "width": 320
+            },
+            {
+              "height": 441,
+              "url": "https://preview.redd.it/tp02h8ukivne1.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=fd210d614ea86d46b234d72846e754f6509c5b77",
+              "width": 640
+            },
+            {
+              "height": 662,
+              "url": "https://preview.redd.it/tp02h8ukivne1.png?width=960&amp;crop=smart&amp;auto=webp&amp;s=62aa88086960201640a1cdfbdd18c54ae625e554",
+              "width": 960
+            },
+            {
+              "height": 744,
+              "url": "https://preview.redd.it/tp02h8ukivne1.png?width=1080&amp;crop=smart&amp;auto=webp&amp;s=0d4da2138f98d79d485a4ca9a4debbd8c7d268a3",
+              "width": 1080
+            }
+          ],
+          "source": {
+            "height": 982,
+            "url": "https://preview.redd.it/tp02h8ukivne1.png?auto=webp&amp;s=67db5f598a2d2b610ffd2553b3fe6708a5597b35",
+            "width": 1424
+          },
+          "variants": {}
+        }
+      ]
+    },
+    "score": 1,
+    "secure_media": null,
+    "selftext": "",
+    "subreddit": "feedthebeast",
+    "title": "Cuboid Outpost: do I really have to manually one by one place buckets to make cellulose?",
+    "upvote_ratio": 1.0,
+    "url": "https://i.redd.it/tp02h8ukivne1.png",
+    "url_overridden_by_dest": "https://i.redd.it/tp02h8ukivne1.png"
+  },
+  {
+    "author_flair_text": null,
+    "created_utc": "2025-03-10 14:36:21 UTC",
+    "id": "1j8028v",
+    "link_flair_text": null,
+    "media": null,
+    "num_comments": 0,
+    "preview": {
+      "enabled": true,
+      "images": [
+        {
+          "id": "eCl3h9ijoDaWGQRV6cEfgc1teb19QIsI6AwYlA7h5vI",
+          "resolutions": [
+            {
+              "height": 216,
+              "url": "https://preview.redd.it/5p0ge9cnivne1.jpeg?width=108&amp;crop=smart&amp;auto=webp&amp;s=1ba51e908c4d303a995ee4ae64dee972e99a6096",
+              "width": 108
+            },
+            {
+              "height": 432,
+              "url": "https://preview.redd.it/5p0ge9cnivne1.jpeg?width=216&amp;crop=smart&amp;auto=webp&amp;s=9ecf1c8d11f6930f0a5c8151709aac24eddaf90b",
+              "width": 216
+            },
+            {
+              "height": 640,
+              "url": "https://preview.redd.it/5p0ge9cnivne1.jpeg?width=320&amp;crop=smart&amp;auto=webp&amp;s=debaccaf896703ddee33bf13b7cb1cfc28226abe",
+              "width": 320
+            },
+            {
+              "height": 1280,
+              "url": "https://preview.redd.it/5p0ge9cnivne1.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=b04b036b2a62897c8110eec8431ffade07238e57",
+              "width": 640
+            }
+          ],
+          "source": {
+            "height": 1792,
+            "url": "https://preview.redd.it/5p0ge9cnivne1.jpeg?auto=webp&amp;s=3d2eebdfdba4c088f7f81302db2b3c516197afa1",
+            "width": 828
+          },
+          "variants": {}
+        }
+      ]
+    },
+    "score": 1,
+    "secure_media": null,
+    "selftext": "Wondering if it\u2019s from that. Or is something else is about to affect my body\u2026 \ud83d\ude35\u200d\ud83d\udcab",
+    "subreddit": "ouraring",
+    "title": "Anyone get the Major signs on symptom radar the day after a migraine?",
+    "upvote_ratio": 1.0,
+    "url": "https://i.redd.it/5p0ge9cnivne1.jpeg",
+    "url_overridden_by_dest": "https://i.redd.it/5p0ge9cnivne1.jpeg"
+  },
+  {
+    "author_flair_text": null,
+    "created_utc": "2025-03-10 14:36:21 UTC",
+    "id": "1j8028r",
+    "link_flair_text": null,
+    "media": null,
+    "num_comments": 0,
+    "preview": {
+      "enabled": false,
+      "images": [
+        {
+          "id": "82oSa4-wKyhu03SKO1PzWXeOcLk5QHNTU4D2KNG3kxQ",
+          "resolutions": [
+            {
+              "height": 76,
+              "url": "https://external-preview.redd.it/FTpZHlYJko30GJXOltCMOChSpPTf95EkSs1MLvZb5UA.jpg?width=108&amp;crop=smart&amp;auto=webp&amp;s=caf5ad54d90111e0a330ff689d3fb86c931cf60d",
+              "width": 108
+            },
+            {
+              "height": 153,
+              "url": "https://external-preview.redd.it/FTpZHlYJko30GJXOltCMOChSpPTf95EkSs1MLvZb5UA.jpg?width=216&amp;crop=smart&amp;auto=webp&amp;s=0d11b6d46a7ef18751e7fc3a04f584157936ae08",
+              "width": 216
+            },
+            {
+              "height": 227,
+              "url": "https://external-preview.redd.it/FTpZHlYJko30GJXOltCMOChSpPTf95EkSs1MLvZb5UA.jpg?width=320&amp;crop=smart&amp;auto=webp&amp;s=488fbce5fe6d20fb47d70263536a7dbd91e2e26a",
+              "width": 320
+            },
+            {
+              "height": 455,
+              "url": "https://external-preview.redd.it/FTpZHlYJko30GJXOltCMOChSpPTf95EkSs1MLvZb5UA.jpg?width=640&amp;crop=smart&amp;auto=webp&amp;s=94f41e4a897798eceba8979eb47a005f05a37939",
+              "width": 640
+            },
+            {
+              "height": 682,
+              "url": "https://external-preview.redd.it/FTpZHlYJko30GJXOltCMOChSpPTf95EkSs1MLvZb5UA.jpg?width=960&amp;crop=smart&amp;auto=webp&amp;s=a2bc2f464409a24c41fe51baf770330a81392f98",
+              "width": 960
+            },
+            {
+              "height": 768,
+              "url": "https://external-preview.redd.it/FTpZHlYJko30GJXOltCMOChSpPTf95EkSs1MLvZb5UA.jpg?width=1080&amp;crop=smart&amp;auto=webp&amp;s=d191aa8e1305638da67a2b0868cd1ada6939685c",
+              "width": 1080
+            }
+          ],
+          "source": {
+            "height": 4344,
+            "url": "https://external-preview.redd.it/FTpZHlYJko30GJXOltCMOChSpPTf95EkSs1MLvZb5UA.jpg?auto=webp&amp;s=5d9fffcefe3b782b47fc2d66ce39bab08e417ffd",
+            "width": 6106
+          },
+          "variants": {}
+        }
+      ]
+    },
+    "score": 1,
+    "secure_media": null,
+    "selftext": "",
+    "subreddit": "AutoNewspaper",
+    "title": "[Science] - NASA\u2019s Webb Peers Deeper into Mysterious Flame Nebula | NASA",
+    "upvote_ratio": 1.0,
+    "url": "https://science.nasa.gov/missions/webb/nasas-webb-peers-deeper-into-mysterious-flame-nebula/",
+    "url_overridden_by_dest": "https://science.nasa.gov/missions/webb/nasas-webb-peers-deeper-into-mysterious-flame-nebula/"
+  },
+  {
+    "author_flair_text": null,
+    "created_utc": "2025-03-10 14:36:20 UTC",
+    "id": "1j8028j",
+    "link_flair_text": null,
+    "media": {
+      "reddit_video": {
+        "bitrate_kbps": 2400,
+        "dash_url": "https://v.redd.it/buw1txmmivne1/DASHPlaylist.mpd?a=1744209449%2CNDE5NjY3OWNmNGZmNjQwNzcyYmE3ZGFkNWFjYmQ4M2UzNDYxNTMwMTUwN2ZlN2EwZmY2NGI3OWZjZTNjOTQwZA%3D%3D&amp;v=1&amp;f=sd",
+        "duration": 17,
+        "fallback_url": "https://v.redd.it/buw1txmmivne1/DASH_720.mp4?source=fallback",
+        "has_audio": true,
+        "height": 1280,
+        "hls_url": "https://v.redd.it/buw1txmmivne1/HLSPlaylist.m3u8?a=1744209449%2CNTEzNGU0MGIyMGVmZjFjYmQyMWEzYTU0MjMwNzQ5YjExMTAzN2YzYTI5N2E5OTZjODY0NDlmZmU3ZjZhODQzNw%3D%3D&amp;v=1&amp;f=sd",
+        "is_gif": false,
+        "scrubber_media_url": "https://v.redd.it/buw1txmmivne1/DASH_96.mp4",
+        "transcoding_status": "completed",
+        "width": 720
+      }
+    },
+    "num_comments": 1,
+    "preview": {
+      "enabled": false,
+      "images": [
+        {
+          "id": "dWlteGs4Mm1pdm5lMdvet194eiWntndGf9LhSQcRh3-YIx3nHZkIbDzBubFe",
+          "resolutions": [
+            {
+              "height": 192,
+              "url": "https://external-preview.redd.it/dWlteGs4Mm1pdm5lMdvet194eiWntndGf9LhSQcRh3-YIx3nHZkIbDzBubFe.png?width=108&amp;crop=smart&amp;format=pjpg&amp;auto=webp&amp;s=34cb6638ed4900f8addcbe757d2122d1da698dc2",
+              "width": 108
+            },
+            {
+              "height": 384,
+              "url": "https://external-preview.redd.it/dWlteGs4Mm1pdm5lMdvet194eiWntndGf9LhSQcRh3-YIx3nHZkIbDzBubFe.png?width=216&amp;crop=smart&amp;format=pjpg&amp;auto=webp&amp;s=0a526cd65e383f449e5249fc14763b753e05fb10",
+              "width": 216
+            },
+            {
+              "height": 569,
+              "url": "https://external-preview.redd.it/dWlteGs4Mm1pdm5lMdvet194eiWntndGf9LhSQcRh3-YIx3nHZkIbDzBubFe.png?width=320&amp;crop=smart&amp;format=pjpg&amp;auto=webp&amp;s=dc77f613cdf7fa12d806648e0f31011b5e4e1517",
+              "width": 320
+            },
+            {
+              "height": 1138,
+              "url": "https://external-preview.redd.it/dWlteGs4Mm1pdm5lMdvet194eiWntndGf9LhSQcRh3-YIx3nHZkIbDzBubFe.png?width=640&amp;crop=smart&amp;format=pjpg&amp;auto=webp&amp;s=d86cd21ff8fa78e8db71ef7af5111e21c95befc4",
+              "width": 640
+            },
+            {
+              "height": 1707,
+              "url": "https://external-preview.redd.it/dWlteGs4Mm1pdm5lMdvet194eiWntndGf9LhSQcRh3-YIx3nHZkIbDzBubFe.png?width=960&amp;crop=smart&amp;format=pjpg&amp;auto=webp&amp;s=25e11bc268deec7d08c6f35431866255d7c51b41",
+              "width": 960
+            }
+          ],
+          "source": {
+            "height": 1818,
+            "url": "https://external-preview.redd.it/dWlteGs4Mm1pdm5lMdvet194eiWntndGf9LhSQcRh3-YIx3nHZkIbDzBubFe.png?format=pjpg&amp;auto=webp&amp;s=c4690dca39713e400870864a9b376177e47606b0",
+            "width": 1022
+          },
+          "variants": {}
+        }
+      ]
+    },
+    "score": 1,
+    "secure_media": {
+      "reddit_video": {
+        "bitrate_kbps": 2400,
+        "dash_url": "https://v.redd.it/buw1txmmivne1/DASHPlaylist.mpd?a=1744209449%2CNDE5NjY3OWNmNGZmNjQwNzcyYmE3ZGFkNWFjYmQ4M2UzNDYxNTMwMTUwN2ZlN2EwZmY2NGI3OWZjZTNjOTQwZA%3D%3D&amp;v=1&amp;f=sd",
+        "duration": 17,
+        "fallback_url": "https://v.redd.it/buw1txmmivne1/DASH_720.mp4?source=fallback",
+        "has_audio": true,
+        "height": 1280,
+        "hls_url": "https://v.redd.it/buw1txmmivne1/HLSPlaylist.m3u8?a=1744209449%2CNTEzNGU0MGIyMGVmZjFjYmQyMWEzYTU0MjMwNzQ5YjExMTAzN2YzYTI5N2E5OTZjODY0NDlmZmU3ZjZhODQzNw%3D%3D&amp;v=1&amp;f=sd",
+        "is_gif": false,
+        "scrubber_media_url": "https://v.redd.it/buw1txmmivne1/DASH_96.mp4",
+        "transcoding_status": "completed",
+        "width": 720
+      }
+    },
+    "selftext": "",
+    "subreddit": "ContagiousLaughter",
+    "title": "Mood",
+    "upvote_ratio": 1.0,
+    "url": "https://v.redd.it/buw1txmmivne1",
+    "url_overridden_by_dest": "https://v.redd.it/buw1txmmivne1"
+  },
+  {
+    "author_flair_text": null,
+    "created_utc": "2025-03-10 14:36:20 UTC",
+    "id": "1j8028i",
+    "link_flair_text": null,
+    "media": null,
+    "num_comments": 0,
+    "score": 1,
+    "secure_media": null,
+    "selftext": "I found my very first w quarter in the wild. I know if I don't do something with it I will forget about it and spend it. So what's it cost to have it graded and how do I do it? Or would it not be worth it? If not suggestions on how I can keep from forgetting about it and spending it? ",
+    "subreddit": "CRH",
+    "title": "What's it cost to grade....",
+    "upvote_ratio": 1.0,
+    "url": "https://www.reddit.com/r/CRH/comments/1j8028i/whats_it_cost_to_grade/"
+  },
+  {
+    "author_flair_text": null,
+    "created_utc": "2025-03-10 14:36:20 UTC",
+    "id": "1j8028h",
+    "link_flair_text": null,
+    "media": null,
+    "num_comments": 0,
+    "preview": {
+      "enabled": false,
+      "images": [
+        {
+          "id": "0o4df8PfE4K_I1k1PJONvbH7ifiLVKycZPw1P7N0k94",
+          "resolutions": [
+            {
+              "height": 98,
+              "url": "https://external-preview.redd.it/jbdn4v4lt0LkgvlyolMvVPGnYx4jNIEuNC4S7enb6xw.jpg?width=108&amp;crop=smart&amp;auto=webp&amp;s=e3ae13681abaec317ffe69aea3d68ff7ba1081d1",
+              "width": 108
+            },
+            {
+              "height": 197,
+              "url": "https://external-preview.redd.it/jbdn4v4lt0LkgvlyolMvVPGnYx4jNIEuNC4S7enb6xw.jpg?width=216&amp;crop=smart&amp;auto=webp&amp;s=51f67370b07140c7eacd8ad367664863735718cf",
+              "width": 216
+            },
+            {
+              "height": 292,
+              "url": "https://external-preview.redd.it/jbdn4v4lt0LkgvlyolMvVPGnYx4jNIEuNC4S7enb6xw.jpg?width=320&amp;crop=smart&amp;auto=webp&amp;s=1e79435591c8a27069fddc68963136e820ab76ff",
+              "width": 320
+            },
+            {
+              "height": 584,
+              "url": "https://external-preview.redd.it/jbdn4v4lt0LkgvlyolMvVPGnYx4jNIEuNC4S7enb6xw.jpg?width=640&amp;crop=smart&amp;auto=webp&amp;s=d56e3c135f3455dac2c8e67333f5dea374e53a05",
+              "width": 640
+            },
+            {
+              "height": 876,
+              "url": "https://external-preview.redd.it/jbdn4v4lt0LkgvlyolMvVPGnYx4jNIEuNC4S7enb6xw.jpg?width=960&amp;crop=smart&amp;auto=webp&amp;s=797b9677e174f406ff63d33856db86825285c67b",
+              "width": 960
+            },
+            {
+              "height": 985,
+              "url": "https://external-preview.redd.it/jbdn4v4lt0LkgvlyolMvVPGnYx4jNIEuNC4S7enb6xw.jpg?width=1080&amp;crop=smart&amp;auto=webp&amp;s=c6f276d26c2cf575cec642f46d6258972e5c6145",
+              "width": 1080
+            }
+          ],
+          "source": {
+            "height": 2048,
+            "url": "https://external-preview.redd.it/jbdn4v4lt0LkgvlyolMvVPGnYx4jNIEuNC4S7enb6xw.jpg?auto=webp&amp;s=413a42155153ec7813babb3aa66c82edbc0f7d54",
+            "width": 2244
+          },
+          "variants": {}
+        }
+      ]
+    },
+    "score": 1,
+    "secure_media": null,
+    "selftext": "",
+    "subreddit": "automationContentCom",
+    "title": "Link post title 862",
+    "upvote_ratio": 1.0,
+    "url": "https://www.wikipedia.org/",
+    "url_overridden_by_dest": "https://www.wikipedia.org/"
+  },
+  {
+    "author_flair_text": null,
+    "created_utc": "2025-03-10 14:36:20 UTC",
+    "id": "1j8028g",
+    "link_flair_text": "Hosting T5 Raid",
+    "media": null,
+    "num_comments": 1,
+    "score": 1,
+    "secure_media": null,
+    "selftext": "",
+    "subreddit": "PokemonGoRaids",
+    "title": "Zaptos Two people will join 476972356915",
+    "upvote_ratio": 1.0,
+    "url": "https://www.reddit.com/r/PokemonGoRaids/comments/1j8028g/zaptos_two_people_will_join_476972356915/"
+  },
+  {
+    "author_flair_text": null,
+    "created_utc": "2025-03-10 14:36:20 UTC",
+    "id": "1j8028e",
+    "link_flair_text": null,
+    "media": null,
+    "num_comments": 0,
+    "score": 1,
+    "secure_media": null,
+    "selftext": "",
+    "subreddit": "hikingwithdogs",
+    "title": "Snowy day, can't miss it when there is fresh deep powder!! :)",
+    "upvote_ratio": 1.0,
+    "url": "https://www.reddit.com/gallery/1j8028e",
+    "url_overridden_by_dest": "https://www.reddit.com/gallery/1j8028e"
+  },
+  {
+    "author_flair_text": null,
+    "created_utc": "2025-03-10 14:36:20 UTC",
+    "id": "1j8028d",
+    "link_flair_text": null,
+    "media": null,
+    "num_comments": 0,
+    "score": 1,
+    "secure_media": null,
+    "selftext": "Hallo, \n\nich plane aktuell mit 9 Menschen inkl. mir selbst einen Wanderurlaub im Harz. Unser Plan ist, dass wir uns eine Unterkunft f\u00fcr die gesamte Zeit mieten und von dort aus einzelne kleine Wanderungen im harz machen und jeden Abend wieder zur Unterkunft zur\u00fcckkehren. K\u00f6nnt ihr diesbez\u00fcglich Orte empfehlen, von denen aus das gut geht und Touren, die nicht zu anspruchsvoll sind?\n\nDie meisten aus der Gruppe sind eher Wander-\u00c4nf\u00e4nger und wir haben ein Auto, um auch zu potentiellen Einstiegen zu fahren.\n\n  \nVielen Dank und liebe Gr\u00fc\u00dfe",
+    "subreddit": "wandern",
+    "title": "Harz Tagestrips Anf\u00e4nger",
+    "upvote_ratio": 1.0,
+    "url": "https://www.reddit.com/r/wandern/comments/1j8028d/harz_tagestrips_anf\u00e4nger/"
+  },
+  {
+    "author_flair_text": null,
+    "created_utc": "2025-03-10 14:36:20 UTC",
+    "id": "1j8028c",
+    "link_flair_text": "check my form",
+    "media": {
+      "reddit_video": {
+        "bitrate_kbps": 5000,
+        "dash_url": "https://v.redd.it/mg7md3biivne1/DASHPlaylist.mpd?a=1744209449%2CMTZhMzYwY2YzNmFlZGZjMjdjNDliOThkYWM2MzIyYmNlZThhNGRhZTJiOWM3ODJjN2JmZDI4ZDZlODBlZWNkMw%3D%3D&amp;v=1&amp;f=sd",
+        "duration": 27,
+        "fallback_url": "https://v.redd.it/mg7md3biivne1/DASH_1080.mp4?source=fallback",
+        "has_audio": true,
+        "height": 1920,
+        "hls_url": "https://v.redd.it/mg7md3biivne1/HLSPlaylist.m3u8?a=1744209449%2CYjk0YmQyNjBkODFlZGZlOTRkMTgwNGZiNzJlYmQ5MDkwMGM1OTg1ZmRkMjI3M2ZiZjBhODQyNDNiMjY3NGU2Yg%3D%3D&amp;v=1&amp;f=sd",
+        "is_gif": false,
+        "scrubber_media_url": "https://v.redd.it/mg7md3biivne1/DASH_96.mp4",
+        "transcoding_status": "completed",
+        "width": 1080
+      }
+    },
+    "num_comments": 0,
+    "preview": {
+      "enabled": false,
+      "images": [
+        {
+          "id": "M3BwcTJjemhpdm5lMaYGSf6twggwBAQ6QrYoqHyOPas_8O1a9Vj8GFNITdmC",
+          "resolutions": [
+            {
+              "height": 192,
+              "url": "https://external-preview.redd.it/M3BwcTJjemhpdm5lMaYGSf6twggwBAQ6QrYoqHyOPas_8O1a9Vj8GFNITdmC.png?width=108&amp;crop=smart&amp;format=pjpg&amp;auto=webp&amp;s=817dd35fd126c3e48feca62db8124cd2e25a0b9d",
+              "width": 108
+            },
+            {
+              "height": 384,
+              "url": "https://external-preview.redd.it/M3BwcTJjemhpdm5lMaYGSf6twggwBAQ6QrYoqHyOPas_8O1a9Vj8GFNITdmC.png?width=216&amp;crop=smart&amp;format=pjpg&amp;auto=webp&amp;s=e1aa8a0a26f58a91833f65e13472655e06452e79",
+              "width": 216
+            },
+            {
+              "height": 568,
+              "url": "https://external-preview.redd.it/M3BwcTJjemhpdm5lMaYGSf6twggwBAQ6QrYoqHyOPas_8O1a9Vj8GFNITdmC.png?width=320&amp;crop=smart&amp;format=pjpg&amp;auto=webp&amp;s=393288081de538cee4bfc49b87fae79aed9a3901",
+              "width": 320
+            },
+            {
+              "height": 1137,
+              "url": "https://external-preview.redd.it/M3BwcTJjemhpdm5lMaYGSf6twggwBAQ6QrYoqHyOPas_8O1a9Vj8GFNITdmC.png?width=640&amp;crop=smart&amp;format=pjpg&amp;auto=webp&amp;s=08829256330ba600d754ab8f9c8dc9ad86cd9655",
+              "width": 640
+            },
+            {
+              "height": 1706,
+              "url": "https://external-preview.redd.it/M3BwcTJjemhpdm5lMaYGSf6twggwBAQ6QrYoqHyOPas_8O1a9Vj8GFNITdmC.png?width=960&amp;crop=smart&amp;format=pjpg&amp;auto=webp&amp;s=3ab7c6d502123458d09f224ba3690120657f4f4b",
+              "width": 960
+            }
+          ],
+          "source": {
+            "height": 1728,
+            "url": "https://external-preview.redd.it/M3BwcTJjemhpdm5lMaYGSf6twggwBAQ6QrYoqHyOPas_8O1a9Vj8GFNITdmC.png?format=pjpg&amp;auto=webp&amp;s=47b926bdf56875408da759d908851d685a3b5f5d",
+            "width": 972
+          },
+          "variants": {}
+        }
+      ]
+    },
+    "score": 1,
+    "secure_media": {
+      "reddit_video": {
+        "bitrate_kbps": 5000,
+        "dash_url": "https://v.redd.it/mg7md3biivne1/DASHPlaylist.mpd?a=1744209449%2CMTZhMzYwY2YzNmFlZGZjMjdjNDliOThkYWM2MzIyYmNlZThhNGRhZTJiOWM3ODJjN2JmZDI4ZDZlODBlZWNkMw%3D%3D&amp;v=1&amp;f=sd",
+        "duration": 27,
+        "fallback_url": "https://v.redd.it/mg7md3biivne1/DASH_1080.mp4?source=fallback",
+        "has_audio": true,
+        "height": 1920,
+        "hls_url": "https://v.redd.it/mg7md3biivne1/HLSPlaylist.m3u8?a=1744209449%2CYjk0YmQyNjBkODFlZGZlOTRkMTgwNGZiNzJlYmQ5MDkwMGM1OTg1ZmRkMjI3M2ZiZjBhODQyNDNiMjY3NGU2Yg%3D%3D&amp;v=1&amp;f=sd",
+        "is_gif": false,
+        "scrubber_media_url": "https://v.redd.it/mg7md3biivne1/DASH_96.mp4",
+        "transcoding_status": "completed",
+        "width": 1080
+      }
+    },
+    "selftext": "Been almost 2 months. thoughtfull advices are warmly welcomed\ud83d\ude4f.",
+    "subreddit": "MuayThaiTips",
+    "title": "Form suggestion?",
+    "upvote_ratio": 1.0,
+    "url": "https://v.redd.it/mg7md3biivne1",
+    "url_overridden_by_dest": "https://v.redd.it/mg7md3biivne1"
+  },
+  {
+    "author_flair_text": null,
+    "created_utc": "2025-03-10 14:36:20 UTC",
+    "id": "1j8028a",
+    "link_flair_text": "Book Queries and Recommendations",
+    "media": null,
+    "num_comments": 0,
+    "score": 1,
+    "secure_media": null,
+    "selftext": "i'm sorry if this is the wrong subreddit to post this in but since i am already a member and this is a subreddit full of English majors, i figured that there is perhaps no better place to ask anyway. \n\ncutting straight to the chase, a good majority of us have already heard of the \"white savior\" complex but i was wondering if there was also such a thing as a \"wealthy savior\" trope? i feel like a lot of work, be it literature, other forms of media or even schools of thought, have used certain traits to make their villains; traits often associated with a community of \"lesser social standing\" be it Disney villains being queer-coded or the real life imperialist intentions of colonialism being disguised as \"bringing civility to the uncivilised\". so i thought that something of that sort must have been done to glorify the rich as well but i cannot think of any examples where this is so. i can, however, think of examples where the opposite is true - the hero of the story is a poor person who has spited the rich in some way like Robin Hood. \n\nare there any stories where the do-gooder is rich and is able to save the narrative from going to shit solely because they are rich? like with the white savior complex? ",
+    "subreddit": "englishmajors",
+    "title": "NEED HELP TO IDENTIFY EXAMPLES OF A TROPE",
+    "upvote_ratio": 1.0,
+    "url": "https://www.reddit.com/r/englishmajors/comments/1j8028a/need_help_to_identify_examples_of_a_trope/"
+  },
+  {
+    "author_flair_text": null,
+    "created_utc": "2025-03-10 14:36:19 UTC",
+    "id": "1j80288",
+    "link_flair_text": "Discussion",
+    "media": null,
+    "num_comments": 0,
+    "score": 1,
+    "secure_media": null,
+    "selftext": "I think this is a good topic to discuss because we saw it first hand how some of the most recent tournaments drama has always just been involving the unfairness of the tournament committee. While i might be blindsided by the negative effect of the group, i would like to hear your opinion on it.",
+    "subreddit": "osugame",
+    "title": "Is it ridiculous to think that ever since the introduction of tournament committee, the public tournament scene has been just completely dry?",
+    "upvote_ratio": 1.0,
+    "url": "https://www.reddit.com/r/osugame/comments/1j80288/is_it_ridiculous_to_think_that_ever_since_the/"
+  },
+  {
+    "author_flair_text": null,
+    "created_utc": "2025-03-10 14:36:19 UTC",
+    "id": "1j80287",
+    "link_flair_text": "1940s",
+    "media": null,
+    "num_comments": 0,
+    "preview": {
+      "enabled": true,
+      "images": [
+        {
+          "id": "oh9fLImKxM0NLG-2i20aHHdeP7eBrL2iVPlK2eWOPzE",
+          "resolutions": [
+            {
+              "height": 84,
+              "url": "https://preview.redd.it/zitj4wtmivne1.png?width=108&amp;crop=smart&amp;auto=webp&amp;s=c8102aa139c2e5c8782fc2a3d61b80102a586feb",
+              "width": 108
+            },
+            {
+              "height": 169,
+              "url": "https://preview.redd.it/zitj4wtmivne1.png?width=216&amp;crop=smart&amp;auto=webp&amp;s=2292defd177ddcf7a9a60a072ec2f2b859e77c31",
+              "width": 216
+            },
+            {
+              "height": 250,
+              "url": "https://preview.redd.it/zitj4wtmivne1.png?width=320&amp;crop=smart&amp;auto=webp&amp;s=2b12141bcc43c27bb21676753c473f9cacccf1f7",
+              "width": 320
+            },
+            {
+              "height": 501,
+              "url": "https://preview.redd.it/zitj4wtmivne1.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=b826290a54e424a98f192ef187a15f8deb4ddb17",
+              "width": 640
+            }
+          ],
+          "source": {
+            "height": 751,
+            "url": "https://preview.redd.it/zitj4wtmivne1.png?auto=webp&amp;s=8b7ca61ddacd502831a917e0fdb964e2120350cb",
+            "width": 959
+          },
+          "variants": {}
+        }
+      ]
+    },
+    "score": 1,
+    "secure_media": null,
+    "selftext": "",
+    "subreddit": "TheWayWeWere",
+    "title": "Physical Education Class at Bethune-Cookman College, Daytona Beach, FL, c. 1943.",
+    "upvote_ratio": 1.0,
+    "url": "https://i.redd.it/zitj4wtmivne1.png",
+    "url_overridden_by_dest": "https://i.redd.it/zitj4wtmivne1.png"
+  },
+  {
+    "author_flair_text": null,
+    "created_utc": "2025-03-10 14:36:19 UTC",
+    "id": "1j80284",
+    "link_flair_text": "Civil Litigation",
+    "media": null,
+    "num_comments": 1,
+    "score": 1,
+    "secure_media": null,
+    "selftext": "I did 2 days work for a medical events company last year and haven't been paid for them. They ignored all my requests and haven't paid up. They are now dissolving the company and making a new one with a very similar (arguably the same) name. This is the 4th time they've have dissolved and remade the company in a similar name. I know I'm not the only person they have done this to. I cant go to small claims because the company is dissolving. Any advice?",
+    "subreddit": "LegalAdviceUK",
+    "title": "Not paid for work, company now dissolving!",
+    "upvote_ratio": 1.0,
+    "url": "https://www.reddit.com/r/LegalAdviceUK/comments/1j80284/not_paid_for_work_company_now_dissolving/"
+  },
+  {
+    "author_flair_text": null,
+    "created_utc": "2025-03-10 14:36:19 UTC",
+    "id": "1j80282",
+    "link_flair_text": null,
+    "media": null,
+    "num_comments": 0,
+    "score": 1,
+    "secure_media": null,
+    "selftext": "\n\n# \n\n# First month just $5\n\n# Enter code at checkout:\n\n# 3qjQh3\n\n#       \n\n#     \n\n#       \n\n#     \n\n#       ",
+    "subreddit": "VisibleDiscountCodes",
+    "title": "\ud83c\udf89 $20 off your first month on Visible \ud83c\udf89",
+    "upvote_ratio": 1.0,
+    "url": "https://www.reddit.com/r/VisibleDiscountCodes/comments/1j80282/20_off_your_first_month_on_visible/"
+  },
+  {
+    "author_flair_text": null,
+    "created_utc": "2025-03-10 14:36:19 UTC",
+    "id": "1j80281",
+    "link_flair_text": "Meme",
+    "media": {
+      "reddit_video": {
+        "bitrate_kbps": 1200,
+        "dash_url": "https://v.redd.it/zxdgpxxmivne1/DASHPlaylist.mpd?a=1744209449%2CZmFmMzRhODNkMjRjZTY1NWQ4MDhiNDhkZjc5YzdmOTUwNDE1YTNmOTI5OTQwMTc5MGNkNzNlZjYyYmE0YTE3Mw%3D%3D&amp;v=1&amp;f=sd",
+        "duration": 36,
+        "fallback_url": "https://v.redd.it/zxdgpxxmivne1/DASH_480.mp4?source=fallback",
+        "has_audio": true,
+        "height": 854,
+        "hls_url": "https://v.redd.it/zxdgpxxmivne1/HLSPlaylist.m3u8?a=1744209449%2CNDg5ZjliMGFmM2Y1NjEwN2Y4ZGI4YzFlYjI3NzBhZmIxOTc2OTgxODA5Y2FhYmI3NDgxZDM3N2U1MzgyNjZlNw%3D%3D&amp;v=1&amp;f=sd",
+        "is_gif": false,
+        "scrubber_media_url": "https://v.redd.it/zxdgpxxmivne1/DASH_96.mp4",
+        "transcoding_status": "completed",
+        "width": 480
+      }
+    },
+    "num_comments": 0,
+    "preview": {
+      "enabled": false,
+      "images": [
+        {
+          "id": "NjV6c3F0bm1pdm5lMYoOMgxspiNzTNISAw4UcMbtv4cEzq0OyUni7Jao9C1P",
+          "resolutions": [
+            {
+              "height": 192,
+              "url": "https://external-preview.redd.it/NjV6c3F0bm1pdm5lMYoOMgxspiNzTNISAw4UcMbtv4cEzq0OyUni7Jao9C1P.png?width=108&amp;crop=smart&amp;format=pjpg&amp;auto=webp&amp;s=b8761e4901fd624c2d2da905eac91a92eba9b749",
+              "width": 108
+            },
+            {
+              "height": 384,
+              "url": "https://external-preview.redd.it/NjV6c3F0bm1pdm5lMYoOMgxspiNzTNISAw4UcMbtv4cEzq0OyUni7Jao9C1P.png?width=216&amp;crop=smart&amp;format=pjpg&amp;auto=webp&amp;s=f88c25aba56efdd45d76c1228d824a8f17fc77bd",
+              "width": 216
+            },
+            {
+              "height": 568,
+              "url": "https://external-preview.redd.it/NjV6c3F0bm1pdm5lMYoOMgxspiNzTNISAw4UcMbtv4cEzq0OyUni7Jao9C1P.png?width=320&amp;crop=smart&amp;format=pjpg&amp;auto=webp&amp;s=2fc7851c7ccb2abe9707cb0c9ad1349d08db6df7",
+              "width": 320
+            },
+            {
+              "height": 1137,
+              "url": "https://external-preview.redd.it/NjV6c3F0bm1pdm5lMYoOMgxspiNzTNISAw4UcMbtv4cEzq0OyUni7Jao9C1P.png?width=640&amp;crop=smart&amp;format=pjpg&amp;auto=webp&amp;s=ca77d3a5451dbd051fbd2ff66c6e15e7f0ea38f1",
+              "width": 640
+            },
+            {
+              "height": 1706,
+              "url": "https://external-preview.redd.it/NjV6c3F0bm1pdm5lMYoOMgxspiNzTNISAw4UcMbtv4cEzq0OyUni7Jao9C1P.png?width=960&amp;crop=smart&amp;format=pjpg&amp;auto=webp&amp;s=8e4c9b7f26d48695cad97f78e2fa88f360e2d673",
+              "width": 960
+            }
+          ],
+          "source": {
+            "height": 1746,
+            "url": "https://external-preview.redd.it/NjV6c3F0bm1pdm5lMYoOMgxspiNzTNISAw4UcMbtv4cEzq0OyUni7Jao9C1P.png?format=pjpg&amp;auto=webp&amp;s=0496ff2999cd904b72f5b88768f4ade69361432f",
+            "width": 982
+          },
+          "variants": {}
+        }
+      ]
+    },
+    "score": 1,
+    "secure_media": {
+      "reddit_video": {
+        "bitrate_kbps": 1200,
+        "dash_url": "https://v.redd.it/zxdgpxxmivne1/DASHPlaylist.mpd?a=1744209449%2CZmFmMzRhODNkMjRjZTY1NWQ4MDhiNDhkZjc5YzdmOTUwNDE1YTNmOTI5OTQwMTc5MGNkNzNlZjYyYmE0YTE3Mw%3D%3D&amp;v=1&amp;f=sd",
+        "duration": 36,
+        "fallback_url": "https://v.redd.it/zxdgpxxmivne1/DASH_480.mp4?source=fallback",
+        "has_audio": true,
+        "height": 854,
+        "hls_url": "https://v.redd.it/zxdgpxxmivne1/HLSPlaylist.m3u8?a=1744209449%2CNDg5ZjliMGFmM2Y1NjEwN2Y4ZGI4YzFlYjI3NzBhZmIxOTc2OTgxODA5Y2FhYmI3NDgxZDM3N2U1MzgyNjZlNw%3D%3D&amp;v=1&amp;f=sd",
+        "is_gif": false,
+        "scrubber_media_url": "https://v.redd.it/zxdgpxxmivne1/DASH_96.mp4",
+        "transcoding_status": "completed",
+        "width": 480
+      }
+    },
+    "selftext": "",
+    "subreddit": "Asmongold",
+    "title": "If Monster Hunter Wilds was made in 2007",
+    "upvote_ratio": 1.0,
+    "url": "https://v.redd.it/zxdgpxxmivne1",
+    "url_overridden_by_dest": "https://v.redd.it/zxdgpxxmivne1"
+  },
+  {
+    "author_flair_text": null,
+    "created_utc": "2025-03-10 14:36:19 UTC",
+    "id": "1j80280",
+    "link_flair_text": "Meme",
+    "media": {
+      "reddit_video": {
+        "bitrate_kbps": 5000,
+        "dash_url": "https://v.redd.it/wop44zzmivne1/DASHPlaylist.mpd?a=1744209449%2CZjczNTY5NmVkYzZmYjkzMjhhMDliYjIwODYwMDFjMDc3MDYxYTUwMWVlNmI5M2Q2NDlhYTJiMDQzZDdlNzJkNQ%3D%3D&amp;v=1&amp;f=sd",
+        "duration": 13,
+        "fallback_url": "https://v.redd.it/wop44zzmivne1/DASH_1080.mp4?source=fallback",
+        "has_audio": true,
+        "height": 1080,
+        "hls_url": "https://v.redd.it/wop44zzmivne1/HLSPlaylist.m3u8?a=1744209449%2CNTgyMDc0ODY2OGY1MjFkZmFhMmY1NTVlODkwMTljMDBiMDQyNWEwNjEwZDhhNGFkNGFlZjczNjZmNGY0M2ViOA%3D%3D&amp;v=1&amp;f=sd",
+        "is_gif": false,
+        "scrubber_media_url": "https://v.redd.it/wop44zzmivne1/DASH_96.mp4",
+        "transcoding_status": "completed",
+        "width": 1440
+      }
+    },
+    "num_comments": 0,
+    "preview": {
+      "enabled": false,
+      "images": [
+        {
+          "id": "NnJ6d2Yxdm1pdm5lMRGEHSUp1C1rdcxBw77l9Ho5YLWJ7vtH0pNbfEjiwdf-",
+          "resolutions": [
+            {
+              "height": 81,
+              "url": "https://external-preview.redd.it/NnJ6d2Yxdm1pdm5lMRGEHSUp1C1rdcxBw77l9Ho5YLWJ7vtH0pNbfEjiwdf-.png?width=108&amp;crop=smart&amp;format=pjpg&amp;auto=webp&amp;s=d15cb7a8bf35726252392382ff5bf7c8c6d27c6a",
+              "width": 108
+            },
+            {
+              "height": 162,
+              "url": "https://external-preview.redd.it/NnJ6d2Yxdm1pdm5lMRGEHSUp1C1rdcxBw77l9Ho5YLWJ7vtH0pNbfEjiwdf-.png?width=216&amp;crop=smart&amp;format=pjpg&amp;auto=webp&amp;s=3d52a48cc0abde995dc1f34506cb69ae6d0ff17d",
+              "width": 216
+            },
+            {
+              "height": 240,
+              "url": "https://external-preview.redd.it/NnJ6d2Yxdm1pdm5lMRGEHSUp1C1rdcxBw77l9Ho5YLWJ7vtH0pNbfEjiwdf-.png?width=320&amp;crop=smart&amp;format=pjpg&amp;auto=webp&amp;s=c232f77885f482bae36b9b956703ca50207bc841",
+              "width": 320
+            },
+            {
+              "height": 480,
+              "url": "https://external-preview.redd.it/NnJ6d2Yxdm1pdm5lMRGEHSUp1C1rdcxBw77l9Ho5YLWJ7vtH0pNbfEjiwdf-.png?width=640&amp;crop=smart&amp;format=pjpg&amp;auto=webp&amp;s=b9c68100c3deaf6468e03020850706814bcb9335",
+              "width": 640
+            },
+            {
+              "height": 720,
+              "url": "https://external-preview.redd.it/NnJ6d2Yxdm1pdm5lMRGEHSUp1C1rdcxBw77l9Ho5YLWJ7vtH0pNbfEjiwdf-.png?width=960&amp;crop=smart&amp;format=pjpg&amp;auto=webp&amp;s=317d202a521fea9173b9586d53f89df0822a9ea6",
+              "width": 960
+            },
+            {
+              "height": 810,
+              "url": "https://external-preview.redd.it/NnJ6d2Yxdm1pdm5lMRGEHSUp1C1rdcxBw77l9Ho5YLWJ7vtH0pNbfEjiwdf-.png?width=1080&amp;crop=smart&amp;format=pjpg&amp;auto=webp&amp;s=70710f801395d71279ac8d6665cf108e01d67dfb",
+              "width": 1080
+            }
+          ],
+          "source": {
+            "height": 810,
+            "url": "https://external-preview.redd.it/NnJ6d2Yxdm1pdm5lMRGEHSUp1C1rdcxBw77l9Ho5YLWJ7vtH0pNbfEjiwdf-.png?format=pjpg&amp;auto=webp&amp;s=0e7464b6b7cac04671be4d27ed36adc591eaa2c1",
+            "width": 1080
+          },
+          "variants": {}
+        }
+      ]
+    },
+    "score": 1,
+    "secure_media": {
+      "reddit_video": {
+        "bitrate_kbps": 5000,
+        "dash_url": "https://v.redd.it/wop44zzmivne1/DASHPlaylist.mpd?a=1744209449%2CZjczNTY5NmVkYzZmYjkzMjhhMDliYjIwODYwMDFjMDc3MDYxYTUwMWVlNmI5M2Q2NDlhYTJiMDQzZDdlNzJkNQ%3D%3D&amp;v=1&amp;f=sd",
+        "duration": 13,
+        "fallback_url": "https://v.redd.it/wop44zzmivne1/DASH_1080.mp4?source=fallback",
+        "has_audio": true,
+        "height": 1080,
+        "hls_url": "https://v.redd.it/wop44zzmivne1/HLSPlaylist.m3u8?a=1744209449%2CNTgyMDc0ODY2OGY1MjFkZmFhMmY1NTVlODkwMTljMDBiMDQyNWEwNjEwZDhhNGFkNGFlZjczNjZmNGY0M2ViOA%3D%3D&amp;v=1&amp;f=sd",
+        "is_gif": false,
+        "scrubber_media_url": "https://v.redd.it/wop44zzmivne1/DASH_96.mp4",
+        "transcoding_status": "completed",
+        "width": 1440
+      }
+    },
+    "selftext": "",
+    "subreddit": "needforspeed",
+    "title": "Carbon OST appreciation post",
+    "upvote_ratio": 1.0,
+    "url": "https://v.redd.it/wop44zzmivne1",
+    "url_overridden_by_dest": "https://v.redd.it/wop44zzmivne1"
+  },
+  {
+    "author_flair_text": "Layperson/not verified as healthcare professional",
+    "created_utc": "2025-03-10 14:36:19 UTC",
+    "id": "1j8027x",
+    "link_flair_text": null,
+    "media": null,
+    "num_comments": 1,
+    "score": 1,
+    "secure_media": null,
+    "selftext": "40 F, 5ft 7in. 191 pounds. \n\nI have plaque psoriasis and sometimes it flares up and shows up inside my ear. It started to hurt this time around so I went to the UC Saturday. \n\nPA took a look and said the ear drums weren\u2019t infected but the location where the plaques were appeared irritated and very red. She prescribed me \nCiprodex 2x/day for 7 days. \n\nApplied it on Sat, Sun, and today. The pain is getting worse. Should I go back to the UC or wait until I finish the course? ",
+    "subreddit": "AskDocs",
+    "title": "Ear Pain. ABX given.",
+    "upvote_ratio": 1.0,
+    "url": "https://www.reddit.com/r/AskDocs/comments/1j8027x/ear_pain_abx_given/"
+  },
+  {
+    "author_flair_text": null,
+    "created_utc": "2025-03-10 14:36:19 UTC",
+    "id": "1j8027t",
+    "link_flair_text": "Other",
+    "media": null,
+    "num_comments": 0,
+    "score": 1,
+    "secure_media": null,
+    "selftext": "I got an olive tree and tried to grow it indoors by a window but my dog helped himself to some fun while I was at the gym. I moved it outside and months later it\u2019s growing some green! My question is this, should I cut the dead part off above the new growth? Or leave it as it is? I water it every once in a while but mostly the Florida rain does that job for me!",
+    "subreddit": "plantclinic",
+    "title": "Olive tree help",
+    "upvote_ratio": 1.0,
+    "url": "https://www.reddit.com/gallery/1j8027t",
+    "url_overridden_by_dest": "https://www.reddit.com/gallery/1j8027t"
+  },
+  {
+    "author_flair_text": null,
+    "created_utc": "2025-03-10 14:36:18 UTC",
+    "id": "1j8027q",
+    "link_flair_text": null,
+    "media": null,
+    "num_comments": 0,
+    "score": 1,
+    "secure_media": null,
+    "selftext": "My doctors office closed and I was taken off all my meds. I am currently trying to find a new provider. I was on Ambien 10mg and Belsomra 20mg for sleep. Does anyone have any recommendations for supplements that may work. I take 5mg Melatonin now as well.",
+    "subreddit": "insomnia",
+    "title": "Supplements",
+    "upvote_ratio": 1.0,
+    "url": "https://www.reddit.com/r/insomnia/comments/1j8027q/supplements/"
+  },
+  {
+    "author_flair_text": null,
+    "created_utc": "2025-03-10 14:36:18 UTC",
+    "id": "1j8027m",
+    "link_flair_text": "Hosting T5 Raid",
+    "media": null,
+    "num_comments": 1,
+    "score": 1,
+    "secure_media": null,
+    "selftext": "",
+    "subreddit": "PokemonGoRaids",
+    "title": "Zapdos, 2 local! Shiny time!? 010777637508",
+    "upvote_ratio": 1.0,
+    "url": "https://www.reddit.com/r/PokemonGoRaids/comments/1j8027m/zapdos_2_local_shiny_time_010777637508/"
+  },
+  {
+    "author_flair_text": null,
+    "created_utc": "2025-03-10 14:36:18 UTC",
+    "id": "1j8027l",
+    "link_flair_text": "Photo share",
+    "media": null,
+    "num_comments": 0,
+    "score": 1,
+    "secure_media": null,
+    "selftext": "",
+    "subreddit": "ricohGR",
+    "title": "Tenerife with the newly acquired GRIII",
+    "upvote_ratio": 1.0,
+    "url": "https://www.reddit.com/gallery/1j8027l",
+    "url_overridden_by_dest": "https://www.reddit.com/gallery/1j8027l"
+  },
+  {
+    "author_flair_text": null,
+    "created_utc": "2025-03-10 14:36:18 UTC",
+    "id": "1j8027k",
+    "link_flair_text": "Advice Needed!",
+    "media": null,
+    "num_comments": 0,
+    "score": 1,
+    "secure_media": null,
+    "selftext": "Hi everyone! \nI\u2019m 36. AMH around 0.99. I\u2019m gearing up for another IVF cycle and currently taking about 600 mg of CoQ10 (ubiquinone) per day to support egg quality. I\u2019d love to hear from anyone who\u2019s been through IVF with lower ovarian reserve:\n-How much CoQ10 did you take daily?\n-Did you notice any difference in egg quality or overall outcomes agree talking CoQ10? \nA week ago, I had to cancel stims after 3 day trial as I was not responding well. Of course, the issue is much broader, but I want to know more about CoQ10. \n\nI have this big fear. What if it\u2019s doesn\u2019t work? What if I miss important vitamins? So stressful. \n\nSuggestions on other vitamins welcome. ",
+    "subreddit": "IVF",
+    "title": "DOR and Coenzyme",
+    "upvote_ratio": 1.0,
+    "url": "https://www.reddit.com/r/IVF/comments/1j8027k/dor_and_coenzyme/"
+  },
+  {
+    "author_flair_text": null,
+    "created_utc": "2025-03-10 14:36:18 UTC",
+    "id": "1j8027j",
+    "link_flair_text": null,
+    "media": null,
+    "num_comments": 0,
+    "score": 1,
+    "secure_media": null,
+    "selftext": "Has anyone been able to join the military to avoid getting a felony? Is that even a thing? Can that be negotiated with the prosecutor? Just curious if judges allow that.. non violent felony. Looking at just probation but wondering if that\u2019s another route I can choose since it was always a dream to serve. ",
+    "subreddit": "Felons",
+    "title": "Military?",
+    "upvote_ratio": 1.0,
+    "url": "https://www.reddit.com/r/Felons/comments/1j8027j/military/"
+  },
+  {
+    "author_flair_text": null,
+    "created_utc": "2025-03-10 14:36:18 UTC",
+    "id": "1j8027g",
+    "link_flair_text": "Discussion",
+    "media": null,
+    "num_comments": 0,
+    "preview": {
+      "enabled": true,
+      "images": [
+        {
+          "id": "ml5VKzbELYDTKk13bXK7KJi2zJmf_muvXSFt-92L5_g",
+          "resolutions": [
+            {
+              "height": 49,
+              "url": "https://preview.redd.it/xg5pzoymivne1.jpeg?width=108&amp;crop=smart&amp;auto=webp&amp;s=f61f44d43271980025894ac6ca0f5ea9566eb57d",
+              "width": 108
+            },
+            {
+              "height": 99,
+              "url": "https://preview.redd.it/xg5pzoymivne1.jpeg?width=216&amp;crop=smart&amp;auto=webp&amp;s=a744b14dd3741232dbd329bdb73923e39fe4a4af",
+              "width": 216
+            },
+            {
+              "height": 147,
+              "url": "https://preview.redd.it/xg5pzoymivne1.jpeg?width=320&amp;crop=smart&amp;auto=webp&amp;s=065ab4e263d0d0b556192cab9198f2977c7e2a18",
+              "width": 320
+            },
+            {
+              "height": 295,
+              "url": "https://preview.redd.it/xg5pzoymivne1.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=ce01c31597fe0f82fc846db34385f19f82c5e7fa",
+              "width": 640
+            },
+            {
+              "height": 443,
+              "url": "https://preview.redd.it/xg5pzoymivne1.jpeg?width=960&amp;crop=smart&amp;auto=webp&amp;s=a739e79945a1c039b689ca312413b53c9c150e6f",
+              "width": 960
+            },
+            {
+              "height": 498,
+              "url": "https://preview.redd.it/xg5pzoymivne1.jpeg?width=1080&amp;crop=smart&amp;auto=webp&amp;s=44609da50cc95aa331305517b2323e9cb5c61df0",
+              "width": 1080
+            }
+          ],
+          "source": {
+            "height": 1080,
+            "url": "https://preview.redd.it/xg5pzoymivne1.jpeg?auto=webp&amp;s=a6453f26d36de3f6e0365433f63bdb525672ec9a",
+            "width": 2340
+          },
+          "variants": {}
+        }
+      ]
+    },
+    "score": 1,
+    "secure_media": null,
+    "selftext": "",
+    "subreddit": "caseoh_",
+    "title": "SOMETHING CAN SPAWN IN THAT DRAWER! OMG,FIRST TIME FOUNDING IT!!!",
+    "upvote_ratio": 1.0,
+    "url": "https://i.redd.it/xg5pzoymivne1.jpeg",
+    "url_overridden_by_dest": "https://i.redd.it/xg5pzoymivne1.jpeg"
+  },
+  {
+    "author_flair_text": null,
+    "created_utc": "2025-03-10 14:36:18 UTC",
+    "id": "1j8027d",
+    "link_flair_text": "\ud83d\udcf0 News",
+    "media": null,
+    "num_comments": 1,
+    "preview": {
+      "enabled": false,
+      "images": [
+        {
+          "id": "frO4uVzv6DdB0TysAk6hH94I9NLKkcXb0vW_2XsiYRw",
+          "resolutions": [
+            {
+              "height": 56,
+              "url": "https://external-preview.redd.it/dBz_T3DtsPHTZ8tAnhoROzHwMgcfn166SIMYNXouLwk.jpg?width=108&amp;crop=smart&amp;auto=webp&amp;s=bc01e0886e8315521593e5b20d621a56442db1d6",
+              "width": 108
+            },
+            {
+              "height": 113,
+              "url": "https://external-preview.redd.it/dBz_T3DtsPHTZ8tAnhoROzHwMgcfn166SIMYNXouLwk.jpg?width=216&amp;crop=smart&amp;auto=webp&amp;s=770109335cc1788bba5e7d9e3af7adae34b22f35",
+              "width": 216
+            },
+            {
+              "height": 168,
+              "url": "https://external-preview.redd.it/dBz_T3DtsPHTZ8tAnhoROzHwMgcfn166SIMYNXouLwk.jpg?width=320&amp;crop=smart&amp;auto=webp&amp;s=6ef898e565034a4325a4c025ca5680622fe85aa7",
+              "width": 320
+            },
+            {
+              "height": 336,
+              "url": "https://external-preview.redd.it/dBz_T3DtsPHTZ8tAnhoROzHwMgcfn166SIMYNXouLwk.jpg?width=640&amp;crop=smart&amp;auto=webp&amp;s=acd0fcfe46d71d09bbb828d2cdd4538a6c7e16f8",
+              "width": 640
+            },
+            {
+              "height": 504,
+              "url": "https://external-preview.redd.it/dBz_T3DtsPHTZ8tAnhoROzHwMgcfn166SIMYNXouLwk.jpg?width=960&amp;crop=smart&amp;auto=webp&amp;s=aaf1eee55769634f45352560c759c4437cecf38f",
+              "width": 960
+            },
+            {
+              "height": 567,
+              "url": "https://external-preview.redd.it/dBz_T3DtsPHTZ8tAnhoROzHwMgcfn166SIMYNXouLwk.jpg?width=1080&amp;crop=smart&amp;auto=webp&amp;s=a49996b0e8d9865a25f3775c89c9767662927c9e",
+              "width": 1080
+            }
+          ],
+          "source": {
+            "height": 630,
+            "url": "https://external-preview.redd.it/dBz_T3DtsPHTZ8tAnhoROzHwMgcfn166SIMYNXouLwk.jpg?auto=webp&amp;s=b4249af41efd2c26a4438107b28cf21c4fb1e755",
+            "width": 1200
+          },
+          "variants": {}
+        }
+      ]
+    },
+    "score": 1,
+    "secure_media": null,
+    "selftext": "",
+    "subreddit": "belgium",
+    "title": "Ook besparingen nodig om defensie-uitgaven te compenseren, Bouchez (MR): \"Moet gezin met meer dan 4 kinderen nog kinderbijslag krijgen?\"",
+    "upvote_ratio": 1.0,
+    "url": "https://www.vrt.be/vrtnws/nl/2025/03/10/begroting-defensie-besparingen-miljarden-bouchez-van-peteghem/",
+    "url_overridden_by_dest": "https://www.vrt.be/vrtnws/nl/2025/03/10/begroting-defensie-besparingen-miljarden-bouchez-van-peteghem/"
+  },
+  {
+    "author_flair_text": "18",
+    "created_utc": "2025-03-10 14:36:18 UTC",
+    "id": "1j8027a",
+    "link_flair_text": "Social",
+    "media": null,
+    "num_comments": 1,
+    "score": 1,
+    "secure_media": null,
+    "selftext": "how am i supposed to think about femboys in this type of weather i might die",
+    "subreddit": "teenagers",
+    "title": "guys its gonna be 35 degrees tomorrow i am so cooked \ud83d\ude2d\ud83d\ude4f",
+    "upvote_ratio": 1.0,
+    "url": "https://www.reddit.com/r/teenagers/comments/1j8027a/guys_its_gonna_be_35_degrees_tomorrow_i_am_so/"
+  },
+  {
+    "author_flair_text": null,
+    "created_utc": "2025-03-10 14:36:18 UTC",
+    "id": "1j80279",
+    "link_flair_text": null,
+    "media": null,
+    "num_comments": 0,
+    "score": 1,
+    "secure_media": null,
+    "selftext": "https://preview.redd.it/kwv327pjivne1.png?width=995&amp;format=png&amp;auto=webp&amp;s=0555100d40c45ab6862c8673fa9f36f529ff84c7\n\n",
+    "subreddit": "VedicAstrologyJyotish",
+    "title": "Where will I meet my husband? Will he have good moral values?",
+    "upvote_ratio": 1.0,
+    "url": "https://www.reddit.com/r/VedicAstrologyJyotish/comments/1j80279/where_will_i_meet_my_husband_will_he_have_good/"
+  },
+  {
+    "author_flair_text": null,
+    "created_utc": "2025-03-10 14:36:18 UTC",
+    "id": "1j80278",
+    "link_flair_text": null,
+    "media": null,
+    "num_comments": 0,
+    "preview": {
+      "enabled": false,
+      "images": [
+        {
+          "id": "0o4df8PfE4K_I1k1PJONvbH7ifiLVKycZPw1P7N0k94",
+          "resolutions": [
+            {
+              "height": 98,
+              "url": "https://external-preview.redd.it/jbdn4v4lt0LkgvlyolMvVPGnYx4jNIEuNC4S7enb6xw.jpg?width=108&amp;crop=smart&amp;auto=webp&amp;s=e3ae13681abaec317ffe69aea3d68ff7ba1081d1",
+              "width": 108
+            },
+            {
+              "height": 197,
+              "url": "https://external-preview.redd.it/jbdn4v4lt0LkgvlyolMvVPGnYx4jNIEuNC4S7enb6xw.jpg?width=216&amp;crop=smart&amp;auto=webp&amp;s=51f67370b07140c7eacd8ad367664863735718cf",
+              "width": 216
+            },
+            {
+              "height": 292,
+              "url": "https://external-preview.redd.it/jbdn4v4lt0LkgvlyolMvVPGnYx4jNIEuNC4S7enb6xw.jpg?width=320&amp;crop=smart&amp;auto=webp&amp;s=1e79435591c8a27069fddc68963136e820ab76ff",
+              "width": 320
+            },
+            {
+              "height": 584,
+              "url": "https://external-preview.redd.it/jbdn4v4lt0LkgvlyolMvVPGnYx4jNIEuNC4S7enb6xw.jpg?width=640&amp;crop=smart&amp;auto=webp&amp;s=d56e3c135f3455dac2c8e67333f5dea374e53a05",
+              "width": 640
+            },
+            {
+              "height": 876,
+              "url": "https://external-preview.redd.it/jbdn4v4lt0LkgvlyolMvVPGnYx4jNIEuNC4S7enb6xw.jpg?width=960&amp;crop=smart&amp;auto=webp&amp;s=797b9677e174f406ff63d33856db86825285c67b",
+              "width": 960
+            },
+            {
+              "height": 985,
+              "url": "https://external-preview.redd.it/jbdn4v4lt0LkgvlyolMvVPGnYx4jNIEuNC4S7enb6xw.jpg?width=1080&amp;crop=smart&amp;auto=webp&amp;s=c6f276d26c2cf575cec642f46d6258972e5c6145",
+              "width": 1080
+            }
+          ],
+          "source": {
+            "height": 2048,
+            "url": "https://external-preview.redd.it/jbdn4v4lt0LkgvlyolMvVPGnYx4jNIEuNC4S7enb6xw.jpg?auto=webp&amp;s=413a42155153ec7813babb3aa66c82edbc0f7d54",
+            "width": 2244
+          },
+          "variants": {}
+        }
+      ]
+    },
+    "score": 1,
+    "secure_media": null,
+    "selftext": "",
+    "subreddit": "automationContentCom",
+    "title": "Link post title 105",
+    "upvote_ratio": 1.0,
+    "url": "https://www.wikipedia.org/",
+    "url_overridden_by_dest": "https://www.wikipedia.org/"
+  },
+  {
+    "author_flair_text": null,
+    "created_utc": "2025-03-10 14:36:18 UTC",
+    "id": "1j80276",
+    "link_flair_text": null,
+    "media": null,
+    "num_comments": 0,
+    "score": 1,
+    "secure_media": null,
+    "selftext": "So, my Giant Asian mantis is currently M4 stage, idk if she will have a molt soon, because since I got her she molted once, a few days after arriving. At that time she had a bit different terrarium when it comes to inside - she had blackberry stems, and she molted without any complications. Will this stick I got at a pet store be okay for her? \nI also plan on getting more things to her terrarium, but now I don't have much funds to do so, and I wonder for her safety",
+    "subreddit": "mantiskeeping",
+    "title": "Is it high enough for her to molt safely?",
+    "upvote_ratio": 1.0,
+    "url": "https://www.reddit.com/gallery/1j80276",
+    "url_overridden_by_dest": "https://www.reddit.com/gallery/1j80276"
+  },
+  {
+    "author_flair_text": null,
+    "created_utc": "2025-03-10 14:36:17 UTC",
+    "id": "1j80273",
+    "link_flair_text": "General Questions",
+    "media": null,
+    "num_comments": 0,
+    "preview": {
+      "enabled": true,
+      "images": [
+        {
+          "id": "umClZfsf43JeVXH-bkAY3jlpxh0bFhmjc7e1Cnw5K-s",
+          "resolutions": [
+            {
+              "height": 216,
+              "url": "https://preview.redd.it/ky6272wmivne1.jpeg?width=108&amp;crop=smart&amp;auto=webp&amp;s=321e1012b9b6a6364772c6756fc3c696785f5ba4",
+              "width": 108
+            },
+            {
+              "height": 432,
+              "url": "https://preview.redd.it/ky6272wmivne1.jpeg?width=216&amp;crop=smart&amp;auto=webp&amp;s=797d53a5310520cf55c803d19f6491f0ca655978",
+              "width": 216
+            },
+            {
+              "height": 640,
+              "url": "https://preview.redd.it/ky6272wmivne1.jpeg?width=320&amp;crop=smart&amp;auto=webp&amp;s=13581fa8e8aea151bdcf5d20c8c9b24d802371e7",
+              "width": 320
+            },
+            {
+              "height": 1280,
+              "url": "https://preview.redd.it/ky6272wmivne1.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=c16c4f57e34bd54ca198be9ca29fe1daf182cd67",
+              "width": 640
+            },
+            {
+              "height": 1920,
+              "url": "https://preview.redd.it/ky6272wmivne1.jpeg?width=960&amp;crop=smart&amp;auto=webp&amp;s=d717e21ee058510c99cff0c3023864272b72e938",
+              "width": 960
+            },
+            {
+              "height": 2160,
+              "url": "https://preview.redd.it/ky6272wmivne1.jpeg?width=1080&amp;crop=smart&amp;auto=webp&amp;s=13dadd3d13e64c134739c12fcf51f7fb6dd9cdc9",
+              "width": 1080
+            }
+          ],
+          "source": {
+            "height": 2532,
+            "url": "https://preview.redd.it/ky6272wmivne1.jpeg?auto=webp&amp;s=1a66e8381a75aa77aef3b45007bbad224bdf62c8",
+            "width": 1170
+          },
+          "variants": {}
+        }
+      ]
+    },
+    "score": 1,
+    "secure_media": null,
+    "selftext": "Just bought an e46 with 150k miles and I\u2019m looking to do a cooling system overhaul. Is this a decent kit or should I get one that comes with a radiator? ",
+    "subreddit": "e46",
+    "title": "Is this a good cooling overhaul kit?",
+    "upvote_ratio": 1.0,
+    "url": "https://i.redd.it/ky6272wmivne1.jpeg",
+    "url_overridden_by_dest": "https://i.redd.it/ky6272wmivne1.jpeg"
+  },
+  {
+    "author_flair_text": null,
+    "created_utc": "2025-03-10 14:36:17 UTC",
+    "id": "1j80270",
+    "link_flair_text": "Unsolved",
+    "media": null,
+    "num_comments": 1,
+    "score": 1,
+    "secure_media": null,
+    "selftext": "Hey, I have a problem and maybe someone has an idea.\n\nA former coworker created a Blender file for a bottle. In all his old renders, the bottle appears red, which is how it\u2019s supposed to be.\n\nNow I need to work on the file, but when I open it, the bottle is magenta. It doesn\u2019t seem like a missing texture issue\u2014it looks intentional because even his older files show the bottle as magenta when I open them.\n\nI noticed that if I deactivate the glass, the liquid appears white, and if I deactivate the liquid, the glass also turns white.\n\nBut in all of his renders, the bottle was clearly red.\n\nCould something have changed during rendering? Because when I try to render it now, it still stays magenta.\n\nAny ideas on what could be causing this? I can provide more details if needed!\n\n[Original render](https://preview.redd.it/0joclz1hivne1.png?width=1248&amp;format=png&amp;auto=webp&amp;s=9878d268d975bcbd6d1d9278fb1ce5531a7e6785)\n\n[liquid shader](https://preview.redd.it/j37pti8iivne1.png?width=4956&amp;format=png&amp;auto=webp&amp;s=1abdc322ba3cbcf7bd8ab9be88d535519362744b)\n\n[liquid off](https://preview.redd.it/keqwmq5jivne1.png?width=1940&amp;format=png&amp;auto=webp&amp;s=51ca8306b12b149fdacfeafa3dea9b838a8aacda)\n\n[glass shader](https://preview.redd.it/na5k45mkivne1.png?width=4946&amp;format=png&amp;auto=webp&amp;s=cc4bb1d18a91efd2156cf92de31b7e10e542cc7a)\n\n[glass off](https://preview.redd.it/jgdw1aglivne1.png?width=1960&amp;format=png&amp;auto=webp&amp;s=36fe61b3dd3421a30c261797eaa225be519c2d5a)\n\n",
+    "subreddit": "blenderhelp",
+    "title": "Bottle Color Drama",
+    "upvote_ratio": 1.0,
+    "url": "https://www.reddit.com/r/blenderhelp/comments/1j80270/bottle_color_drama/"
+  },
+  {
+    "author_flair_text": null,
+    "created_utc": "2025-03-10 14:36:17 UTC",
+    "id": "1j8026y",
+    "link_flair_text": null,
+    "media": null,
+    "num_comments": 0,
+    "score": 1,
+    "secure_media": null,
+    "selftext": "Text post body",
+    "subreddit": "automationContentCom",
+    "title": "Text post title 221",
+    "upvote_ratio": 1.0,
+    "url": "https://www.reddit.com/r/automationContentCom/comments/1j8026y/text_post_title_221/"
+  },
+  {
+    "author_flair_text": null,
+    "created_utc": "2025-03-10 14:36:17 UTC",
+    "id": "1j8026x",
+    "link_flair_text": "Question",
+    "media": null,
+    "num_comments": 0,
+    "score": 1,
+    "secure_media": null,
+    "selftext": "I will be separating my service in about 2 years. I am looking to start documenting my medical conditions by visiting health providers.\n\nI live in the Colorado Springs area, my current duty stations clinic is almost always full, and the next available appointment typically has me waiting a month to be seen. How do I go about getting seen more often to document my conditions?",
+    "subreddit": "VAClaims",
+    "title": "Active Duty looking to start documenting medical conditions.",
+    "upvote_ratio": 1.0,
+    "url": "https://www.reddit.com/r/VAClaims/comments/1j8026x/active_duty_looking_to_start_documenting_medical/"
+  },
+  {
+    "author_flair_text": null,
+    "created_utc": "2025-03-10 14:36:17 UTC",
+    "id": "1j8026u",
+    "link_flair_text": "FOR HIRE - 2D Art | Animation",
+    "media": null,
+    "num_comments": 0,
+    "preview": {
+      "enabled": true,
+      "images": [
+        {
+          "id": "H0g79X133TEDhi1SXVtG-c9ezSX5MTKJF3H1nAbicCk",
+          "resolutions": [
+            {
+              "height": 61,
+              "url": "https://preview.redd.it/mfabeg4mivne1.png?width=108&amp;crop=smart&amp;auto=webp&amp;s=69ad3f7fb3e0589ff2d016ff7d45030d560599e2",
+              "width": 108
+            },
+            {
+              "height": 123,
+              "url": "https://preview.redd.it/mfabeg4mivne1.png?width=216&amp;crop=smart&amp;auto=webp&amp;s=ec4c17c82644d301dd016afa8fb631cebf395ed2",
+              "width": 216
+            },
+            {
+              "height": 183,
+              "url": "https://preview.redd.it/mfabeg4mivne1.png?width=320&amp;crop=smart&amp;auto=webp&amp;s=bd2ba8f9367f9a03f6854ae11c151feb180d14e9",
+              "width": 320
+            },
+            {
+              "height": 366,
+              "url": "https://preview.redd.it/mfabeg4mivne1.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=b6a84fc50d1e93c212817d61a7dfc3140706f410",
+              "width": 640
+            },
+            {
+              "height": 550,
+              "url": "https://preview.redd.it/mfabeg4mivne1.png?width=960&amp;crop=smart&amp;auto=webp&amp;s=cdb94a675bda0fba978834386cae4e0d9b395764",
+              "width": 960
+            },
+            {
+              "height": 618,
+              "url": "https://preview.redd.it/mfabeg4mivne1.png?width=1080&amp;crop=smart&amp;auto=webp&amp;s=dc450df4c6432d20242ec24724c1f8fd16a48f91",
+              "width": 1080
+            }
+          ],
+          "source": {
+            "height": 706,
+            "url": "https://preview.redd.it/mfabeg4mivne1.png?auto=webp&amp;s=20438733616f9101fe270fbdb935b13fb2ddecc6",
+            "width": 1232
+          },
+          "variants": {}
+        }
+      ]
+    },
+    "score": 1,
+    "secure_media": null,
+    "selftext": "",
+    "subreddit": "gameDevJobs",
+    "title": "[FOR HIRE] 2D artist for Game Capsules.",
+    "upvote_ratio": 1.0,
+    "url": "https://i.redd.it/mfabeg4mivne1.png",
+    "url_overridden_by_dest": "https://i.redd.it/mfabeg4mivne1.png"
+  },
+  {
+    "author_flair_text": null,
+    "created_utc": "2025-03-10 14:36:17 UTC",
+    "id": "1j8026t",
+    "link_flair_text": null,
+    "media": null,
+    "num_comments": 0,
+    "preview": {
+      "enabled": false,
+      "images": [
+        {
+          "id": "auD4E09-6lxyryinGMt5VrZJPaq8Us5mxzX8zPBuM8Q",
+          "resolutions": [
+            {
+              "height": 108,
+              "url": "https://external-preview.redd.it/1fwML8Z0QY4glBguPNu6iI9XDpJkmarl7cqQI1B0hwY.jpg?width=108&amp;crop=smart&amp;auto=webp&amp;s=8315cffa2ab425ddfc40d6df9b3db249f682614a",
+              "width": 108
+            },
+            {
+              "height": 216,
+              "url": "https://external-preview.redd.it/1fwML8Z0QY4glBguPNu6iI9XDpJkmarl7cqQI1B0hwY.jpg?width=216&amp;crop=smart&amp;auto=webp&amp;s=5beddb55048edeca9814e3e89250823c4a3fc55f",
+              "width": 216
+            },
+            {
+              "height": 320,
+              "url": "https://external-preview.redd.it/1fwML8Z0QY4glBguPNu6iI9XDpJkmarl7cqQI1B0hwY.jpg?width=320&amp;crop=smart&amp;auto=webp&amp;s=761a9208d3fbb5aa83de42f6c489eca35e9bae31",
+              "width": 320
+            },
+            {
+              "height": 640,
+              "url": "https://external-preview.redd.it/1fwML8Z0QY4glBguPNu6iI9XDpJkmarl7cqQI1B0hwY.jpg?width=640&amp;crop=smart&amp;auto=webp&amp;s=0ad63c31f4f697f94fceb8b5a3a1630ed283aa2c",
+              "width": 640
+            },
+            {
+              "height": 960,
+              "url": "https://external-preview.redd.it/1fwML8Z0QY4glBguPNu6iI9XDpJkmarl7cqQI1B0hwY.jpg?width=960&amp;crop=smart&amp;auto=webp&amp;s=ad866d5a48357701f9ac626a9dae0f43712ce0ae",
+              "width": 960
+            }
+          ],
+          "source": {
+            "height": 1000,
+            "url": "https://external-preview.redd.it/1fwML8Z0QY4glBguPNu6iI9XDpJkmarl7cqQI1B0hwY.jpg?auto=webp&amp;s=8448f5e45d2802704d20d86b7e2c5411427d71d2",
+            "width": 1000
+          },
+          "variants": {}
+        }
+      ]
+    },
+    "score": 1,
+    "secure_media": null,
+    "selftext": "European warehouse\r\n\r\nHere is the link (Banggood): [BOGIST M5 PRO-S Electric Scooter with Seat 48V 13Ah 500W 12inch [EU]](https://www.banggood.com/EU-Direct-BOGIST-M5-PRO-S-Electric-Scooter-with-Seat-48V-13AH-Battery-500W-Motor-12inch-Pneumatic-Tires-35KM-Max-Mileage-120KG-Max-Load-Folding-E-Scooter-p-2015520.html?ID=6297321&amp;cur_warehouse=CZ&amp;p=H320105094792201606N)\r\n\r\nBest price with coupon code (apply in the cart!): BG60c507\r\n\r\n\r\nCurrent price is 419.63 USD. The lowest price in my database is 421.91 USD.There're already 4 records in DB. Price monitoring since 18.6.2024! \r\n\r\nThis post may be old (if you're here from Google), so just go here to get currently active coupons (and price alerts :)) for BOGIST M5 PRO-S Electric Scooter with Seat 48V 13Ah 500W 12inch: https://couponsfromchina.com/bogist-m5-pro-s-electric-scooter-with-seat-48v-13ah-500w-12inch-eu-discount-price/\r\n\r\nI hope it's useful for you!\r\n\r\nGood deal with nice discount.\r\n\r\nImage: https://i.imgur.com/fdwhotW.jpeg",
+    "subreddit": "xiaomi_discount",
+    "title": "BOGIST M5 PRO-S Electric Scooter with Seat 48V 13Ah 500W 12inch [EU] for 419.63 USD with coupon (Best price in history: 421.91 USD) [EUROPE]",
+    "upvote_ratio": 1.0,
+    "url": "https://www.reddit.com/r/xiaomi_discount/comments/1j8026t/bogist_m5_pros_electric_scooter_with_seat_48v/"
+  },
+  {
+    "author_flair_text": null,
+    "created_utc": "2025-03-10 14:36:16 UTC",
+    "id": "1j8026o",
+    "link_flair_text": null,
+    "media": null,
+    "num_comments": 0,
+    "preview": {
+      "enabled": true,
+      "images": [
+        {
+          "id": "G3T4hjIQDvmwYUjL18MZ1tdp8s31dKYew110XGTbdGU",
+          "resolutions": [
+            {
+              "height": 108,
+              "url": "https://preview.redd.it/nv05cw0livne1.jpeg?width=108&amp;crop=smart&amp;auto=webp&amp;s=b2557b54f69cef39aaa70697439570c83eb23de7",
+              "width": 108
+            },
+            {
+              "height": 216,
+              "url": "https://preview.redd.it/nv05cw0livne1.jpeg?width=216&amp;crop=smart&amp;auto=webp&amp;s=e8eb537f2a1f52b6c4e9f6828eab135cfbd38d35",
+              "width": 216
+            },
+            {
+              "height": 320,
+              "url": "https://preview.redd.it/nv05cw0livne1.jpeg?width=320&amp;crop=smart&amp;auto=webp&amp;s=37aaf57fb991871f682210d7a2c117c1a8b9ebbb",
+              "width": 320
+            },
+            {
+              "height": 640,
+              "url": "https://preview.redd.it/nv05cw0livne1.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=b1472898400a40829301f6fe090d7d8c24f5041d",
+              "width": 640
+            },
+            {
+              "height": 960,
+              "url": "https://preview.redd.it/nv05cw0livne1.jpeg?width=960&amp;crop=smart&amp;auto=webp&amp;s=29483c13fe51549d3c9c767e75cf6a3ffe4ffeec",
+              "width": 960
+            },
+            {
+              "height": 1080,
+              "url": "https://preview.redd.it/nv05cw0livne1.jpeg?width=1080&amp;crop=smart&amp;auto=webp&amp;s=16940762cd518af6fd388a0c431d72ef7ed317de",
+              "width": 1080
+            }
+          ],
+          "source": {
+            "height": 1080,
+            "url": "https://preview.redd.it/nv05cw0livne1.jpeg?auto=webp&amp;s=308037d293b232740b5321c7839d283218490c30",
+            "width": 1080
+          },
+          "variants": {}
+        }
+      ]
+    },
+    "score": 1,
+    "secure_media": null,
+    "selftext": "",
+    "subreddit": "AyaRetreats",
+    "title": "Join Us for NY Ayahuasca Retreat 35 mins from NYC",
+    "upvote_ratio": 1.0,
+    "url": "https://i.redd.it/nv05cw0livne1.jpeg",
+    "url_overridden_by_dest": "https://i.redd.it/nv05cw0livne1.jpeg"
+  },
+  {
+    "author_flair_text": "17",
+    "created_utc": "2025-03-10 14:36:16 UTC",
+    "id": "1j8026n",
+    "link_flair_text": "Discussion",
+    "media": null,
+    "num_comments": 1,
+    "score": 0,
+    "secure_media": null,
+    "selftext": "An image link would really help, but just an idea is fine IG",
+    "subreddit": "teenagers",
+    "title": "I need some funny ideas for what I should change my YouTube profile picture to just for April Fools day. (ME OR MY FACE NOT INCLUDED)",
+    "upvote_ratio": 0.5,
+    "url": "https://www.reddit.com/r/teenagers/comments/1j8026n/i_need_some_funny_ideas_for_what_i_should_change/"
+  },
+  {
+    "author_flair_text": "3,412,784 ground and pound",
+    "created_utc": "2025-03-10 14:36:16 UTC",
+    "id": "1j8026i",
+    "link_flair_text": "Fluff",
+    "media": null,
+    "num_comments": 0,
+    "score": 1,
+    "secure_media": null,
+    "selftext": "You can ult to other islands and even ride it if you time it right. As far as I know it's only ridable when fights start or finish and the fighters won't be affected by the wall. :/ Not helpful in any way but might as well have fun in the time between fights.  \n(Sorry for fps btw, I'm not at home pc)",
+    "subreddit": "TaliyahMains",
+    "title": "Quick and pointless reminder that this is a thing.",
+    "upvote_ratio": 1.0,
+    "url": "https://www.reddit.com/r/TaliyahMains/comments/1j8026i/quick_and_pointless_reminder_that_this_is_a_thing/"
+  },
+  {
+    "author_flair_text": null,
+    "created_utc": "2025-03-10 14:36:16 UTC",
+    "id": "1j8026h",
+    "link_flair_text": "DISCUSSION",
+    "media": null,
+    "num_comments": 0,
+    "score": 1,
+    "secure_media": null,
+    "selftext": "The market has been scary these past 2 weeks. I find myself watching OPTT every other day (and this sub) with my position.\n\nI've committed to buying a little more every time it drops drastically, like today at 0.45 now. I'm not saying you should through everything at this price, but I do think it's under valued here.\n\nThis company has been in business for 30+ years and there has been nothing but good news over the past 3 months. (especially recently).\n\nDon't quit when times are tough! Hang in here as long as you can and try to capture more. When the market stabilizes, OPTT could easily hit and stay at a dollar.",
+    "subreddit": "OceanPower",
+    "title": "Be Patient",
+    "upvote_ratio": 1.0,
+    "url": "https://www.reddit.com/r/OceanPower/comments/1j8026h/be_patient/"
+  },
+  {
+    "author_flair_text": null,
+    "created_utc": "2025-03-10 14:36:16 UTC",
+    "id": "1j8026g",
+    "link_flair_text": null,
+    "media": null,
+    "num_comments": 0,
+    "score": 1,
+    "secure_media": null,
+    "selftext": "Hey everyone!\n\nWe just hit 750 members, and I wanted to take a moment to say thank you to each of you for being part of this community. It\u2019s no secret that r/bluebell has been a bit of a sleepy corner of Reddit, but lately, there\u2019s been more activity, and it\u2019s been awesome to see. Whether you\u2019ve shared a flavor review, posted a photo of your latest pint, or just stopped by to see what\u2019s new, I appreciate you!\n\nLet\u2019s keep the momentum going! What\u2019s your favorite flavor of all time? What\u2019s a flavor you wish Blue Bell would create?\n\nHere\u2019s to the next 750!\n\n- Bourbonandbranch",
+    "subreddit": "bluebell",
+    "title": "750 members strong! Thank you, r/bluebell!",
+    "upvote_ratio": 1.0,
+    "url": "https://www.reddit.com/r/bluebell/comments/1j8026g/750_members_strong_thank_you_rbluebell/"
+  },
+  {
+    "author_flair_text": null,
+    "created_utc": "2025-03-10 14:36:16 UTC",
+    "id": "1j8026d",
+    "link_flair_text": null,
+    "media": null,
+    "num_comments": 0,
+    "score": 1,
+    "secure_media": null,
+    "selftext": "",
+    "subreddit": "CelebrytkiNSFW",
+    "title": "Ma\u0142gorzata G\u0142\u00f3wka (Camasutra)",
+    "upvote_ratio": 1.0,
+    "url": "https://www.reddit.com/gallery/1j8026d",
+    "url_overridden_by_dest": "https://www.reddit.com/gallery/1j8026d"
+  },
+  {
+    "author_flair_text": null,
+    "created_utc": "2025-03-10 14:36:15 UTC",
+    "id": "1j8026a",
+    "link_flair_text": "Karma Exchange",
+    "media": null,
+    "num_comments": 0,
+    "score": 1,
+    "secure_media": null,
+    "selftext": "",
+    "subreddit": "karmaassist",
+    "title": "Will dirty talk for upvotes",
+    "upvote_ratio": 1.0,
+    "url": "https://www.reddit.com/r/karmaassist/comments/1j8026a/will_dirty_talk_for_upvotes/"
+  },
+  {
+    "author_flair_text": null,
+    "created_utc": "2025-03-10 14:36:15 UTC",
+    "id": "1j80267",
+    "link_flair_text": "D\u00favida de Novato",
+    "media": null,
+    "num_comments": 0,
+    "score": 1,
+    "secure_media": null,
+    "selftext": "J\u00e1 vi muita gente falando que creatina \u00e9 bom at\u00e9 para quem n\u00e3o treina e tudo mais. Tomei por um m\u00eas e n\u00e3o senti muita diferen\u00e7a, mas na \u00e9poca eu treinava menos. Voc\u00eas j\u00e1 viram alguma diferen\u00e7a na pr\u00e1tica mesmo? Vale a pena gastar nosso precioso dinheiro com isso? (N\u00e3o tenho foco em ficar maromba, quero emagrecer uns quilos e ficar de boa com a sa\u00fade e meu corpo)",
+    "subreddit": "Maromba",
+    "title": "Vale a pena um ser humano comum gastar com creatina?",
+    "upvote_ratio": 1.0,
+    "url": "https://www.reddit.com/r/Maromba/comments/1j80267/vale_a_pena_um_ser_humano_comum_gastar_com/"
+  },
+  {
+    "author_flair_text": null,
+    "created_utc": "2025-03-10 14:36:14 UTC",
+    "id": "1j80262",
+    "link_flair_text": null,
+    "media": null,
+    "num_comments": 0,
+    "score": 1,
+    "secure_media": null,
+    "selftext": "Did you test for GBS? Why or why not?",
+    "subreddit": "homebirth",
+    "title": "GBS",
+    "upvote_ratio": 1.0,
+    "url": "https://www.reddit.com/r/homebirth/comments/1j80262/gbs/"
+  },
+  {
+    "author_flair_text": null,
+    "created_utc": "2025-03-10 14:36:14 UTC",
+    "id": "1j80260",
+    "link_flair_text": "\ud83c\udf08Rainbow Bridge\ud83c\udf08",
+    "media": null,
+    "num_comments": 0,
+    "score": 1,
+    "secure_media": null,
+    "selftext": "Happy Birthday my sweet Bailey. Today would have been your 19th. I cannot believe it\u2019s been almost 8 months since we had to say goodbye. I think about you everyday. I miss our chats and cuddles. I miss everything about you \ud83d\udc9c",
+    "subreddit": "torties",
+    "title": "Her first birthday since we lost her",
+    "upvote_ratio": 1.0,
+    "url": "https://www.reddit.com/gallery/1j80260",
+    "url_overridden_by_dest": "https://www.reddit.com/gallery/1j80260"
+  },
+  {
+    "author_flair_text": null,
+    "created_utc": "2025-03-10 14:36:14 UTC",
+    "id": "1j8025x",
+    "link_flair_text": null,
+    "media": null,
+    "num_comments": 0,
+    "score": 1,
+    "secure_media": null,
+    "selftext": "Hey guys, recently got my hair dyed at toni and guys and the colour is very pretty but my roots are orange???? I asked in the appointment if they could tone it, they did -nothing happened lol and I felt too nervous to say anything. Are there any toner products that would help make my roots a bit darker to blend into the rest of my hair. I have attached images, I don't know how well you can see but in persona they're about a shade lighter than my hair, whereas I want it a shade darker.",
+    "subreddit": "haircoloring",
+    "title": "Help me fix my orange roots",
+    "upvote_ratio": 1.0,
+    "url": "https://www.reddit.com/gallery/1j8025x",
+    "url_overridden_by_dest": "https://www.reddit.com/gallery/1j8025x"
+  },
+  {
+    "author_flair_text": null,
+    "created_utc": "2025-03-10 14:36:14 UTC",
+    "id": "1j8025v",
+    "link_flair_text": null,
+    "media": null,
+    "num_comments": 0,
+    "score": 1,
+    "secure_media": null,
+    "selftext": "I never watch the Hawks much but Trae Young has consistently been at the top of stat leaders since his 2nd season. He was hailed as Steph Curry 2.0 and has the stats and highlights but far fewer wins. His playoff run in 2021 seems like forever ago and he has been stuck in purgatory. \n\nThe Atlanta Hawks haven't made any moves to surround Trae Young with a good supporting cast other than Dejounte Murray who was also statistically good put didn't produce more wins. They're never in talks to acquire big free agents. With a talented player who can lead the NBA in scoring and assists you'd think they'd have more urgency to put a better supporting cast around him.\n\nIs Trae Young a stat chaser that doesn't play winning basketball or are the Hawks just a terrible franchise?",
+    "subreddit": "NBATalk",
+    "title": "Does Trae Young not play winning basketball or do the Hawks have a terrible front office?",
+    "upvote_ratio": 1.0,
+    "url": "https://www.reddit.com/r/NBATalk/comments/1j8025v/does_trae_young_not_play_winning_basketball_or_do/"
+  },
+  {
+    "author_flair_text": null,
+    "created_utc": "2025-03-10 14:36:14 UTC",
+    "id": "1j8025u",
+    "link_flair_text": "Academic",
+    "media": null,
+    "num_comments": 1,
+    "score": 1,
+    "secure_media": null,
+    "selftext": "Do you think oligarchy impacts US politics\n\nhttps://forms.office.com/e/wxjMzZJ4Tb\nThis is aimed at anyone who has an interest in politics in the US or has an opinion on musk x trump situations at the moment :) \n\nThank you!\n\nCompletely anonymous \n",
+    "subreddit": "SampleSize",
+    "title": "How does Oligarchy Impact politics in the US? (18+ UK and US Residents)",
+    "upvote_ratio": 1.0,
+    "url": "https://www.reddit.com/r/SampleSize/comments/1j8025u/how_does_oligarchy_impact_politics_in_the_us_18/"
+  },
+  {
+    "author_flair_text": "FC: &lt;unknown&gt; Trainer name: &lt;unknown&gt;",
+    "created_utc": "2025-03-10 14:36:14 UTC",
+    "id": "1j8025m",
+    "link_flair_text": "Hosting Legendary Raid",
+    "media": null,
+    "num_comments": 0,
+    "score": 1,
+    "secure_media": null,
+    "selftext": "593434595429",
+    "subreddit": "PokemonGoFriends",
+    "title": "ZAPADOS RAID 593434595429 NEXT FIVE MINS ADD ME UP! \ud83c\udf40\ud83c\udf40\ud83c\udf40\ud83c\udf40\ud83c\udf40",
+    "upvote_ratio": 1.0,
+    "url": "https://www.reddit.com/r/PokemonGoFriends/comments/1j8025m/zapados_raid_593434595429_next_five_mins_add_me_up/"
+  },
+  {
+    "author_flair_text": "Bot",
+    "created_utc": "2025-03-10 14:36:14 UTC",
+    "id": "1j8025k",
+    "link_flair_text": "Earthquake (3.5)",
+    "media": null,
+    "num_comments": 0,
+    "score": 1,
+    "secure_media": null,
+    "selftext": "&gt; \u2757 \ud83c\udf0d \u03a3\u03b5\u03b9\u03c3\u03bc\u03cc\u03c2! Earthquake! **3.5 Mgqm,** registered by GlobalQuake, 2025-03-10 14:35:39 UTC (daytime) on land, *Erythr\u00e9s, Nomarchia Dytikis Attikis, Attica, Greece* (38.27, 23.31) likely felt 50 km away (localhost:38002)\n\n^2025-03-10T14:36:13Z",
+    "subreddit": "EEW",
+    "title": "\ud83c\udf0d Greece: \u03a3\u03b5\u03b9\u03c3\u03bc\u03cc\u03c2 - Earthquake (3.5 Mgqm, at 14:35 UTC)",
+    "upvote_ratio": 1.0,
+    "url": "https://www.reddit.com/r/EEW/comments/1j8025k/greece_\u03c3\u03b5\u03b9\u03c3\u03bc\u03cc\u03c2_earthquake_35_mgqm_at_1435_utc/"
+  },
+  {
+    "author_flair_text": null,
+    "created_utc": "2025-03-10 14:36:13 UTC",
+    "id": "1j8025e",
+    "link_flair_text": null,
+    "media": null,
+    "num_comments": 0,
+    "preview": {
+      "enabled": false,
+      "images": [
+        {
+          "id": "0o4df8PfE4K_I1k1PJONvbH7ifiLVKycZPw1P7N0k94",
+          "resolutions": [
+            {
+              "height": 98,
+              "url": "https://external-preview.redd.it/jbdn4v4lt0LkgvlyolMvVPGnYx4jNIEuNC4S7enb6xw.jpg?width=108&amp;crop=smart&amp;auto=webp&amp;s=e3ae13681abaec317ffe69aea3d68ff7ba1081d1",
+              "width": 108
+            },
+            {
+              "height": 197,
+              "url": "https://external-preview.redd.it/jbdn4v4lt0LkgvlyolMvVPGnYx4jNIEuNC4S7enb6xw.jpg?width=216&amp;crop=smart&amp;auto=webp&amp;s=51f67370b07140c7eacd8ad367664863735718cf",
+              "width": 216
+            },
+            {
+              "height": 292,
+              "url": "https://external-preview.redd.it/jbdn4v4lt0LkgvlyolMvVPGnYx4jNIEuNC4S7enb6xw.jpg?width=320&amp;crop=smart&amp;auto=webp&amp;s=1e79435591c8a27069fddc68963136e820ab76ff",
+              "width": 320
+            },
+            {
+              "height": 584,
+              "url": "https://external-preview.redd.it/jbdn4v4lt0LkgvlyolMvVPGnYx4jNIEuNC4S7enb6xw.jpg?width=640&amp;crop=smart&amp;auto=webp&amp;s=d56e3c135f3455dac2c8e67333f5dea374e53a05",
+              "width": 640
+            },
+            {
+              "height": 876,
+              "url": "https://external-preview.redd.it/jbdn4v4lt0LkgvlyolMvVPGnYx4jNIEuNC4S7enb6xw.jpg?width=960&amp;crop=smart&amp;auto=webp&amp;s=797b9677e174f406ff63d33856db86825285c67b",
+              "width": 960
+            },
+            {
+              "height": 985,
+              "url": "https://external-preview.redd.it/jbdn4v4lt0LkgvlyolMvVPGnYx4jNIEuNC4S7enb6xw.jpg?width=1080&amp;crop=smart&amp;auto=webp&amp;s=c6f276d26c2cf575cec642f46d6258972e5c6145",
+              "width": 1080
+            }
+          ],
+          "source": {
+            "height": 2048,
+            "url": "https://external-preview.redd.it/jbdn4v4lt0LkgvlyolMvVPGnYx4jNIEuNC4S7enb6xw.jpg?auto=webp&amp;s=413a42155153ec7813babb3aa66c82edbc0f7d54",
+            "width": 2244
+          },
+          "variants": {}
+        }
+      ]
+    },
+    "score": 1,
+    "secure_media": null,
+    "selftext": "",
+    "subreddit": "automationContentCom",
+    "title": "Link post title 216",
+    "upvote_ratio": 1.0,
+    "url": "https://www.wikipedia.org/",
+    "url_overridden_by_dest": "https://www.wikipedia.org/"
+  },
+  {
+    "author_flair_text": null,
+    "created_utc": "2025-03-10 14:36:13 UTC",
+    "id": "1j8025d",
+    "link_flair_text": null,
+    "media": null,
+    "num_comments": 0,
+    "preview": {
+      "enabled": true,
+      "images": [
+        {
+          "id": "x5eRP7GSupzn9dgyDp3NwoyEyVeKJqCD4-3eYsQ8aHo",
+          "resolutions": [
+            {
+              "height": 130,
+              "url": "https://preview.redd.it/tk91mnemivne1.jpeg?width=108&amp;crop=smart&amp;auto=webp&amp;s=82507a77bf5cc04368d9559ddcc333ba5ef4580e",
+              "width": 108
+            },
+            {
+              "height": 261,
+              "url": "https://preview.redd.it/tk91mnemivne1.jpeg?width=216&amp;crop=smart&amp;auto=webp&amp;s=29add484b419af82d36d7db3a107ea1dc808e717",
+              "width": 216
+            },
+            {
+              "height": 387,
+              "url": "https://preview.redd.it/tk91mnemivne1.jpeg?width=320&amp;crop=smart&amp;auto=webp&amp;s=3360ceff2df80934a4177f7512404d3b3dc5e0f4",
+              "width": 320
+            },
+            {
+              "height": 774,
+              "url": "https://preview.redd.it/tk91mnemivne1.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=15bb42a3995373d04811ae5b3ae75db981c2eaea",
+              "width": 640
+            }
+          ],
+          "source": {
+            "height": 1001,
+            "url": "https://preview.redd.it/tk91mnemivne1.jpeg?auto=webp&amp;s=d9ffaf5a08facf773e26f42afa48a40d79d10ea1",
+            "width": 827
+          },
+          "variants": {}
+        }
+      ]
+    },
+    "score": 1,
+    "secure_media": null,
+    "selftext": "",
+    "subreddit": "LipPorn",
+    "title": "I think you might like to bite my piercing a little.",
+    "upvote_ratio": 1.0,
+    "url": "https://i.redd.it/tk91mnemivne1.jpeg",
+    "url_overridden_by_dest": "https://i.redd.it/tk91mnemivne1.jpeg"
+  },
+  {
+    "author_flair_text": "Level 40-49 :TeamValor:",
+    "created_utc": "2025-03-10 14:36:13 UTC",
+    "id": "1j8025c",
+    "link_flair_text": "Hosting Mega Raid",
+    "media": null,
+    "num_comments": 1,
+    "score": 1,
+    "secure_media": null,
+    "selftext": "",
+    "subreddit": "PokemonGoRaids",
+    "title": "Mega Lucario 0394 0390 6612 - add quick, inviting asap",
+    "upvote_ratio": 1.0,
+    "url": "https://www.reddit.com/r/PokemonGoRaids/comments/1j8025c/mega_lucario_0394_0390_6612_add_quick_inviting/"
+  },
+  {
+    "author_flair_text": null,
+    "created_utc": "2025-03-10 14:36:13 UTC",
+    "id": "1j8025b",
+    "link_flair_text": "Academic",
+    "media": null,
+    "num_comments": 1,
+    "preview": {
+      "enabled": false,
+      "images": [
+        {
+          "id": "5JAGTS8tzvJ9s3PdBiaadO7Ce60eHZ6QxllxMYP57oU",
+          "resolutions": [
+            {
+              "height": 56,
+              "url": "https://external-preview.redd.it/43BiAMZz8FCiqe1F5qV-Ko_crTphPmLkYvJClHWMFl8.jpg?width=108&amp;crop=smart&amp;auto=webp&amp;s=b9ce3677601517d70fe5ecee8c19837e7b2b031d",
+              "width": 108
+            },
+            {
+              "height": 113,
+              "url": "https://external-preview.redd.it/43BiAMZz8FCiqe1F5qV-Ko_crTphPmLkYvJClHWMFl8.jpg?width=216&amp;crop=smart&amp;auto=webp&amp;s=eb7a4150ff60c52c4d030098350acbd734b8b01e",
+              "width": 216
+            },
+            {
+              "height": 168,
+              "url": "https://external-preview.redd.it/43BiAMZz8FCiqe1F5qV-Ko_crTphPmLkYvJClHWMFl8.jpg?width=320&amp;crop=smart&amp;auto=webp&amp;s=287461d5bb18739110ef1deeaee7c03b29a4142a",
+              "width": 320
+            },
+            {
+              "height": 336,
+              "url": "https://external-preview.redd.it/43BiAMZz8FCiqe1F5qV-Ko_crTphPmLkYvJClHWMFl8.jpg?width=640&amp;crop=smart&amp;auto=webp&amp;s=e2f54f848673d2ca729dad255e6ca647459cb506",
+              "width": 640
+            },
+            {
+              "height": 504,
+              "url": "https://external-preview.redd.it/43BiAMZz8FCiqe1F5qV-Ko_crTphPmLkYvJClHWMFl8.jpg?width=960&amp;crop=smart&amp;auto=webp&amp;s=1113f2833952cb978e1db5725bed41c595f239cf",
+              "width": 960
+            },
+            {
+              "height": 567,
+              "url": "https://external-preview.redd.it/43BiAMZz8FCiqe1F5qV-Ko_crTphPmLkYvJClHWMFl8.jpg?width=1080&amp;crop=smart&amp;auto=webp&amp;s=20573457c3d057b3e0f02dd4a6fd96cf3b17c74d",
+              "width": 1080
+            }
+          ],
+          "source": {
+            "height": 630,
+            "url": "https://external-preview.redd.it/43BiAMZz8FCiqe1F5qV-Ko_crTphPmLkYvJClHWMFl8.jpg?auto=webp&amp;s=54614808af8fb3f4f1c9ea35ae3dc8db1b317da9",
+            "width": 1200
+          },
+          "variants": {}
+        }
+      ]
+    },
+    "score": 1,
+    "secure_media": null,
+    "selftext": "Should take no more than 5 minutes and responses are completely anonymous and greatly appreciated! If you take mine I\u2019ll take yours!!",
+    "subreddit": "SampleSize",
+    "title": "Survey for statistics class!(all respondents welcome! Academic purposes)",
+    "upvote_ratio": 1.0,
+    "url": "https://forms.gle/fQdf6zFUomZEbuYk8",
+    "url_overridden_by_dest": "https://forms.gle/fQdf6zFUomZEbuYk8"
+  },
+  {
+    "author_flair_text": null,
+    "created_utc": "2025-03-10 14:36:13 UTC",
+    "id": "1j80259",
+    "link_flair_text": "Non-OC Art",
+    "media": null,
+    "num_comments": 1,
+    "preview": {
+      "enabled": true,
+      "images": [
+        {
+          "id": "O5dFYZfYbhSHna4iBhMYuq0jgev9sHnzNxEJtZ5jPHA",
+          "resolutions": [
+            {
+              "height": 152,
+              "url": "https://external-preview.redd.it/zIlcw9xiN-eiPL56OREE48SA6j4VYA0oaj4md0Ca69s.jpg?width=108&amp;crop=smart&amp;auto=webp&amp;s=dd8494a4bc6f0924e607c7d7fa9208faa15cc550",
+              "width": 108
+            },
+            {
+              "height": 305,
+              "url": "https://external-preview.redd.it/zIlcw9xiN-eiPL56OREE48SA6j4VYA0oaj4md0Ca69s.jpg?width=216&amp;crop=smart&amp;auto=webp&amp;s=da8d6f8daf5f4706ed0b19df69d5d6cc588f5bbc",
+              "width": 216
+            },
+            {
+              "height": 452,
+              "url": "https://external-preview.redd.it/zIlcw9xiN-eiPL56OREE48SA6j4VYA0oaj4md0Ca69s.jpg?width=320&amp;crop=smart&amp;auto=webp&amp;s=db10e9c265db80a1489039ebf57c3301a8be63e6",
+              "width": 320
+            },
+            {
+              "height": 904,
+              "url": "https://external-preview.redd.it/zIlcw9xiN-eiPL56OREE48SA6j4VYA0oaj4md0Ca69s.jpg?width=640&amp;crop=smart&amp;auto=webp&amp;s=294dadf8bb619b6b9e34debe4f7c844a1297e3fa",
+              "width": 640
+            }
+          ],
+          "source": {
+            "height": 1200,
+            "url": "https://external-preview.redd.it/zIlcw9xiN-eiPL56OREE48SA6j4VYA0oaj4md0Ca69s.jpg?auto=webp&amp;s=c6c97ced21b83d8c79bf242958bd1c2302e061ed",
+            "width": 849
+          },
+          "variants": {}
+        }
+      ]
+    },
+    "score": 1,
+    "secure_media": null,
+    "selftext": "",
+    "subreddit": "ShenheMains",
+    "title": "\"Can you sit with me? It\u2019s been so long since we spent time together...\" (by \u306a\u3057\u3043\u3086)",
+    "upvote_ratio": 1.0,
+    "url": "https://i.pximg.net/img-master/img/2024/03/10/17/10/00/116795267_p0_master1200.jpg",
+    "url_overridden_by_dest": "https://i.pximg.net/img-master/img/2024/03/10/17/10/00/116795267_p0_master1200.jpg"
+  },
+  {
+    "author_flair_text": null,
+    "created_utc": "2025-03-10 14:36:13 UTC",
+    "id": "1j80258",
+    "link_flair_text": "Meme",
+    "media": null,
+    "num_comments": 1,
+    "preview": {
+      "enabled": true,
+      "images": [
+        {
+          "id": "A6wyAhY9nVdhqQU3SGpe1jQ5nmrxXoDSycJqHap0-LQ",
+          "resolutions": [
+            {
+              "height": 33,
+              "url": "https://preview.redd.it/c74jb7imivne1.jpeg?width=108&amp;crop=smart&amp;auto=webp&amp;s=1fcdabc83214c395ba706a0ddead4541c0d0266a",
+              "width": 108
+            },
+            {
+              "height": 67,
+              "url": "https://preview.redd.it/c74jb7imivne1.jpeg?width=216&amp;crop=smart&amp;auto=webp&amp;s=c6aeed026d64a9d59d0cf64c58481fa9a45e375e",
+              "width": 216
+            },
+            {
+              "height": 100,
+              "url": "https://preview.redd.it/c74jb7imivne1.jpeg?width=320&amp;crop=smart&amp;auto=webp&amp;s=4a94c5bedee35eebaa7729cfe0e5bb870ce16163",
+              "width": 320
+            },
+            {
+              "height": 200,
+              "url": "https://preview.redd.it/c74jb7imivne1.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=1cff6abc35d650df16d025f88ae7a0f672712c94",
+              "width": 640
+            },
+            {
+              "height": 300,
+              "url": "https://preview.redd.it/c74jb7imivne1.jpeg?width=960&amp;crop=smart&amp;auto=webp&amp;s=a2f1d76fd5d80339238458556a1c5ca7e038916d",
+              "width": 960
+            },
+            {
+              "height": 338,
+              "url": "https://preview.redd.it/c74jb7imivne1.jpeg?width=1080&amp;crop=smart&amp;auto=webp&amp;s=e3aa77303841d265c09ce950d7256df81d658809",
+              "width": 1080
+            }
+          ],
+          "source": {
+            "height": 369,
+            "url": "https://preview.redd.it/c74jb7imivne1.jpeg?auto=webp&amp;s=398bf12de1981ebe4506a18e12cdd2986293bbab",
+            "width": 1179
+          },
+          "variants": {}
+        }
+      ]
+    },
+    "score": 1,
+    "secure_media": null,
+    "selftext": "",
+    "subreddit": "wallstreetbets",
+    "title": "Why RDDT is down today\u2026",
+    "upvote_ratio": 1.0,
+    "url": "https://i.redd.it/c74jb7imivne1.jpeg",
+    "url_overridden_by_dest": "https://i.redd.it/c74jb7imivne1.jpeg"
+  },
+  {
+    "author_flair_text": null,
+    "created_utc": "2025-03-10 14:36:13 UTC",
+    "id": "1j80257",
+    "link_flair_text": null,
+    "media": null,
+    "num_comments": 0,
+    "score": 1,
+    "secure_media": null,
+    "selftext": "I don\u2019t typically carry expensive knives anyway, but lately I have had to leave two kershaw Cryos at security. (Airport and cavs game\u2026)\n\n$100 and an excuse to buy something new isn\u2019t the end of the world, but has anyone found a decent $10-$15 Amazon blade that doesn\u2019t completely suck?  \n\nI just want to have some options that can be taken at security, fall in a lake, be abused as a screwdriver, and not feel badly about\u2026",
+    "subreddit": "pocketknives",
+    "title": "Best \u201cdisposable\u201d folding knife?",
+    "upvote_ratio": 1.0,
+    "url": "https://www.reddit.com/r/pocketknives/comments/1j80257/best_disposable_folding_knife/"
+  },
+  {
+    "author_flair_text": "\u200e:bpantsdone: I'm 19 years old and I've already wasted my life.",
+    "created_utc": "2025-03-10 14:36:13 UTC",
+    "id": "1j80255",
+    "link_flair_text": "Found creation",
+    "media": null,
+    "num_comments": 1,
+    "preview": {
+      "enabled": true,
+      "images": [
+        {
+          "id": "tAcC2bEO480cv1VAG7wwgQNJavk4WN9g4r7yRlcvik4",
+          "resolutions": [
+            {
+              "height": 97,
+              "url": "https://preview.redd.it/puylyghmivne1.jpeg?width=108&amp;crop=smart&amp;auto=webp&amp;s=57b91a660877658f9f640ca92d51960b3c1751b1",
+              "width": 108
+            },
+            {
+              "height": 195,
+              "url": "https://preview.redd.it/puylyghmivne1.jpeg?width=216&amp;crop=smart&amp;auto=webp&amp;s=6907bedabc8e9691ca26633a2947c4ab13badc03",
+              "width": 216
+            },
+            {
+              "height": 289,
+              "url": "https://preview.redd.it/puylyghmivne1.jpeg?width=320&amp;crop=smart&amp;auto=webp&amp;s=1e78beb978e1957f46f12f6f771bc77085160054",
+              "width": 320
+            },
+            {
+              "height": 578,
+              "url": "https://preview.redd.it/puylyghmivne1.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=1da23903a298f5670db2ea41fc96243ab444110f",
+              "width": 640
+            },
+            {
+              "height": 867,
+              "url": "https://preview.redd.it/puylyghmivne1.jpeg?width=960&amp;crop=smart&amp;auto=webp&amp;s=bd20b893a083a84d23d9eeed96f51c46e3203119",
+              "width": 960
+            },
+            {
+              "height": 976,
+              "url": "https://preview.redd.it/puylyghmivne1.jpeg?width=1080&amp;crop=smart&amp;auto=webp&amp;s=56719c7dbb688204d08f852911561cc9868cb695",
+              "width": 1080
+            }
+          ],
+          "source": {
+            "height": 1157,
+            "url": "https://preview.redd.it/puylyghmivne1.jpeg?auto=webp&amp;s=2ddeb186fd3a98107b3e4285687d99d160afe3b1",
+            "width": 1280
+          },
+          "variants": {}
+        }
+      ]
+    },
+    "score": 1,
+    "secure_media": null,
+    "selftext": "",
+    "subreddit": "Undertale",
+    "title": "They went to a rock concert together (Art by birbyarts)",
+    "upvote_ratio": 1.0,
+    "url": "https://i.redd.it/puylyghmivne1.jpeg",
+    "url_overridden_by_dest": "https://i.redd.it/puylyghmivne1.jpeg"
+  },
+  {
+    "author_flair_text": null,
+    "created_utc": "2025-03-10 14:36:12 UTC",
+    "id": "1j80250",
+    "link_flair_text": null,
+    "media": null,
+    "num_comments": 0,
+    "preview": {
+      "enabled": true,
+      "images": [
+        {
+          "id": "h10sG1mW6QjDYrgIQElhyfPBlpDw90aZJxUqCQQ9M7Y",
+          "resolutions": [
+            {
+              "height": 60,
+              "url": "https://preview.redd.it/rlaccjfmivne1.jpeg?width=108&amp;crop=smart&amp;auto=webp&amp;s=16cea725db5dfcc76f6c6301217bc53890cb9dd3",
+              "width": 108
+            },
+            {
+              "height": 120,
+              "url": "https://preview.redd.it/rlaccjfmivne1.jpeg?width=216&amp;crop=smart&amp;auto=webp&amp;s=a208cdc34481ec07a55a5c8795abdc7e4cd12e8b",
+              "width": 216
+            },
+            {
+              "height": 177,
+              "url": "https://preview.redd.it/rlaccjfmivne1.jpeg?width=320&amp;crop=smart&amp;auto=webp&amp;s=d9a5fc365ada800b4afd19a531560e289cc587f4",
+              "width": 320
+            },
+            {
+              "height": 355,
+              "url": "https://preview.redd.it/rlaccjfmivne1.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=b5f4721d3f82916cbfb85fa7fe1a3396e2749083",
+              "width": 640
+            },
+            {
+              "height": 533,
+              "url": "https://preview.redd.it/rlaccjfmivne1.jpeg?width=960&amp;crop=smart&amp;auto=webp&amp;s=ec10a6594caef0da6dec8e651019ecd9b73cb7b4",
+              "width": 960
+            },
+            {
+              "height": 600,
+              "url": "https://preview.redd.it/rlaccjfmivne1.jpeg?width=1080&amp;crop=smart&amp;auto=webp&amp;s=994300896c206cd02114d6e6cf65fadd8ec15aed",
+              "width": 1080
+            }
+          ],
+          "source": {
+            "height": 714,
+            "url": "https://preview.redd.it/rlaccjfmivne1.jpeg?auto=webp&amp;s=0ca9378e152d6b70df528a22ab584c8734485507",
+            "width": 1284
+          },
+          "variants": {}
+        }
+      ]
+    },
+    "score": 1,
+    "secure_media": null,
+    "selftext": "The iwc would've been out for blood if Nia Jax did this",
+    "subreddit": "Wrasslin",
+    "title": "Why aren't yall crucifying Adam Page the same way yall are doing too Travis Scott",
+    "upvote_ratio": 1.0,
+    "url": "https://i.redd.it/rlaccjfmivne1.jpeg",
+    "url_overridden_by_dest": "https://i.redd.it/rlaccjfmivne1.jpeg"
+  },
+  {
+    "author_flair_text": null,
+    "created_utc": "2025-03-10 14:36:12 UTC",
+    "id": "1j8024w",
+    "link_flair_text": "AskNagpur",
+    "media": null,
+    "num_comments": 0,
+    "score": 1,
+    "secure_media": null,
+    "selftext": "Went to a Jockey outlet today to grab some underwear. Place was pretty empty and I was already being helped by male staff. Cool. But then, I noticed like, female staff just... standing there, listening to the whole underwear material convo. It felt super awkward!\n\nLike, I get it, they work there. But why are they so involved in a men's underwear discussion? It kinda felt like my privacy was being ignored. I've noticed this in mall changing rooms too \u2013 women hanging around the men's section. You rarely see male in the women's area.\n\nIs it just me, or is men's privacy just not a thing? Anyone else experience this?\n\nAnd at last I just want to say to female : Men have privacy too. We also feel awkward around women in our changing areas. Please try to stay out near men's changing rooms \ud83d\ude4f",
+    "subreddit": "nagpur",
+    "title": "Jockey kii chaddi and men\u2019s privacy",
+    "upvote_ratio": 1.0,
+    "url": "https://www.reddit.com/r/nagpur/comments/1j8024w/jockey_kii_chaddi_and_mens_privacy/"
+  },
+  {
+    "author_flair_text": null,
+    "created_utc": "2025-03-10 14:36:12 UTC",
+    "id": "1j8024u",
+    "link_flair_text": "Discussion",
+    "media": null,
+    "num_comments": 0,
+    "score": 1,
+    "secure_media": null,
+    "selftext": "C1 had an emotional episode for it's 69th episode, and I thought C2 will have a good goody one. Well it started off like that, it even went for 2 hours like that, but when they couldn't hit the bad guy for 2 entire turns, I guessed it was gonna be bad.\n\nIt was so much worse than what I could have anticipated, when Liam mentioned that this is a fight where characters die, I fucking felt it, because it was already going very bad and the fight had just started. I knew they have to kill/capture the friend (and if they kill it, it'll just come back), and lock the soldier of a betrayer fucking god in there and run but everything went to shit as soon as the friend died.\n\nI loved the contrast between Liam playing the bad guy and Ashley playing one. Liam was fucking giddy the whole time he was PvP -ing, but Ashley was torn and devestated to turn against her friends like that. Nott, Fjord, and Jester doing sweet things didn't help it either. She was a mess the whole fight.\n\n Also, Matt going \"the creature is not willing\" as a reply to Fjord trying to thunder step Yasha out is so fucking cold. I loved the mood shifting from excitement to horror as they realise not only Fjord will be going alone, but Yasha will be taking damage as well. \n\nI'm unsure if Matt will turn Yasha into a badguy for the rest of the campaign (because it looked like Ashley was not going to be there for a bit) and Ashley will have to roll a new character or if the team is going to save Yasha. I'm very excited to find out tho. \n\n  \nPS: I noticed Matt being an unintentional asshole in this episode as well (asking for Yasha's wisdom saving throw when she was locked), and I'm really amazed how often he can be that. It's like at least once every few episodes.",
+    "subreddit": "criticalrole",
+    "title": "[Spoilers C2E69] That was an interesting episode",
+    "upvote_ratio": 1.0,
+    "url": "https://www.reddit.com/r/criticalrole/comments/1j8024u/spoilers_c2e69_that_was_an_interesting_episode/"
+  },
+  {
+    "author_flair_text": null,
+    "created_utc": "2025-03-10 14:36:12 UTC",
+    "id": "1j8024t",
+    "link_flair_text": null,
+    "media": null,
+    "num_comments": 0,
+    "score": 1,
+    "secure_media": null,
+    "selftext": "Hey, I'm a complete newbie to this topic, so I'm asking. What's the difference between this version of Linux and Ubuntu? Is it properly prepared for the start or do I need to tinker with it a lot?",
+    "subreddit": "EndeavourOS",
+    "title": "I have question",
+    "upvote_ratio": 1.0,
+    "url": "https://www.reddit.com/r/EndeavourOS/comments/1j8024t/i_have_question/"
+  },
+  {
+    "author_flair_text": null,
+    "created_utc": "2025-03-10 14:36:12 UTC",
+    "id": "1j8024q",
+    "link_flair_text": "I Miss Natter #NatterIsLoveNatterIsLife",
+    "media": null,
+    "num_comments": 1,
+    "preview": {
+      "enabled": true,
+      "images": [
+        {
+          "id": "zaW5D7i5gapuGZDx3an8OPnN1G75IxaJhiCOZC0Z72A",
+          "resolutions": [
+            {
+              "height": 134,
+              "url": "https://preview.redd.it/aubkybcmivne1.jpeg?width=108&amp;crop=smart&amp;auto=webp&amp;s=f19c38fa195ade1b9b319b69ced1ff31a7bbc60a",
+              "width": 108
+            },
+            {
+              "height": 269,
+              "url": "https://preview.redd.it/aubkybcmivne1.jpeg?width=216&amp;crop=smart&amp;auto=webp&amp;s=efd9e342a3bf693b1f1f9cb934f6cbba65bc6a5b",
+              "width": 216
+            },
+            {
+              "height": 399,
+              "url": "https://preview.redd.it/aubkybcmivne1.jpeg?width=320&amp;crop=smart&amp;auto=webp&amp;s=0a52b8e5d83436c18df1929a8ad0af6535c7a3b7",
+              "width": 320
+            },
+            {
+              "height": 799,
+              "url": "https://preview.redd.it/aubkybcmivne1.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=b4c2f3aa448272b180e56ba945d91cf33620f152",
+              "width": 640
+            },
+            {
+              "height": 1199,
+              "url": "https://preview.redd.it/aubkybcmivne1.jpeg?width=960&amp;crop=smart&amp;auto=webp&amp;s=dfdf94071d82859dc72b4a37da46ddb04a7f1c0a",
+              "width": 960
+            },
+            {
+              "height": 1349,
+              "url": "https://preview.redd.it/aubkybcmivne1.jpeg?width=1080&amp;crop=smart&amp;auto=webp&amp;s=004489448958739cf5a8bb15c5f73ee36f6a4d9c",
+              "width": 1080
+            }
+          ],
+          "source": {
+            "height": 1649,
+            "url": "https://preview.redd.it/aubkybcmivne1.jpeg?auto=webp&amp;s=bdb6ca7d1f9743e18a4a71f40174e5cc3e6e5d03",
+            "width": 1320
+          },
+          "variants": {}
+        }
+      ]
+    },
+    "score": 1,
+    "secure_media": null,
+    "selftext": "",
+    "subreddit": "shitposting",
+    "title": "Sedan Hussain",
+    "upvote_ratio": 1.0,
+    "url": "https://i.redd.it/aubkybcmivne1.jpeg",
+    "url_overridden_by_dest": "https://i.redd.it/aubkybcmivne1.jpeg"
+  },
+  {
+    "author_flair_text": null,
+    "created_utc": "2025-03-10 14:36:12 UTC",
+    "id": "1j8024p",
+    "link_flair_text": null,
+    "media": null,
+    "num_comments": 0,
+    "preview": {
+      "enabled": true,
+      "images": [
+        {
+          "id": "gU82aq2B4APEFntWZeWMoI8FNTeC8vZD7XsX1OtVb_0",
+          "resolutions": [
+            {
+              "height": 81,
+              "url": "https://preview.redd.it/u8mfv4cmivne1.jpeg?width=108&amp;crop=smart&amp;auto=webp&amp;s=fc9b9803302cf7a7ad02dd55d01ad6a322eb9118",
+              "width": 108
+            },
+            {
+              "height": 162,
+              "url": "https://preview.redd.it/u8mfv4cmivne1.jpeg?width=216&amp;crop=smart&amp;auto=webp&amp;s=bf1d7a212207d8d6054d84aab00674132705445c",
+              "width": 216
+            },
+            {
+              "height": 240,
+              "url": "https://preview.redd.it/u8mfv4cmivne1.jpeg?width=320&amp;crop=smart&amp;auto=webp&amp;s=87fe54b5b8300112e9b496f775dbe93b0f3ecadf",
+              "width": 320
+            },
+            {
+              "height": 480,
+              "url": "https://preview.redd.it/u8mfv4cmivne1.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=0cf22c69cc84c149792b32945d29bdc7df4a084f",
+              "width": 640
+            },
+            {
+              "height": 720,
+              "url": "https://preview.redd.it/u8mfv4cmivne1.jpeg?width=960&amp;crop=smart&amp;auto=webp&amp;s=59e65f6a41e0d10ff78e986248f1c9a73a87dacf",
+              "width": 960
+            },
+            {
+              "height": 810,
+              "url": "https://preview.redd.it/u8mfv4cmivne1.jpeg?width=1080&amp;crop=smart&amp;auto=webp&amp;s=abcb4dc6cbbd6c9352d7cca73dcb8d07eb07083c",
+              "width": 1080
+            }
+          ],
+          "source": {
+            "height": 3024,
+            "url": "https://preview.redd.it/u8mfv4cmivne1.jpeg?auto=webp&amp;s=970176df0f8c930d564ea148f0259d3acc357aa4",
+            "width": 4032
+          },
+          "variants": {}
+        }
+      ]
+    },
+    "score": 1,
+    "secure_media": null,
+    "selftext": "N\u00e3o sei se esse sub \u00e9 o melhor lugar pra perguntar, mas nao achei outro.\n\nTenho dois ventiladores de teto da marca Aliseu. Esse controlador esquenta bastante (nessa area amarelada) e as luzes come\u00e7am a piscar. Pra evitar isso, tenho que deixar ele desligado no interruptor (controle remoto n\u00e3o funciona) ou sempre usar com o ventilador ligado.\n\nMinha principal duvida \u00e9: Se eu comprar aqueles controles universais de 70 reais e colocar no lugar desse controle que custa 350 reais o original, vai funcionar?\n\nOu, alguem tem ideia do que pode ser o problema?",
+    "subreddit": "Gambiarra",
+    "title": "Ajuda com ventilador de teto",
+    "upvote_ratio": 1.0,
+    "url": "https://i.redd.it/u8mfv4cmivne1.jpeg",
+    "url_overridden_by_dest": "https://i.redd.it/u8mfv4cmivne1.jpeg"
+  },
+  {
+    "author_flair_text": null,
+    "created_utc": "2025-03-10 14:36:12 UTC",
+    "id": "1j8024o",
+    "link_flair_text": "Selling",
+    "media": null,
+    "num_comments": 1,
+    "score": 1,
+    "secure_media": null,
+    "selftext": "Dm me for tickets ",
+    "subreddit": "Tickets",
+    "title": "RCB UNBOXING EVENT TICKETS AVAILABLE",
+    "upvote_ratio": 1.0,
+    "url": "https://www.reddit.com/r/Tickets/comments/1j8024o/rcb_unboxing_event_tickets_available/"
+  },
+  {
+    "author_flair_text": null,
+    "created_utc": "2025-03-10 14:36:12 UTC",
+    "id": "1j8024l",
+    "link_flair_text": null,
+    "media": {
+      "oembed": {
+        "author_name": "3D Modeling Free Tutorials Autodesk Inventor ",
+        "author_url": "https://www.youtube.com/@3D-Modeling-Inventor",
+        "height": 200,
+        "html": "&lt;iframe width=\"356\" height=\"200\" src=\"https://www.youtube.com/embed/1Z1VS78wfhE?feature=oembed&amp;enablejsapi=1\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen title=\"How to make Autodesk Inventor Basic Tutorial | New and Improved! Make it Free!\"&gt;&lt;/iframe&gt;",
+        "provider_name": "YouTube",
+        "provider_url": "https://www.youtube.com/",
+        "thumbnail_height": 360,
+        "thumbnail_url": "https://i.ytimg.com/vi/1Z1VS78wfhE/hqdefault.jpg",
+        "thumbnail_width": 480,
+        "title": "How to make Autodesk Inventor Basic Tutorial | New and Improved! Make it Free!",
+        "type": "video",
+        "version": "1.0",
+        "width": 356
+      },
+      "type": "youtube.com"
+    },
+    "num_comments": 0,
+    "preview": {
+      "enabled": false,
+      "images": [
+        {
+          "id": "Xn6wFuAD6VODkc3gp-EVgyKkr8dFhuUgiIuzeWjZR0w",
+          "resolutions": [
+            {
+              "height": 81,
+              "url": "https://external-preview.redd.it/PSTfGaTzlFmuCYCEYFfowcayMsRIQWNSOQdgwMjWDSI.jpg?width=108&amp;crop=smart&amp;auto=webp&amp;s=7eeb00aef60d018ee6e019fed18a8a701124683c",
+              "width": 108
+            },
+            {
+              "height": 162,
+              "url": "https://external-preview.redd.it/PSTfGaTzlFmuCYCEYFfowcayMsRIQWNSOQdgwMjWDSI.jpg?width=216&amp;crop=smart&amp;auto=webp&amp;s=4432db8205c5b4f84b578a659b4f9e22a0b11797",
+              "width": 216
+            },
+            {
+              "height": 240,
+              "url": "https://external-preview.redd.it/PSTfGaTzlFmuCYCEYFfowcayMsRIQWNSOQdgwMjWDSI.jpg?width=320&amp;crop=smart&amp;auto=webp&amp;s=993a881bef9b90a38ab19b5fa1195c78ffbdd3f8",
+              "width": 320
+            }
+          ],
+          "source": {
+            "height": 360,
+            "url": "https://external-preview.redd.it/PSTfGaTzlFmuCYCEYFfowcayMsRIQWNSOQdgwMjWDSI.jpg?auto=webp&amp;s=43d09fce9d96980d607fb74cd5ed9701ec9a8642",
+            "width": 480
+          },
+          "variants": {}
+        }
+      ]
+    },
+    "score": 1,
+    "secure_media": {
+      "oembed": {
+        "author_name": "3D Modeling Free Tutorials Autodesk Inventor ",
+        "author_url": "https://www.youtube.com/@3D-Modeling-Inventor",
+        "height": 200,
+        "html": "&lt;iframe width=\"356\" height=\"200\" src=\"https://www.youtube.com/embed/1Z1VS78wfhE?feature=oembed&amp;enablejsapi=1\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen title=\"How to make Autodesk Inventor Basic Tutorial | New and Improved! Make it Free!\"&gt;&lt;/iframe&gt;",
+        "provider_name": "YouTube",
+        "provider_url": "https://www.youtube.com/",
+        "thumbnail_height": 360,
+        "thumbnail_url": "https://i.ytimg.com/vi/1Z1VS78wfhE/hqdefault.jpg",
+        "thumbnail_width": 480,
+        "title": "How to make Autodesk Inventor Basic Tutorial | New and Improved! Make it Free!",
+        "type": "video",
+        "version": "1.0",
+        "width": 356
+      },
+      "type": "youtube.com"
+    },
+    "selftext": "",
+    "subreddit": "FreeCAD",
+    "title": "Autodesk Inventor tutorial",
+    "upvote_ratio": 1.0,
+    "url": "https://youtu.be/1Z1VS78wfhE",
+    "url_overridden_by_dest": "https://youtu.be/1Z1VS78wfhE"
+  },
+  {
+    "author_flair_text": "10th ICSE",
+    "created_utc": "2025-03-10 14:36:12 UTC",
+    "id": "1j8024k",
+    "link_flair_text": "Rant",
+    "media": null,
+    "num_comments": 0,
+    "preview": {
+      "enabled": true,
+      "images": [
+        {
+          "id": "wnqcK-s8GFnc9v9c2dDbeYJo_WyDJidvaAtqFMA8Mx4",
+          "resolutions": [
+            {
+              "height": 64,
+              "url": "https://preview.redd.it/pqsbrp8mivne1.jpeg?width=108&amp;crop=smart&amp;auto=webp&amp;s=a8d89b4586e88da73341c88fd595d5a30ca9e3e1",
+              "width": 108
+            },
+            {
+              "height": 128,
+              "url": "https://preview.redd.it/pqsbrp8mivne1.jpeg?width=216&amp;crop=smart&amp;auto=webp&amp;s=aa7d06a41abdd31d77fd04cc4494aed2cf3b812d",
+              "width": 216
+            },
+            {
+              "height": 190,
+              "url": "https://preview.redd.it/pqsbrp8mivne1.jpeg?width=320&amp;crop=smart&amp;auto=webp&amp;s=dc62826696f136d60c812ca418d4b96ee10d61cc",
+              "width": 320
+            },
+            {
+              "height": 380,
+              "url": "https://preview.redd.it/pqsbrp8mivne1.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=ccce4475c5dabf0910a2a9174867c134405af53d",
+              "width": 640
+            }
+          ],
+          "source": {
+            "height": 385,
+            "url": "https://preview.redd.it/pqsbrp8mivne1.jpeg?auto=webp&amp;s=73d90d2adda81feec873d0bfd312213ba124fabd",
+            "width": 648
+          },
+          "variants": {}
+        }
+      ]
+    },
+    "score": 1,
+    "secure_media": null,
+    "selftext": "",
+    "subreddit": "ICSE",
+    "title": "How Am I supposed to Study this Chapter? \ud83d\ude2d",
+    "upvote_ratio": 1.0,
+    "url": "https://i.redd.it/pqsbrp8mivne1.jpeg",
+    "url_overridden_by_dest": "https://i.redd.it/pqsbrp8mivne1.jpeg"
+  },
+  {
+    "author_flair_text": null,
+    "created_utc": "2025-03-10 14:36:12 UTC",
+    "id": "1j8024j",
+    "link_flair_text": null,
+    "media": {
+      "reddit_video": {
+        "bitrate_kbps": 2400,
+        "dash_url": "https://v.redd.it/jao6k7cmivne1/DASHPlaylist.mpd?a=1744209449%2CNTljYTFlOTNjZjQ3MmViZTA3ZWM0YjI3ODA1MDQ3OTQ0NzZiZTc1NjJhMzZiYWJhYmNhMjQ1ZWJmMzYxNDM4YQ%3D%3D&amp;v=1&amp;f=sd",
+        "duration": 30,
+        "fallback_url": "https://v.redd.it/jao6k7cmivne1/DASH_720.mp4?source=fallback",
+        "has_audio": true,
+        "height": 720,
+        "hls_url": "https://v.redd.it/jao6k7cmivne1/HLSPlaylist.m3u8?a=1744209449%2CYjQ1MDlhYzFlOTNmZGFiMjc0NzliNjllNDQ3N2M0ODRhYzI5YjQ5OWI4NTkwYTY4YmRjNjZhNWI2YzM4NTFmMA%3D%3D&amp;v=1&amp;f=sd",
+        "is_gif": false,
+        "scrubber_media_url": "https://v.redd.it/jao6k7cmivne1/DASH_96.mp4",
+        "transcoding_status": "completed",
+        "width": 1280
+      }
+    },
+    "num_comments": 0,
+    "preview": {
+      "enabled": false,
+      "images": [
+        {
+          "id": "enVyMnkyY21pdm5lMVCP_xYnqYsLewtk8yO0ilJIHFjUstPh8xPBICqLEBK_",
+          "resolutions": [
+            {
+              "height": 60,
+              "url": "https://external-preview.redd.it/enVyMnkyY21pdm5lMVCP_xYnqYsLewtk8yO0ilJIHFjUstPh8xPBICqLEBK_.png?width=108&amp;crop=smart&amp;format=pjpg&amp;auto=webp&amp;s=a777abf5219ac2304b0e8f863ed814d0db1b6973",
+              "width": 108
+            },
+            {
+              "height": 121,
+              "url": "https://external-preview.redd.it/enVyMnkyY21pdm5lMVCP_xYnqYsLewtk8yO0ilJIHFjUstPh8xPBICqLEBK_.png?width=216&amp;crop=smart&amp;format=pjpg&amp;auto=webp&amp;s=8b5fe83e9dd732c16a4ab330aa39335495621216",
+              "width": 216
+            },
+            {
+              "height": 180,
+              "url": "https://external-preview.redd.it/enVyMnkyY21pdm5lMVCP_xYnqYsLewtk8yO0ilJIHFjUstPh8xPBICqLEBK_.png?width=320&amp;crop=smart&amp;format=pjpg&amp;auto=webp&amp;s=50be92533a687676c5cd1d51afd5d278d09f102a",
+              "width": 320
+            },
+            {
+              "height": 360,
+              "url": "https://external-preview.redd.it/enVyMnkyY21pdm5lMVCP_xYnqYsLewtk8yO0ilJIHFjUstPh8xPBICqLEBK_.png?width=640&amp;crop=smart&amp;format=pjpg&amp;auto=webp&amp;s=adae22bd7cd3303e470291f5b00a1fdf71dabfbe",
+              "width": 640
+            },
+            {
+              "height": 540,
+              "url": "https://external-preview.redd.it/enVyMnkyY21pdm5lMVCP_xYnqYsLewtk8yO0ilJIHFjUstPh8xPBICqLEBK_.png?width=960&amp;crop=smart&amp;format=pjpg&amp;auto=webp&amp;s=72b083dc86bed2d8aea5eefecc42951bf7fcba0f",
+              "width": 960
+            },
+            {
+              "height": 607,
+              "url": "https://external-preview.redd.it/enVyMnkyY21pdm5lMVCP_xYnqYsLewtk8yO0ilJIHFjUstPh8xPBICqLEBK_.png?width=1080&amp;crop=smart&amp;format=pjpg&amp;auto=webp&amp;s=97cada5981887f714e31ae03a1f0392f192d6830",
+              "width": 1080
+            }
+          ],
+          "source": {
+            "height": 720,
+            "url": "https://external-preview.redd.it/enVyMnkyY21pdm5lMVCP_xYnqYsLewtk8yO0ilJIHFjUstPh8xPBICqLEBK_.png?format=pjpg&amp;auto=webp&amp;s=931e685cc67438caa782b5c5e9f7773450e1d7a1",
+            "width": 1280
+          },
+          "variants": {}
+        }
+      ]
+    },
+    "score": 1,
+    "secure_media": {
+      "reddit_video": {
+        "bitrate_kbps": 2400,
+        "dash_url": "https://v.redd.it/jao6k7cmivne1/DASHPlaylist.mpd?a=1744209449%2CNTljYTFlOTNjZjQ3MmViZTA3ZWM0YjI3ODA1MDQ3OTQ0NzZiZTc1NjJhMzZiYWJhYmNhMjQ1ZWJmMzYxNDM4YQ%3D%3D&amp;v=1&amp;f=sd",
+        "duration": 30,
+        "fallback_url": "https://v.redd.it/jao6k7cmivne1/DASH_720.mp4?source=fallback",
+        "has_audio": true,
+        "height": 720,
+        "hls_url": "https://v.redd.it/jao6k7cmivne1/HLSPlaylist.m3u8?a=1744209449%2CYjQ1MDlhYzFlOTNmZGFiMjc0NzliNjllNDQ3N2M0ODRhYzI5YjQ5OWI4NTkwYTY4YmRjNjZhNWI2YzM4NTFmMA%3D%3D&amp;v=1&amp;f=sd",
+        "is_gif": false,
+        "scrubber_media_url": "https://v.redd.it/jao6k7cmivne1/DASH_96.mp4",
+        "transcoding_status": "completed",
+        "width": 1280
+      }
+    },
+    "selftext": "",
+    "subreddit": "automationContentCom",
+    "title": "Video post title 44750",
+    "upvote_ratio": 1.0,
+    "url": "https://v.redd.it/jao6k7cmivne1",
+    "url_overridden_by_dest": "https://v.redd.it/jao6k7cmivne1"
+  },
+  {
+    "author_flair_text": null,
+    "created_utc": "2025-03-10 14:36:11 UTC",
+    "id": "1j8024i",
+    "link_flair_text": null,
+    "media": null,
+    "num_comments": 0,
+    "score": 1,
+    "secure_media": null,
+    "selftext": "My husband is escaping divorce proceeding and child support from Canada and is in Dubai. I dont know neither his address nor phone number. Dont even know if he married someone else without getting divorced. please advise how can I find his address and phone number in Dubai.",
+    "subreddit": "dubai",
+    "title": "Find address and phone number of dubai resident",
+    "upvote_ratio": 1.0,
+    "url": "https://www.reddit.com/r/dubai/comments/1j8024i/find_address_and_phone_number_of_dubai_resident/"
+  },
+  {
+    "author_flair_text": null,
+    "created_utc": "2025-03-10 14:36:11 UTC",
+    "id": "1j8024f",
+    "link_flair_text": null,
+    "media": null,
+    "num_comments": 0,
+    "preview": {
+      "enabled": false,
+      "images": [
+        {
+          "id": "hlg1C8HN0nqhumoW_ShEaNqs8a1wpq3ip_ksudAdAbQ",
+          "resolutions": [
+            {
+              "height": 81,
+              "url": "https://external-preview.redd.it/RzHi-usynQHwU3x4a-y_ZxyhDxqTh8Y7qHgUlwzYF0Y.jpg?width=108&amp;crop=smart&amp;auto=webp&amp;s=84c58f213904cee4bc91cb4a2461ebd23ba74709",
+              "width": 108
+            },
+            {
+              "height": 162,
+              "url": "https://external-preview.redd.it/RzHi-usynQHwU3x4a-y_ZxyhDxqTh8Y7qHgUlwzYF0Y.jpg?width=216&amp;crop=smart&amp;auto=webp&amp;s=14a2db752e4f328be57658086139c7d5bdb2aca8",
+              "width": 216
+            },
+            {
+              "height": 240,
+              "url": "https://external-preview.redd.it/RzHi-usynQHwU3x4a-y_ZxyhDxqTh8Y7qHgUlwzYF0Y.jpg?width=320&amp;crop=smart&amp;auto=webp&amp;s=08d09fe052909974c65db504ba136ba7013805d6",
+              "width": 320
+            },
+            {
+              "height": 480,
+              "url": "https://external-preview.redd.it/RzHi-usynQHwU3x4a-y_ZxyhDxqTh8Y7qHgUlwzYF0Y.jpg?width=640&amp;crop=smart&amp;auto=webp&amp;s=025d8990ee4a23b4d576e212cab5be10385d3fa7",
+              "width": 640
+            }
+          ],
+          "source": {
+            "height": 480,
+            "url": "https://external-preview.redd.it/RzHi-usynQHwU3x4a-y_ZxyhDxqTh8Y7qHgUlwzYF0Y.jpg?auto=webp&amp;s=0a2de61e419713d6c2b419abe09eb8759f6e35c5",
+            "width": 640
+          },
+          "variants": {}
+        }
+      ]
+    },
+    "score": 1,
+    "secure_media": null,
+    "selftext": "[https://www.tumblr.com/hippomanblog/184866540638/michel-fucking-bollinger-said-trans-rights-you](https://www.tumblr.com/hippomanblog/184866540638/michel-fucking-bollinger-said-trans-rights-you)",
+    "subreddit": "thehouseinfatamorgana",
+    "title": "where in the game does this moment occur? is it from a mini game?",
+    "upvote_ratio": 1.0,
+    "url": "https://www.reddit.com/r/thehouseinfatamorgana/comments/1j8024f/where_in_the_game_does_this_moment_occur_is_it/"
+  },
+  {
+    "author_flair_text": null,
+    "created_utc": "2025-03-10 14:36:11 UTC",
+    "id": "1j8024d",
+    "link_flair_text": null,
+    "media": null,
+    "num_comments": 1,
+    "score": 1,
+    "secure_media": null,
+    "selftext": "I (21f) want to start working out but don\u2019t know where to start i think for my age and height my weight is decent right now so i don\u2019t want to lose any weight i want to be tone but also gain a bit of muscle but don\u2019t know where to start or what to do if anyone has any advice it would be appreciated ",
+    "subreddit": "workout",
+    "title": "21 female, 135, 5\u20193\u201d",
+    "upvote_ratio": 1.0,
+    "url": "https://www.reddit.com/r/workout/comments/1j8024d/21_female_135_53/"
+  },
+  {
+    "author_flair_text": null,
+    "created_utc": "2025-03-10 14:36:11 UTC",
+    "id": "1j8024b",
+    "link_flair_text": "Discussion",
+    "media": null,
+    "num_comments": 0,
+    "score": 1,
+    "secure_media": null,
+    "selftext": "For the mini-game Equestria girls game they should add more songs so we can get to the big prize faster, because that is hard to do with out spending gems and I need those gems for some thing else what do you think?",
+    "subreddit": "MLPIOS",
+    "title": "What do think of this idea?",
+    "upvote_ratio": 1.0,
+    "url": "https://www.reddit.com/r/MLPIOS/comments/1j8024b/what_do_think_of_this_idea/"
+  },
+  {
+    "author_flair_text": null,
+    "created_utc": "2025-03-10 14:36:10 UTC",
+    "id": "1j80249",
+    "link_flair_text": "very",
+    "media": null,
+    "num_comments": 0,
+    "preview": {
+      "enabled": true,
+      "images": [
+        {
+          "id": "gY8uaQIXnI9n-VaagBqkFlmTfnRzcaQl9WkyT0GwkSk",
+          "resolutions": [
+            {
+              "height": 86,
+              "url": "https://preview.redd.it/ivq17c6mivne1.jpeg?width=108&amp;crop=smart&amp;auto=webp&amp;s=374f0f9ed2900c65a4cf3c49959267b089cc16ce",
+              "width": 108
+            },
+            {
+              "height": 173,
+              "url": "https://preview.redd.it/ivq17c6mivne1.jpeg?width=216&amp;crop=smart&amp;auto=webp&amp;s=793d43eb168324beef45ce64c560ad73adddda64",
+              "width": 216
+            },
+            {
+              "height": 256,
+              "url": "https://preview.redd.it/ivq17c6mivne1.jpeg?width=320&amp;crop=smart&amp;auto=webp&amp;s=a8415a8c56ed7a8b6ad6b15c89a8b702e2b7c355",
+              "width": 320
+            },
+            {
+              "height": 513,
+              "url": "https://preview.redd.it/ivq17c6mivne1.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=b1d898a200dfc90c4fd097d16ccb6c223d68b952",
+              "width": 640
+            }
+          ],
+          "source": {
+            "height": 648,
+            "url": "https://preview.redd.it/ivq17c6mivne1.jpeg?auto=webp&amp;s=1dafffc46d6cb44a7543311d84fb48b180224dad",
+            "width": 808
+          },
+          "variants": {}
+        }
+      ]
+    },
+    "score": 1,
+    "secure_media": null,
+    "selftext": "",
+    "subreddit": "okbuddyviltrum",
+    "title": "Why does he called Best Tiger when he looks like a human? Is he blind?",
+    "upvote_ratio": 1.0,
+    "url": "https://i.redd.it/ivq17c6mivne1.jpeg",
+    "url_overridden_by_dest": "https://i.redd.it/ivq17c6mivne1.jpeg"
+  },
+  {
+    "author_flair_text": null,
+    "created_utc": "2025-03-10 14:36:10 UTC",
+    "id": "1j80248",
+    "link_flair_text": "Discussion",
+    "media": null,
+    "num_comments": 0,
+    "preview": {
+      "enabled": true,
+      "images": [
+        {
+          "id": "OWCo0lZy6IgrD-giP-dpv2yBm4GzQR3aftZm_VdAqD8",
+          "resolutions": [
+            {
+              "height": 163,
+              "url": "https://preview.redd.it/dqmojc8mivne1.jpeg?width=108&amp;crop=smart&amp;auto=webp&amp;s=4ffa408807b6910fe1955975216580e400805ef5",
+              "width": 108
+            },
+            {
+              "height": 326,
+              "url": "https://preview.redd.it/dqmojc8mivne1.jpeg?width=216&amp;crop=smart&amp;auto=webp&amp;s=1cedebf3c0045ba51be53fa59b5bf8b8842de519",
+              "width": 216
+            },
+            {
+              "height": 483,
+              "url": "https://preview.redd.it/dqmojc8mivne1.jpeg?width=320&amp;crop=smart&amp;auto=webp&amp;s=3a72010b8adb98dca42f37af85fb9f23af74ef8d",
+              "width": 320
+            },
+            {
+              "height": 967,
+              "url": "https://preview.redd.it/dqmojc8mivne1.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=61d96d47740b5d6c2c34f423a7f1850a14a1b7e8",
+              "width": 640
+            },
+            {
+              "height": 1451,
+              "url": "https://preview.redd.it/dqmojc8mivne1.jpeg?width=960&amp;crop=smart&amp;auto=webp&amp;s=52f12d59a9a2cc037582ae525ec8e8a26b6afc37",
+              "width": 960
+            },
+            {
+              "height": 1633,
+              "url": "https://preview.redd.it/dqmojc8mivne1.jpeg?width=1080&amp;crop=smart&amp;auto=webp&amp;s=587e517526c8d1380147ecfa98b49a3497592189",
+              "width": 1080
+            }
+          ],
+          "source": {
+            "height": 1783,
+            "url": "https://preview.redd.it/dqmojc8mivne1.jpeg?auto=webp&amp;s=ed32c2b46c5a98beb0484ee93cf181d56dd4db80",
+            "width": 1179
+          },
+          "variants": {}
+        }
+      ]
+    },
+    "score": 1,
+    "secure_media": null,
+    "selftext": "",
+    "subreddit": "ChatGPTCoding",
+    "title": "The Daily Dilemma of a Roo Code User",
+    "upvote_ratio": 1.0,
+    "url": "https://i.redd.it/dqmojc8mivne1.jpeg",
+    "url_overridden_by_dest": "https://i.redd.it/dqmojc8mivne1.jpeg"
+  },
+  {
+    "author_flair_text": null,
+    "created_utc": "2025-03-10 14:36:10 UTC",
+    "id": "1j80245",
+    "link_flair_text": null,
+    "media": null,
+    "num_comments": 1,
+    "score": 1,
+    "secure_media": null,
+    "selftext": "I know there are so many questions and answers about the phone interview but the one I\u2019m most curious about is college. I\u2019m graduated and I would like to know if there\u2019s any info I\u2019ll need to give them about my schooling.\n\nAlso, if you get accepted, do they require transcripts?",
+    "subreddit": "Disneycollegeprogram",
+    "title": "Interview",
+    "upvote_ratio": 1.0,
+    "url": "https://www.reddit.com/r/Disneycollegeprogram/comments/1j80245/interview/"
+  },
+  {
+    "author_flair_text": null,
+    "created_utc": "2025-03-10 14:36:10 UTC",
+    "id": "1j8023x",
+    "link_flair_text": "Biotech News \ud83d\udcf0",
+    "media": null,
+    "num_comments": 0,
+    "preview": {
+      "enabled": false,
+      "images": [
+        {
+          "id": "tjV1aomqTLWtto4q4w6dKHFV4lsh8Ib1553Lw8SvkD4",
+          "resolutions": [
+            {
+              "height": 61,
+              "url": "https://external-preview.redd.it/X6dFMGoFjbVepZpZQaZCnD0JxntL5eVBbHywZgGVm1Y.jpg?width=108&amp;crop=smart&amp;auto=webp&amp;s=554e737ed50bb5c2c04ea66446a598ffdd79aa54",
+              "width": 108
+            },
+            {
+              "height": 122,
+              "url": "https://external-preview.redd.it/X6dFMGoFjbVepZpZQaZCnD0JxntL5eVBbHywZgGVm1Y.jpg?width=216&amp;crop=smart&amp;auto=webp&amp;s=6baf1e26946575545c516aafb11ccea61f80c671",
+              "width": 216
+            },
+            {
+              "height": 180,
+              "url": "https://external-preview.redd.it/X6dFMGoFjbVepZpZQaZCnD0JxntL5eVBbHywZgGVm1Y.jpg?width=320&amp;crop=smart&amp;auto=webp&amp;s=eb68a36e9fdc7d6bfc2a8672f03f9acc87bbecc0",
+              "width": 320
+            },
+            {
+              "height": 361,
+              "url": "https://external-preview.redd.it/X6dFMGoFjbVepZpZQaZCnD0JxntL5eVBbHywZgGVm1Y.jpg?width=640&amp;crop=smart&amp;auto=webp&amp;s=cf87916e880e512ea577b6250bd299d349454861",
+              "width": 640
+            },
+            {
+              "height": 542,
+              "url": "https://external-preview.redd.it/X6dFMGoFjbVepZpZQaZCnD0JxntL5eVBbHywZgGVm1Y.jpg?width=960&amp;crop=smart&amp;auto=webp&amp;s=9823023439fc162d10116ce2e023b890b37b9210",
+              "width": 960
+            },
+            {
+              "height": 610,
+              "url": "https://external-preview.redd.it/X6dFMGoFjbVepZpZQaZCnD0JxntL5eVBbHywZgGVm1Y.jpg?width=1080&amp;crop=smart&amp;auto=webp&amp;s=1beee2012cf1b5ec6ebdc07d5857edef701a997b",
+              "width": 1080
+            }
+          ],
+          "source": {
+            "height": 1896,
+            "url": "https://external-preview.redd.it/X6dFMGoFjbVepZpZQaZCnD0JxntL5eVBbHywZgGVm1Y.jpg?auto=webp&amp;s=1602462bd3b0fec135e824db3d3a6f6a8dd77f44",
+            "width": 3356
+          },
+          "variants": {}
+        }
+      ]
+    },
+    "score": 1,
+    "secure_media": null,
+    "selftext": "",
+    "subreddit": "biotech",
+    "title": "Nasdaq stock market plans move to 24-hour trading in US",
+    "upvote_ratio": 1.0,
+    "url": "https://www.fiercebiotech.com/biotech/nasdaq-stock-market-move-24-hour-trading-us",
+    "url_overridden_by_dest": "https://www.fiercebiotech.com/biotech/nasdaq-stock-market-move-24-hour-trading-us"
+  },
+  {
+    "author_flair_text": "host",
+    "created_utc": "2025-03-10 14:36:09 UTC",
+    "id": "1j8023v",
+    "link_flair_text": null,
+    "media": null,
+    "num_comments": 0,
+    "preview": {
+      "enabled": false,
+      "images": [
+        {
+          "id": "6YCSJyKOtNtf6xkkdXEBSnhoug2NG2Sx5kmfMCnei6A",
+          "resolutions": [
+            {
+              "height": 60,
+              "url": "https://external-preview.redd.it/k3IR8nfMX-1JTTRffyP09a43pvVDGA0I9qZCZqL48tQ.jpg?width=108&amp;crop=smart&amp;auto=webp&amp;s=2175a54083cb29e8519968ee2f153aaa4d2915a0",
+              "width": 108
+            },
+            {
+              "height": 121,
+              "url": "https://external-preview.redd.it/k3IR8nfMX-1JTTRffyP09a43pvVDGA0I9qZCZqL48tQ.jpg?width=216&amp;crop=smart&amp;auto=webp&amp;s=ba90fa91caf0c52a7f3a16c395cec0e8d8ecc50d",
+              "width": 216
+            },
+            {
+              "height": 180,
+              "url": "https://external-preview.redd.it/k3IR8nfMX-1JTTRffyP09a43pvVDGA0I9qZCZqL48tQ.jpg?width=320&amp;crop=smart&amp;auto=webp&amp;s=8baaf7ba0ecda5d9556cff18376ccb86fe0d679f",
+              "width": 320
+            },
+            {
+              "height": 360,
+              "url": "https://external-preview.redd.it/k3IR8nfMX-1JTTRffyP09a43pvVDGA0I9qZCZqL48tQ.jpg?width=640&amp;crop=smart&amp;auto=webp&amp;s=7efc0dc4a99e36331ae4560b9b74cb5abcacb74d",
+              "width": 640
+            },
+            {
+              "height": 540,
+              "url": "https://external-preview.redd.it/k3IR8nfMX-1JTTRffyP09a43pvVDGA0I9qZCZqL48tQ.jpg?width=960&amp;crop=smart&amp;auto=webp&amp;s=e946c8ab249501394d3cb9e69f3d83996c2c25c7",
+              "width": 960
+            },
+            {
+              "height": 607,
+              "url": "https://external-preview.redd.it/k3IR8nfMX-1JTTRffyP09a43pvVDGA0I9qZCZqL48tQ.jpg?width=1080&amp;crop=smart&amp;auto=webp&amp;s=c2d65ef718d9dcf61aa12fcd26c173172e7eaf62",
+              "width": 1080
+            }
+          ],
+          "source": {
+            "height": 1800,
+            "url": "https://external-preview.redd.it/k3IR8nfMX-1JTTRffyP09a43pvVDGA0I9qZCZqL48tQ.jpg?auto=webp&amp;s=32823c391d66c2674c0882c223e04d6a461190c1",
+            "width": 3200
+          },
+          "variants": {}
+        }
+      ]
+    },
+    "score": 1,
+    "secure_media": null,
+    "selftext": "\u201cThe arrival of artificial intelligence has brought with it a necessity to rapidly expand data center capacity. This rush is on full display in New Albany.\n\nAmazon, Google, Meta (Facebook), and other companies promised to spend over $15 billion on data center investments in the last year. But this growth has come with a hefty price tag for residents: Almost every single data center project received full property tax abatements, state sale and use tax exemptions and payroll tax credits.\n\nThe full cost of these massive tax breaks has been sparsely disclosed and hard to total.\n\nTen years ago, Amazon chose central Ohio for its data center complex. Other tech giants followed. They come to New Albany primarily for its existing infrastructure, cheap energy, and open and affordable land \u2013 the main factors that determine where a company puts a data center. But they knew they\u2019d be able to extract generous public subsidies.\n\nOne of the most valuable subsidy programs targeting data centers on the state level is a 15-year sale and use tax exemption for purchases. The program will cost Ohioans $127 million in fiscal year 2025 alone. The program\u2019s average cost per job is astonishing: $634,000.\u201d",
+    "subreddit": "parasiteclass",
+    "title": "We Funded It: New Albany's [AI] data center boom leaves taxpayers footing unchecked subsidies",
+    "upvote_ratio": 1.0,
+    "url": "https://www.dispatch.com/story/opinion/columns/guest/2024/02/11/new-albany-google-amazon-data-center-ohio-taxpayers/72494074007/",
+    "url_overridden_by_dest": "https://www.dispatch.com/story/opinion/columns/guest/2024/02/11/new-albany-google-amazon-data-center-ohio-taxpayers/72494074007/"
+  },
+  {
+    "author_flair_text": "Bot",
+    "created_utc": "2025-03-10 14:36:09 UTC",
+    "id": "1j8023u",
+    "link_flair_text": "Warning!",
+    "media": null,
+    "num_comments": 0,
+    "score": 1,
+    "secure_media": null,
+    "selftext": "&gt; \u2757 **\u03a0\u03a1\u039f\u0395\u0399\u0394\u039f\u03a0\u039f\u0399\u0397\u03a3\u0397 \u03a3\u0395\u0399\u03a3\u039c\u039f\u03a5 / EARTHQUAKE WARNING** for Greece (\u03a3\u03b5\u03b9\u03c3\u03bc\u03cc\u03c2 reported near Erythr\u00e9s?) (localhost:38002)\n\n^2025-03-10T14:36:09Z",
+    "subreddit": "EEW",
+    "title": "\ud83c\udf0d Greece: \u03a3\u03b5\u03b9\u03c3\u03bc\u03cc\u03c2 - Earthquake (3.5 Mgqm, at 14:35 UTC)",
+    "upvote_ratio": 1.0,
+    "url": "https://www.reddit.com/r/EEW/comments/1j8023u/greece_\u03c3\u03b5\u03b9\u03c3\u03bc\u03cc\u03c2_earthquake_35_mgqm_at_1435_utc/"
+  },
+  {
+    "author_flair_text": null,
+    "created_utc": "2025-03-10 14:36:09 UTC",
+    "id": "1j8023s",
+    "link_flair_text": "Politika (Politics)",
+    "media": {
+      "oembed": {
+        "author_name": "Aleksandar Popovic",
+        "author_url": "https://www.youtube.com/@AleksandarPopovic",
+        "height": 200,
+        "html": "&lt;iframe width=\"356\" height=\"200\" src=\"https://www.youtube.com/embed/Ts7YN1P3cSo?feature=oembed&amp;enablejsapi=1\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen title=\"8.-mi Mart svaki dan, Happy Women&amp;#39;s Day every day!\"&gt;&lt;/iframe&gt;",
+        "provider_name": "YouTube",
+        "provider_url": "https://www.youtube.com/",
+        "thumbnail_height": 360,
+        "thumbnail_url": "https://i.ytimg.com/vi/Ts7YN1P3cSo/hqdefault.jpg",
+        "thumbnail_width": 480,
+        "title": "8.-mi Mart svaki dan, Happy Women's Day every day!",
+        "type": "video",
+        "version": "1.0",
+        "width": 356
+      },
+      "type": "youtube.com"
+    },
+    "num_comments": 0,
+    "preview": {
+      "enabled": false,
+      "images": [
+        {
+          "id": "5QK5nGMovEY-fdw-hg9EQ-NDJCZGgPTGp5gLd6C3pN8",
+          "resolutions": [
+            {
+              "height": 81,
+              "url": "https://external-preview.redd.it/mmGr0tKyFiJg-0uWYzbocdzVql0vWkgWLDHjuHxr00I.jpg?width=108&amp;crop=smart&amp;auto=webp&amp;s=bf67aa0e59b72f51f0cabb1d8c8588d822080230",
+              "width": 108
+            },
+            {
+              "height": 162,
+              "url": "https://external-preview.redd.it/mmGr0tKyFiJg-0uWYzbocdzVql0vWkgWLDHjuHxr00I.jpg?width=216&amp;crop=smart&amp;auto=webp&amp;s=c33146ef1825af118bcbd7b0cd24fb4ad16eb972",
+              "width": 216
+            },
+            {
+              "height": 240,
+              "url": "https://external-preview.redd.it/mmGr0tKyFiJg-0uWYzbocdzVql0vWkgWLDHjuHxr00I.jpg?width=320&amp;crop=smart&amp;auto=webp&amp;s=92443f5289328ade3c190e0c6cf398eacf12fdec",
+              "width": 320
+            }
+          ],
+          "source": {
+            "height": 360,
+            "url": "https://external-preview.redd.it/mmGr0tKyFiJg-0uWYzbocdzVql0vWkgWLDHjuHxr00I.jpg?auto=webp&amp;s=e8fb4d5c93f6288cf5eed96035190e85d61ae39f",
+            "width": 480
+          },
+          "variants": {}
+        }
+      ]
+    },
+    "score": 1,
+    "secure_media": {
+      "oembed": {
+        "author_name": "Aleksandar Popovic",
+        "author_url": "https://www.youtube.com/@AleksandarPopovic",
+        "height": 200,
+        "html": "&lt;iframe width=\"356\" height=\"200\" src=\"https://www.youtube.com/embed/Ts7YN1P3cSo?feature=oembed&amp;enablejsapi=1\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen title=\"8.-mi Mart svaki dan, Happy Women&amp;#39;s Day every day!\"&gt;&lt;/iframe&gt;",
+        "provider_name": "YouTube",
+        "provider_url": "https://www.youtube.com/",
+        "thumbnail_height": 360,
+        "thumbnail_url": "https://i.ytimg.com/vi/Ts7YN1P3cSo/hqdefault.jpg",
+        "thumbnail_width": 480,
+        "title": "8.-mi Mart svaki dan, Happy Women's Day every day!",
+        "type": "video",
+        "version": "1.0",
+        "width": 356
+      },
+      "type": "youtube.com"
+    },
+    "selftext": "",
+    "subreddit": "serbia",
+    "title": "Happy Women's Day, is a every day!",
+    "upvote_ratio": 1.0,
+    "url": "https://youtu.be/Ts7YN1P3cSo",
+    "url_overridden_by_dest": "https://youtu.be/Ts7YN1P3cSo"
+  },
+  {
+    "author_flair_text": null,
+    "created_utc": "2025-03-10 14:36:09 UTC",
+    "id": "1j8023o",
+    "link_flair_text": ":PotteryCup: Mugs &amp; Cups :PotteryCup:",
+    "media": null,
+    "num_comments": 0,
+    "preview": {
+      "enabled": true,
+      "images": [
+        {
+          "id": "Eg4oU4Em1xVxxZwARMJPwsXjECac9NxFeYzF4Fn7WgU",
+          "resolutions": [
+            {
+              "height": 108,
+              "url": "https://preview.redd.it/4c5am30mivne1.jpeg?width=108&amp;crop=smart&amp;auto=webp&amp;s=92dea03e62fb16128cef223b028d01e2ee6d2e83",
+              "width": 108
+            },
+            {
+              "height": 216,
+              "url": "https://preview.redd.it/4c5am30mivne1.jpeg?width=216&amp;crop=smart&amp;auto=webp&amp;s=649a2c2396f661d7eda619df17d9569a03f90bcb",
+              "width": 216
+            },
+            {
+              "height": 320,
+              "url": "https://preview.redd.it/4c5am30mivne1.jpeg?width=320&amp;crop=smart&amp;auto=webp&amp;s=3ff8977e01fb3265ecb7bba46748ca55703ce9a0",
+              "width": 320
+            },
+            {
+              "height": 640,
+              "url": "https://preview.redd.it/4c5am30mivne1.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=3325a49a01f28601bc85c93e3990522bfed0fbd2",
+              "width": 640
+            }
+          ],
+          "source": {
+            "height": 800,
+            "url": "https://preview.redd.it/4c5am30mivne1.jpeg?auto=webp&amp;s=e613bb58d739a8cea927a1669b38b9f409010e67",
+            "width": 800
+          },
+          "variants": {}
+        }
+      ]
+    },
+    "score": 1,
+    "secure_media": null,
+    "selftext": "Made these for companion gallery \"Last Call\" ",
+    "subreddit": "Pottery",
+    "title": "Margarita ware",
+    "upvote_ratio": 1.0,
+    "url": "https://i.redd.it/4c5am30mivne1.jpeg",
+    "url_overridden_by_dest": "https://i.redd.it/4c5am30mivne1.jpeg"
+  },
+  {
+    "author_flair_text": null,
+    "created_utc": "2025-03-10 14:36:09 UTC",
+    "id": "1j8023n",
+    "link_flair_text": null,
+    "media": null,
+    "num_comments": 0,
+    "preview": {
+      "enabled": true,
+      "images": [
+        {
+          "id": "mUtbi1Pp5qxJAU-EikrwDz_vsJSyZB2lDj3lcnOjDXI",
+          "resolutions": [
+            {
+              "height": 75,
+              "url": "https://preview.redd.it/9eaxzhblivne1.jpeg?width=108&amp;crop=smart&amp;auto=webp&amp;s=e0b715d4dfde58d2365bddea15135bd48e4a51b7",
+              "width": 108
+            },
+            {
+              "height": 151,
+              "url": "https://preview.redd.it/9eaxzhblivne1.jpeg?width=216&amp;crop=smart&amp;auto=webp&amp;s=72471ae4e9ce03db7e38a9a29b879000c6d79c6f",
+              "width": 216
+            },
+            {
+              "height": 225,
+              "url": "https://preview.redd.it/9eaxzhblivne1.jpeg?width=320&amp;crop=smart&amp;auto=webp&amp;s=7df8cc5b944fcce2806c43a412ce63c280a7e3cb",
+              "width": 320
+            },
+            {
+              "height": 450,
+              "url": "https://preview.redd.it/9eaxzhblivne1.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=0320cbe9d443e05a4aa629ae27dd2cf5ab61a4a7",
+              "width": 640
+            }
+          ],
+          "source": {
+            "height": 666,
+            "url": "https://preview.redd.it/9eaxzhblivne1.jpeg?auto=webp&amp;s=4df8485d041b40100676cce1639b603ed8170c8d",
+            "width": 947
+          },
+          "variants": {}
+        }
+      ]
+    },
+    "score": 1,
+    "secure_media": null,
+    "selftext": "",
+    "subreddit": "rosesarered",
+    "title": "Roses are red, your teeth need whitening",
+    "upvote_ratio": 1.0,
+    "url": "https://i.redd.it/9eaxzhblivne1.jpeg",
+    "url_overridden_by_dest": "https://i.redd.it/9eaxzhblivne1.jpeg"
+  },
+  {
+    "author_flair_text": null,
+    "created_utc": "2025-03-10 14:36:09 UTC",
+    "id": "1j8023m",
+    "link_flair_text": null,
+    "media": null,
+    "num_comments": 0,
+    "score": 1,
+    "secure_media": null,
+    "selftext": "",
+    "subreddit": "redditrequest",
+    "title": "Requesting banned subreddit - r/KhojTheFilm",
+    "upvote_ratio": 1.0,
+    "url": "https://www.reddit.com/r/KhojTheFilm/",
+    "url_overridden_by_dest": "https://www.reddit.com/r/KhojTheFilm/"
+  },
+  {
+    "author_flair_text": null,
+    "created_utc": "2025-03-10 14:36:09 UTC",
+    "id": "1j8023l",
+    "link_flair_text": "General Questions",
+    "media": null,
+    "num_comments": 0,
+    "score": 1,
+    "secure_media": null,
+    "selftext": "Can somebody tell me what type of bumper this is",
+    "subreddit": "e46",
+    "title": "Help me find this bumper",
+    "upvote_ratio": 1.0,
+    "url": "https://www.reddit.com/gallery/1j8023l",
+    "url_overridden_by_dest": "https://www.reddit.com/gallery/1j8023l"
+  },
+  {
+    "author_flair_text": null,
+    "created_utc": "2025-03-10 14:36:09 UTC",
+    "id": "1j8023g",
+    "link_flair_text": null,
+    "media": null,
+    "num_comments": 1,
+    "score": 1,
+    "secure_media": null,
+    "selftext": "",
+    "subreddit": "chromeheartlc",
+    "title": "LC Please",
+    "upvote_ratio": 1.0,
+    "url": "https://www.reddit.com/gallery/1j8023g",
+    "url_overridden_by_dest": "https://www.reddit.com/gallery/1j8023g"
+  },
+  {
+    "author_flair_text": null,
+    "created_utc": "2025-03-10 14:36:09 UTC",
+    "id": "1j8023f",
+    "link_flair_text": "Discussion",
+    "media": null,
+    "num_comments": 0,
+    "preview": {
+      "enabled": false,
+      "images": [
+        {
+          "id": "YUDHvuEiFHRnx2YwboUUZUZ1r7jXyAbQEJe0_Qg14XQ",
+          "resolutions": [
+            {
+              "height": 108,
+              "url": "https://external-preview.redd.it/DJtTU_iT-RGjf5vUgRI2mQ6mdab1ccHJHejd7SjfKtI.jpg?width=108&amp;crop=smart&amp;auto=webp&amp;s=034ed8abc240c617531602f2657989fa21add46c",
+              "width": 108
+            },
+            {
+              "height": 216,
+              "url": "https://external-preview.redd.it/DJtTU_iT-RGjf5vUgRI2mQ6mdab1ccHJHejd7SjfKtI.jpg?width=216&amp;crop=smart&amp;auto=webp&amp;s=c171e85abf8aa7c9a86b19e2cde392114482d2f4",
+              "width": 216
+            }
+          ],
+          "source": {
+            "height": 315,
+            "url": "https://external-preview.redd.it/DJtTU_iT-RGjf5vUgRI2mQ6mdab1ccHJHejd7SjfKtI.jpg?auto=webp&amp;s=402051f1cfa16f71bb96ab7f0b918359037adfbd",
+            "width": 315
+          },
+          "variants": {}
+        }
+      ]
+    },
+    "score": 1,
+    "secure_media": null,
+    "selftext": "Basically customers kept screwing over LCS for years then the moment they had to start using tcgplayer , customers want to go back to them asking the release day MSRP...\n\nWhen the new SRP by distro is 15 a pack.",
+    "subreddit": "PokemonTCG",
+    "title": "Resellers/Customers at LCS caused this.",
+    "upvote_ratio": 1.0,
+    "url": "https://www.facebook.com/share/v/18bpfRYJdv/",
+    "url_overridden_by_dest": "https://www.facebook.com/share/v/18bpfRYJdv/"
+  },
+  {
+    "author_flair_text": null,
+    "created_utc": "2025-03-10 14:36:08 UTC",
+    "id": "1j8023e",
+    "link_flair_text": "Careers",
+    "media": null,
+    "num_comments": 0,
+    "score": 1,
+    "secure_media": null,
+    "selftext": "I was looking for job since last 5 months and finally got an opportunity for interview.I got this through linkedin,I read their post and e-mail them my resume.I got called by HR and interview was schedule for next day.The interview was schedule from home.They first took excel test in which I got more than 50% function correct.After that HR told me on the same day I had interview with company's director.The company's director asked for introduction and then he ask for my family details and other basic question like who lives with you,did your father still works,what is your expected salary then he ask for my religion and I answer what it is(The question of religion arise because I share common surname of sindhi or hindu though I am muslim,this is common india).He asked me,\" are you patel\"? I said no,I am muslim.Then he asked follow up question,What will you do in ramazan? I said,\"sir I will manage\". and ended the interview saying,\"HR will call you back to discuss salary.I was expecting the call but there was no call so I finally asked hr after few days and she was seeing my message but there was no reply.So,I understood that they rejected me.But I was not expecting reason for rejection being ramazan.I want to know the reason so I asked a friend\n\n\nI have a friend who works in the same field of work of mine so I told all matter to him and he knew someone who used to work in the same company I interview with and told to ask director what was the reason and they said it was because of ramazan.\n\nThe honesty costed me,when he asked me,\"are you patel\" I should have said yes but I thought It is 21st century and I had necessary qulification and skills so there will be no issue.But I was wrong.",
+    "subreddit": "india",
+    "title": "Got rejected from job because of ramzan",
+    "upvote_ratio": 1.0,
+    "url": "https://www.reddit.com/r/india/comments/1j8023e/got_rejected_from_job_because_of_ramzan/"
+  },
+  {
+    "author_flair_text": null,
+    "created_utc": "2025-03-10 14:36:08 UTC",
+    "id": "1j8023d",
+    "link_flair_text": null,
+    "media": null,
+    "num_comments": 1,
+    "score": 1,
+    "secure_media": null,
+    "selftext": "Hello, I will be attending medical school in the Fall and need to get a new computer according to the specifications below. I have been a Macbook person for most of my life, and am not sure what brand to get or if it matters. Any information would be helpful, thank you!\n\n**Minimum laptop specifications:**\n\n* Intel Core i5 or i7 processor, or equivalent AMD such as Ryzen 7 series, or equivalent ARM-based such as Coretex-X3.\n* Windows 11\u00a0\n   * **Do** ***not recommend Mac, iOS or Android-based laptops and may only be able to provide a limited amount of technical support for these devices. iPads are also not supported.***\u00a0\n* Wireless-Wifi 5 or greater\n* A minimum of 16GB of RAM\n* Minimum of 256 GB hard drive\n* HDMI port, or USB-C to HDMI adapter (recommended)\u00a0\n* Webcam with mic (integrated\u00a0or external)\n* Battery with average runtime of 2-5 hours\n* A new laptop, or one less than two years old\n\n**Recommended**\n\n* Three-year warranty recommended (Consider the accidental damage coverage offered by many manufacturers)\n* 14\" display, or larger\n* Discrete graphics is recommended\n* Chrome, Firefox, and Edge web browsers\n* Padded backpack or carrying case\n* Broadband home Internet access\u00a0",
+    "subreddit": "computer",
+    "title": "Which computer should I get?",
+    "upvote_ratio": 1.0,
+    "url": "https://www.reddit.com/r/computer/comments/1j8023d/which_computer_should_i_get/"
+  },
+  {
+    "author_flair_text": "+28 (Trusted Trader)",
+    "created_utc": "2025-03-10 14:36:08 UTC",
+    "id": "1j8023b",
+    "link_flair_text": null,
+    "media": null,
+    "num_comments": 2,
+    "score": 1,
+    "secure_media": null,
+    "selftext": "Prefer a Holosun, Sig, Vortex\u2026 all 3x. Open to buying the mount separately if you have it. Willing to spend up to $400 for the right setup",
+    "subreddit": "GunAccessoriesForSale",
+    "title": "[WTB] 3x Magnifier and Unity 2.26\u201d Mount",
+    "upvote_ratio": 1.0,
+    "url": "https://www.reddit.com/r/GunAccessoriesForSale/comments/1j8023b/wtb_3x_magnifier_and_unity_226_mount/"
+  },
+  {
+    "author_flair_text": null,
+    "created_utc": "2025-03-10 14:36:08 UTC",
+    "id": "1j8023a",
+    "link_flair_text": "Random",
+    "media": null,
+    "num_comments": 0,
+    "score": 1,
+    "secure_media": null,
+    "selftext": "Hi guys! Usually INFJs are super lurkers but you guys are so awesome that I have to share my experience and gratitude to yall :)\n\nI was tested as INFJ ever since high school and I am now in my mid 20s. Recently I got acquainted with two ENFPs and I am just SO AMAZED.\n\nOne is my roommate\u2019s SO and the other is just a stranger carpooling to go skiing. But I feel so much happiness and connection when talking to you guys. Everything about yall feels genuine. You listen because you are interested, you are optimistic because it\u2019s your nature. So many times I have met people that are just pretending to listen and reply short and coldly out of politeness. And many people pretend to be extroverted and outgoing to gain benefit from others and to cope.\n\nBUT not you guys. Every response is thoughtful. Everything is exciting, and you are full of curiosity. That energy really really spreads to others. I guess with the seasons changing it\u2019s also got me feeling down, but the existence of you guys, and your authenticity is giving me hope and happiness, so thank you! Ig that\u2019s the rant over lol",
+    "subreddit": "ENFP",
+    "title": "INFJ visitor here! Some grateful words",
+    "upvote_ratio": 1.0,
+    "url": "https://www.reddit.com/r/ENFP/comments/1j8023a/infj_visitor_here_some_grateful_words/"
+  }
+]
