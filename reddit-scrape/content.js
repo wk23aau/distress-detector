@@ -7,11 +7,11 @@
         }
       ));
     }
-  
+    
     // Helper: wait for a specified number of milliseconds.
     const wait = ms => new Promise(resolve => setTimeout(resolve, ms));
-  
-    // Return a human-readable timestamp in the format YYYY-MM-DD_HH-mm-ss.
+    
+    // Returns a human-readable timestamp in the format YYYY-MM-DD_HH-mm-ss.
     function getHumanReadableTimestamp() {
       const now = new Date();
       const year = now.getFullYear();
@@ -22,53 +22,58 @@
       const second = String(now.getSeconds()).padStart(2, '0');
       return `${year}-${month}-${day}_${hour}-${minute}-${second}`;
     }
-  
-    // Global storage.
-    const collectedPosts = new Map(); // All unique posts across batches.
-    let currentBatch = [];            // Posts in current batch.
-    let cumulativeCount = 0;          // Total posts collected.
-  
+    
+    // Global maps/arrays for collected posts.
+    const collectedPosts = new Map(); // To avoid duplicates across batches.
+    let currentBatch = []; // Stores posts for current batch.
+    let cumulativeCount = 0; // Total posts collected (unique).
+    
     // Extract data from a <shreddit-post> element.
     const extractPostData = (post) => {
       const postId = post.getAttribute('id');
       if (!postId || collectedPosts.has(postId)) return; // Skip duplicates
-  
       const shadow = post.shadowRoot;
       if (!shadow) return;
-  
+      
       // Extract title from an <a> element with slot="title" (light DOM).
       const titleElement = post.querySelector('a[slot="title"]');
       const title = titleElement ? titleElement.textContent.trim() : "Not found";
-  
-      // Extract content (paragraphs) from element with slot="text-body".
+      
+      // Extract post content (paragraphs) from the element with slot="text-body".
       let content = "";
       const contentElement = post.querySelector('a[slot="text-body"] div.md');
       if (contentElement) {
         content = Array.from(contentElement.querySelectorAll('p'))
                   .map(p => p.textContent.trim())
-                  .join('\n\n');
+                  .join('\n');
       } else {
         content = "Not found";
       }
-  
-      // Extract vote count (score) from shadow DOM.
+      
+      // Extract vote count (score) from the shadow DOM.
       const scoreElement = shadow.querySelector('[data-post-click-location="vote"] faceplate-number[pretty]');
       const score = scoreElement 
         ? (scoreElement.getAttribute('number') || scoreElement.textContent.trim())
         : 'Not found';
-  
-      // Extract comments count from shadow DOM.
+        
+      // Extract comments count from the shadow DOM.
       const commentElement = shadow.querySelector('[data-post-click-location="comments-button"] faceplate-number');
       const comments = commentElement 
         ? (commentElement.getAttribute('number') || commentElement.textContent.trim())
         : 'Not found';
-  
-      const postData = { postId, title, content, score, comments };
-      collectedPosts.set(postId, postData);
-      currentBatch.push(postData);
-      console.log(`Collected post: ${title.slice(0, 30)}...`);
+        
+        // Extract flair from shadow DOM
+      const flairElement = shadow.querySelector('faceplate-tracker .flair-content');
+      const flair = flairElement 
+        ? flairElement.textContent.trim()
+        : 'No flair';
+
+    const postData = { postId, title, content, score, comments, flair };
+    collectedPosts.set(postId, postData);
+    currentBatch.push(postData);
+    console.log(`Collected post: ${title.slice(0, 30)}...`);
     };
-  
+            
     // Generate CSV from an array of post objects.
     function generateCSVFromArray(postsArray) {
       let csv = "Post ID,Title,Content,Votes,Comments\n";
@@ -77,12 +82,12 @@
       });
       return csv;
     }
-  
+    
     // Generate JSON string from an array of post objects.
     function getJSONData(postsArray) {
       return JSON.stringify(postsArray, null, 2);
     }
-  
+    
     // Upload a file to GitHub via the API.
     function uploadFileToGitHub(fileName, content, token) {
       const owner = "wk23aau";
@@ -105,13 +110,13 @@
         body: body
       }).then(response => response.json());
     }
-  
-    // Extract subreddit name from URL.
+    
+    // Extract subreddit name from the URL.
     function getSubredditName() {
       const parts = window.location.pathname.split("/");
       return parts.length >= 3 ? parts[2] : "UnknownSubreddit";
     }
-  
+    
     // Automatically upload the current batch as CSV and JSON files.
     async function autoUploadBatch(batchPosts) {
       const token = "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";
@@ -126,7 +131,7 @@
       await uploadFileToGitHub(csvFileName, csvData, token);
       await uploadFileToGitHub(jsonFileName, jsonData, token);
     }
-  
+    
     // Main batched collection function.
     async function collectPostsBatched() {
       // Prompt for total collection parameters.
@@ -134,7 +139,6 @@
       const totalPostsInput = window.prompt("Enter target total number of posts:", "1000");
       const batchTimeInput = window.prompt("Enter batch time (minutes):", "1");
       const batchSizeInput = window.prompt("Enter batch size (posts):", "100");
-  
       let totalTimeMs = parseFloat(totalTimeInput) * 60000;
       let targetTotalPosts = parseInt(totalPostsInput, 10);
       let batchTimeMs = parseFloat(batchTimeInput) * 60000;
@@ -143,16 +147,13 @@
       if (isNaN(targetTotalPosts) || targetTotalPosts <= 0) targetTotalPosts = 1000;
       if (isNaN(batchTimeMs) || batchTimeMs <= 0) batchTimeMs = 1 * 60000;
       if (isNaN(batchSize) || batchSize <= 0) batchSize = 100;
-  
       const overallStartTime = Date.now();
       let batchStartTime = Date.now();
-  
       while(cumulativeCount < targetTotalPosts && (Date.now() - overallStartTime) < totalTimeMs) {
         window.scrollBy(0, 2000);
         await wait(1000);
         document.querySelectorAll('shreddit-post').forEach(post => extractPostData(post));
-  
-        // If batch time or batch size condition met, upload current batch.
+        // If batch condition is met, upload the batch.
         if ((Date.now() - batchStartTime) >= batchTimeMs || currentBatch.length >= batchSize) {
           console.log(`Batch condition met: uploading batch of ${currentBatch.length} posts.`);
           await autoUploadBatch(currentBatch);
@@ -171,118 +172,201 @@
       console.log(`Finished: Total collected posts: ${cumulativeCount}`);
       displayCollectedPosts(Array.from(collectedPosts.values()));
     }
-  
-    // Enhanced UI Initialization inspired by Amazon script.
+    
+    // Enhanced Floating Action Button (FAB) Implementation
     function addStylishCollectButton() {
-      const container = document.createElement("div");
-      Object.assign(container.style, {
-        position: "fixed",
-        top: "15px",
-        right: "15px",
-        zIndex: "99999",
-        display: "flex",
-        flexDirection: "column",
-        gap: "10px"
+      // Remove any existing buttons to prevent duplicates
+      document.querySelectorAll('button.collect-fab').forEach(btn => btn.remove());
+
+      // Create button container
+      const btnContainer = document.createElement('div');
+      Object.assign(btnContainer.style, {
+        position: 'fixed',
+        bottom: '2rem',
+        right: '2rem',
+        zIndex: 10000,
+        display: 'flex',
+        gap: '1rem'
       });
-  
-      const collectBtn = document.createElement("button");
-      collectBtn.textContent = "🚀 Collect Reddit Posts";
-      Object.assign(collectBtn.style, {
-        padding: "10px 15px",
-        backgroundColor: "#007bff",
-        color: "#fff",
-        borderRadius: "5px",
-        border: "none",
-        cursor: "pointer",
-        fontSize: "15px",
-        fontFamily: "'Segoe UI', Tahoma, Geneva, Verdana, sans-serif",
-        boxShadow: "0 4px 12px rgba(0,0,0,0.2)",
-        transition: "transform 0.2s, background-color 0.3s"
+
+      // Create main action button
+      const button = document.createElement('button');
+      button.innerHTML = '🚀 Collect Posts';
+      button.className = 'collect-fab';
+      
+      Object.assign(button.style, {
+        padding: '1.25rem 2rem',
+        backgroundColor: '#6200ee',
+        color: 'white',
+        border: 'none',
+        borderRadius: '50px',
+        cursor: 'pointer',
+        fontSize: '1rem',
+        boxShadow: '0 4px 12px rgba(0,0,0,0.24)',
+        transition: 'all 0.2s cubic-bezier(0.4, 0, 0.2, 1)',
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'center',
+        fontWeight: 500,
+        fontFamily: 'Segoe UI, sans-serif'
       });
-  
-      collectBtn.onmouseover = () => collectBtn.style.backgroundColor = "#0056b3";
-      collectBtn.onmouseout = () => collectBtn.style.backgroundColor = "#007bff";
-      collectBtn.onmousedown = () => collectBtn.style.transform = "scale(0.96)";
-      collectBtn.onmouseup = () => collectBtn.style.transform = "scale(1)";
-  
-      collectBtn.onclick = collectPostsBatched;
-  
-      container.appendChild(collectBtn);
-      document.body.appendChild(container);
+
+      // Add hover effects
+      button.addEventListener('mouseenter', () => {
+        button.style.transform = 'translateY(-4px)';
+        button.style.boxShadow = '0 8px 24px rgba(0,0,0,0.24)';
+      });
+
+      button.addEventListener('mouseleave', () => {
+        button.style.transform = 'translateY(0)';
+        button.style.boxShadow = '0 4px 12px rgba(0,0,0,0.24)';
+      });
+
+      // Add click effect
+      button.addEventListener('mousedown', () => {
+        button.style.transform = 'scale(0.98)';
+      });
+
+      button.addEventListener('mouseup', () => {
+        button.style.transform = 'scale(1)';
+      });
+
+      // Attach main functionality
+      button.onclick = collectPostsBatched;
+
+      // Add to DOM
+      btnContainer.appendChild(button);
+      document.body.appendChild(btnContainer);
     }
-  
-    // Enhanced Modal UI for Displaying Collected Posts.
+
+    // Modern Material Design Modal
     function displayCollectedPosts(posts) {
-      const existing = document.getElementById("redditPostsContainer");
-      if (existing) existing.remove();
-  
-      const overlay = document.createElement("div");
-      Object.assign(overlay.style, {
-        position: "fixed",
-        top: 0,
-        left: 0,
-        width: "100%",
-        height: "100%",
-        backgroundColor: "rgba(0,0,0,0.6)",
-        zIndex: "9999",
-        display: "flex",
-        justifyContent: "center",
-        alignItems: "center",
-        fontFamily: "'Segoe UI', Tahoma, Geneva, Verdana, sans-serif"
-      });
-  
-      const modal = document.createElement("div");
-      Object.assign(modal.style, {
-        backgroundColor: "#fff",
-        borderRadius: "12px",
-        width: "80%",
-        maxWidth: "700px",
-        maxHeight: "80vh",
-        overflowY: "auto",
-        padding: "20px",
-        boxShadow: "0 6px 16px rgba(0,0,0,0.3)"
-      });
-  
-      modal.innerHTML = `
-        <h2 style="margin-top:0; color:#333;">✅ Collected ${posts.length} Posts</h2>
-        ${posts.map(post => `
-          <div style="padding-bottom:10px; margin-bottom:10px; border-bottom:1px solid #ddd;">
-            <p><strong>🆔 ID:</strong> ${post.postId}</p>
-            <p><strong>📌 Title:</strong> ${post.title}</p>
-            <p><strong>📖 Content:</strong> ${post.content}</p>
-            <p>👍 <strong>Votes:</strong> ${post.score} &nbsp;&nbsp; 💬 <strong>Comments:</strong> ${post.comments}</p>
-          </div>`).join('')}
-        <div style="text-align:right;">
-          <button id="downloadCSV" style="margin-right:10px;padding:8px 16px;background:#28a745;color:#fff;border:none;border-radius:6px;cursor:pointer;">📥 CSV</button>
-          <button id="downloadJSON" style="margin-right:10px;padding:8px 16px;background:#f39c12;color:#fff;border:none;border-radius:6px;cursor:pointer;">📥 JSON</button>
-          <button id="closeModal" style="padding:8px 16px;background:#e74c3c;color:#fff;border:none;border-radius:6px;cursor:pointer;">✖ Close</button>
-        </div>
-      `;
-  
-      overlay.appendChild(modal);
-      document.body.appendChild(overlay);
-  
-      document.getElementById("closeModal").onclick = () => overlay.remove();
-      document.getElementById("downloadCSV").onclick = () => {
-        const csvData = generateCSVFromArray(posts);
-        const blob = new Blob([csvData], { type: "text/csv;charset=utf-8;" });
-        const link = document.createElement("a");
-        link.href = URL.createObjectURL(blob);
-        link.download = `Collected_Posts_${getHumanReadableTimestamp()}.csv`;
-        link.click();
-      };
-  
-      document.getElementById("downloadJSON").onclick = () => {
-        const jsonData = getJSONData(posts);
-        const blob = new Blob([jsonData], { type: "application/json;charset=utf-8;" });
-        const link = document.createElement("a");
-        link.href = URL.createObjectURL(blob);
-        link.download = `Collected_Posts_${getHumanReadableTimestamp()}.json`;
-        link.click();
-      };
+        const overlay = document.createElement('div');
+        overlay.style.cssText = `
+            position: fixed;
+            inset: 0;
+            background: rgba(0,0,0,0.6);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 10001;
+            padding: 1rem;
+        `;
+
+        const modal = document.createElement('div');
+        modal.style.cssText = `
+            background: white;
+            border-radius: 12px;
+            width: 100%;
+            max-width: 768px;
+            max-height: 90vh;
+            overflow: hidden;
+            box-shadow: 0 8px 32px rgba(0,0,0,0.3);
+            font-family: 'Segoe UI', sans-serif;
+        `;
+
+        // Header Section
+        const header = document.createElement('div');
+        header.style.cssText = `
+            background: #6200ee;
+            color: white;
+            padding: 1.5rem;
+            border-top-left-radius: 12px;
+            border-top-right-radius: 12px;
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        `;
+        
+        header.innerHTML = `
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                <path fill="white" d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z"/>
+                <path fill="white" d="M11 17h2v-6h-2v6zm0-8h2V7h-2v2z"/>
+            </svg>
+            <h2 style="margin: 0; flex: 1">Collected ${posts.length} Posts</h2>
+            <button id="closeModal" style="
+                background: transparent;
+                border: none;
+                color: white;
+                font-size: 1.5rem;
+                cursor: pointer;
+            ">&times;</button>
+        `;
+
+        // Content Section
+        const content = document.createElement('div');
+        content.style.cssText = `
+            padding: 1.5rem;
+            overflow-y: auto;
+            max-height: 60vh;
+        `;
+        
+        content.innerHTML = posts.map(post => `
+            <div style="padding: 1rem; border-bottom: 1px solid #eee">
+                <p><strong>🆔 ID:</strong> ${post.postId}</p>
+                <p><strong>📌 Title:</strong> ${post.title}</p>
+                <p style="color: #555">${post.content}</p>
+                <div style="display: flex; gap: 1rem; margin-top: 0.5rem">
+                    <div>👍 ${post.score}</div>
+                    <div>💬 ${post.comments}</div>
+                </div>
+            </div>
+        `).join('');
+
+        // Action Buttons
+        const actions = document.createElement('div');
+        actions.style.cssText = `
+            display: flex;
+            gap: 1rem;
+            padding: 1rem;
+            background: #f5f5f5;
+            border-bottom-left-radius: 12px;
+            border-bottom-right-radius: 12px;
+        `;
+        
+        ['CSV', 'JSON'].forEach(format => {
+            const btn = document.createElement('button');
+            btn.textContent = `.Download ${format}`;
+            btn.style.cssText = `
+                flex: 1;
+                padding: 1rem;
+                border: none;
+                border-radius: 8px;
+                cursor: pointer;
+                font-weight: 500;
+                transition: transform 0.2s;
+                background: ${format === 'CSV' ? '#4CAF50' : '#FF9800'};
+                color: white;
+            `;
+            
+            btn.addEventListener('click', () => {
+                const data = format === 'CSV' 
+                    ? generateCSVFromArray(posts) 
+                    : getJSONData(posts);
+                const blob = new Blob([data], { type: `application/${format.toLowerCase()}` });
+                const link = document.createElement('a');
+                link.href = URL.createObjectURL(blob);
+                link.download = `posts_${getHumanReadableTimestamp()}.${format.toLowerCase()}`;
+                link.click();
+            });
+            
+            actions.appendChild(btn);
+        });
+
+        // Assemble modal
+        modal.appendChild(header);
+        modal.appendChild(content);
+        modal.appendChild(actions);
+        overlay.appendChild(modal);
+        document.body.appendChild(overlay);
+
+        // Close handlers
+        document.getElementById('closeModal').addEventListener('click', () => overlay.remove());
+        overlay.addEventListener('click', (e) => e.target === overlay && overlay.remove());
     }
-  
-    // Initialize the stylish collect button on page load.
-    window.addEventListener("load", addStylishCollectButton);
-  })();
-  
+
+    // Initialization
+    window.addEventListener('load', () => {
+        addStylishCollectButton();
+    });
+})();
