@@ -134,44 +134,203 @@
     
     // Main batched collection function.
     async function collectPostsBatched() {
-      // Prompt for total collection parameters.
-      const totalTimeInput = window.prompt("Enter total collection time (minutes):", "5");
-      const totalPostsInput = window.prompt("Enter target total number of posts:", "1000");
-      const batchTimeInput = window.prompt("Enter batch time (minutes):", "1");
-      const batchSizeInput = window.prompt("Enter batch size (posts):", "100");
-      let totalTimeMs = parseFloat(totalTimeInput) * 60000;
-      let targetTotalPosts = parseInt(totalPostsInput, 10);
-      let batchTimeMs = parseFloat(batchTimeInput) * 60000;
-      let batchSize = parseInt(batchSizeInput, 10);
-      if (isNaN(totalTimeMs) || totalTimeMs <= 0) totalTimeMs = 5 * 60000;
-      if (isNaN(targetTotalPosts) || targetTotalPosts <= 0) targetTotalPosts = 1000;
-      if (isNaN(batchTimeMs) || batchTimeMs <= 0) batchTimeMs = 1 * 60000;
-      if (isNaN(batchSize) || batchSize <= 0) batchSize = 100;
-      const overallStartTime = Date.now();
-      let batchStartTime = Date.now();
-      while(cumulativeCount < targetTotalPosts && (Date.now() - overallStartTime) < totalTimeMs) {
-        window.scrollBy(0, 2000);
-        await wait(1000);
-        document.querySelectorAll('shreddit-post').forEach(post => extractPostData(post));
-        // If batch condition is met, upload the batch.
-        if ((Date.now() - batchStartTime) >= batchTimeMs || currentBatch.length >= batchSize) {
-          console.log(`Batch condition met: uploading batch of ${currentBatch.length} posts.`);
-          await autoUploadBatch(currentBatch);
-          cumulativeCount += currentBatch.length;
-          currentBatch = [];
-          batchStartTime = Date.now();
-        }
+        // Create modal container
+        const modal = document.createElement('div');
+        modal.style.cssText = `
+          position: fixed;
+          inset: 0;
+          background: rgba(0,0,0,0.6);
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          z-index: 10001;
+          padding: 1rem;
+        `;
+      
+        // Create form content
+        const form = `
+          <div style="
+            background: white;
+            border-radius: 16px;
+            width: 100%;
+            max-width: 500px;
+            padding: 2rem;
+            box-shadow: 0 8px 32px rgba(0,0,0,0.2);
+            font-family: 'Segoe UI', sans-serif;
+          ">
+            <h2 style="color: #1a202c; margin-bottom: 1.5rem">Collection Settings</h2>
+            
+            <div style="display: grid; gap: 1.25rem;">
+              <div>
+                <label style="
+                  display: block;
+                  margin-bottom: 0.5rem;
+                  color: #4a5568;
+                  font-weight: 500;
+                ">Total Time (minutes)</label>
+                <input type="number" id="totalTime" 
+                  style="
+                    width: 100%;
+                    padding: 0.75rem;
+                    border: 2px solid #e2e8f0;
+                    border-radius: 8px;
+                    font-size: 1rem;
+                    transition: border-color 0.2s;
+                  "
+                  placeholder="5"
+                  min="1"
+                  value="5"
+                >
+              </div>
+              
+              <div>
+                <label style="color: #4a5568; font-weight: 500">Target Posts</label>
+                <input type="number" id="totalPosts" 
+                  style="width: 100%; padding: 0.75rem; border: 2px solid #e2e8f0; border-radius: 8px;"
+                  placeholder="1000"
+                  min="1"
+                  value="1000"
+                >
+              </div>
+              
+              <div>
+                <label style="color: #4a5568; font-weight: 500">Batch Time (minutes)</label>
+                <input type="number" id="batchTime" 
+                  style="width: 100%; padding: 0.75rem; border: 2px solid #e2e8f0; border-radius: 8px;"
+                  placeholder="1"
+                  min="1"
+                  value="1"
+                >
+              </div>
+              
+              <div>
+                <label style="color: #4a5568; font-weight: 500">Batch Size</label>
+                <input type="number" id="batchSize" 
+                  style="width: 100%; padding: 0.75rem; border: 2px solid #e2e8f0; border-radius: 8px;"
+                  placeholder="100"
+                  min="1"
+                  value="100"
+                >
+              </div>
+              
+              <div style="display: flex; gap: 1rem">
+                <button id="startCollection" 
+                  style="
+                    flex: 1;
+                    padding: 1rem;
+                    background: #3700B3;
+                    color: white;
+                    border: none;
+                    border-radius: 8px;
+                    cursor: pointer;
+                    font-weight: 500;
+                    transition: transform 0.2s;
+                    display: flex;          /* Added */
+                    align-items: center;    /* Added */
+                    justify-content: center; /* Added */
+                  "
+                >Start Collection</button>
+                <button id="cancelCollection" 
+                  style="
+                    flex: 1;
+                    padding: 1rem;
+                    background: #e53e3e;
+                    color: white;
+                    border: none;
+                    border-radius: 8px;
+                    cursor: pointer;
+                    font-weight: 500;
+                    transition: transform 0.2s;
+                    display: flex;          /* Added */
+                    align-items: center;    /* Added */
+                    justify-content: center; /* Added */
+                  "
+                >Cancel</button>
+              </div>
+            </div>
+          </div>
+        `;
+      
+        modal.innerHTML = form;
+        document.body.appendChild(modal);
+      
+        // Handle form submission
+        const startButton = modal.querySelector('#startCollection');
+        const cancelButton = modal.querySelector('#cancelCollection');
+        const inputs = modal.querySelectorAll('input');
+      
+        // Input validation
+        const validate = () => {
+          let valid = true;
+          inputs.forEach(input => {
+            if (input.value <= 0) valid = false;
+            input.style.borderColor = input.value > 0 ? '#e2e8f0' : '#fc8181';
+          });
+          startButton.disabled = !valid;
+        };
+      
+        inputs.forEach(input => input.addEventListener('input', validate));
+        validate();
+      
+        // Promise-based modal handling
+        return new Promise(resolve => {
+          startButton.addEventListener('click', () => {
+            const params = {
+              totalTime: parseFloat(modal.querySelector('#totalTime').value) * 60000,
+              totalPosts: parseInt(modal.querySelector('#totalPosts').value, 10),
+              batchTime: parseFloat(modal.querySelector('#batchTime').value) * 60000,
+              batchSize: parseInt(modal.querySelector('#batchSize').value, 10)
+            };
+            modal.remove();
+            resolve(params);
+          });
+      
+          cancelButton.addEventListener('click', () => {
+            modal.remove();
+            resolve(null);
+          });
+        }).then(params => {
+          if (!params) return;
+          
+          // Original collection logic using validated params
+          const {
+            totalTime: totalTimeMs,
+            totalPosts: targetTotalPosts,
+            batchTime: batchTimeMs,
+            batchSize
+          } = params;
+      
+          const overallStartTime = Date.now();
+          let batchStartTime = Date.now();
+      
+          const collectionLoop = async () => {
+            while(cumulativeCount < targetTotalPosts && 
+                  (Date.now() - overallStartTime) < totalTimeMs) {
+              window.scrollBy(0, 2000);
+              await wait(1000);
+              document.querySelectorAll('shreddit-post')
+                .forEach(post => extractPostData(post));
+              
+              if ((Date.now() - batchStartTime) >= batchTimeMs || 
+                  currentBatch.length >= batchSize) {
+                await autoUploadBatch(currentBatch);
+                cumulativeCount += currentBatch.length;
+                currentBatch = [];
+                batchStartTime = Date.now();
+              }
+            }
+            
+            if (currentBatch.length > 0) {
+              await autoUploadBatch(currentBatch);
+              cumulativeCount += currentBatch.length;
+            }
+            
+            displayCollectedPosts(Array.from(collectedPosts.values()));
+          };
+      
+          collectionLoop();
+        });
       }
-      // Upload any remaining posts.
-      if (currentBatch.length > 0) {
-        console.log(`Final batch: uploading remaining ${currentBatch.length} posts.`);
-        await autoUploadBatch(currentBatch);
-        cumulativeCount += currentBatch.length;
-        currentBatch = [];
-      }
-      console.log(`Finished: Total collected posts: ${cumulativeCount}`);
-      displayCollectedPosts(Array.from(collectedPosts.values()));
-    }
     
     // Enhanced Floating Action Button (FAB) Implementation
     function addStylishCollectButton() {
