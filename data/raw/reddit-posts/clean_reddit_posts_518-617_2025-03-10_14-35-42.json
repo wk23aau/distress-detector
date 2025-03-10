@@ -1,0 +1,3348 @@
+[
+  {
+    "author_flair_text": null,
+    "created_utc": "2025-03-10 14:35:29 UTC",
+    "id": "1j801mj",
+    "link_flair_text": "spoiler",
+    "media": {
+      "reddit_video": {
+        "bitrate_kbps": 2400,
+        "dash_url": "https://v.redd.it/q1py9jshivne1/DASHPlaylist.mpd?a=1744209339%2CZjllMWYwZDBhZTg3NjMzY2Y3NGIwMzJmMjc3NGI5ZTc3YWMzOTRlODZhMzM2MjE1NDc1Zjk3ZjdlZjQ2MWYyOQ%3D%3D&amp;v=1&amp;f=sd",
+        "duration": 14,
+        "fallback_url": "https://v.redd.it/q1py9jshivne1/DASH_720.mp4?source=fallback",
+        "has_audio": false,
+        "height": 720,
+        "hls_url": "https://v.redd.it/q1py9jshivne1/HLSPlaylist.m3u8?a=1744209339%2CNThkZWI4MTg5N2VjNmZkYzc4YWU0NTJkZWY0MjFlYTU2MjE3Y2Q3OWVjMDFmNzY3NTc3M2EyNTY2Y2NlYjYwNg%3D%3D&amp;v=1&amp;f=sd",
+        "is_gif": false,
+        "scrubber_media_url": "https://v.redd.it/q1py9jshivne1/DASH_96.mp4",
+        "transcoding_status": "completed",
+        "width": 1280
+      }
+    },
+    "num_comments": 0,
+    "preview": {
+      "enabled": false,
+      "images": [
+        {
+          "id": "MWk1d3B3bWhpdm5lMa4Up_9PYXwlPKMrhJEBmz3D9gtRUsFRv_U_7lAv0k05",
+          "resolutions": [
+            {
+              "height": 60,
+              "url": "https://external-preview.redd.it/MWk1d3B3bWhpdm5lMa4Up_9PYXwlPKMrhJEBmz3D9gtRUsFRv_U_7lAv0k05.png?width=108&amp;crop=smart&amp;format=pjpg&amp;auto=webp&amp;s=e37118be9032e634aae797dba5a78d7b55d2fe2a",
+              "width": 108
+            },
+            {
+              "height": 121,
+              "url": "https://external-preview.redd.it/MWk1d3B3bWhpdm5lMa4Up_9PYXwlPKMrhJEBmz3D9gtRUsFRv_U_7lAv0k05.png?width=216&amp;crop=smart&amp;format=pjpg&amp;auto=webp&amp;s=6bac7c827f19511d0a8f5527e43706baf4afd91b",
+              "width": 216
+            },
+            {
+              "height": 179,
+              "url": "https://external-preview.redd.it/MWk1d3B3bWhpdm5lMa4Up_9PYXwlPKMrhJEBmz3D9gtRUsFRv_U_7lAv0k05.png?width=320&amp;crop=smart&amp;format=pjpg&amp;auto=webp&amp;s=dceb72489fbcfc002394e8232967b1385b551d7f",
+              "width": 320
+            },
+            {
+              "height": 359,
+              "url": "https://external-preview.redd.it/MWk1d3B3bWhpdm5lMa4Up_9PYXwlPKMrhJEBmz3D9gtRUsFRv_U_7lAv0k05.png?width=640&amp;crop=smart&amp;format=pjpg&amp;auto=webp&amp;s=468480e6f6504534724bab8d66b1eed18a612692",
+              "width": 640
+            },
+            {
+              "height": 539,
+              "url": "https://external-preview.redd.it/MWk1d3B3bWhpdm5lMa4Up_9PYXwlPKMrhJEBmz3D9gtRUsFRv_U_7lAv0k05.png?width=960&amp;crop=smart&amp;format=pjpg&amp;auto=webp&amp;s=90db8ccaae787700c12c3c6b142558d48cb54c38",
+              "width": 960
+            },
+            {
+              "height": 607,
+              "url": "https://external-preview.redd.it/MWk1d3B3bWhpdm5lMa4Up_9PYXwlPKMrhJEBmz3D9gtRUsFRv_U_7lAv0k05.png?width=1080&amp;crop=smart&amp;format=pjpg&amp;auto=webp&amp;s=5fa9aca3ed091657f1de29e94f2f84d0a99dd0e0",
+              "width": 1080
+            }
+          ],
+          "source": {
+            "height": 607,
+            "url": "https://external-preview.redd.it/MWk1d3B3bWhpdm5lMa4Up_9PYXwlPKMrhJEBmz3D9gtRUsFRv_U_7lAv0k05.png?format=pjpg&amp;auto=webp&amp;s=179adc4c3dda30e0d494652a4ad3e5e539d1ac40",
+            "width": 1080
+          },
+          "variants": {}
+        }
+      ]
+    },
+    "score": 1,
+    "secure_media": {
+      "reddit_video": {
+        "bitrate_kbps": 2400,
+        "dash_url": "https://v.redd.it/q1py9jshivne1/DASHPlaylist.mpd?a=1744209339%2CZjllMWYwZDBhZTg3NjMzY2Y3NGIwMzJmMjc3NGI5ZTc3YWMzOTRlODZhMzM2MjE1NDc1Zjk3ZjdlZjQ2MWYyOQ%3D%3D&amp;v=1&amp;f=sd",
+        "duration": 14,
+        "fallback_url": "https://v.redd.it/q1py9jshivne1/DASH_720.mp4?source=fallback",
+        "has_audio": false,
+        "height": 720,
+        "hls_url": "https://v.redd.it/q1py9jshivne1/HLSPlaylist.m3u8?a=1744209339%2CNThkZWI4MTg5N2VjNmZkYzc4YWU0NTJkZWY0MjFlYTU2MjE3Y2Q3OWVjMDFmNzY3NTc3M2EyNTY2Y2NlYjYwNg%3D%3D&amp;v=1&amp;f=sd",
+        "is_gif": false,
+        "scrubber_media_url": "https://v.redd.it/q1py9jshivne1/DASH_96.mp4",
+        "transcoding_status": "completed",
+        "width": 1280
+      }
+    },
+    "selftext": "",
+    "subreddit": "superjueves",
+    "title": "Que bonito esta el wilds",
+    "upvote_ratio": 1.0,
+    "url": "https://v.redd.it/q1py9jshivne1",
+    "url_overridden_by_dest": "https://v.redd.it/q1py9jshivne1"
+  },
+  {
+    "author_flair_text": null,
+    "created_utc": "2025-03-10 14:35:29 UTC",
+    "id": "1j801mh",
+    "link_flair_text": null,
+    "media": null,
+    "num_comments": 0,
+    "score": 1,
+    "secure_media": null,
+    "selftext": "# \n\nAce your CS coursework with our help:  \n\ud83d\udda5 **Programming** \u2013 Python, Java, C++, JavaScript, SQL  \n\ud83d\uddc2 **Data Structures &amp; Algorithms** \u2013 Arrays, Trees, Graphs, Sorting &amp; Searching Algorithms  \n\ud83d\udcca **Database Management** \u2013 SQL, NoSQL, ER Models, Normalization  \n\ud83e\udd16 **Machine Learning &amp; AI** \u2013 Neural Networks, Deep Learning, Data Science  \n\ud83d\udd10 **Cybersecurity &amp; Ethical Hacking** \u2013 Network Security, Cryptography, Penetration Testing\n\n\ud83d\udce9 **Contact us for CS tutoring &amp; homework support!**\n\n\\#CodingHelp #ComputerScience #Programming #StudySupport",
+    "subreddit": "SolveMyHW_",
+    "title": "\ud83d\udcbb Computer Science Help - Coding &amp; Algorithms Made Easy! \ud83d\udcbb",
+    "upvote_ratio": 1.0,
+    "url": "https://www.reddit.com/r/SolveMyHW_/comments/1j801mh/computer_science_help_coding_algorithms_made_easy/"
+  },
+  {
+    "author_flair_text": null,
+    "created_utc": "2025-03-10 14:35:29 UTC",
+    "id": "1j801mf",
+    "link_flair_text": null,
+    "media": null,
+    "num_comments": 0,
+    "score": 1,
+    "secure_media": null,
+    "selftext": "[suryadiscale](http://www.suryadiscale.wordpress.com)",
+    "subreddit": "Timbangan",
+    "title": "Service kalibrasi jembatan timbang",
+    "upvote_ratio": 1.0,
+    "url": "https://www.reddit.com/r/Timbangan/comments/1j801mf/service_kalibrasi_jembatan_timbang/"
+  },
+  {
+    "author_flair_text": null,
+    "created_utc": "2025-03-10 14:35:29 UTC",
+    "id": "1j801mc",
+    "link_flair_text": null,
+    "media": null,
+    "num_comments": 0,
+    "score": 1,
+    "secure_media": null,
+    "selftext": "",
+    "subreddit": "Wrexham_",
+    "title": "Britains Got Talent Golden Buzzer - Olly Pearson, Live Wrexham performance",
+    "upvote_ratio": 1.0,
+    "url": "https://shorturl.at/wrOqO",
+    "url_overridden_by_dest": "https://shorturl.at/wrOqO"
+  },
+  {
+    "author_flair_text": null,
+    "created_utc": "2025-03-10 14:35:28 UTC",
+    "id": "1j801ma",
+    "link_flair_text": "CrossOver",
+    "media": null,
+    "num_comments": 0,
+    "preview": {
+      "enabled": true,
+      "images": [
+        {
+          "id": "vqc9x1ethvne1",
+          "resolutions": [
+            {
+              "height": 39,
+              "url": "https://preview.redd.it/vqc9x1ethvne1.png?width=108&amp;crop=smart&amp;auto=webp&amp;s=9aa76c0f1a4741c04eb786554d59b5f7809805cf",
+              "width": 108
+            },
+            {
+              "height": 78,
+              "url": "https://preview.redd.it/vqc9x1ethvne1.png?width=216&amp;crop=smart&amp;auto=webp&amp;s=ea1bda14de02ef66b82b677f434167f45a48141f",
+              "width": 216
+            },
+            {
+              "height": 116,
+              "url": "https://preview.redd.it/vqc9x1ethvne1.png?width=320&amp;crop=smart&amp;auto=webp&amp;s=9b7ba52e6ed0a72a89026044e170642544fa14c0",
+              "width": 320
+            },
+            {
+              "height": 232,
+              "url": "https://preview.redd.it/vqc9x1ethvne1.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=9d980cf715d2411bbd76b6c8e2da58c19d54f1a1",
+              "width": 640
+            },
+            {
+              "height": 349,
+              "url": "https://preview.redd.it/vqc9x1ethvne1.png?width=960&amp;crop=smart&amp;auto=webp&amp;s=8036c8676fc8b624e2cf802dfc2ab6400cc346e5",
+              "width": 960
+            },
+            {
+              "height": 392,
+              "url": "https://preview.redd.it/vqc9x1ethvne1.png?width=1080&amp;crop=smart&amp;auto=webp&amp;s=03e97c5595da18003baa3f23c4b64e7957ff29e5",
+              "width": 1080
+            }
+          ],
+          "source": {
+            "height": 560,
+            "url": "https://preview.redd.it/vqc9x1ethvne1.png?auto=webp&amp;s=e31d67d326c62daa0db1a8fb999b298725b90334",
+            "width": 1540
+          },
+          "variants": {}
+        }
+      ]
+    },
+    "score": 1,
+    "secure_media": null,
+    "selftext": "",
+    "subreddit": "macgaming",
+    "title": "Split Fiction on Crossover 24.0.7 gets stuck on blackscreen after Hazelight lauch screen and crashes with the following message (Macbook Pro M4 Max)",
+    "upvote_ratio": 1.0,
+    "url": "https://i.redd.it/vqc9x1ethvne1.png",
+    "url_overridden_by_dest": "https://i.redd.it/vqc9x1ethvne1.png"
+  },
+  {
+    "author_flair_text": null,
+    "created_utc": "2025-03-10 14:35:28 UTC",
+    "id": "1j801m8",
+    "link_flair_text": null,
+    "media": null,
+    "num_comments": 1,
+    "score": 1,
+    "secure_media": null,
+    "selftext": "",
+    "subreddit": "politics",
+    "title": "Stocks Fall After Trump Declines To Rule Out Recession: \u2018Consumer confidence registered its largest monthly drop since August 2021\u2019",
+    "upvote_ratio": 1.0,
+    "url": "https://abcnews.go.com/Business/stocks-slump-after-trump-declines-rule-recession/story?id=119626168",
+    "url_overridden_by_dest": "https://abcnews.go.com/Business/stocks-slump-after-trump-declines-rule-recession/story?id=119626168"
+  },
+  {
+    "author_flair_text": null,
+    "created_utc": "2025-03-10 14:35:28 UTC",
+    "id": "1j801m7",
+    "link_flair_text": "General",
+    "media": null,
+    "num_comments": 0,
+    "score": 1,
+    "secure_media": null,
+    "selftext": "rant about how your day was and what you did",
+    "subreddit": "ASDc",
+    "title": "Hows Your Day",
+    "upvote_ratio": 1.0,
+    "url": "https://www.reddit.com/r/ASDc/comments/1j801m7/hows_your_day/"
+  },
+  {
+    "author_flair_text": null,
+    "created_utc": "2025-03-10 14:35:28 UTC",
+    "id": "1j801m6",
+    "link_flair_text": "Others",
+    "media": null,
+    "num_comments": 1,
+    "score": 1,
+    "secure_media": null,
+    "selftext": "I have been struggling for days looking for a solution for my high temps on 5950x, previously it was 70degrees low load on a single tab google, 3 monitoring software. It is abundantly clear that there is a lack of resources to solve this issue or at least none clear enough to allow beginners to understand. **The problem was the power plan being the Microsoft balanced powerplan and Ryzen balanced power plan. For some reason, it causes temp spikes to 70 degrees.**\n\nMy fix was switching to **power saver power plan**, but on top of that, I can now use PBO, negative voltage offset and curve optimizer to my heart's content. Now I see temp of 45 degrees and with a previous score of 23500 cinebench, my slight pbo overclock PPT160W, TDC 105A and EDC 140A, Negative curve offset of -12 and negative voltage offset of -0.0375, I have hit 25000 easily.\n\nI will be testing gaming performances and day to day use roughly and update this post once i have the time as there maybe concerns on stuttering or lower performance.\n\n  \n**summary:**\n\nprevious cinebench score with idle temps of 70 Degrees: \n\nNo PBO\n\nNO curve offset\n\nvolt -ve offset: -0.05V\n\n**Current CPU and set up:**\n\nAsus B550-F gaming wifi (BIOS updated to latest)\n\nRyzen 5950x\n\ng-skill rip jaws 3600MHZ 2x32GB\n\nCPU cooler: Thermaltake Frost Spirit iii  \n**PBO2 settings etc: (Temp in Celsius)**\n\nweb browsing/ multi light load program temps: 43 to 46 degrees \n\nTemp limit: 90 degree\n\nPPT: 160W  TDC:105A   EDC:140A\n\ncurve opti -ve offset: -12\n\nVoltage offset: -0.0375\n\nCinebench 1st attempt after temp fix: 25000",
+    "subreddit": "PcBuild",
+    "title": "Fix for High Idle Temps for Ryzen 5950x or other High end processors",
+    "upvote_ratio": 1.0,
+    "url": "https://www.reddit.com/r/PcBuild/comments/1j801m6/fix_for_high_idle_temps_for_ryzen_5950x_or_other/"
+  },
+  {
+    "author_flair_text": null,
+    "created_utc": "2025-03-10 14:35:28 UTC",
+    "id": "1j801m5",
+    "link_flair_text": "Netherlands",
+    "media": null,
+    "num_comments": 2,
+    "score": 1,
+    "secure_media": null,
+    "selftext": "Hello! I've been living in the Netherlands for almost seven years now, and this has never happened before. Two weeks ago, I bought a jacket. I put it on and realised it was a tad too big for me, so I decided to send it back. I even thought of buying the same jacket in a different size in the future.\n\nAnyway... after a while, I received an e-mail informing me about a package I was to expect in a week. Weird, I thought, because I hadn't purchased anything.\n\nToday I went to pick up the mysterious package and... it was the jacket I bought. Confused, I called customer service, and they told me the jacket had been clearly used because it had an \"odor\" to it, and they couldn't accept it back.\n\nI asked the people I live with if they could smell anything, but they couldn't. It smells new because it is new. I only put it on once, realised it was too big, and sent it back the next day.\n\nMy question is: Is there anything I can do about it? How does this work in the Netherlands? I bought it from an independent company, so I suppose it would be harder to get my money back.\n\nThank you in advance!",
+    "subreddit": "LegalAdviceEurope",
+    "title": "Tried to return a jacket I bought, but they denied the return because it 'smelled weird.'",
+    "upvote_ratio": 1.0,
+    "url": "https://www.reddit.com/r/LegalAdviceEurope/comments/1j801m5/tried_to_return_a_jacket_i_bought_but_they_denied/"
+  },
+  {
+    "author_flair_text": null,
+    "created_utc": "2025-03-10 14:35:28 UTC",
+    "id": "1j801m2",
+    "link_flair_text": "Question",
+    "media": null,
+    "num_comments": 0,
+    "score": 1,
+    "secure_media": null,
+    "selftext": "",
+    "subreddit": "EDH",
+    "title": "Is it a decent idea to include fetch lands beyond your core colors? Or is that overkill?",
+    "upvote_ratio": 1.0,
+    "url": "/r/magicTCG/comments/1j8014e/is_it_a_decent_idea_to_include_fetch_lands_beyond/",
+    "url_overridden_by_dest": "/r/magicTCG/comments/1j8014e/is_it_a_decent_idea_to_include_fetch_lands_beyond/"
+  },
+  {
+    "author_flair_text": null,
+    "created_utc": "2025-03-10 14:35:27 UTC",
+    "id": "1j801ly",
+    "link_flair_text": "Discussions",
+    "media": null,
+    "num_comments": 0,
+    "score": 1,
+    "secure_media": null,
+    "selftext": "Was going to go for tribbie coz I loved her as a character and I like pulling supports lol. I then lost to an e2 bronya just a couple of minutes ago. \n\nI plan on pulling tribbie on her rerun, but before that, which teams can I run with our best girl? I was thinking Rice/Rmc/RM/Sustain prolly gallag. ",
+    "subreddit": "CastoriceMains_",
+    "title": "Teams I can make with my current roster (planning on e0s1)",
+    "upvote_ratio": 1.0,
+    "url": "https://www.reddit.com/gallery/1j801ly",
+    "url_overridden_by_dest": "https://www.reddit.com/gallery/1j801ly"
+  },
+  {
+    "author_flair_text": null,
+    "created_utc": "2025-03-10 14:35:27 UTC",
+    "id": "1j801lx",
+    "link_flair_text": "Advice",
+    "media": null,
+    "num_comments": 0,
+    "score": 1,
+    "secure_media": null,
+    "selftext": "Kasi 11 days na pero kahit OR hindi ko pa po natatanggap. Kasi I am planning to raise a concern to the dealership and isa to sa pwede kong magamit. Ang sabi kasi nila uploaded na raw ang documents ko pero upon checking kay LTO, hindi pa raw kasi binabayaran ng dealer kaya hindi pa nila maprocess. Paano po kaya to? Any suggestions po? Thanks!",
+    "subreddit": "PHMotorcycles",
+    "title": "Good day po! For strict implementation po ba ang LTO Memorandum Circular No. JMT-2023-2390, dealerships are required to release the OR/CR within 11 days from the date of purchase.",
+    "upvote_ratio": 1.0,
+    "url": "https://www.reddit.com/r/PHMotorcycles/comments/1j801lx/good_day_po_for_strict_implementation_po_ba_ang/"
+  },
+  {
+    "author_flair_text": null,
+    "created_utc": "2025-03-10 14:35:27 UTC",
+    "id": "1j801lt",
+    "link_flair_text": null,
+    "media": null,
+    "num_comments": 0,
+    "preview": {
+      "enabled": true,
+      "images": [
+        {
+          "id": "JxPjIQKoQiEzLXmMrT_7f2VCsRliu7kBEwMr6MuLxO0",
+          "resolutions": [
+            {
+              "height": 144,
+              "url": "https://preview.redd.it/c3im1cwcivne1.jpeg?width=108&amp;crop=smart&amp;auto=webp&amp;s=210514824b315ccf740c9f80de5ed23185c77d4f",
+              "width": 108
+            },
+            {
+              "height": 289,
+              "url": "https://preview.redd.it/c3im1cwcivne1.jpeg?width=216&amp;crop=smart&amp;auto=webp&amp;s=f1b44ed9133c3346231f6f51572b414bf9a16019",
+              "width": 216
+            },
+            {
+              "height": 428,
+              "url": "https://preview.redd.it/c3im1cwcivne1.jpeg?width=320&amp;crop=smart&amp;auto=webp&amp;s=977294bc4f34ed90e5d698ff0702b6843ab3258d",
+              "width": 320
+            },
+            {
+              "height": 857,
+              "url": "https://preview.redd.it/c3im1cwcivne1.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=35689a810a546dae124be250f406a1677518394e",
+              "width": 640
+            },
+            {
+              "height": 1285,
+              "url": "https://preview.redd.it/c3im1cwcivne1.jpeg?width=960&amp;crop=smart&amp;auto=webp&amp;s=c79cc0dfabfc3fb2edd5180cbc0bad332eb19c77",
+              "width": 960
+            },
+            {
+              "height": 1446,
+              "url": "https://preview.redd.it/c3im1cwcivne1.jpeg?width=1080&amp;crop=smart&amp;auto=webp&amp;s=9819af7558a483393b4d7644faae1bfabf6a36b3",
+              "width": 1080
+            }
+          ],
+          "source": {
+            "height": 2048,
+            "url": "https://preview.redd.it/c3im1cwcivne1.jpeg?auto=webp&amp;s=a817219986eddf87b5404002c551101054989b61",
+            "width": 1529
+          },
+          "variants": {}
+        }
+      ]
+    },
+    "score": 1,
+    "secure_media": null,
+    "selftext": "",
+    "subreddit": "AccidentalRenaissance",
+    "title": "Sunset Airtime",
+    "upvote_ratio": 1.0,
+    "url": "https://i.redd.it/c3im1cwcivne1.jpeg",
+    "url_overridden_by_dest": "https://i.redd.it/c3im1cwcivne1.jpeg"
+  },
+  {
+    "author_flair_text": "M14",
+    "created_utc": "2025-03-10 14:35:27 UTC",
+    "id": "1j801lr",
+    "link_flair_text": "GUN QUESTION",
+    "media": null,
+    "num_comments": 0,
+    "preview": {
+      "enabled": true,
+      "images": [
+        {
+          "id": "PbBf05r0MurhyBp-jJ6ib6I_Dv-MNc1fgdTvcBn2DKw",
+          "resolutions": [
+            {
+              "height": 81,
+              "url": "https://preview.redd.it/2j4fib9givne1.jpeg?width=108&amp;crop=smart&amp;auto=webp&amp;s=62d4247b38b82e9185dabc107d2da7bde367ce8f",
+              "width": 108
+            },
+            {
+              "height": 162,
+              "url": "https://preview.redd.it/2j4fib9givne1.jpeg?width=216&amp;crop=smart&amp;auto=webp&amp;s=eb19742264cb85c9326e30565dac3ce061f40e74",
+              "width": 216
+            },
+            {
+              "height": 240,
+              "url": "https://preview.redd.it/2j4fib9givne1.jpeg?width=320&amp;crop=smart&amp;auto=webp&amp;s=ae8038b716841858007e2c00062ffbfdbf863687",
+              "width": 320
+            },
+            {
+              "height": 480,
+              "url": "https://preview.redd.it/2j4fib9givne1.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=1e50d8c20f0f90cb4513d375ab8294a2f93713ef",
+              "width": 640
+            },
+            {
+              "height": 720,
+              "url": "https://preview.redd.it/2j4fib9givne1.jpeg?width=960&amp;crop=smart&amp;auto=webp&amp;s=a92cd122db10b482272377accfd1fce796758f60",
+              "width": 960
+            },
+            {
+              "height": 810,
+              "url": "https://preview.redd.it/2j4fib9givne1.jpeg?width=1080&amp;crop=smart&amp;auto=webp&amp;s=579dd44b04ae75029dbece5000ad32763fef35e5",
+              "width": 1080
+            }
+          ],
+          "source": {
+            "height": 3024,
+            "url": "https://preview.redd.it/2j4fib9givne1.jpeg?auto=webp&amp;s=e74663039513c1aff6f700711d4672f2f6d81224",
+            "width": 4032
+          },
+          "variants": {}
+        }
+      ]
+    },
+    "score": 1,
+    "secure_media": null,
+    "selftext": "Not gonna do a EBR cuz they are heavy as shit  ",
+    "subreddit": "airsoft",
+    "title": "What do I need for a DMR M14 build?",
+    "upvote_ratio": 1.0,
+    "url": "https://i.redd.it/2j4fib9givne1.jpeg",
+    "url_overridden_by_dest": "https://i.redd.it/2j4fib9givne1.jpeg"
+  },
+  {
+    "author_flair_text": null,
+    "created_utc": "2025-03-10 14:35:27 UTC",
+    "id": "1j801lp",
+    "link_flair_text": null,
+    "media": null,
+    "num_comments": 0,
+    "preview": {
+      "enabled": false,
+      "images": [
+        {
+          "id": "HtJbapBc_lXHGU3h8bS1pZfHxKOj_JTYDmTTo2NDb54",
+          "resolutions": [
+            {
+              "height": 56,
+              "url": "https://external-preview.redd.it/6j0GpycC0OVpXFSKIePX2-fjwloZ0OtbbomEdZZI8ec.jpg?width=108&amp;crop=smart&amp;auto=webp&amp;s=ce713ab9c3bccc6cae16cf0227bc95ffe852fe0b",
+              "width": 108
+            },
+            {
+              "height": 112,
+              "url": "https://external-preview.redd.it/6j0GpycC0OVpXFSKIePX2-fjwloZ0OtbbomEdZZI8ec.jpg?width=216&amp;crop=smart&amp;auto=webp&amp;s=80bd4575242b73760ed4d27e981e7878a7e26f4d",
+              "width": 216
+            },
+            {
+              "height": 166,
+              "url": "https://external-preview.redd.it/6j0GpycC0OVpXFSKIePX2-fjwloZ0OtbbomEdZZI8ec.jpg?width=320&amp;crop=smart&amp;auto=webp&amp;s=1e1093392b0554322b1de620778a305e8b5a22f1",
+              "width": 320
+            },
+            {
+              "height": 333,
+              "url": "https://external-preview.redd.it/6j0GpycC0OVpXFSKIePX2-fjwloZ0OtbbomEdZZI8ec.jpg?width=640&amp;crop=smart&amp;auto=webp&amp;s=04e6d920c3ba5f38e300901e4ad085ef25ed8fc6",
+              "width": 640
+            },
+            {
+              "height": 500,
+              "url": "https://external-preview.redd.it/6j0GpycC0OVpXFSKIePX2-fjwloZ0OtbbomEdZZI8ec.jpg?width=960&amp;crop=smart&amp;auto=webp&amp;s=e118bed01ebde60817959cd4d8f873f5c732cca6",
+              "width": 960
+            }
+          ],
+          "source": {
+            "height": 526,
+            "url": "https://external-preview.redd.it/6j0GpycC0OVpXFSKIePX2-fjwloZ0OtbbomEdZZI8ec.jpg?auto=webp&amp;s=7a6009399d76b9f5557539a4882cb05abab6536e",
+            "width": 1008
+          },
+          "variants": {}
+        }
+      ]
+    },
+    "score": 1,
+    "secure_media": null,
+    "selftext": "",
+    "subreddit": "tigernet",
+    "title": "Longtime Clemson pro getting released by Falcons in surprise move",
+    "upvote_ratio": 1.0,
+    "url": "https://www.tigernet.com/clemson-nfl/news/longtime-clemson-pro-grady-jarrett-getting-released-by-falcons-in-surprise-move-45790",
+    "url_overridden_by_dest": "https://www.tigernet.com/clemson-nfl/news/longtime-clemson-pro-grady-jarrett-getting-released-by-falcons-in-surprise-move-45790"
+  },
+  {
+    "author_flair_text": "Level 2",
+    "created_utc": "2025-03-10 14:35:27 UTC",
+    "id": "1j801lo",
+    "link_flair_text": "Gesundheit",
+    "media": null,
+    "num_comments": 1,
+    "score": 1,
+    "secure_media": null,
+    "selftext": "Hallo Redditoren! :D\n\nVor einigen Jahren hat man bei mir Hautkrebs diagnostiziert. Den Krebs konnte man operativ entfernen. Der Preis war eine lange Reha mit Schmerztabletten und st\u00e4ndigen Schmerzen. Am R\u00fccken (an der Wirbels\u00e4ule) habe ich davon noch eine riesige Narbe. Man hat einiges weggeschnitten. Ich lag fast ein Jahr lang nur im Bett, um den R\u00fccken zu schonen und habe danach sofort angefangen meine R\u00fcckenmuskulatur zu st\u00e4rken durch ein erst einmal seichtes Training, welches mir in der Reha mitgegeben wurde.\n\nDoch nun sind gut zwei Jahre ins Land gezogen und trotzdem schmerzt mir alles im R\u00fccken. Der Schmerz ist manchmal bei k\u00f6rperlicher Bet\u00e4tigung so stark bet\u00e4ubend, dass ich nicht mal mehr eine Glasflasche halten kann. Der Schmerz geht von meiner Narbe aus und zwingt mich oft dazu mehrmals beim Schlafen aufzuwachen und die Position zu \u00e4ndern.\nMeine \u00c4rzte im Krankenhaus (bei regelm\u00e4\u00dfigen Checkups) meinten, dass sie nichts Auff\u00e4lliges finden k\u00f6nnen. Durch meine Arbeit, die mir vom Jobcenter zugeteilt worden ist, hat sich das nochmal verschlimmert.\n\n\n\nIch brauche Rat, was ich gegen die Schmerzen tun kann und wo ich einen Arzt finden kann (vor allem welche Art Arzt w\u00e4re da eher ein Ansprechpartner), der das Kind beim Namen nennen k\u00f6nnte.",
+    "subreddit": "Ratschlag",
+    "title": "Starke Schmerzen - Arzt findet nichts",
+    "upvote_ratio": 1.0,
+    "url": "https://www.reddit.com/r/Ratschlag/comments/1j801lo/starke_schmerzen_arzt_findet_nichts/"
+  },
+  {
+    "author_flair_text": "Kolkata ",
+    "created_utc": "2025-03-10 14:35:26 UTC",
+    "id": "1j801ll",
+    "link_flair_text": "Player Close-Up :doge:",
+    "media": null,
+    "num_comments": 1,
+    "score": 1,
+    "secure_media": null,
+    "selftext": "",
+    "subreddit": "CricketHardPics",
+    "title": "Shubman Gill's Snaps with the Champions Trophy",
+    "upvote_ratio": 1.0,
+    "url": "https://www.reddit.com/gallery/1j801ll",
+    "url_overridden_by_dest": "https://www.reddit.com/gallery/1j801ll"
+  },
+  {
+    "author_flair_text": "50% chance drawing women rn",
+    "created_utc": "2025-03-10 14:35:26 UTC",
+    "id": "1j801lj",
+    "link_flair_text": "OC Lore and Bios",
+    "media": null,
+    "num_comments": 0,
+    "score": 1,
+    "secure_media": null,
+    "selftext": "She\u2019s a weird thing.\n\n\nBorn on the Mir-78 space station, she has spent most of her life in space. \n\n\nShe worked in the debris interceptor department for the station most of her life. \n\n\nIt was until the department was ordered to intercept a weird  spacecraft in the vicinity. \nIt seemed to be harmless and abandoned, but it contained some weird crystals Daria happened to spend too much time close to. In the following weeks she had a complete transformation into the thing she now is\u2026.whatever it is, goo? \n\n\nNow she spends her time in solitary confinement style in the D.D.R section of the station\n\n\nShe has now the ability to shape shift her gooey form and other cool stuff. \n\n\nFunfact, she\u2019s radioactive and hazardous to interact with but consuming goo separated from her body is safe\u2026.it just tastes awful.\n\n\nYah thats about it. Shes a silly.\n\n",
+    "subreddit": "OriginalCharacter",
+    "title": "Alien, glorb",
+    "upvote_ratio": 1.0,
+    "url": "https://www.reddit.com/gallery/1j801lj",
+    "url_overridden_by_dest": "https://www.reddit.com/gallery/1j801lj"
+  },
+  {
+    "author_flair_text": null,
+    "created_utc": "2025-03-10 14:35:26 UTC",
+    "id": "1j801li",
+    "link_flair_text": null,
+    "media": null,
+    "num_comments": 0,
+    "score": 1,
+    "secure_media": null,
+    "selftext": "I know this is a hourly post at best, but\n\n  \nI CANT PROP ANYTHING TO SAVE MY (plants) LIVES. \n\n  \nOutside of Anacampseros rufescens, I truly cant. \n\n  \nI Have a prop tray, and try to copy many of yours where you just lay it on top of the draining soil.\n\nI have tried rooting hormone. \n\nI need some help so I dont have to throw as many shriveled up leaves I attempted to prop anymore \n\n  \nThank you in advance! \n\n",
+    "subreddit": "proplifting",
+    "title": "Prop Problems",
+    "upvote_ratio": 1.0,
+    "url": "https://www.reddit.com/r/proplifting/comments/1j801li/prop_problems/"
+  },
+  {
+    "author_flair_text": "*Equip sunglasses*",
+    "created_utc": "2025-03-10 14:35:26 UTC",
+    "id": "1j801lb",
+    "link_flair_text": "Advertisement \ud83d\udc8e",
+    "media": null,
+    "num_comments": 0,
+    "preview": {
+      "enabled": true,
+      "images": [
+        {
+          "id": "8p-kC1XHytiSt23B_fbo5ExADljlzq7qPbqD85da2vM",
+          "resolutions": [
+            {
+              "height": 108,
+              "url": "https://preview.redd.it/852y64ycivne1.png?width=108&amp;crop=smart&amp;auto=webp&amp;s=1e84d7a87de8395698706946d476c4e93d0aba0b",
+              "width": 108
+            },
+            {
+              "height": 216,
+              "url": "https://preview.redd.it/852y64ycivne1.png?width=216&amp;crop=smart&amp;auto=webp&amp;s=a85dcfa4e5217deae323ac6d2724b40a5cc59efb",
+              "width": 216
+            },
+            {
+              "height": 320,
+              "url": "https://preview.redd.it/852y64ycivne1.png?width=320&amp;crop=smart&amp;auto=webp&amp;s=06cd8926277ea0735e486fa9c98ab700e4bb88e2",
+              "width": 320
+            },
+            {
+              "height": 640,
+              "url": "https://preview.redd.it/852y64ycivne1.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=c3a6b208e33f4956010bc096523d7ed837d2255f",
+              "width": 640
+            },
+            {
+              "height": 960,
+              "url": "https://preview.redd.it/852y64ycivne1.png?width=960&amp;crop=smart&amp;auto=webp&amp;s=354a5726446035df7bc94bc531fb057f687eccf8",
+              "width": 960
+            },
+            {
+              "height": 1080,
+              "url": "https://preview.redd.it/852y64ycivne1.png?width=1080&amp;crop=smart&amp;auto=webp&amp;s=288862a9f77be2f679cd234e7896fd786d19941f",
+              "width": 1080
+            }
+          ],
+          "source": {
+            "height": 2000,
+            "url": "https://preview.redd.it/852y64ycivne1.png?auto=webp&amp;s=c841c6931c983eec2a7891c2b2abc553c73feb93",
+            "width": 2000
+          },
+          "variants": {}
+        }
+      ]
+    },
+    "score": 1,
+    "secure_media": null,
+    "selftext": "",
+    "subreddit": "RobloxFurs",
+    "title": "Delivery cat face UGC, link to buy in the description!",
+    "upvote_ratio": 1.0,
+    "url": "https://i.redd.it/852y64ycivne1.png",
+    "url_overridden_by_dest": "https://i.redd.it/852y64ycivne1.png"
+  },
+  {
+    "author_flair_text": null,
+    "created_utc": "2025-03-10 14:35:25 UTC",
+    "id": "1j801l6",
+    "link_flair_text": "HELP",
+    "media": null,
+    "num_comments": 0,
+    "preview": {
+      "enabled": true,
+      "images": [
+        {
+          "id": "si6X4bWAigBhnU_YTXrdEJSJTITJDI4O-BnVBCJX6qg",
+          "resolutions": [
+            {
+              "height": 143,
+              "url": "https://preview.redd.it/rs5s1f9hivne1.jpeg?width=108&amp;crop=smart&amp;auto=webp&amp;s=8cef2e6294f8e7b2a26909b53fc8c7bfba159e09",
+              "width": 108
+            },
+            {
+              "height": 286,
+              "url": "https://preview.redd.it/rs5s1f9hivne1.jpeg?width=216&amp;crop=smart&amp;auto=webp&amp;s=1cb3a1b180f25a51dc8c07f7a6badb41049d93aa",
+              "width": 216
+            },
+            {
+              "height": 425,
+              "url": "https://preview.redd.it/rs5s1f9hivne1.jpeg?width=320&amp;crop=smart&amp;auto=webp&amp;s=736bb65992bf3c61da4e7540f79d8f866967c626",
+              "width": 320
+            },
+            {
+              "height": 850,
+              "url": "https://preview.redd.it/rs5s1f9hivne1.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=079471515acd8124e230098a43530c9520ac2d64",
+              "width": 640
+            },
+            {
+              "height": 1275,
+              "url": "https://preview.redd.it/rs5s1f9hivne1.jpeg?width=960&amp;crop=smart&amp;auto=webp&amp;s=d355e3e24c7215f522a992cbaf0bd067c9bea2cc",
+              "width": 960
+            },
+            {
+              "height": 1434,
+              "url": "https://preview.redd.it/rs5s1f9hivne1.jpeg?width=1080&amp;crop=smart&amp;auto=webp&amp;s=5d22f10d9956d9ca87786b9dbf8eef5b735addce",
+              "width": 1080
+            }
+          ],
+          "source": {
+            "height": 4080,
+            "url": "https://preview.redd.it/rs5s1f9hivne1.jpeg?auto=webp&amp;s=279c3bd011b8891b0d630b22b07a7dd8ef942376",
+            "width": 3072
+          },
+          "variants": {}
+        }
+      ]
+    },
+    "score": 1,
+    "secure_media": null,
+    "selftext": "Hi, I jumped on the demo offering a couple weeks back and just took possession yesterday. There is a significant gap between the back of the handguard and the receiver \"sheath\" it slides into.  So much that the handguard rotates on the locking pin downward.  When I remove the locking pin and seat the handguard into receiver, the locking pin holes do not line up and the pin cannot insert.  I intended to replace the handguard, but I worry that the locking pin hole piece is out of spec and welded on just a bit too far forward.  Best case is that the handguard is a stumpy defect and short so a new handguard will fit.  Any suggestions?\n\n",
+    "subreddit": "MP5",
+    "title": "AP5-P Demo handguard gap",
+    "upvote_ratio": 1.0,
+    "url": "https://i.redd.it/rs5s1f9hivne1.jpeg",
+    "url_overridden_by_dest": "https://i.redd.it/rs5s1f9hivne1.jpeg"
+  },
+  {
+    "author_flair_text": null,
+    "created_utc": "2025-03-10 14:35:25 UTC",
+    "id": "1j801l5",
+    "link_flair_text": "Meta",
+    "media": null,
+    "num_comments": 0,
+    "score": 1,
+    "secure_media": null,
+    "selftext": "",
+    "subreddit": "FridgeDetective",
+    "title": "What does my fridge/freezer say about me?",
+    "upvote_ratio": 1.0,
+    "url": "https://www.reddit.com/gallery/1j801l5",
+    "url_overridden_by_dest": "https://www.reddit.com/gallery/1j801l5"
+  },
+  {
+    "author_flair_text": "THE REALIST",
+    "created_utc": "2025-03-10 14:35:25 UTC",
+    "id": "1j801l4",
+    "link_flair_text": "THROWBACK",
+    "media": {
+      "reddit_video": {
+        "bitrate_kbps": 1200,
+        "dash_url": "https://v.redd.it/2sgx6gwgivne1/DASHPlaylist.mpd?a=1744209339%2CNWUyMDJhYzQxNDM2NWNkMDQxOWYxN2M2MTQ1YmYzODU1YzVhOTA0YWZlMDc0NmI3NTQ1ZmE5MTBhMGNiOGViYQ%3D%3D&amp;v=1&amp;f=sd",
+        "duration": 17,
+        "fallback_url": "https://v.redd.it/2sgx6gwgivne1/DASH_480.mp4?source=fallback",
+        "has_audio": true,
+        "height": 854,
+        "hls_url": "https://v.redd.it/2sgx6gwgivne1/HLSPlaylist.m3u8?a=1744209339%2CNzAxNDM0ZTk3OTJmZjYwYTdkMzIzMzNjOTcwZDdhYmRlNWU5NDdiYzRiMjhkODhlY2VhMzU1YWNjY2I5ODhiYQ%3D%3D&amp;v=1&amp;f=sd",
+        "is_gif": false,
+        "scrubber_media_url": "https://v.redd.it/2sgx6gwgivne1/DASH_96.mp4",
+        "transcoding_status": "completed",
+        "width": 480
+      }
+    },
+    "num_comments": 0,
+    "preview": {
+      "enabled": false,
+      "images": [
+        {
+          "id": "ZmhsMWppc2dpdm5lMX2reqGGFH-1hgSuye4WpNyYlh-vnLpgpEXmSnqeW6of",
+          "resolutions": [
+            {
+              "height": 192,
+              "url": "https://external-preview.redd.it/ZmhsMWppc2dpdm5lMX2reqGGFH-1hgSuye4WpNyYlh-vnLpgpEXmSnqeW6of.png?width=108&amp;crop=smart&amp;format=pjpg&amp;auto=webp&amp;s=f703b54cfedd04fe685399aadfe8b04dc9d29690",
+              "width": 108
+            },
+            {
+              "height": 384,
+              "url": "https://external-preview.redd.it/ZmhsMWppc2dpdm5lMX2reqGGFH-1hgSuye4WpNyYlh-vnLpgpEXmSnqeW6of.png?width=216&amp;crop=smart&amp;format=pjpg&amp;auto=webp&amp;s=86116974596e8242b324b5dbe323ef16d3861512",
+              "width": 216
+            },
+            {
+              "height": 568,
+              "url": "https://external-preview.redd.it/ZmhsMWppc2dpdm5lMX2reqGGFH-1hgSuye4WpNyYlh-vnLpgpEXmSnqeW6of.png?width=320&amp;crop=smart&amp;format=pjpg&amp;auto=webp&amp;s=ecf5dd9cedbd5cae16f2cafda93a93ec96e63144",
+              "width": 320
+            }
+          ],
+          "source": {
+            "height": 1024,
+            "url": "https://external-preview.redd.it/ZmhsMWppc2dpdm5lMX2reqGGFH-1hgSuye4WpNyYlh-vnLpgpEXmSnqeW6of.png?format=pjpg&amp;auto=webp&amp;s=ca8081c1422a9866c725ab8237496104f568c0d0",
+            "width": 576
+          },
+          "variants": {}
+        }
+      ]
+    },
+    "score": 1,
+    "secure_media": {
+      "reddit_video": {
+        "bitrate_kbps": 1200,
+        "dash_url": "https://v.redd.it/2sgx6gwgivne1/DASHPlaylist.mpd?a=1744209339%2CNWUyMDJhYzQxNDM2NWNkMDQxOWYxN2M2MTQ1YmYzODU1YzVhOTA0YWZlMDc0NmI3NTQ1ZmE5MTBhMGNiOGViYQ%3D%3D&amp;v=1&amp;f=sd",
+        "duration": 17,
+        "fallback_url": "https://v.redd.it/2sgx6gwgivne1/DASH_480.mp4?source=fallback",
+        "has_audio": true,
+        "height": 854,
+        "hls_url": "https://v.redd.it/2sgx6gwgivne1/HLSPlaylist.m3u8?a=1744209339%2CNzAxNDM0ZTk3OTJmZjYwYTdkMzIzMzNjOTcwZDdhYmRlNWU5NDdiYzRiMjhkODhlY2VhMzU1YWNjY2I5ODhiYQ%3D%3D&amp;v=1&amp;f=sd",
+        "is_gif": false,
+        "scrubber_media_url": "https://v.redd.it/2sgx6gwgivne1/DASH_96.mp4",
+        "transcoding_status": "completed",
+        "width": 480
+      }
+    },
+    "selftext": "",
+    "subreddit": "NBAYoungboy",
+    "title": "Bro\ud83d\ude2d\ud83d\ude2d\ud83d\ude2d",
+    "upvote_ratio": 1.0,
+    "url": "https://v.redd.it/2sgx6gwgivne1",
+    "url_overridden_by_dest": "https://v.redd.it/2sgx6gwgivne1"
+  },
+  {
+    "author_flair_text": null,
+    "created_utc": "2025-03-10 14:35:25 UTC",
+    "id": "1j801l1",
+    "link_flair_text": null,
+    "media": null,
+    "num_comments": 0,
+    "preview": {
+      "enabled": true,
+      "images": [
+        {
+          "id": "SFqUhlVMv4kRqXLvumgqsZu0-7PwDL_typc64XEnvTY",
+          "resolutions": [
+            {
+              "height": 115,
+              "url": "https://preview.redd.it/k2lqnuwgivne1.png?width=108&amp;crop=smart&amp;auto=webp&amp;s=a5432fe9843c30aebf7382f74a66671ad787b58d",
+              "width": 108
+            },
+            {
+              "height": 230,
+              "url": "https://preview.redd.it/k2lqnuwgivne1.png?width=216&amp;crop=smart&amp;auto=webp&amp;s=2ada03645deecab9e525a04cefb46c7afaeee46f",
+              "width": 216
+            },
+            {
+              "height": 340,
+              "url": "https://preview.redd.it/k2lqnuwgivne1.png?width=320&amp;crop=smart&amp;auto=webp&amp;s=64782292fdc1b8d1bcfe57b02ebd645b1d2d9db6",
+              "width": 320
+            },
+            {
+              "height": 681,
+              "url": "https://preview.redd.it/k2lqnuwgivne1.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=aa83a13b1231ec4b65abb8120b582771904f25e4",
+              "width": 640
+            }
+          ],
+          "source": {
+            "height": 747,
+            "url": "https://preview.redd.it/k2lqnuwgivne1.png?auto=webp&amp;s=fd396c6df73a71f860eb0703b97bc15e13c8a813",
+            "width": 701
+          },
+          "variants": {}
+        }
+      ]
+    },
+    "score": 1,
+    "secure_media": null,
+    "selftext": "Looking for people with triple A games",
+    "subreddit": "steamsharing",
+    "title": "Looking for steam family members (4 slots) (UK only)",
+    "upvote_ratio": 1.0,
+    "url": "https://i.redd.it/k2lqnuwgivne1.png",
+    "url_overridden_by_dest": "https://i.redd.it/k2lqnuwgivne1.png"
+  },
+  {
+    "author_flair_text": null,
+    "created_utc": "2025-03-10 14:35:25 UTC",
+    "id": "1j801l0",
+    "link_flair_text": "Chat  \ud83d\udcac",
+    "media": null,
+    "num_comments": 1,
+    "score": 1,
+    "secure_media": null,
+    "selftext": "Someone please talk to me!",
+    "subreddit": "chat",
+    "title": "26M, UK. Bored at work!",
+    "upvote_ratio": 1.0,
+    "url": "https://www.reddit.com/r/chat/comments/1j801l0/26m_uk_bored_at_work/"
+  },
+  {
+    "author_flair_text": null,
+    "created_utc": "2025-03-10 14:35:25 UTC",
+    "id": "1j801kz",
+    "link_flair_text": "\u00d6ylesine att\u0131m \ud83e\udd37",
+    "media": null,
+    "num_comments": 1,
+    "preview": {
+      "enabled": true,
+      "images": [
+        {
+          "id": "p5aZnK82CmB-hCOFsXA6pqNGNew0qPpZRWESOmzQOjo",
+          "resolutions": [
+            {
+              "height": 74,
+              "url": "https://preview.redd.it/s1vnec7hivne1.jpeg?width=108&amp;crop=smart&amp;auto=webp&amp;s=43109737c85fb138df21da6d8e43559775085c05",
+              "width": 108
+            },
+            {
+              "height": 148,
+              "url": "https://preview.redd.it/s1vnec7hivne1.jpeg?width=216&amp;crop=smart&amp;auto=webp&amp;s=cb7ab9e8698619966db863093680f0b378d3fcb1",
+              "width": 216
+            },
+            {
+              "height": 220,
+              "url": "https://preview.redd.it/s1vnec7hivne1.jpeg?width=320&amp;crop=smart&amp;auto=webp&amp;s=a7a81b44255c50dcf3dafbc3408bf01498a0989c",
+              "width": 320
+            },
+            {
+              "height": 440,
+              "url": "https://preview.redd.it/s1vnec7hivne1.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=a6700f0c1c28c903973c90e329bfc863a4bc52d6",
+              "width": 640
+            }
+          ],
+          "source": {
+            "height": 570,
+            "url": "https://preview.redd.it/s1vnec7hivne1.jpeg?auto=webp&amp;s=afdc4020133ab6ac7c28ae8d7a944d35513544cc",
+            "width": 828
+          },
+          "variants": {}
+        }
+      ]
+    },
+    "score": 1,
+    "secure_media": null,
+    "selftext": "",
+    "subreddit": "vlandiya",
+    "title": "\u015f\u00f6yle dedi\u011finiz metinler?",
+    "upvote_ratio": 1.0,
+    "url": "https://i.redd.it/s1vnec7hivne1.jpeg",
+    "url_overridden_by_dest": "https://i.redd.it/s1vnec7hivne1.jpeg"
+  },
+  {
+    "author_flair_text": null,
+    "created_utc": "2025-03-10 14:35:25 UTC",
+    "id": "1j801ky",
+    "link_flair_text": "DISCUSSION",
+    "media": null,
+    "num_comments": 0,
+    "score": 1,
+    "secure_media": null,
+    "selftext": "I\u2019m an intermediate plant parent and I\u2019m starting to move some of my plants into my bathroom, which doesn\u2019t have a window. I\u2019ve been seeing online that houseplants don\u2019t necessarily need expensive grow lights in order to thrive and can in fact get suitable light with regular LEDs. Does anyone have any more information on this practice? I\u2019ve had some plants (various pothos, Boston fern, snake plants, spider plants) etc in my bathroom for over a week now and everyone is doing well just with the regular light bulbs I had in here before. I\u2019m looking for more information on light/light bulbs for indoor plants as I\u2019m open to experimenting to find the best fit. Does anyone have any experience with this? ",
+    "subreddit": "IndoorPlants",
+    "title": "Using regular LED lights as grow lights",
+    "upvote_ratio": 1.0,
+    "url": "https://www.reddit.com/r/IndoorPlants/comments/1j801ky/using_regular_led_lights_as_grow_lights/"
+  },
+  {
+    "author_flair_text": null,
+    "created_utc": "2025-03-10 14:35:24 UTC",
+    "id": "1j801kw",
+    "link_flair_text": "Question",
+    "media": null,
+    "num_comments": 0,
+    "preview": {
+      "enabled": true,
+      "images": [
+        {
+          "id": "_1cKWhQ-PMbZ5gZlo6BRLTyrJMNJvCukELwQ95N6Jbs",
+          "resolutions": [
+            {
+              "height": 60,
+              "url": "https://preview.redd.it/3sjxvt7hivne1.png?width=108&amp;crop=smart&amp;auto=webp&amp;s=060cccad1fbf8205f287bd0dfdbc95ba0d646ba9",
+              "width": 108
+            },
+            {
+              "height": 121,
+              "url": "https://preview.redd.it/3sjxvt7hivne1.png?width=216&amp;crop=smart&amp;auto=webp&amp;s=66bcf35c54f89a00bb79bcb9ecedb8c1cb23307f",
+              "width": 216
+            },
+            {
+              "height": 180,
+              "url": "https://preview.redd.it/3sjxvt7hivne1.png?width=320&amp;crop=smart&amp;auto=webp&amp;s=858f66c9af9f00f256b4251957a0759c93e3b107",
+              "width": 320
+            },
+            {
+              "height": 361,
+              "url": "https://preview.redd.it/3sjxvt7hivne1.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=5b0afa6818656859b5ec534d46bd382f2fa3b5dc",
+              "width": 640
+            },
+            {
+              "height": 542,
+              "url": "https://preview.redd.it/3sjxvt7hivne1.png?width=960&amp;crop=smart&amp;auto=webp&amp;s=f6d3b4b1f927194695329f15f4888802fe51fac5",
+              "width": 960
+            },
+            {
+              "height": 610,
+              "url": "https://preview.redd.it/3sjxvt7hivne1.png?width=1080&amp;crop=smart&amp;auto=webp&amp;s=92e6fa1a46a485b8de3a02529caca420be3c4d0d",
+              "width": 1080
+            }
+          ],
+          "source": {
+            "height": 610,
+            "url": "https://preview.redd.it/3sjxvt7hivne1.png?auto=webp&amp;s=6e692544d0a341ded10923f64ca99fd0e2362efe",
+            "width": 1080
+          },
+          "variants": {}
+        }
+      ]
+    },
+    "score": 1,
+    "secure_media": null,
+    "selftext": "",
+    "subreddit": "spongebob",
+    "title": "Why did Kevin got kicked out of the Jellyfish Club? \ud83e\udd28",
+    "upvote_ratio": 1.0,
+    "url": "https://i.redd.it/3sjxvt7hivne1.png",
+    "url_overridden_by_dest": "https://i.redd.it/3sjxvt7hivne1.png"
+  },
+  {
+    "author_flair_text": null,
+    "created_utc": "2025-03-10 14:35:24 UTC",
+    "id": "1j801ks",
+    "link_flair_text": "General",
+    "media": null,
+    "num_comments": 0,
+    "score": 1,
+    "secure_media": null,
+    "selftext": "A school where my application was marked completed 12/1 was updated to under review over a month ago. On [LSD.law](http://LSD.law) nearly every other applicant from around this time has a decision. Should I email the school to check if someone forgot to send out my decision.\n\n  \nI don't want to get pushy either so idk...",
+    "subreddit": "lawschooladmissions",
+    "title": "Should I email the school?",
+    "upvote_ratio": 1.0,
+    "url": "https://www.reddit.com/r/lawschooladmissions/comments/1j801ks/should_i_email_the_school/"
+  },
+  {
+    "author_flair_text": null,
+    "created_utc": "2025-03-10 14:35:24 UTC",
+    "id": "1j801kp",
+    "link_flair_text": null,
+    "media": null,
+    "num_comments": 0,
+    "preview": {
+      "enabled": true,
+      "images": [
+        {
+          "id": "BC8BypRzpmoctxAHvgYhy3Hc8FvOlFhp6SABJhF5pTc",
+          "resolutions": [
+            {
+              "height": 100,
+              "url": "https://preview.redd.it/2f2pvu9hivne1.jpeg?width=108&amp;crop=smart&amp;auto=webp&amp;s=9ce350fd1ce5ce02c205c5bd58c34b8a66ca4423",
+              "width": 108
+            },
+            {
+              "height": 200,
+              "url": "https://preview.redd.it/2f2pvu9hivne1.jpeg?width=216&amp;crop=smart&amp;auto=webp&amp;s=e40d4143b6a0fa39f846def5690fbcf09db0758f",
+              "width": 216
+            },
+            {
+              "height": 297,
+              "url": "https://preview.redd.it/2f2pvu9hivne1.jpeg?width=320&amp;crop=smart&amp;auto=webp&amp;s=67f12b5e1f916ba4e560478c1861290eb79e9d0c",
+              "width": 320
+            },
+            {
+              "height": 594,
+              "url": "https://preview.redd.it/2f2pvu9hivne1.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=a330a2b513ee17eabee0e33c058f227300f79287",
+              "width": 640
+            },
+            {
+              "height": 892,
+              "url": "https://preview.redd.it/2f2pvu9hivne1.jpeg?width=960&amp;crop=smart&amp;auto=webp&amp;s=5ab02cdaf2792d85d68bbbf3c2766427e5c00ee9",
+              "width": 960
+            },
+            {
+              "height": 1003,
+              "url": "https://preview.redd.it/2f2pvu9hivne1.jpeg?width=1080&amp;crop=smart&amp;auto=webp&amp;s=8b3bd0728cca0bb468cb3a58ba05a6c026c84cad",
+              "width": 1080
+            }
+          ],
+          "source": {
+            "height": 1635,
+            "url": "https://preview.redd.it/2f2pvu9hivne1.jpeg?auto=webp&amp;s=e7fdb370042dceae9ba54b3603acbdcb795be2a7",
+            "width": 1759
+          },
+          "variants": {}
+        }
+      ]
+    },
+    "score": 1,
+    "secure_media": null,
+    "selftext": "And of course the colors all match \u26ab\ufe0f\ud83d\udfe3",
+    "subreddit": "BeybladeX",
+    "title": "Just Made A Awesome Mobile Defense Type \ud83d\udee1\ufe0f",
+    "upvote_ratio": 1.0,
+    "url": "https://i.redd.it/2f2pvu9hivne1.jpeg",
+    "url_overridden_by_dest": "https://i.redd.it/2f2pvu9hivne1.jpeg"
+  },
+  {
+    "author_flair_text": null,
+    "created_utc": "2025-03-10 14:35:24 UTC",
+    "id": "1j801ko",
+    "link_flair_text": null,
+    "media": null,
+    "num_comments": 0,
+    "score": 1,
+    "secure_media": null,
+    "selftext": "",
+    "subreddit": "AskReddit",
+    "title": "What's the best brand to buy coffee?",
+    "upvote_ratio": 1.0,
+    "url": "https://www.reddit.com/r/AskReddit/comments/1j801ko/whats_the_best_brand_to_buy_coffee/"
+  },
+  {
+    "author_flair_text": null,
+    "created_utc": "2025-03-10 14:35:24 UTC",
+    "id": "1j801km",
+    "link_flair_text": ":snoo_facepalm: Other",
+    "media": null,
+    "num_comments": 1,
+    "score": 1,
+    "secure_media": null,
+    "selftext": "The only thing i think may have been wrong was that i still had a cheeky message saying \"Come play wolds, we have cookies\" but i didn't even bother with the pack after they nuked all the channels, but just lurked there.",
+    "subreddit": "VaultHuntersMinecraft",
+    "title": "Randomly, i was banned in the VHO discord server.",
+    "upvote_ratio": 1.0,
+    "url": "https://www.reddit.com/r/VaultHuntersMinecraft/comments/1j801km/randomly_i_was_banned_in_the_vho_discord_server/"
+  },
+  {
+    "author_flair_text": "3D high: 2963",
+    "created_utc": "2025-03-10 14:35:24 UTC",
+    "id": "1j801ke",
+    "link_flair_text": null,
+    "media": null,
+    "num_comments": 0,
+    "score": 1,
+    "secure_media": null,
+    "selftext": "Thanks to Chach for creating some player cards!  Swipe the pic to see the other grouping. ",
+    "subreddit": "euchre",
+    "title": "Reddit League Tonight!",
+    "upvote_ratio": 1.0,
+    "url": "https://www.reddit.com/gallery/1j801ke",
+    "url_overridden_by_dest": "https://www.reddit.com/gallery/1j801ke"
+  },
+  {
+    "author_flair_text": ":kappa:",
+    "created_utc": "2025-03-10 14:35:24 UTC",
+    "id": "1j801kd",
+    "link_flair_text": null,
+    "media": null,
+    "num_comments": 0,
+    "score": 1,
+    "secure_media": null,
+    "selftext": "How do you have no inclination to research for yourself? Do you just blindly take what others say as fact? You don\u2019t do your own research??? Really? \nAre you coming from a legal state in the USA and expecting the same experience????\nPlease do your homework.  I\u2019m tired of the daily messages, \u201cwhere can I get Thc?\" \"Yo, dude, I'm in Osaka.. where can I get THC flower, I have a medical license...\"\n\nFuck off. All of you. Fuck off.  If you're too stupid to do your own research, then don't message me privately. Not my problem. Grow a braincell.\nNo replies to Dms from now. If you don't know what CBD, CBN, CBG, or H4CBD is then google it. I'm not your fucking google. Learn how to use the internet. Learn social etiquette. Learn how to use the search bar. Level up.",
+    "subreddit": "AltnoidsJapan",
+    "title": "I worry about the idiots on this sub.",
+    "upvote_ratio": 1.0,
+    "url": "https://www.reddit.com/r/AltnoidsJapan/comments/1j801kd/i_worry_about_the_idiots_on_this_sub/"
+  },
+  {
+    "author_flair_text": null,
+    "created_utc": "2025-03-10 14:35:24 UTC",
+    "id": "1j801ka",
+    "link_flair_text": "askIndirapuram ",
+    "media": null,
+    "num_comments": 0,
+    "score": 1,
+    "secure_media": null,
+    "selftext": "",
+    "subreddit": "IndirapuramDiaries",
+    "title": "Fine dine family restaurant recommendations in and around indurapuram?",
+    "upvote_ratio": 1.0,
+    "url": "https://www.reddit.com/r/IndirapuramDiaries/comments/1j801ka/fine_dine_family_restaurant_recommendations_in/"
+  },
+  {
+    "author_flair_text": null,
+    "created_utc": "2025-03-10 14:35:24 UTC",
+    "id": "1j801k9",
+    "link_flair_text": "\ud83c\udfdb\ufe0f \u0930\u093e\u091c\u0915\u093e\u0930\u0923 \u0906\u0923\u093f \u0936\u093e\u0938\u0928 | Politics and Governance",
+    "media": null,
+    "num_comments": 1,
+    "preview": {
+      "enabled": false,
+      "images": [
+        {
+          "id": "sMNBCbMhSGP-CZZSWXrrjNZshmOqT-xXWKteMulC19Q",
+          "resolutions": [
+            {
+              "height": 81,
+              "url": "https://external-preview.redd.it/5P8zejuHuEopiQxMEP_RTbW0ZBcrCWTfjfiC9CXFRJ8.jpg?width=108&amp;crop=smart&amp;auto=webp&amp;s=0d178f8240bd5c1138170c86a5cbae5f0aa072ce",
+              "width": 108
+            },
+            {
+              "height": 162,
+              "url": "https://external-preview.redd.it/5P8zejuHuEopiQxMEP_RTbW0ZBcrCWTfjfiC9CXFRJ8.jpg?width=216&amp;crop=smart&amp;auto=webp&amp;s=b45396186dfbaa70e6e176e4993b00b9a7ebe50a",
+              "width": 216
+            },
+            {
+              "height": 240,
+              "url": "https://external-preview.redd.it/5P8zejuHuEopiQxMEP_RTbW0ZBcrCWTfjfiC9CXFRJ8.jpg?width=320&amp;crop=smart&amp;auto=webp&amp;s=492f6700c5103d4a5eb5a9935982ca0fe26d9773",
+              "width": 320
+            },
+            {
+              "height": 480,
+              "url": "https://external-preview.redd.it/5P8zejuHuEopiQxMEP_RTbW0ZBcrCWTfjfiC9CXFRJ8.jpg?width=640&amp;crop=smart&amp;auto=webp&amp;s=cc663815e39b6dbda9ec67efcc17e7700fd63574",
+              "width": 640
+            },
+            {
+              "height": 720,
+              "url": "https://external-preview.redd.it/5P8zejuHuEopiQxMEP_RTbW0ZBcrCWTfjfiC9CXFRJ8.jpg?width=960&amp;crop=smart&amp;auto=webp&amp;s=a33f4a2127eeeb373451a861baf21e5a6ee431bf",
+              "width": 960
+            },
+            {
+              "height": 810,
+              "url": "https://external-preview.redd.it/5P8zejuHuEopiQxMEP_RTbW0ZBcrCWTfjfiC9CXFRJ8.jpg?width=1080&amp;crop=smart&amp;auto=webp&amp;s=29f325d4ec3650b5039fef0e6dd3ed4770fee976",
+              "width": 1080
+            }
+          ],
+          "source": {
+            "height": 900,
+            "url": "https://external-preview.redd.it/5P8zejuHuEopiQxMEP_RTbW0ZBcrCWTfjfiC9CXFRJ8.jpg?auto=webp&amp;s=2abe5387d2623e726b0986ecbf3ea79ffd56dc67",
+            "width": 1200
+          },
+          "variants": {}
+        }
+      ]
+    },
+    "score": 1,
+    "secure_media": null,
+    "selftext": "",
+    "subreddit": "Maharashtra",
+    "title": "'Trash Spread on Mohammed Ali Road During Ramadan': BJP MLA Nitesh Rane Challenges Raj Thackeray Over Kumbh Mela Remarks",
+    "upvote_ratio": 1.0,
+    "url": "https://www.lokmattimes.com/maharashtra/trash-spread-on-mohammed-ali-road-during-ramadan-bjp-mla-nitesh-rane-challenges-raj-thackeray-over-kumbh-mela-remarks-watch-a517/",
+    "url_overridden_by_dest": "https://www.lokmattimes.com/maharashtra/trash-spread-on-mohammed-ali-road-during-ramadan-bjp-mla-nitesh-rane-challenges-raj-thackeray-over-kumbh-mela-remarks-watch-a517/"
+  },
+  {
+    "author_flair_text": null,
+    "created_utc": "2025-03-10 14:35:23 UTC",
+    "id": "1j801k3",
+    "link_flair_text": "SNS (BND)",
+    "media": null,
+    "num_comments": 0,
+    "score": 1,
+    "secure_media": null,
+    "selftext": "",
+    "subreddit": "BOYNEXTDOOR_",
+    "title": "250311 Woonhak on Weverse",
+    "upvote_ratio": 1.0,
+    "url": "https://www.reddit.com/gallery/1j801k3",
+    "url_overridden_by_dest": "https://www.reddit.com/gallery/1j801k3"
+  },
+  {
+    "author_flair_text": null,
+    "created_utc": "2025-03-10 14:35:23 UTC",
+    "id": "1j801k1",
+    "link_flair_text": "Image",
+    "media": null,
+    "num_comments": 0,
+    "preview": {
+      "enabled": true,
+      "images": [
+        {
+          "id": "hQOEk-U6ylxqiu6gXyBX9pL5k11_1bLO5cH1mtxp4oA",
+          "resolutions": [
+            {
+              "height": 60,
+              "url": "https://preview.redd.it/nzwdrnygivne1.png?width=108&amp;crop=smart&amp;auto=webp&amp;s=2e86d21c9f496887bb4caab0af51f5fb3bce4fbc",
+              "width": 108
+            },
+            {
+              "height": 121,
+              "url": "https://preview.redd.it/nzwdrnygivne1.png?width=216&amp;crop=smart&amp;auto=webp&amp;s=888ab1d0a671d3d4681b6023036b7270146cb503",
+              "width": 216
+            },
+            {
+              "height": 180,
+              "url": "https://preview.redd.it/nzwdrnygivne1.png?width=320&amp;crop=smart&amp;auto=webp&amp;s=0e0150f52398e6286f35be8fa13752707f956cfa",
+              "width": 320
+            },
+            {
+              "height": 360,
+              "url": "https://preview.redd.it/nzwdrnygivne1.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=87b28174a489bdf2b7207501162ba0ebd6491e6a",
+              "width": 640
+            },
+            {
+              "height": 540,
+              "url": "https://preview.redd.it/nzwdrnygivne1.png?width=960&amp;crop=smart&amp;auto=webp&amp;s=2867becc73f327e61787ed2db46fc7c15690355c",
+              "width": 960
+            },
+            {
+              "height": 607,
+              "url": "https://preview.redd.it/nzwdrnygivne1.png?width=1080&amp;crop=smart&amp;auto=webp&amp;s=78502a32906560839a028c9a1be640245bfa55f3",
+              "width": 1080
+            }
+          ],
+          "source": {
+            "height": 2160,
+            "url": "https://preview.redd.it/nzwdrnygivne1.png?auto=webp&amp;s=adef670798ec761234e455da0749f5b52dd41c60",
+            "width": 3840
+          },
+          "variants": {}
+        }
+      ]
+    },
+    "score": 1,
+    "secure_media": null,
+    "selftext": "Basically, I just want their planet. I've been planning on colonizing the hell out of the place anyway, and that planet is nice. I want it. Can I just take it? I have no problem revealing myself to do it. I want to \"War of the Worlds\" them not study them. \n\nIdk if there's an \"R5\" here for pictures, but \"see the picture? I want them gone.\"",
+    "subreddit": "Stellaris",
+    "title": "How Do I Take Their Planet?",
+    "upvote_ratio": 1.0,
+    "url": "https://i.redd.it/nzwdrnygivne1.png",
+    "url_overridden_by_dest": "https://i.redd.it/nzwdrnygivne1.png"
+  },
+  {
+    "author_flair_text": null,
+    "created_utc": "2025-03-10 14:35:23 UTC",
+    "id": "1j801ju",
+    "link_flair_text": "Conditions/Trip Report",
+    "media": null,
+    "num_comments": 0,
+    "preview": {
+      "enabled": false,
+      "images": [
+        {
+          "id": "Y-3b9oODl-3mTjSCPPio6iRpnQnKsK-UJmWWcPOwLPo",
+          "resolutions": [],
+          "source": {
+            "height": 65,
+            "url": "https://external-preview.redd.it/oJzKX0h4D2yQ2ODITCQMGHXhUdtp5iykqUeKaQ1qIDM.jpg?auto=webp&amp;s=159a6a9b3de067a5c644d2cba47d29080ab49aa3",
+            "width": 65
+          },
+          "variants": {}
+        }
+      ]
+    },
+    "score": 1,
+    "secure_media": null,
+    "selftext": "Weekly update intended to reduce the number of \"Is Narrows open?\" posts that happen a lot this time of year.\n\nCurrent flow is highly variable this time of year so *check current conditions at the park before heading to the trail head*. Narrows is currently open and should remain open in the near-term (*but note, I'm not a hydrologist nor a fluvial geomorphologist*).\n\n* The park department closes the Narrows at Zion whenever the current flow is above 150 cfs (see historical [closed dates here](https://www.nps.gov/zion/planyourvisit/thenarrows.htm)). Anything over 100 cfs makes the hike much more challenging as the pools are deeper and you're fighting strong current higher up your body.  Seriously - hiking when the flow is 140cfs will require a lot of work pushing against the current.\n\n* Current flow is 59.6 cfs May 10, 2025 08:05:00 AM MDT. Can find up-to-date data at [North Fork Virgin River Water Levels](https://waterdata.usgs.gov/monitoring-location/09405500/#period=P7D&amp;dataTypeId=continuous-00060-0&amp;showMedian=true). Rain or rapid snowmelt can quickly change the situation.  As an example, the flow jumped from [about 50 cfs to 141 cfs](https://waterdata.usgs.gov/monitoring-location/09405500/#dataTypeId=continuous-00060-0&amp;showMedian=true&amp;startDT=2025-03-05&amp;endDT=2025-03-07) on March 6th this year within hours after about 0.7 inches of rain\n\n* Current and historical snow depth in the drainage above the Narrows here: [Kolob SNOTEL site](https://wcc.sc.egov.usda.gov/nwcc/site?sitenum=561). It has been historically on the low end this winter but about a foot and a half of snow was added to the watershed this last week.   It's [currently at around 39\"](https://wcc.sc.egov.usda.gov/reportGenerator/view/customSingleStationReport/daily/561:ut:SNTL%7Cid=%22%22%7Cname/-7,0/WTEQ::value,WTEQ::delta,SNWD::value,SNWD::delta).  It was 48\" deep on May 10, 2024, last year.\n\n* Snow melt is cold.  Water in the Narrows will be cold.\n\n* For the skilled and prepared adventurous, you can get a permit to kayak the Narrows if the flow [is between 150cfs and 600cfs for 24 consecutive hours](https://www.nps.gov/zion/planyourvisit/rivertrips.htm#:%7E:text=Permits%20for%20kayaking%20through%20the%20Narrows%20will%20only%20be%20issued,any%20watercourse%20within%20the%20park.). It is definitely a challenge and not for beginners: [video](https://m.youtube.com/watch?v=MyEJXGDKUCE).  \n\n* This is my first update for the season.  Thanks for reading.",
+    "subreddit": "ZionNationalPark",
+    "title": "3/10 - Narrows Update (Currently Open)",
+    "upvote_ratio": 1.0,
+    "url": "https://www.reddit.com/r/ZionNationalPark/comments/1j801ju/310_narrows_update_currently_open/"
+  },
+  {
+    "author_flair_text": null,
+    "created_utc": "2025-03-10 14:35:22 UTC",
+    "id": "1j801jl",
+    "link_flair_text": "DISCUSSION ",
+    "media": null,
+    "num_comments": 0,
+    "score": 1,
+    "secure_media": null,
+    "selftext": "If I have a level 9 fully traited out T1 purple item and transfer that over to another T1 purple item, that item will now be level 9 with a bunch of blessing and no traits.  If I then put a bunch of blue traits into that item to stack even more blessing, will all of the blessing in that item be transferred over to the T2 item I transfer it into?  ",
+    "subreddit": "throneandliberty",
+    "title": "Question about blessing stacking for T2 items",
+    "upvote_ratio": 1.0,
+    "url": "https://www.reddit.com/r/throneandliberty/comments/1j801jl/question_about_blessing_stacking_for_t2_items/"
+  },
+  {
+    "author_flair_text": ":Sonk:",
+    "created_utc": "2025-03-10 14:35:22 UTC",
+    "id": "1j801jj",
+    "link_flair_text": "Question",
+    "media": null,
+    "num_comments": 0,
+    "score": 1,
+    "secure_media": null,
+    "selftext": "im on windows 11 btw",
+    "subreddit": "SonicTheHedgehog",
+    "title": "can anybody please tell me how to use unleashed recompiled please????",
+    "upvote_ratio": 1.0,
+    "url": "https://www.reddit.com/r/SonicTheHedgehog/comments/1j801jj/can_anybody_please_tell_me_how_to_use_unleashed/"
+  },
+  {
+    "author_flair_text": null,
+    "created_utc": "2025-03-10 14:35:22 UTC",
+    "id": "1j801je",
+    "link_flair_text": null,
+    "media": null,
+    "num_comments": 1,
+    "score": 1,
+    "secure_media": null,
+    "selftext": "3 times over the past few months when I press the Start/Stop button to shut the car off, I have no power and the steering wheel column does not lock. The fix so far seems to be turning the wheel to the right spot and then you can start the car but it's not easy to do and it's super annoying. I read that it might be steering wheel alignment but the wheel doesn't really look off. Any help would be greatly appreciated. ",
+    "subreddit": "AskMechanics",
+    "title": "2016 Honda Odyssey occasionally has no power after shut off",
+    "upvote_ratio": 1.0,
+    "url": "https://www.reddit.com/r/AskMechanics/comments/1j801je/2016_honda_odyssey_occasionally_has_no_power/"
+  },
+  {
+    "author_flair_text": null,
+    "created_utc": "2025-03-10 14:35:21 UTC",
+    "id": "1j801j8",
+    "link_flair_text": "rangers weak",
+    "media": null,
+    "num_comments": 0,
+    "score": 1,
+    "secure_media": null,
+    "selftext": "When I looked at the warlock, I thought, \"Oh, this guy just uses Hex all day.\"\n\nThen, when I saw the wizard without a signature spell similar to Hex, I assumed, \"Oh, this guy just shoots a crossbow all day.\"\n\nHowever, I realized that wizards actually have a tiny bit more spell slots than warlocks. At the very least, they seem to have as many spell slots as a sorcerer does for converting to sorcery points.\n\nI\u2019ve never played a wizard before, but their offensive spells don't seem to have any flavorful feel to them. When playing a wizard, are their spells at least as useful as a fighter's Extra Attack?\n\nOr its working to would a multiclass build with Wizard 5 / Wizard 5 work, allowing the wizard's spells to be spammed with more slots?",
+    "subreddit": "DnDcirclejerk",
+    "title": "Do wizards have good spellcasting ability?",
+    "upvote_ratio": 1.0,
+    "url": "https://www.reddit.com/r/DnDcirclejerk/comments/1j801j8/do_wizards_have_good_spellcasting_ability/"
+  },
+  {
+    "author_flair_text": null,
+    "created_utc": "2025-03-10 14:35:21 UTC",
+    "id": "1j801j7",
+    "link_flair_text": "Meme",
+    "media": null,
+    "num_comments": 0,
+    "preview": {
+      "enabled": true,
+      "images": [
+        {
+          "id": "2cyutTJaQnB6Jlr4JFDaijNPCi_tRYfl1KeRWoLuqLw",
+          "resolutions": [
+            {
+              "height": 82,
+              "url": "https://preview.redd.it/3f6p1frfivne1.jpeg?width=108&amp;crop=smart&amp;auto=webp&amp;s=6018fb6168bc047f98d540043a6348c19f50ff7a",
+              "width": 108
+            },
+            {
+              "height": 164,
+              "url": "https://preview.redd.it/3f6p1frfivne1.jpeg?width=216&amp;crop=smart&amp;auto=webp&amp;s=5be3851193d643f4dafb0755fc4311bbb8903267",
+              "width": 216
+            },
+            {
+              "height": 243,
+              "url": "https://preview.redd.it/3f6p1frfivne1.jpeg?width=320&amp;crop=smart&amp;auto=webp&amp;s=d2b2eb45f6cf39bd7da51f4552ea90240f4d4428",
+              "width": 320
+            },
+            {
+              "height": 487,
+              "url": "https://preview.redd.it/3f6p1frfivne1.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=226614c5ff21f1b41fc2b9d6ced98e7ff0589e4d",
+              "width": 640
+            },
+            {
+              "height": 731,
+              "url": "https://preview.redd.it/3f6p1frfivne1.jpeg?width=960&amp;crop=smart&amp;auto=webp&amp;s=c872ed64746bc91eed6837d011fd5771fcc23712",
+              "width": 960
+            },
+            {
+              "height": 822,
+              "url": "https://preview.redd.it/3f6p1frfivne1.jpeg?width=1080&amp;crop=smart&amp;auto=webp&amp;s=45d11a9d31b41cc3345cb805554262756224cd52",
+              "width": 1080
+            }
+          ],
+          "source": {
+            "height": 1178,
+            "url": "https://preview.redd.it/3f6p1frfivne1.jpeg?auto=webp&amp;s=ddbb4bbd59c77111fc0c7de62ebc3e7b1b9a844d",
+            "width": 1546
+          },
+          "variants": {}
+        }
+      ]
+    },
+    "score": 1,
+    "secure_media": null,
+    "selftext": "It has a stake sticker too \n",
+    "subreddit": "balatro",
+    "title": "Golden Ticket Uncollected Itself",
+    "upvote_ratio": 1.0,
+    "url": "https://i.redd.it/3f6p1frfivne1.jpeg",
+    "url_overridden_by_dest": "https://i.redd.it/3f6p1frfivne1.jpeg"
+  },
+  {
+    "author_flair_text": null,
+    "created_utc": "2025-03-10 14:35:21 UTC",
+    "id": "1j801j4",
+    "link_flair_text": null,
+    "media": null,
+    "num_comments": 0,
+    "score": 1,
+    "secure_media": null,
+    "selftext": "i watched a video and it says that when in run Tron v.12.0.8 it should create two folders on my dekstop but i doesn't. someone that now how to resolve this problem?\n\nThanks",
+    "subreddit": "TronScript",
+    "title": "help",
+    "upvote_ratio": 1.0,
+    "url": "https://www.reddit.com/r/TronScript/comments/1j801j4/help/"
+  },
+  {
+    "author_flair_text": null,
+    "created_utc": "2025-03-10 14:35:21 UTC",
+    "id": "1j801j3",
+    "link_flair_text": null,
+    "media": null,
+    "num_comments": 0,
+    "preview": {
+      "enabled": true,
+      "images": [
+        {
+          "id": "zpf17bnaEMreniCax3pzH6SFqYTz3aGPJo1T-3FtSP8",
+          "resolutions": [
+            {
+              "height": 107,
+              "url": "https://preview.redd.it/a68jwasgivne1.jpeg?width=108&amp;crop=smart&amp;auto=webp&amp;s=943c10d151b84fad3f3f4792c80970f7b347ab1f",
+              "width": 108
+            },
+            {
+              "height": 215,
+              "url": "https://preview.redd.it/a68jwasgivne1.jpeg?width=216&amp;crop=smart&amp;auto=webp&amp;s=92191810428b388d4350b429178525028fb91534",
+              "width": 216
+            },
+            {
+              "height": 319,
+              "url": "https://preview.redd.it/a68jwasgivne1.jpeg?width=320&amp;crop=smart&amp;auto=webp&amp;s=8ab0d1611224bc6c2cc7df2e6040e6bbaf83bce6",
+              "width": 320
+            },
+            {
+              "height": 638,
+              "url": "https://preview.redd.it/a68jwasgivne1.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=64314e7cccdd921036b64eeb7a905a552a8c9bb9",
+              "width": 640
+            }
+          ],
+          "source": {
+            "height": 682,
+            "url": "https://preview.redd.it/a68jwasgivne1.jpeg?auto=webp&amp;s=5ba3577ebe05d00596b9fb09935f6c547f51c36d",
+            "width": 684
+          },
+          "variants": {}
+        }
+      ]
+    },
+    "score": 1,
+    "secure_media": null,
+    "selftext": "",
+    "subreddit": "AlbumArtPorn",
+    "title": "Bad Egg - SZACH",
+    "upvote_ratio": 1.0,
+    "url": "https://i.redd.it/a68jwasgivne1.jpeg",
+    "url_overridden_by_dest": "https://i.redd.it/a68jwasgivne1.jpeg"
+  },
+  {
+    "author_flair_text": null,
+    "created_utc": "2025-03-10 14:35:21 UTC",
+    "id": "1j801j2",
+    "link_flair_text": "Complete Project | $49.99",
+    "media": {
+      "reddit_video": {
+        "bitrate_kbps": 2400,
+        "dash_url": "https://v.redd.it/w7by0gkcivne1/DASHPlaylist.mpd?a=1744209339%2CNjg1NjVlZTBkMjUxYTJkZjgxODZiNDkzYTY4MjNlYTA4NTNlYzZkYmY4MjgzYTY0Y2FlN2I5NGU4Y2U1YjY0ZQ%3D%3D&amp;v=1&amp;f=sd",
+        "duration": 31,
+        "fallback_url": "https://v.redd.it/w7by0gkcivne1/DASH_720.mp4?source=fallback",
+        "has_audio": false,
+        "height": 720,
+        "hls_url": "https://v.redd.it/w7by0gkcivne1/HLSPlaylist.m3u8?a=1744209339%2CYWY4NTczNTkxZTMyYWYyNDMxZjc0MTU2ZmJhZTYyMDJhNDdiNWJjYzQ5MzA5ODUyYTdjMzFlMThlMWZjN2Q4Zg%3D%3D&amp;v=1&amp;f=sd",
+        "is_gif": true,
+        "scrubber_media_url": "https://v.redd.it/w7by0gkcivne1/DASH_96.mp4",
+        "transcoding_status": "completed",
+        "width": 1152
+      }
+    },
+    "num_comments": 0,
+    "preview": {
+      "enabled": false,
+      "images": [
+        {
+          "id": "cmxhc2Ewa2Npdm5lMR_LbqmRXMR1LgmuXPtWIzZdnukZ0FbOSbZMMXWh7_kw",
+          "resolutions": [
+            {
+              "height": 67,
+              "url": "https://external-preview.redd.it/cmxhc2Ewa2Npdm5lMR_LbqmRXMR1LgmuXPtWIzZdnukZ0FbOSbZMMXWh7_kw.png?width=108&amp;crop=smart&amp;format=pjpg&amp;auto=webp&amp;s=adfb7614ae5784dc970fffc8ed45b3803f869558",
+              "width": 108
+            },
+            {
+              "height": 135,
+              "url": "https://external-preview.redd.it/cmxhc2Ewa2Npdm5lMR_LbqmRXMR1LgmuXPtWIzZdnukZ0FbOSbZMMXWh7_kw.png?width=216&amp;crop=smart&amp;format=pjpg&amp;auto=webp&amp;s=e2813119c214756c8ff59d386f09eea49c5172f1",
+              "width": 216
+            },
+            {
+              "height": 200,
+              "url": "https://external-preview.redd.it/cmxhc2Ewa2Npdm5lMR_LbqmRXMR1LgmuXPtWIzZdnukZ0FbOSbZMMXWh7_kw.png?width=320&amp;crop=smart&amp;format=pjpg&amp;auto=webp&amp;s=01e24e539d881c216ee677b36f219caafa1e7b6f",
+              "width": 320
+            },
+            {
+              "height": 400,
+              "url": "https://external-preview.redd.it/cmxhc2Ewa2Npdm5lMR_LbqmRXMR1LgmuXPtWIzZdnukZ0FbOSbZMMXWh7_kw.png?width=640&amp;crop=smart&amp;format=pjpg&amp;auto=webp&amp;s=b98dfc3599a8b48478acf5e5837229fa833a0d15",
+              "width": 640
+            },
+            {
+              "height": 600,
+              "url": "https://external-preview.redd.it/cmxhc2Ewa2Npdm5lMR_LbqmRXMR1LgmuXPtWIzZdnukZ0FbOSbZMMXWh7_kw.png?width=960&amp;crop=smart&amp;format=pjpg&amp;auto=webp&amp;s=ae2872e12b31c7c25b1ebc89f058a695d4465fab",
+              "width": 960
+            },
+            {
+              "height": 675,
+              "url": "https://external-preview.redd.it/cmxhc2Ewa2Npdm5lMR_LbqmRXMR1LgmuXPtWIzZdnukZ0FbOSbZMMXWh7_kw.png?width=1080&amp;crop=smart&amp;format=pjpg&amp;auto=webp&amp;s=cd556aa8fd1af50cf10600aae054d02e5adacd90",
+              "width": 1080
+            }
+          ],
+          "source": {
+            "height": 1050,
+            "url": "https://external-preview.redd.it/cmxhc2Ewa2Npdm5lMR_LbqmRXMR1LgmuXPtWIzZdnukZ0FbOSbZMMXWh7_kw.png?format=pjpg&amp;auto=webp&amp;s=ab717ef3d53313a0688889ebed4142796d2b1221",
+            "width": 1680
+          },
+          "variants": {}
+        }
+      ]
+    },
+    "score": 1,
+    "secure_media": {
+      "reddit_video": {
+        "bitrate_kbps": 2400,
+        "dash_url": "https://v.redd.it/w7by0gkcivne1/DASHPlaylist.mpd?a=1744209339%2CNjg1NjVlZTBkMjUxYTJkZjgxODZiNDkzYTY4MjNlYTA4NTNlYzZkYmY4MjgzYTY0Y2FlN2I5NGU4Y2U1YjY0ZQ%3D%3D&amp;v=1&amp;f=sd",
+        "duration": 31,
+        "fallback_url": "https://v.redd.it/w7by0gkcivne1/DASH_720.mp4?source=fallback",
+        "has_audio": false,
+        "height": 720,
+        "hls_url": "https://v.redd.it/w7by0gkcivne1/HLSPlaylist.m3u8?a=1744209339%2CYWY4NTczNTkxZTMyYWYyNDMxZjc0MTU2ZmJhZTYyMDJhNDdiNWJjYzQ5MzA5ODUyYTdjMzFlMThlMWZjN2Q4Zg%3D%3D&amp;v=1&amp;f=sd",
+        "is_gif": true,
+        "scrubber_media_url": "https://v.redd.it/w7by0gkcivne1/DASH_96.mp4",
+        "transcoding_status": "completed",
+        "width": 1152
+      }
+    },
+    "selftext": "",
+    "subreddit": "UnityAssets",
+    "title": "[SurvivEngine]: Easily create your own survival games featuring crafting, building, farming, resource gathering and more! \u26cf\ufe0f",
+    "upvote_ratio": 1.0,
+    "url": "https://v.redd.it/w7by0gkcivne1",
+    "url_overridden_by_dest": "https://v.redd.it/w7by0gkcivne1"
+  },
+  {
+    "author_flair_text": null,
+    "created_utc": "2025-03-10 14:35:21 UTC",
+    "id": "1j801j1",
+    "link_flair_text": null,
+    "media": null,
+    "num_comments": 0,
+    "score": 1,
+    "secure_media": null,
+    "selftext": "Discover the [Hertz Coupon Code Reddit 2025](https://bit.ly/3OsY6Wn) \n\n Want to save money at Hertz in March 2025? Score the best promo codes, coupons, and more deals to get what you want for less!",
+    "subreddit": "WalmartCouponCode",
+    "title": "Hertz Coupon Code Reddit 2025",
+    "upvote_ratio": 1.0,
+    "url": "https://www.reddit.com/r/WalmartCouponCode/comments/1j801j1/hertz_coupon_code_reddit_2025/"
+  },
+  {
+    "author_flair_text": null,
+    "created_utc": "2025-03-10 14:35:21 UTC",
+    "id": "1j801j0",
+    "link_flair_text": null,
+    "media": null,
+    "num_comments": 0,
+    "preview": {
+      "enabled": true,
+      "images": [
+        {
+          "id": "PQTuJ6m9afrK1XL3RlZu1eoYtshUWajvCVWDpov1bVY",
+          "resolutions": [
+            {
+              "height": 84,
+              "url": "https://preview.redd.it/xclqzbsgivne1.jpeg?width=108&amp;crop=smart&amp;auto=webp&amp;s=4be8db96417fca00882ca416857968acea39d4ae",
+              "width": 108
+            },
+            {
+              "height": 169,
+              "url": "https://preview.redd.it/xclqzbsgivne1.jpeg?width=216&amp;crop=smart&amp;auto=webp&amp;s=435572fb3c8cde5e325ab8dc9694bd1c2cca9340",
+              "width": 216
+            }
+          ],
+          "source": {
+            "height": 199,
+            "url": "https://preview.redd.it/xclqzbsgivne1.jpeg?auto=webp&amp;s=58f7fe0b2ecc5ac71f4dbcb44e58b13587bfccdc",
+            "width": 253
+          },
+          "variants": {}
+        }
+      ]
+    },
+    "score": 1,
+    "secure_media": null,
+    "selftext": "",
+    "subreddit": "CarpetaDeOlvido",
+    "title": "Mi coraz\u00f3n cada vez que ve a Charlotte",
+    "upvote_ratio": 1.0,
+    "url": "https://i.redd.it/xclqzbsgivne1.jpeg",
+    "url_overridden_by_dest": "https://i.redd.it/xclqzbsgivne1.jpeg"
+  },
+  {
+    "author_flair_text": "Please choose a flair.",
+    "created_utc": "2025-03-10 14:35:21 UTC",
+    "id": "1j801iy",
+    "link_flair_text": "Tattoos",
+    "media": null,
+    "num_comments": 0,
+    "preview": {
+      "enabled": true,
+      "images": [
+        {
+          "id": "yd4W9pC86ik2ZMcVFM_NzIlDSpPzRAfXBv7REjWAWnk",
+          "resolutions": [
+            {
+              "height": 125,
+              "url": "https://preview.redd.it/0dz4onqgivne1.jpeg?width=108&amp;crop=smart&amp;auto=webp&amp;s=9db7a1aa70f878b91fe7e5da7b4a42c7646d1bb8",
+              "width": 108
+            },
+            {
+              "height": 250,
+              "url": "https://preview.redd.it/0dz4onqgivne1.jpeg?width=216&amp;crop=smart&amp;auto=webp&amp;s=f4dfc5015ad1596bab501ddff42b309de2d4104d",
+              "width": 216
+            },
+            {
+              "height": 370,
+              "url": "https://preview.redd.it/0dz4onqgivne1.jpeg?width=320&amp;crop=smart&amp;auto=webp&amp;s=d3d67b029e4f67d690caa7ce3f71cae3678d4c0e",
+              "width": 320
+            },
+            {
+              "height": 741,
+              "url": "https://preview.redd.it/0dz4onqgivne1.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=6fd62545c6a7036986109fac40cd6b557f55f665",
+              "width": 640
+            },
+            {
+              "height": 1111,
+              "url": "https://preview.redd.it/0dz4onqgivne1.jpeg?width=960&amp;crop=smart&amp;auto=webp&amp;s=2f68d8efc6b368ddac99b1f790dbb236006dc4e6",
+              "width": 960
+            },
+            {
+              "height": 1250,
+              "url": "https://preview.redd.it/0dz4onqgivne1.jpeg?width=1080&amp;crop=smart&amp;auto=webp&amp;s=ed4948c812593be53149736f78597a31ac64a657",
+              "width": 1080
+            }
+          ],
+          "source": {
+            "height": 4096,
+            "url": "https://preview.redd.it/0dz4onqgivne1.jpeg?auto=webp&amp;s=81256c87205654a002a5d04787d9d2b9b48be1f4",
+            "width": 3537
+          },
+          "variants": {}
+        }
+      ]
+    },
+    "score": 1,
+    "secure_media": null,
+    "selftext": "",
+    "subreddit": "TattooBeginners",
+    "title": "still workin on my shit, my last work\ud83e\udee3",
+    "upvote_ratio": 1.0,
+    "url": "https://i.redd.it/0dz4onqgivne1.jpeg",
+    "url_overridden_by_dest": "https://i.redd.it/0dz4onqgivne1.jpeg"
+  },
+  {
+    "author_flair_text": null,
+    "created_utc": "2025-03-10 14:35:21 UTC",
+    "id": "1j801iv",
+    "link_flair_text": null,
+    "media": null,
+    "num_comments": 0,
+    "score": 1,
+    "secure_media": null,
+    "selftext": "Where is the best place to get chicken soup? I do not want canned soup and I do not have time to make it at home. ",
+    "subreddit": "irvine",
+    "title": "Chicken Soup",
+    "upvote_ratio": 1.0,
+    "url": "https://www.reddit.com/r/irvine/comments/1j801iv/chicken_soup/"
+  },
+  {
+    "author_flair_text": null,
+    "created_utc": "2025-03-10 14:35:20 UTC",
+    "id": "1j801ir",
+    "link_flair_text": null,
+    "media": null,
+    "num_comments": 0,
+    "score": 1,
+    "secure_media": null,
+    "selftext": "Does anyone get absolutely DISGUSTED by red foods during an attack?! Like red sauces, red meats, red soups, anything red?!",
+    "subreddit": "migraine",
+    "title": "Red foods",
+    "upvote_ratio": 1.0,
+    "url": "https://www.reddit.com/r/migraine/comments/1j801ir/red_foods/"
+  },
+  {
+    "author_flair_text": null,
+    "created_utc": "2025-03-10 14:35:20 UTC",
+    "id": "1j801ip",
+    "link_flair_text": null,
+    "media": null,
+    "num_comments": 0,
+    "score": 1,
+    "secure_media": null,
+    "selftext": "https://www.patreon.com/posts/71554589?utm_campaign=postshare_fan&amp;utm_content=android_share",
+    "subreddit": "thesimscc",
+    "title": "WCIF this sim 204 from Sims4 CM",
+    "upvote_ratio": 1.0,
+    "url": "https://www.reddit.com/r/thesimscc/comments/1j801ip/wcif_this_sim_204_from_sims4_cm/"
+  },
+  {
+    "author_flair_text": null,
+    "created_utc": "2025-03-10 14:35:20 UTC",
+    "id": "1j801io",
+    "link_flair_text": null,
+    "media": null,
+    "num_comments": 0,
+    "score": 1,
+    "secure_media": null,
+    "selftext": "",
+    "subreddit": "KimmigneaultGW",
+    "title": "quien para morbo a mi mam\u00e1",
+    "upvote_ratio": 1.0,
+    "url": "https://www.reddit.com/r/KimmigneaultGW/comments/1j801io/quien_para_morbo_a_mi_mam\u00e1/"
+  },
+  {
+    "author_flair_text": null,
+    "created_utc": "2025-03-10 14:35:20 UTC",
+    "id": "1j801in",
+    "link_flair_text": "OG Series",
+    "media": null,
+    "num_comments": 0,
+    "score": 1,
+    "secure_media": null,
+    "selftext": "I\u2019ll never understand why they ruined Jenny\u2019s character in *Gossip Girl*. She had so much potential\u2014season 1 and 2 Jenny was insanely talented, doing her internship at Parsons, working with Eleanor, and actually making a name for herself in fashion. But instead of letting her grow, everyone around her held her back. Rufus, especially, was the worst. It was *New York Fashion Week*, a once-in-a-lifetime opportunity for any aspiring designer, and he literally dragged her out of it because she was missing high school classes. Like, I get that he was paying a lot for that school, but come on\u2014he should\u2019ve been *proud* of her.\n\nAnd then there\u2019s Blair sabotaging her shot with Eleanor just because of her own mommy issues. That job could\u2019ve been the start of Jenny\u2019s career, something that would\u2019ve given her financial independence and real professional growth. But no, instead of seeing her succeed, they turned her into some one-dimensional villain whose only purpose was to cause drama. It\u2019s so frustrating because neither Rufus nor Dan ever *really* supported her. They just wanted her to be the version of Jenny that *they* were comfortable with, instead of actually listening to what she wanted. It feels so unfair, like she never even had a real chance.",
+    "subreddit": "GossipGirl",
+    "title": "Jenny Humphrey deserved so much better \ud83d\udea8 rant incoming \ud83d\udea8",
+    "upvote_ratio": 1.0,
+    "url": "https://www.reddit.com/r/GossipGirl/comments/1j801in/jenny_humphrey_deserved_so_much_better_rant/"
+  },
+  {
+    "author_flair_text": null,
+    "created_utc": "2025-03-10 14:35:20 UTC",
+    "id": "1j801im",
+    "link_flair_text": "shitpost \ud83d\udca9",
+    "media": null,
+    "num_comments": 0,
+    "preview": {
+      "enabled": true,
+      "images": [
+        {
+          "id": "jkRxRFzIsNLompalf7bAFbKQ-1RvWSfhxSpscYA2444",
+          "resolutions": [
+            {
+              "height": 74,
+              "url": "https://preview.redd.it/o298wstgivne1.jpeg?width=108&amp;crop=smart&amp;auto=webp&amp;s=6e82086321d47c52a82b7d6f833b675c69d6b613",
+              "width": 108
+            },
+            {
+              "height": 149,
+              "url": "https://preview.redd.it/o298wstgivne1.jpeg?width=216&amp;crop=smart&amp;auto=webp&amp;s=ebde2c7440915321c97c4562fbcbb3123d2f7088",
+              "width": 216
+            },
+            {
+              "height": 222,
+              "url": "https://preview.redd.it/o298wstgivne1.jpeg?width=320&amp;crop=smart&amp;auto=webp&amp;s=d2b2615e292ef2eaf6fb99523b6e05ae3dd1f8d8",
+              "width": 320
+            },
+            {
+              "height": 444,
+              "url": "https://preview.redd.it/o298wstgivne1.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=9efb05bfee520301435f8682a1620eea595f200e",
+              "width": 640
+            },
+            {
+              "height": 666,
+              "url": "https://preview.redd.it/o298wstgivne1.jpeg?width=960&amp;crop=smart&amp;auto=webp&amp;s=dfb9b2380b12ba529b1ae803a39a05d87f60b105",
+              "width": 960
+            },
+            {
+              "height": 749,
+              "url": "https://preview.redd.it/o298wstgivne1.jpeg?width=1080&amp;crop=smart&amp;auto=webp&amp;s=d1b0b3c98c50ceded29557841dc82984d6c93ec6",
+              "width": 1080
+            }
+          ],
+          "source": {
+            "height": 818,
+            "url": "https://preview.redd.it/o298wstgivne1.jpeg?auto=webp&amp;s=f4c51cd9e45911530772fc739532e590c685bfbb",
+            "width": 1179
+          },
+          "variants": {}
+        }
+      ]
+    },
+    "score": 1,
+    "secure_media": null,
+    "selftext": "",
+    "subreddit": "lakers",
+    "title": "In another timeline\u2026",
+    "upvote_ratio": 1.0,
+    "url": "https://i.redd.it/o298wstgivne1.jpeg",
+    "url_overridden_by_dest": "https://i.redd.it/o298wstgivne1.jpeg"
+  },
+  {
+    "author_flair_text": null,
+    "created_utc": "2025-03-10 14:35:20 UTC",
+    "id": "1j801ii",
+    "link_flair_text": "Screenshot",
+    "media": null,
+    "num_comments": 0,
+    "preview": {
+      "enabled": true,
+      "images": [
+        {
+          "id": "v8vdQxwbhAl8aKamE4mlqauHvwdwgfzTDqLKHfCNkzw",
+          "resolutions": [
+            {
+              "height": 56,
+              "url": "https://preview.redd.it/kd5a0qpgivne1.jpeg?width=108&amp;crop=smart&amp;auto=webp&amp;s=178c87da9b7d66aa111061bcbecd2da99e02c654",
+              "width": 108
+            },
+            {
+              "height": 112,
+              "url": "https://preview.redd.it/kd5a0qpgivne1.jpeg?width=216&amp;crop=smart&amp;auto=webp&amp;s=266074bd8042a56c914ee58daab24d6d59dfc73d",
+              "width": 216
+            },
+            {
+              "height": 166,
+              "url": "https://preview.redd.it/kd5a0qpgivne1.jpeg?width=320&amp;crop=smart&amp;auto=webp&amp;s=d0b195ae1fa4f26c21dccbf6e6644e1d4caa4f8e",
+              "width": 320
+            },
+            {
+              "height": 333,
+              "url": "https://preview.redd.it/kd5a0qpgivne1.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=c4f83e3883ad31fdb808243c811bf40ba1b3863d",
+              "width": 640
+            },
+            {
+              "height": 500,
+              "url": "https://preview.redd.it/kd5a0qpgivne1.jpeg?width=960&amp;crop=smart&amp;auto=webp&amp;s=11bb84f95234b7fd0e0944e35a236e306a0d0fcf",
+              "width": 960
+            },
+            {
+              "height": 562,
+              "url": "https://preview.redd.it/kd5a0qpgivne1.jpeg?width=1080&amp;crop=smart&amp;auto=webp&amp;s=98e39b90cdad9a3c96533dbe36e696e0079d88ae",
+              "width": 1080
+            }
+          ],
+          "source": {
+            "height": 1921,
+            "url": "https://preview.redd.it/kd5a0qpgivne1.jpeg?auto=webp&amp;s=57cb3ed7a83d73184ef874d9faa6d7556b713741",
+            "width": 3686
+          },
+          "variants": {}
+        }
+      ]
+    },
+    "score": 1,
+    "secure_media": null,
+    "selftext": "An old one that I went back too after realising I had done all the online stuff already from when I used to play and have now finally finished after having a bugged all\u2019s fare in love and war trophy that took around 7 hours of idling to eventually receive the call for - which took 2 minutes to complete after receiving the call \ud83d\ude44.\n\nSaved the three man army trophy for last for a nice plat screenshot, happy with the final outcome, now to wait for the foreseeable until GTA 6 arrives.",
+    "subreddit": "Trophies",
+    "title": "[GTA V] Finally ticked off",
+    "upvote_ratio": 1.0,
+    "url": "https://i.redd.it/kd5a0qpgivne1.jpeg",
+    "url_overridden_by_dest": "https://i.redd.it/kd5a0qpgivne1.jpeg"
+  },
+  {
+    "author_flair_text": null,
+    "created_utc": "2025-03-10 14:35:20 UTC",
+    "id": "1j801ih",
+    "link_flair_text": null,
+    "media": null,
+    "num_comments": 0,
+    "score": 1,
+    "secure_media": null,
+    "selftext": "Hello,\n\nI have lived here in Vilnius since July of last year. I\u2019m here from America working a full time job. Unfortunately it has been quite impossible for me to meet locals even despite speaking Lithuanian at an A2 level. I could go into detail about everything I tried but I\u2019d rather not doxx myself. I am wondering, outside of a bar, where is the most surefire way to make some local friends?\n\nAny ideas are welcome, thanks!",
+    "subreddit": "Vilnius",
+    "title": "Making friends in Vilnius",
+    "upvote_ratio": 1.0,
+    "url": "https://www.reddit.com/r/Vilnius/comments/1j801ih/making_friends_in_vilnius/"
+  },
+  {
+    "author_flair_text": null,
+    "created_utc": "2025-03-10 14:35:19 UTC",
+    "id": "1j801ie",
+    "link_flair_text": "rant",
+    "media": null,
+    "num_comments": 1,
+    "preview": {
+      "enabled": true,
+      "images": [
+        {
+          "id": "vwTtrPh3umZuwEl0u8_FbLXmocQ2zBS2hgcxo8pWcoY",
+          "resolutions": [
+            {
+              "height": 88,
+              "url": "https://preview.redd.it/d1t4nqkgivne1.jpeg?width=108&amp;crop=smart&amp;auto=webp&amp;s=f61c370e248ceb26c0c397ed80026446670cf753",
+              "width": 108
+            },
+            {
+              "height": 176,
+              "url": "https://preview.redd.it/d1t4nqkgivne1.jpeg?width=216&amp;crop=smart&amp;auto=webp&amp;s=a39a0aa954656af186ef6e5163b7ff2ecb2be686",
+              "width": 216
+            },
+            {
+              "height": 261,
+              "url": "https://preview.redd.it/d1t4nqkgivne1.jpeg?width=320&amp;crop=smart&amp;auto=webp&amp;s=fb490c24df0b4493281c84d1de54c8ad07d5cfcb",
+              "width": 320
+            },
+            {
+              "height": 523,
+              "url": "https://preview.redd.it/d1t4nqkgivne1.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=7965ade7cf1acebc4a4e7b0a4ca00992b4e52d68",
+              "width": 640
+            },
+            {
+              "height": 785,
+              "url": "https://preview.redd.it/d1t4nqkgivne1.jpeg?width=960&amp;crop=smart&amp;auto=webp&amp;s=eb5116de47367348abd419be904ed91cf06a878d",
+              "width": 960
+            }
+          ],
+          "source": {
+            "height": 883,
+            "url": "https://preview.redd.it/d1t4nqkgivne1.jpeg?auto=webp&amp;s=7789a571a7f40120264c56080ea539bea56b73f6",
+            "width": 1079
+          },
+          "variants": {}
+        }
+      ]
+    },
+    "score": 1,
+    "secure_media": null,
+    "selftext": "Damn after watching this video, wanna punch that guy si bad. From info I've gathered, the guy disrespecting tourist is head manager in NMB Bank, flex 150k watch, but gets jealous and disrespect tourist for eating some rice and mutton in their picnic, even though he asked for permission before eating. Kasto chutiya manxe ho yr. Nepal ko name kharab gari raxa.",
+    "subreddit": "NepalSocial",
+    "title": "Who have watched this video and what's ur thoughts?",
+    "upvote_ratio": 1.0,
+    "url": "https://i.redd.it/d1t4nqkgivne1.jpeg",
+    "url_overridden_by_dest": "https://i.redd.it/d1t4nqkgivne1.jpeg"
+  },
+  {
+    "author_flair_text": null,
+    "created_utc": "2025-03-10 14:35:19 UTC",
+    "id": "1j801ic",
+    "link_flair_text": "Hosting T5 Raid",
+    "media": null,
+    "num_comments": 1,
+    "score": 1,
+    "secure_media": null,
+    "selftext": "",
+    "subreddit": "PokemonGoRaids",
+    "title": "Moltres - 6136 1929 6492",
+    "upvote_ratio": 1.0,
+    "url": "https://www.reddit.com/r/PokemonGoRaids/comments/1j801ic/moltres_6136_1929_6492/"
+  },
+  {
+    "author_flair_text": null,
+    "created_utc": "2025-03-10 14:35:19 UTC",
+    "id": "1j801ib",
+    "link_flair_text": "Discussion",
+    "media": null,
+    "num_comments": 0,
+    "score": 1,
+    "secure_media": null,
+    "selftext": "I think we can all agree that *Cyberpunk 2077* is an **amazing game**, but there\u2019s **one thing that keeps breaking our hearts**\u2014V is **doomed to die no matter what**.\n\nWe\u2019ve spent **countless hours** shaping our V, making choices, fighting for them, and surviving Night City\u2019s chaos\u2026 **only to be told they get 6 months to live, or they disappear entirely.** No matter how powerful, skilled, or determined we make them, they *never* get a chance to truly escape their fate.\n\nAnd honestly? **That sucks.**\n\nCyberpunk is supposed to be about **fighting the system, defying the odds, and taking control of your destiny**\u2014so why is V just *stuck* in a no-win scenario? Why can\u2019t we have an option to **survive**? Even if it came with sacrifices or tough choices, at least give us a chance to see V live out their life.\n\n# What Can We Do?\n\nI\u2019ve already sent an email to CD Projekt Red asking them to **consider adding a proper ending where V survives**, whether through a **new DLC, an expansion, or an update**. And I\u2019m planning to **send one every day** until they listen.\n\nBut one voice isn\u2019t enough\u2014we need **as many players as possible** to ask for this. If CDPR sees a huge demand for a **true survival ending**, they *might* actually consider adding it.\n\n# How You Can Help:\n\n\ud83d\udd25 **Email CDPR and ask for a survival ending for V:**  \n\ud83d\udce9 [https://support.cdprojektred.com/en/cyberpunk/pc]() (Submit a feedback request)\n\n\ud83d\udd25 **Comment below if you want V to live! Let\u2019s show CDPR how many of us want this!**\n\n\ud83d\udd25 **Spread the word! Post on Twitter, Reddit, and anywhere else Cyberpunk fans gather.**\n\nCyberpunk **should be about choice**, and right now, we **don\u2019t have a real choice**\u2014V is doomed, no matter what we do. It\u2019s time we fight for our character **just like they would fight for themselves**.\n\nCDPR has listened to fans before. Let\u2019s make them listen again. **V deserves better.** \ud83d\udda4\ud83d\udd25",
+    "subreddit": "cyberpunkgame",
+    "title": "V Deserves a Future \u2013 We Need to Push CDPR for a True Happy Ending!",
+    "upvote_ratio": 1.0,
+    "url": "https://www.reddit.com/r/cyberpunkgame/comments/1j801ib/v_deserves_a_future_we_need_to_push_cdpr_for_a/"
+  },
+  {
+    "author_flair_text": null,
+    "created_utc": "2025-03-10 14:35:19 UTC",
+    "id": "1j801i8",
+    "link_flair_text": null,
+    "media": null,
+    "num_comments": 0,
+    "score": 1,
+    "secure_media": null,
+    "selftext": "If it\u2019s harder to push mongo and do tricks doesn\u2019t that make you more skillful?",
+    "subreddit": "NewSkaters",
+    "title": "Mongo",
+    "upvote_ratio": 1.0,
+    "url": "https://www.reddit.com/r/NewSkaters/comments/1j801i8/mongo/"
+  },
+  {
+    "author_flair_text": null,
+    "created_utc": "2025-03-10 14:35:19 UTC",
+    "id": "1j801i6",
+    "link_flair_text": "Question",
+    "media": null,
+    "num_comments": 0,
+    "score": 1,
+    "secure_media": null,
+    "selftext": "Hello!\nI'm Just starting a collection of FF tcg cards.\nDoes every cards have a foil counterpart?\nAnd what about full arts?\nAre there any cards that have like 3 versions?\n\nIf It can help, i want to buy all Yoshitaka Amano's cards\n\nThank you!\n\n",
+    "subreddit": "FinalFantasyTCG",
+    "title": "Question from a beginner",
+    "upvote_ratio": 1.0,
+    "url": "https://www.reddit.com/r/FinalFantasyTCG/comments/1j801i6/question_from_a_beginner/"
+  },
+  {
+    "author_flair_text": null,
+    "created_utc": "2025-03-10 14:35:19 UTC",
+    "id": "1j801i4",
+    "link_flair_text": "Headphones",
+    "media": null,
+    "num_comments": 0,
+    "preview": {
+      "enabled": true,
+      "images": [
+        {
+          "id": "kZT7zK2-KAQBjvXv8vLN2IEn7SG1598DFnXE5SzfcSY",
+          "resolutions": [
+            {
+              "height": 144,
+              "url": "https://preview.redd.it/y2in1hggivne1.jpeg?width=108&amp;crop=smart&amp;auto=webp&amp;s=9e46c28c6612e8bc91cbdb0dd6d216d8f26ca028",
+              "width": 108
+            },
+            {
+              "height": 288,
+              "url": "https://preview.redd.it/y2in1hggivne1.jpeg?width=216&amp;crop=smart&amp;auto=webp&amp;s=e0021e10d1bf1dc5d006bc6f9237156189a8c7c0",
+              "width": 216
+            },
+            {
+              "height": 426,
+              "url": "https://preview.redd.it/y2in1hggivne1.jpeg?width=320&amp;crop=smart&amp;auto=webp&amp;s=309c4ddb46f7b99a8241a1994fc8cfda3af080ad",
+              "width": 320
+            },
+            {
+              "height": 853,
+              "url": "https://preview.redd.it/y2in1hggivne1.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=66e300ead93fbc9ea693eda13129e2ec5b0358f3",
+              "width": 640
+            },
+            {
+              "height": 1280,
+              "url": "https://preview.redd.it/y2in1hggivne1.jpeg?width=960&amp;crop=smart&amp;auto=webp&amp;s=ade09a52047397a4d143c92f9ffc07239a051bd5",
+              "width": 960
+            },
+            {
+              "height": 1440,
+              "url": "https://preview.redd.it/y2in1hggivne1.jpeg?width=1080&amp;crop=smart&amp;auto=webp&amp;s=8567a329bce388960d4b004ccf746c5cdfc84fa9",
+              "width": 1080
+            }
+          ],
+          "source": {
+            "height": 4000,
+            "url": "https://preview.redd.it/y2in1hggivne1.jpeg?auto=webp&amp;s=f7ad7c8a9d7a0f9e3ba78006535dd499e7aaa5c3",
+            "width": 3000
+          },
+          "variants": {}
+        }
+      ]
+    },
+    "score": 1,
+    "secure_media": null,
+    "selftext": "I believe I have the Bose QuietComfort. Without any numbers and not the Ultra.\n\nI want to replace the ear cushions, but I cannot figure out which cushions are you compatible.\n\nThe messed up naming scheme makes it impossible to search. I can find QC 35, QC 45, QuietComfort Ultra cushions on Amazon Japan. But not just plain \"Bose QuietComfort\".",
+    "subreddit": "bose",
+    "title": "Which ear cushions work with the Bose QuietComfort?",
+    "upvote_ratio": 1.0,
+    "url": "https://i.redd.it/y2in1hggivne1.jpeg",
+    "url_overridden_by_dest": "https://i.redd.it/y2in1hggivne1.jpeg"
+  },
+  {
+    "author_flair_text": null,
+    "created_utc": "2025-03-10 14:35:19 UTC",
+    "id": "1j801i1",
+    "link_flair_text": null,
+    "media": {
+      "reddit_video": {
+        "bitrate_kbps": 5000,
+        "dash_url": "https://v.redd.it/wlpiovcaivne1/DASHPlaylist.mpd?a=1744209339%2CY2M3YjExNjA5MjE3NWZkYmUwNjc1M2M4OTVlN2FkNzI1MjMyYjViZDhhZDAzOGUwNGMyNTMxZDZjYTQ3MWJlYg%3D%3D&amp;v=1&amp;f=sd",
+        "duration": 54,
+        "fallback_url": "https://v.redd.it/wlpiovcaivne1/DASH_1080.mp4?source=fallback",
+        "has_audio": true,
+        "height": 1080,
+        "hls_url": "https://v.redd.it/wlpiovcaivne1/HLSPlaylist.m3u8?a=1744209339%2COTFlMTFiZjg3MmU2NjRjNDBkYjhjZWNhOTBlZDM1ZmNiYzljOTc3NmFiOGRiYzI4YTQ5YTJlNTEzN2IyZjU4Ng%3D%3D&amp;v=1&amp;f=sd",
+        "is_gif": false,
+        "scrubber_media_url": "https://v.redd.it/wlpiovcaivne1/DASH_96.mp4",
+        "transcoding_status": "completed",
+        "width": 1080
+      }
+    },
+    "num_comments": 0,
+    "preview": {
+      "enabled": false,
+      "images": [
+        {
+          "id": "MjFkazQzejlpdm5lMUgAQW8FSJurhMwpVuNQg7KUPonrY2fiO4-jIl8CJf7o",
+          "resolutions": [
+            {
+              "height": 108,
+              "url": "https://external-preview.redd.it/MjFkazQzejlpdm5lMUgAQW8FSJurhMwpVuNQg7KUPonrY2fiO4-jIl8CJf7o.png?width=108&amp;crop=smart&amp;format=pjpg&amp;auto=webp&amp;s=40fe7ae55d612b67c4dbfe1ecb6c221d20e82fd6",
+              "width": 108
+            },
+            {
+              "height": 216,
+              "url": "https://external-preview.redd.it/MjFkazQzejlpdm5lMUgAQW8FSJurhMwpVuNQg7KUPonrY2fiO4-jIl8CJf7o.png?width=216&amp;crop=smart&amp;format=pjpg&amp;auto=webp&amp;s=c9e62659776190595083ebcaed4859f581dd7747",
+              "width": 216
+            },
+            {
+              "height": 320,
+              "url": "https://external-preview.redd.it/MjFkazQzejlpdm5lMUgAQW8FSJurhMwpVuNQg7KUPonrY2fiO4-jIl8CJf7o.png?width=320&amp;crop=smart&amp;format=pjpg&amp;auto=webp&amp;s=6710cb9fa8368ee2dcabc04656a2fc1a80183fc6",
+              "width": 320
+            },
+            {
+              "height": 640,
+              "url": "https://external-preview.redd.it/MjFkazQzejlpdm5lMUgAQW8FSJurhMwpVuNQg7KUPonrY2fiO4-jIl8CJf7o.png?width=640&amp;crop=smart&amp;format=pjpg&amp;auto=webp&amp;s=b3cfd98ba6b5949391a794d484d1a6c6255e0154",
+              "width": 640
+            },
+            {
+              "height": 960,
+              "url": "https://external-preview.redd.it/MjFkazQzejlpdm5lMUgAQW8FSJurhMwpVuNQg7KUPonrY2fiO4-jIl8CJf7o.png?width=960&amp;crop=smart&amp;format=pjpg&amp;auto=webp&amp;s=a963a7c4ea7c2ed1ae48879a5f89e22392c7930b",
+              "width": 960
+            },
+            {
+              "height": 1080,
+              "url": "https://external-preview.redd.it/MjFkazQzejlpdm5lMUgAQW8FSJurhMwpVuNQg7KUPonrY2fiO4-jIl8CJf7o.png?width=1080&amp;crop=smart&amp;format=pjpg&amp;auto=webp&amp;s=bb705685ca8a72ddb87bfcad0193ed2df956ec06",
+              "width": 1080
+            }
+          ],
+          "source": {
+            "height": 1080,
+            "url": "https://external-preview.redd.it/MjFkazQzejlpdm5lMUgAQW8FSJurhMwpVuNQg7KUPonrY2fiO4-jIl8CJf7o.png?format=pjpg&amp;auto=webp&amp;s=89f3656928996d046f4f7e95b8b2ae5b4a5333a8",
+            "width": 1080
+          },
+          "variants": {}
+        }
+      ]
+    },
+    "score": 1,
+    "secure_media": {
+      "reddit_video": {
+        "bitrate_kbps": 5000,
+        "dash_url": "https://v.redd.it/wlpiovcaivne1/DASHPlaylist.mpd?a=1744209339%2CY2M3YjExNjA5MjE3NWZkYmUwNjc1M2M4OTVlN2FkNzI1MjMyYjViZDhhZDAzOGUwNGMyNTMxZDZjYTQ3MWJlYg%3D%3D&amp;v=1&amp;f=sd",
+        "duration": 54,
+        "fallback_url": "https://v.redd.it/wlpiovcaivne1/DASH_1080.mp4?source=fallback",
+        "has_audio": true,
+        "height": 1080,
+        "hls_url": "https://v.redd.it/wlpiovcaivne1/HLSPlaylist.m3u8?a=1744209339%2COTFlMTFiZjg3MmU2NjRjNDBkYjhjZWNhOTBlZDM1ZmNiYzljOTc3NmFiOGRiYzI4YTQ5YTJlNTEzN2IyZjU4Ng%3D%3D&amp;v=1&amp;f=sd",
+        "is_gif": false,
+        "scrubber_media_url": "https://v.redd.it/wlpiovcaivne1/DASH_96.mp4",
+        "transcoding_status": "completed",
+        "width": 1080
+      }
+    },
+    "selftext": "",
+    "subreddit": "GymnastBabes",
+    "title": "North Carolina",
+    "upvote_ratio": 1.0,
+    "url": "https://v.redd.it/wlpiovcaivne1",
+    "url_overridden_by_dest": "https://v.redd.it/wlpiovcaivne1"
+  },
+  {
+    "author_flair_text": null,
+    "created_utc": "2025-03-10 14:35:18 UTC",
+    "id": "1j801hw",
+    "link_flair_text": ":discussion: Discussion",
+    "media": null,
+    "num_comments": 0,
+    "score": 1,
+    "secure_media": null,
+    "selftext": "i posted something cool and what",
+    "subreddit": "xbox",
+    "title": "wtf is wrong with some of theese things",
+    "upvote_ratio": 1.0,
+    "url": "https://www.reddit.com/r/xbox/comments/1j801hw/wtf_is_wrong_with_some_of_theese_things/"
+  },
+  {
+    "author_flair_text": null,
+    "created_utc": "2025-03-10 14:35:18 UTC",
+    "id": "1j801hv",
+    "link_flair_text": null,
+    "media": null,
+    "num_comments": 0,
+    "score": 1,
+    "secure_media": null,
+    "selftext": "View current status at [https://www.trackalacker.com/products/showcase/playstation-5-30th-anniversary-slim...](https://www.trackalacker.com/products/showcase/playstation-5-30th-anniversary-slim?notification_id=ZJbmI%252FzQ95vHLwwEhl6elK9B--o6hX3YKvEAIxteLr--8nA%252F%252B8TWIUBQV5KCVpLHfg%253D%253D&amp;utm_campaign=stock-update&amp;utm_medium=social&amp;utm_source=reddit)\n\n\n\nAs of 03/10/25 10:34 AM EDT",
+    "subreddit": "PlayStationRestocks",
+    "title": "PS5 Digital Edition - 30th Anniversary Limited Edition Bundle Slim is in stock at eBay for $543.86 (About MSRP)",
+    "upvote_ratio": 1.0,
+    "url": "https://www.reddit.com/r/PlayStationRestocks/comments/1j801hv/ps5_digital_edition_30th_anniversary_limited/"
+  },
+  {
+    "author_flair_text": null,
+    "created_utc": "2025-03-10 14:35:18 UTC",
+    "id": "1j801hu",
+    "link_flair_text": "General :doge:",
+    "media": null,
+    "num_comments": 1,
+    "preview": {
+      "enabled": true,
+      "images": [
+        {
+          "id": "uIzQyDEEI-N9C_t6K9bWD3IMwlsJdIAqxXEZm5md1UA",
+          "resolutions": [
+            {
+              "height": 150,
+              "url": "https://preview.redd.it/rkgxuwggivne1.png?width=108&amp;crop=smart&amp;auto=webp&amp;s=6d49e74cc3350cd5c731f608e7cf1b77e1a47c56",
+              "width": 108
+            },
+            {
+              "height": 300,
+              "url": "https://preview.redd.it/rkgxuwggivne1.png?width=216&amp;crop=smart&amp;auto=webp&amp;s=a808f1ab1df95e875790adf1b70d056fa26c84f3",
+              "width": 216
+            },
+            {
+              "height": 445,
+              "url": "https://preview.redd.it/rkgxuwggivne1.png?width=320&amp;crop=smart&amp;auto=webp&amp;s=f2597ff505fd59111b367b9b4767b94b669c7191",
+              "width": 320
+            },
+            {
+              "height": 890,
+              "url": "https://preview.redd.it/rkgxuwggivne1.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=4b7173c6a93764404980d782d8ba1cf6ac3efa9d",
+              "width": 640
+            },
+            {
+              "height": 1335,
+              "url": "https://preview.redd.it/rkgxuwggivne1.png?width=960&amp;crop=smart&amp;auto=webp&amp;s=dbdefa68977e00159cf1e4cb18fe15c3e7946525",
+              "width": 960
+            },
+            {
+              "height": 1502,
+              "url": "https://preview.redd.it/rkgxuwggivne1.png?width=1080&amp;crop=smart&amp;auto=webp&amp;s=10cef4d3b8139f8b0d008576b6993d9a7c2326b3",
+              "width": 1080
+            }
+          ],
+          "source": {
+            "height": 1502,
+            "url": "https://preview.redd.it/rkgxuwggivne1.png?auto=webp&amp;s=808b8d70458e82e0cefcd16b017e51664578a605",
+            "width": 1080
+          },
+          "variants": {}
+        }
+      ]
+    },
+    "score": 1,
+    "secure_media": null,
+    "selftext": "",
+    "subreddit": "CBSE",
+    "title": "Do you guys have this original meme",
+    "upvote_ratio": 1.0,
+    "url": "https://i.redd.it/rkgxuwggivne1.png",
+    "url_overridden_by_dest": "https://i.redd.it/rkgxuwggivne1.png"
+  },
+  {
+    "author_flair_text": null,
+    "created_utc": "2025-03-10 14:35:17 UTC",
+    "id": "1j801hm",
+    "link_flair_text": "Hosting T5 Raid",
+    "media": null,
+    "num_comments": 1,
+    "score": 1,
+    "secure_media": null,
+    "selftext": "",
+    "subreddit": "PokemonGoRaids",
+    "title": "articuno 310579070626",
+    "upvote_ratio": 1.0,
+    "url": "https://www.reddit.com/r/PokemonGoRaids/comments/1j801hm/articuno_310579070626/"
+  },
+  {
+    "author_flair_text": null,
+    "created_utc": "2025-03-10 14:35:17 UTC",
+    "id": "1j801hj",
+    "link_flair_text": "Stardom",
+    "media": null,
+    "num_comments": 0,
+    "score": 1,
+    "secure_media": null,
+    "selftext": "",
+    "subreddit": "WrestleWithTheJoshis2",
+    "title": "AZM",
+    "upvote_ratio": 1.0,
+    "url": "https://www.reddit.com/gallery/1j801hj",
+    "url_overridden_by_dest": "https://www.reddit.com/gallery/1j801hj"
+  },
+  {
+    "author_flair_text": null,
+    "created_utc": "2025-03-10 14:35:17 UTC",
+    "id": "1j801hh",
+    "link_flair_text": "Team News",
+    "media": null,
+    "num_comments": 0,
+    "preview": {
+      "enabled": true,
+      "images": [
+        {
+          "id": "HHPuxZSvH8VyTul3qNJVCNwpUwq3PGvIJGI-A32ThsE",
+          "resolutions": [
+            {
+              "height": 62,
+              "url": "https://preview.redd.it/25e08h7givne1.jpeg?width=108&amp;crop=smart&amp;auto=webp&amp;s=1e71239df120b4d4057815a7f96bad9cd20387af",
+              "width": 108
+            },
+            {
+              "height": 124,
+              "url": "https://preview.redd.it/25e08h7givne1.jpeg?width=216&amp;crop=smart&amp;auto=webp&amp;s=634a5f3f60e017bfbc593e31c5e86a1e8b82b7eb",
+              "width": 216
+            },
+            {
+              "height": 185,
+              "url": "https://preview.redd.it/25e08h7givne1.jpeg?width=320&amp;crop=smart&amp;auto=webp&amp;s=1203c3584d920599032cc87df3476c7812b16488",
+              "width": 320
+            },
+            {
+              "height": 370,
+              "url": "https://preview.redd.it/25e08h7givne1.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=8bc902ad447f81a16f34232b529c34729372e615",
+              "width": 640
+            },
+            {
+              "height": 555,
+              "url": "https://preview.redd.it/25e08h7givne1.jpeg?width=960&amp;crop=smart&amp;auto=webp&amp;s=c5dc975ce5ecf5f790639d9ea1bfbf1b298b011f",
+              "width": 960
+            },
+            {
+              "height": 624,
+              "url": "https://preview.redd.it/25e08h7givne1.jpeg?width=1080&amp;crop=smart&amp;auto=webp&amp;s=873291720f2bdba14df2555ffb0d53f6b9493942",
+              "width": 1080
+            }
+          ],
+          "source": {
+            "height": 682,
+            "url": "https://preview.redd.it/25e08h7givne1.jpeg?auto=webp&amp;s=9e8f7083ea3c60eda47de0bfa5ec62b6e09be86e",
+            "width": 1179
+          },
+          "variants": {}
+        }
+      ]
+    },
+    "score": 1,
+    "secure_media": null,
+    "selftext": "Maybe the largest over pay in nfl history for a corner with a bad injury history and is very inconsistent in coverage.",
+    "subreddit": "panthers",
+    "title": "Dead inside",
+    "upvote_ratio": 1.0,
+    "url": "https://i.redd.it/25e08h7givne1.jpeg",
+    "url_overridden_by_dest": "https://i.redd.it/25e08h7givne1.jpeg"
+  },
+  {
+    "author_flair_text": null,
+    "created_utc": "2025-03-10 14:35:17 UTC",
+    "id": "1j801hg",
+    "link_flair_text": "Thickness",
+    "media": null,
+    "num_comments": 0,
+    "preview": {
+      "enabled": true,
+      "images": [
+        {
+          "id": "KomQwCXN9sfyznitMeHV6ehp0GEGSsbIKPmlw8vV-D4",
+          "resolutions": [
+            {
+              "height": 135,
+              "url": "https://preview.redd.it/2d9xzfcgivne1.jpeg?width=108&amp;crop=smart&amp;auto=webp&amp;s=8fe6125d80db39752f823cda0c68c6c7f0a35eb5",
+              "width": 108
+            },
+            {
+              "height": 270,
+              "url": "https://preview.redd.it/2d9xzfcgivne1.jpeg?width=216&amp;crop=smart&amp;auto=webp&amp;s=06e50f6d2e373d3999918401846717fae81d7d5c",
+              "width": 216
+            },
+            {
+              "height": 400,
+              "url": "https://preview.redd.it/2d9xzfcgivne1.jpeg?width=320&amp;crop=smart&amp;auto=webp&amp;s=38def11cadee364ab19064aa21bb15c314162e10",
+              "width": 320
+            },
+            {
+              "height": 800,
+              "url": "https://preview.redd.it/2d9xzfcgivne1.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=6df23ed45c0c7b1b882d641f7882a3fefafe24c8",
+              "width": 640
+            },
+            {
+              "height": 1200,
+              "url": "https://preview.redd.it/2d9xzfcgivne1.jpeg?width=960&amp;crop=smart&amp;auto=webp&amp;s=18947bed5676002926b5b54e1ffbe2e9a7b553e3",
+              "width": 960
+            },
+            {
+              "height": 1350,
+              "url": "https://preview.redd.it/2d9xzfcgivne1.jpeg?width=1080&amp;crop=smart&amp;auto=webp&amp;s=530706356ff4879269fcc8d5062054d1ef52fa9c",
+              "width": 1080
+            }
+          ],
+          "source": {
+            "height": 1350,
+            "url": "https://preview.redd.it/2d9xzfcgivne1.jpeg?auto=webp&amp;s=8fa6da260b09938fb2a80916b96bd9df5c87b0e5",
+            "width": 1080
+          },
+          "variants": {}
+        }
+      ]
+    },
+    "score": 1,
+    "secure_media": null,
+    "selftext": "",
+    "subreddit": "Fit_babes",
+    "title": "Ju a Nam",
+    "upvote_ratio": 1.0,
+    "url": "https://i.redd.it/2d9xzfcgivne1.jpeg",
+    "url_overridden_by_dest": "https://i.redd.it/2d9xzfcgivne1.jpeg"
+  },
+  {
+    "author_flair_text": null,
+    "created_utc": "2025-03-10 14:35:17 UTC",
+    "id": "1j801he",
+    "link_flair_text": "News",
+    "media": null,
+    "num_comments": 0,
+    "preview": {
+      "enabled": false,
+      "images": [
+        {
+          "id": "a8nzARx5FcEOFyCQFIRR2fa7YRvb1IcOWOjGutdCZhk",
+          "resolutions": [
+            {
+              "height": 60,
+              "url": "https://external-preview.redd.it/cSUVAaT5lx_jwyxsB8pP4dko0-HoXRqjVsRhnyvDmyU.jpg?width=108&amp;crop=smart&amp;auto=webp&amp;s=b2de05b32e9daaa92ac6796899ae4762feb8aca9",
+              "width": 108
+            },
+            {
+              "height": 121,
+              "url": "https://external-preview.redd.it/cSUVAaT5lx_jwyxsB8pP4dko0-HoXRqjVsRhnyvDmyU.jpg?width=216&amp;crop=smart&amp;auto=webp&amp;s=902c30200cb0e9303cac9d3bf706803df6ea6b8a",
+              "width": 216
+            },
+            {
+              "height": 180,
+              "url": "https://external-preview.redd.it/cSUVAaT5lx_jwyxsB8pP4dko0-HoXRqjVsRhnyvDmyU.jpg?width=320&amp;crop=smart&amp;auto=webp&amp;s=e02ac6ae4822a01adbe4dacf723a0fce64e66812",
+              "width": 320
+            },
+            {
+              "height": 360,
+              "url": "https://external-preview.redd.it/cSUVAaT5lx_jwyxsB8pP4dko0-HoXRqjVsRhnyvDmyU.jpg?width=640&amp;crop=smart&amp;auto=webp&amp;s=aa10deb35c8ac2244eb82c403754c3cdd54dd86b",
+              "width": 640
+            },
+            {
+              "height": 540,
+              "url": "https://external-preview.redd.it/cSUVAaT5lx_jwyxsB8pP4dko0-HoXRqjVsRhnyvDmyU.jpg?width=960&amp;crop=smart&amp;auto=webp&amp;s=a838d0f0270f512475be19526be7c5bb66b3355e",
+              "width": 960
+            },
+            {
+              "height": 607,
+              "url": "https://external-preview.redd.it/cSUVAaT5lx_jwyxsB8pP4dko0-HoXRqjVsRhnyvDmyU.jpg?width=1080&amp;crop=smart&amp;auto=webp&amp;s=0c20722141f2b5d04b1efbd8c8bb9506ca33162f",
+              "width": 1080
+            }
+          ],
+          "source": {
+            "height": 900,
+            "url": "https://external-preview.redd.it/cSUVAaT5lx_jwyxsB8pP4dko0-HoXRqjVsRhnyvDmyU.jpg?auto=webp&amp;s=f25e122f9449d93e67e7330056110045261e4c4f",
+            "width": 1600
+          },
+          "variants": {}
+        }
+      ]
+    },
+    "score": 1,
+    "secure_media": null,
+    "selftext": "",
+    "subreddit": "Isekai",
+    "title": "\"Material Collector's Otherworldly Travels\" This Isekai Is Set for Anime Adaptation: Director and Key Staff Unveiled",
+    "upvote_ratio": 1.0,
+    "url": "https://animexnews.com/material-collectors-otherworldly-travels-this-isekai-is-set-for-anime-adaptation-director-and-key-staff-unveiled/",
+    "url_overridden_by_dest": "https://animexnews.com/material-collectors-otherworldly-travels-this-isekai-is-set-for-anime-adaptation-director-and-key-staff-unveiled/"
+  },
+  {
+    "author_flair_text": null,
+    "created_utc": "2025-03-10 14:35:17 UTC",
+    "id": "1j801hd",
+    "link_flair_text": "Frage",
+    "media": {
+      "reddit_video": {
+        "bitrate_kbps": 5000,
+        "dash_url": "https://v.redd.it/9urhnwteivne1/DASHPlaylist.mpd?a=1744209339%2CYzUwZTBlMmI0NjMwNTA2OGJjOGJiNTI2NzY5YmExOWFiMzE5YzEzZGE2NTBlNWMxZmM1NDBlZTg1MjVjNjQ1ZQ%3D%3D&amp;v=1&amp;f=sd",
+        "duration": 28,
+        "fallback_url": "https://v.redd.it/9urhnwteivne1/DASH_1080.mp4?source=fallback",
+        "has_audio": true,
+        "height": 1080,
+        "hls_url": "https://v.redd.it/9urhnwteivne1/HLSPlaylist.m3u8?a=1744209339%2CMWJhNmM4MGM4ZmM2MjQ1ZTA5YmU4MjZiMzQ5OTJkY2U5NjM1YWE5YTMxOTQyYjAxM2M1NmQ2OWM2NDNlOWRlNA%3D%3D&amp;v=1&amp;f=sd",
+        "is_gif": false,
+        "scrubber_media_url": "https://v.redd.it/9urhnwteivne1/DASH_96.mp4",
+        "transcoding_status": "completed",
+        "width": 1920
+      }
+    },
+    "num_comments": 0,
+    "preview": {
+      "enabled": false,
+      "images": [
+        {
+          "id": "MjN5YnQwa2Vpdm5lMVvirlclgszNo0O9zuvPXmBEQEVsTkn20ND9S4uWhjH0",
+          "resolutions": [
+            {
+              "height": 60,
+              "url": "https://external-preview.redd.it/MjN5YnQwa2Vpdm5lMVvirlclgszNo0O9zuvPXmBEQEVsTkn20ND9S4uWhjH0.png?width=108&amp;crop=smart&amp;format=pjpg&amp;auto=webp&amp;s=dbfaf9114fda8f138b6bf22d3fad70cbb5127301",
+              "width": 108
+            },
+            {
+              "height": 121,
+              "url": "https://external-preview.redd.it/MjN5YnQwa2Vpdm5lMVvirlclgszNo0O9zuvPXmBEQEVsTkn20ND9S4uWhjH0.png?width=216&amp;crop=smart&amp;format=pjpg&amp;auto=webp&amp;s=c0a055de7944ea5cb929fa13305194a62b018d7e",
+              "width": 216
+            },
+            {
+              "height": 180,
+              "url": "https://external-preview.redd.it/MjN5YnQwa2Vpdm5lMVvirlclgszNo0O9zuvPXmBEQEVsTkn20ND9S4uWhjH0.png?width=320&amp;crop=smart&amp;format=pjpg&amp;auto=webp&amp;s=f644050dbbc5686f741f26623feaa7fea8b07c7c",
+              "width": 320
+            },
+            {
+              "height": 360,
+              "url": "https://external-preview.redd.it/MjN5YnQwa2Vpdm5lMVvirlclgszNo0O9zuvPXmBEQEVsTkn20ND9S4uWhjH0.png?width=640&amp;crop=smart&amp;format=pjpg&amp;auto=webp&amp;s=5ff6b8fc06ef7501b3cd28830d5e42100db63f00",
+              "width": 640
+            },
+            {
+              "height": 540,
+              "url": "https://external-preview.redd.it/MjN5YnQwa2Vpdm5lMVvirlclgszNo0O9zuvPXmBEQEVsTkn20ND9S4uWhjH0.png?width=960&amp;crop=smart&amp;format=pjpg&amp;auto=webp&amp;s=2a95b6b3fcc0a4e6a9863e58fd6fe4c53ed25043",
+              "width": 960
+            },
+            {
+              "height": 607,
+              "url": "https://external-preview.redd.it/MjN5YnQwa2Vpdm5lMVvirlclgszNo0O9zuvPXmBEQEVsTkn20ND9S4uWhjH0.png?width=1080&amp;crop=smart&amp;format=pjpg&amp;auto=webp&amp;s=9cdfb453397add5ad816205dfb57833cf2bf7f7c",
+              "width": 1080
+            }
+          ],
+          "source": {
+            "height": 1080,
+            "url": "https://external-preview.redd.it/MjN5YnQwa2Vpdm5lMVvirlclgszNo0O9zuvPXmBEQEVsTkn20ND9S4uWhjH0.png?format=pjpg&amp;auto=webp&amp;s=2c608ddc47505b4c2ddec33fd991490110f1c737",
+            "width": 1920
+          },
+          "variants": {}
+        }
+      ]
+    },
+    "score": 1,
+    "secure_media": {
+      "reddit_video": {
+        "bitrate_kbps": 5000,
+        "dash_url": "https://v.redd.it/9urhnwteivne1/DASHPlaylist.mpd?a=1744209339%2CYzUwZTBlMmI0NjMwNTA2OGJjOGJiNTI2NzY5YmExOWFiMzE5YzEzZGE2NTBlNWMxZmM1NDBlZTg1MjVjNjQ1ZQ%3D%3D&amp;v=1&amp;f=sd",
+        "duration": 28,
+        "fallback_url": "https://v.redd.it/9urhnwteivne1/DASH_1080.mp4?source=fallback",
+        "has_audio": true,
+        "height": 1080,
+        "hls_url": "https://v.redd.it/9urhnwteivne1/HLSPlaylist.m3u8?a=1744209339%2CMWJhNmM4MGM4ZmM2MjQ1ZTA5YmU4MjZiMzQ5OTJkY2U5NjM1YWE5YTMxOTQyYjAxM2M1NmQ2OWM2NDNlOWRlNA%3D%3D&amp;v=1&amp;f=sd",
+        "is_gif": false,
+        "scrubber_media_url": "https://v.redd.it/9urhnwteivne1/DASH_96.mp4",
+        "transcoding_status": "completed",
+        "width": 1920
+      }
+    },
+    "selftext": "\nHallo zusammen, \n\nIch habe den Eindruck, dass mein Kater heute humpelt. Mein Mann sagt, er k\u00f6nne kein humpeln erkennen.\n\nDaher w\u00fcrde ich gerne wissen, ob ihr auf dem Video ein Hinken des linken Hinterbeins erkennt? Da ich mir nicht sicher bin, ob er wirklich humpelt, oder ich seit dem Tod unserer alten Dame einfach nur \u00fcbervorsichtig geworden bin, w\u00fcrde ich gerne von euch wissen, ob ihr ein humpeln erkennen k\u00f6nnt, bevor ich mit ihm zum TA fahre. Er ist n\u00e4mlich ein extrem \u00e4ngstlicher Kater und ich w\u00fcrde ihm einen Besuch beim TA gerne ersparen, sollte ich mir das Humpeln nur \u201eeinbilden\u201c. \ud83d\ude15\n\n\nDer Knick im Schwanz hat keinen Einfluss auf sein Gangbild, diesen hatte er schon, als der Tierschutz ihn fand und ist wohl ein unbehandelt ausgeheilter Bruch. Durch diesen hat er im Alltag jedoch kaum Einschr\u00e4nkungen. \n\nVielen Dank vorab! ",
+    "subreddit": "kratzbaum",
+    "title": "Humpelt mein Kater?",
+    "upvote_ratio": 1.0,
+    "url": "https://v.redd.it/9urhnwteivne1",
+    "url_overridden_by_dest": "https://v.redd.it/9urhnwteivne1"
+  },
+  {
+    "author_flair_text": null,
+    "created_utc": "2025-03-10 14:35:17 UTC",
+    "id": "1j801hc",
+    "link_flair_text": " Bling ",
+    "media": null,
+    "num_comments": 1,
+    "score": 1,
+    "secure_media": null,
+    "selftext": "",
+    "subreddit": "EldenBling",
+    "title": "The Nox Monk Hood is straight up peak",
+    "upvote_ratio": 1.0,
+    "url": "https://www.reddit.com/gallery/1j801hc",
+    "url_overridden_by_dest": "https://www.reddit.com/gallery/1j801hc"
+  },
+  {
+    "author_flair_text": null,
+    "created_utc": "2025-03-10 14:35:17 UTC",
+    "id": "1j801hb",
+    "link_flair_text": null,
+    "media": null,
+    "num_comments": 0,
+    "score": 1,
+    "secure_media": null,
+    "selftext": "Estou tomando uma surra pra esse assunto,apesar de eu entender que \u00e9 simples,n\u00e3o consigo entender grafico socorro",
+    "subreddit": "matematicabrasil",
+    "title": "Algu\u00e9m me ajuda com estat\u00edstica",
+    "upvote_ratio": 1.0,
+    "url": "https://www.reddit.com/r/matematicabrasil/comments/1j801hb/algu\u00e9m_me_ajuda_com_estat\u00edstica/"
+  },
+  {
+    "author_flair_text": null,
+    "created_utc": "2025-03-10 14:35:17 UTC",
+    "id": "1j801h8",
+    "link_flair_text": null,
+    "media": null,
+    "num_comments": 0,
+    "preview": {
+      "enabled": false,
+      "images": [
+        {
+          "id": "J6EgA3vldAykGjdLZhe0YFRYP7veG4ccknQJXaHlGjs",
+          "resolutions": [
+            {
+              "height": 40,
+              "url": "https://external-preview.redd.it/Oo_aLMGjc0Un6spn9gtJ4Sl61tRI_lX_diL7hvBBtaw.jpg?width=108&amp;crop=smart&amp;auto=webp&amp;s=d26964e82c89e831597428103114ccdba1790a6b",
+              "width": 108
+            },
+            {
+              "height": 81,
+              "url": "https://external-preview.redd.it/Oo_aLMGjc0Un6spn9gtJ4Sl61tRI_lX_diL7hvBBtaw.jpg?width=216&amp;crop=smart&amp;auto=webp&amp;s=803481206d21b3d45705ddb7fb7666242916bdb9",
+              "width": 216
+            },
+            {
+              "height": 120,
+              "url": "https://external-preview.redd.it/Oo_aLMGjc0Un6spn9gtJ4Sl61tRI_lX_diL7hvBBtaw.jpg?width=320&amp;crop=smart&amp;auto=webp&amp;s=8d69bab565f399db21cff56e394a466d59a89a13",
+              "width": 320
+            }
+          ],
+          "source": {
+            "height": 225,
+            "url": "https://external-preview.redd.it/Oo_aLMGjc0Un6spn9gtJ4Sl61tRI_lX_diL7hvBBtaw.jpg?auto=webp&amp;s=01c1611ce955738906fdddee364af7fc9ae7af29",
+            "width": 600
+          },
+          "variants": {}
+        }
+      ]
+    },
+    "score": 1,
+    "secure_media": null,
+    "selftext": "",
+    "subreddit": "pregunta2",
+    "title": "Cuanto conoces a Timoth\u00e9e Chalamet? (\ud83c\udfc6 5000 respuestas hoy)",
+    "upvote_ratio": 1.0,
+    "url": "https://pregunta2.com/quiz/cuanto-conoces-timothee-chalamet-132169?ref=twitter",
+    "url_overridden_by_dest": "https://pregunta2.com/quiz/cuanto-conoces-timothee-chalamet-132169?ref=twitter"
+  },
+  {
+    "author_flair_text": null,
+    "created_utc": "2025-03-10 14:35:17 UTC",
+    "id": "1j801h7",
+    "link_flair_text": null,
+    "media": null,
+    "num_comments": 1,
+    "score": 1,
+    "secure_media": null,
+    "selftext": "",
+    "subreddit": "femboy",
+    "title": "Google classroom cuz why the hell not?\nthe code is xyc7v3b",
+    "upvote_ratio": 1.0,
+    "url": "https://classroom.google.com/c/NzU4MTA2MDQwNzYx?cjc=xyc7v3b",
+    "url_overridden_by_dest": "https://classroom.google.com/c/NzU4MTA2MDQwNzYx?cjc=xyc7v3b"
+  },
+  {
+    "author_flair_text": null,
+    "created_utc": "2025-03-10 14:35:17 UTC",
+    "id": "1j801h5",
+    "link_flair_text": "New to Cats/Just Adopted",
+    "media": null,
+    "num_comments": 0,
+    "score": 1,
+    "secure_media": null,
+    "selftext": "I recently just adopted my cat from my local humane society. She is the sweetest, most friendly girl and has quickly warmed up to me. But her previous owner declawed her front paws and I (a chronic overthinker) am worried about her. Since she\u2019s been home, she hasn\u2019t tried jumping on anything other than my bed and nightstands, and she constantly stretches out her paws. I\u2019m not sure if these are results of the declawing aftermath or if she\u2019s still getting used to her new environment. Does anyone have any recommendations on how I can help her wellbeing and just give her the best, least painful life I can offer her?",
+    "subreddit": "CatAdvice",
+    "title": "How can I help my declawed cat?",
+    "upvote_ratio": 1.0,
+    "url": "https://www.reddit.com/r/CatAdvice/comments/1j801h5/how_can_i_help_my_declawed_cat/"
+  },
+  {
+    "author_flair_text": "0 Transaction Feedback",
+    "created_utc": "2025-03-10 14:35:17 UTC",
+    "id": "1j801h4",
+    "link_flair_text": "Pre-Loved :pupper:",
+    "media": null,
+    "num_comments": 1,
+    "score": 1,
+    "secure_media": null,
+    "selftext": "Price- 1300 (shipping excluded).         \n\nTitan Vintage Dress Watch.       \n\nAll Original Including strap.   \n",
+    "subreddit": "IndiaThriftCorner",
+    "title": "[Selling] Titan Vintage Dress Watch",
+    "upvote_ratio": 1.0,
+    "url": "https://www.reddit.com/gallery/1j801h4",
+    "url_overridden_by_dest": "https://www.reddit.com/gallery/1j801h4"
+  },
+  {
+    "author_flair_text": null,
+    "created_utc": "2025-03-10 14:35:16 UTC",
+    "id": "1j801h2",
+    "link_flair_text": null,
+    "media": null,
+    "num_comments": 0,
+    "preview": {
+      "enabled": true,
+      "images": [
+        {
+          "id": "JxB6EuP33hwNgOypFiYFMQ1URfnG9MBxUS3GjKDtFQ4",
+          "resolutions": [
+            {
+              "height": 103,
+              "url": "https://preview.redd.it/r4a8kyggivne1.jpeg?width=108&amp;crop=smart&amp;auto=webp&amp;s=faf79c55711ecced1ac4fd17b7fb40a21595b3f7",
+              "width": 108
+            },
+            {
+              "height": 207,
+              "url": "https://preview.redd.it/r4a8kyggivne1.jpeg?width=216&amp;crop=smart&amp;auto=webp&amp;s=772456c5f401b48d014c3909f43f776fd6ab9214",
+              "width": 216
+            },
+            {
+              "height": 307,
+              "url": "https://preview.redd.it/r4a8kyggivne1.jpeg?width=320&amp;crop=smart&amp;auto=webp&amp;s=40352fcb3acca0718ce9e518a88fff43b58b2222",
+              "width": 320
+            },
+            {
+              "height": 615,
+              "url": "https://preview.redd.it/r4a8kyggivne1.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=55d8fdba1308a341bcdacfd6acbba83a85239432",
+              "width": 640
+            },
+            {
+              "height": 923,
+              "url": "https://preview.redd.it/r4a8kyggivne1.jpeg?width=960&amp;crop=smart&amp;auto=webp&amp;s=76a389e29ca30da85d4bdfea0097c73ddd78c2ec",
+              "width": 960
+            },
+            {
+              "height": 1038,
+              "url": "https://preview.redd.it/r4a8kyggivne1.jpeg?width=1080&amp;crop=smart&amp;auto=webp&amp;s=0e09677aaadf1a72e6aa01d49a92c8b80fdcb401",
+              "width": 1080
+            }
+          ],
+          "source": {
+            "height": 1154,
+            "url": "https://preview.redd.it/r4a8kyggivne1.jpeg?auto=webp&amp;s=33b7312f0c4d73e2db87189730b3deeadd2ef835",
+            "width": 1200
+          },
+          "variants": {}
+        }
+      ]
+    },
+    "score": 1,
+    "secure_media": null,
+    "selftext": "Transform simple ingredients into show-stopping desserts with these gorgeous puff pastry apple roses! This step-by-step guide will help you create a stunning and delicious treat that\u2019s surprisingly easy to make.",
+    "subreddit": "pastry",
+    "title": "How to Make Puff Pasty Apple Roses",
+    "upvote_ratio": 1.0,
+    "url": "https://i.redd.it/r4a8kyggivne1.jpeg",
+    "url_overridden_by_dest": "https://i.redd.it/r4a8kyggivne1.jpeg"
+  },
+  {
+    "author_flair_text": null,
+    "created_utc": "2025-03-10 14:35:16 UTC",
+    "id": "1j801gy",
+    "link_flair_text": "Russia/Ukraine",
+    "media": null,
+    "num_comments": 0,
+    "preview": {
+      "enabled": false,
+      "images": [
+        {
+          "id": "17uolZSPUfbA6vk0kLWfHGOOod9Y0J7ZNN-CLaPhdcU",
+          "resolutions": [
+            {
+              "height": 72,
+              "url": "https://external-preview.redd.it/yf9k0yARiIdOn5glTh3PL43IvFKMFu4ilWwkCQozX38.jpg?width=108&amp;crop=smart&amp;auto=webp&amp;s=48b0971ad4766ca3a3450808287b6628822ea513",
+              "width": 108
+            },
+            {
+              "height": 144,
+              "url": "https://external-preview.redd.it/yf9k0yARiIdOn5glTh3PL43IvFKMFu4ilWwkCQozX38.jpg?width=216&amp;crop=smart&amp;auto=webp&amp;s=3c56ed5a365f9d84fff09b40bbed142299f6aee7",
+              "width": 216
+            },
+            {
+              "height": 213,
+              "url": "https://external-preview.redd.it/yf9k0yARiIdOn5glTh3PL43IvFKMFu4ilWwkCQozX38.jpg?width=320&amp;crop=smart&amp;auto=webp&amp;s=170c262bc6cbf6abc33b73e5e503b56974d98723",
+              "width": 320
+            },
+            {
+              "height": 426,
+              "url": "https://external-preview.redd.it/yf9k0yARiIdOn5glTh3PL43IvFKMFu4ilWwkCQozX38.jpg?width=640&amp;crop=smart&amp;auto=webp&amp;s=1d98aafed423ea756e6d44b5ec664e34098da7ce",
+              "width": 640
+            },
+            {
+              "height": 640,
+              "url": "https://external-preview.redd.it/yf9k0yARiIdOn5glTh3PL43IvFKMFu4ilWwkCQozX38.jpg?width=960&amp;crop=smart&amp;auto=webp&amp;s=8145ec54b551c95a175e7ccf15fb2a71c0f6baf5",
+              "width": 960
+            },
+            {
+              "height": 720,
+              "url": "https://external-preview.redd.it/yf9k0yARiIdOn5glTh3PL43IvFKMFu4ilWwkCQozX38.jpg?width=1080&amp;crop=smart&amp;auto=webp&amp;s=1ff67ec49b84c84e46fe645b603a6349e0cec61a",
+              "width": 1080
+            }
+          ],
+          "source": {
+            "height": 1355,
+            "url": "https://external-preview.redd.it/yf9k0yARiIdOn5glTh3PL43IvFKMFu4ilWwkCQozX38.jpg?auto=webp&amp;s=3e104e83bd45707f14ed3ec4d4c34741d6adb1ca",
+            "width": 2032
+          },
+          "variants": {}
+        }
+      ]
+    },
+    "score": 1,
+    "secure_media": null,
+    "selftext": "",
+    "subreddit": "worldnews",
+    "title": "Senior Conservative MP says UK must consider possibility \u2018Trump is a Russian asset\u2019",
+    "upvote_ratio": 1.0,
+    "url": "https://www.politics.co.uk/news/2025/03/04/senior-conservative-mp-says-uk-must-consider-possibility-trump-is-a-russian-asset/",
+    "url_overridden_by_dest": "https://www.politics.co.uk/news/2025/03/04/senior-conservative-mp-says-uk-must-consider-possibility-trump-is-a-russian-asset/"
+  },
+  {
+    "author_flair_text": null,
+    "created_utc": "2025-03-10 14:35:16 UTC",
+    "id": "1j801gx",
+    "link_flair_text": null,
+    "media": null,
+    "num_comments": 0,
+    "score": 1,
+    "secure_media": null,
+    "selftext": "3292663459783880 if you want to trade",
+    "subreddit": "PTCGPocketTrading",
+    "title": "LF. Spacetime smackdown \ud83d\udd37\ufe0f\ud83d\udd37\ufe0f\ud83d\udd37\ufe0f Empoleon and Dusknoir to finish my collection",
+    "upvote_ratio": 1.0,
+    "url": "https://www.reddit.com/gallery/1j801gx",
+    "url_overridden_by_dest": "https://www.reddit.com/gallery/1j801gx"
+  },
+  {
+    "author_flair_text": null,
+    "created_utc": "2025-03-10 14:35:16 UTC",
+    "id": "1j801gw",
+    "link_flair_text": "Discussion",
+    "media": null,
+    "num_comments": 1,
+    "score": 1,
+    "secure_media": null,
+    "selftext": "I'm currently in the 'cooking' stage of my story. It is fiction and a short one. I wanted this to be small and thought up parts of the story and am connecting the dots to complete the outline. \n\nOne part of it is that the MC is working towards finding his lost sister. But around the second chapter/episode, he would get her location. I did not want any unnecessary elements in the story as I wanted it to be short and straight, but finding his sister is supposed to be what the MC was working for all these years, and with the fact that he would get her location in second chapter, MC's search does not get much weight. Like, in the first chapter I would introduce everything and establish the goal and in the second chapter, part of the goal would be reached. It doesn't feel right. \n\nThe entirety of the story I have is actually the MC saving his sister. So the story would start with him getting his sister's location, but I wanted to give more weight to MC's feelings on finding his sister after all these years. And I'm stuck with how to do it. \n\nI have the entire story outline ready, and want to start writing so bad, but the beginning is not ready so I am unable to start. The beginning seems a bit bland, I didn't want to add unnecessary world-building, hence the story starts just before MC gets her location. \n\nTo get a better understanding of it, you could think of a single-season 12 episode anime where the starting 4/5 episodes they do fun stuff and around 6/7 it gets serious and dark. But remove the initial 4/5 episodes. And boom, now I'm unable to get a proper start for the story. I could add the initial episodes but I wonder if I'll be able to hook people. \n\nI would be very glad if you shared some of your thoughts on what I should do. Maybe I'll be able to do something about this.\n\n",
+    "subreddit": "writers",
+    "title": "Need a bit of advice on how to move forward",
+    "upvote_ratio": 1.0,
+    "url": "https://www.reddit.com/r/writers/comments/1j801gw/need_a_bit_of_advice_on_how_to_move_forward/"
+  },
+  {
+    "author_flair_text": null,
+    "created_utc": "2025-03-10 14:35:16 UTC",
+    "id": "1j801gv",
+    "link_flair_text": null,
+    "media": null,
+    "num_comments": 0,
+    "preview": {
+      "enabled": true,
+      "images": [
+        {
+          "id": "gHw22n3l6giL763m5SUqhCR4D06JaE66cMX54NC9M5E",
+          "resolutions": [
+            {
+              "height": 60,
+              "url": "https://preview.redd.it/wn6z6o9givne1.png?width=108&amp;crop=smart&amp;auto=webp&amp;s=f5ffcab3b0459c8c0df8131e63c60fdfc676c267",
+              "width": 108
+            },
+            {
+              "height": 121,
+              "url": "https://preview.redd.it/wn6z6o9givne1.png?width=216&amp;crop=smart&amp;auto=webp&amp;s=a3191958b6b6d0da6c89caa649a3a84ec1343e69",
+              "width": 216
+            },
+            {
+              "height": 180,
+              "url": "https://preview.redd.it/wn6z6o9givne1.png?width=320&amp;crop=smart&amp;auto=webp&amp;s=1570888b0523fbe1b61efda486777e313de0096d",
+              "width": 320
+            },
+            {
+              "height": 360,
+              "url": "https://preview.redd.it/wn6z6o9givne1.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=53dd1eec36e57142798e1d2c6e11d186a746765a",
+              "width": 640
+            },
+            {
+              "height": 540,
+              "url": "https://preview.redd.it/wn6z6o9givne1.png?width=960&amp;crop=smart&amp;auto=webp&amp;s=bdad78bbab6f8634795ad204ee57eb7926710f1f",
+              "width": 960
+            },
+            {
+              "height": 607,
+              "url": "https://preview.redd.it/wn6z6o9givne1.png?width=1080&amp;crop=smart&amp;auto=webp&amp;s=6c60a72d4b77841ce30502b797aaf206cb02b31f",
+              "width": 1080
+            }
+          ],
+          "source": {
+            "height": 1080,
+            "url": "https://preview.redd.it/wn6z6o9givne1.png?auto=webp&amp;s=5cf4f343f166ca674acf0babf20bf61e2f0ee30f",
+            "width": 1920
+          },
+          "variants": {}
+        }
+      ]
+    },
+    "score": 1,
+    "secure_media": null,
+    "selftext": "",
+    "subreddit": "BloxFruitsTrades",
+    "title": "Trying to trade until I get a dragon, kitsune or leopard",
+    "upvote_ratio": 1.0,
+    "url": "https://i.redd.it/wn6z6o9givne1.png",
+    "url_overridden_by_dest": "https://i.redd.it/wn6z6o9givne1.png"
+  },
+  {
+    "author_flair_text": null,
+    "created_utc": "2025-03-10 14:35:16 UTC",
+    "id": "1j801gt",
+    "link_flair_text": null,
+    "media": null,
+    "num_comments": 0,
+    "score": 1,
+    "secure_media": null,
+    "selftext": "The bot is up and running successfully but as of yet, I am unable to figure out how to view/export the actual chatlogs of employees who have used this bot.  Any help would be appreciated.",
+    "subreddit": "sysadmin",
+    "title": "Looking for anyone with experience in creating and managing a chabot created in copilot studio.",
+    "upvote_ratio": 1.0,
+    "url": "https://www.reddit.com/r/sysadmin/comments/1j801gt/looking_for_anyone_with_experience_in_creating/"
+  },
+  {
+    "author_flair_text": null,
+    "created_utc": "2025-03-10 14:35:16 UTC",
+    "id": "1j801gs",
+    "link_flair_text": null,
+    "media": null,
+    "num_comments": 0,
+    "preview": {
+      "enabled": true,
+      "images": [
+        {
+          "id": "TCOZPxvXWdWby5VoqTaJ0il8mG4ESaOK-YNK0yMev48",
+          "resolutions": [
+            {
+              "height": 71,
+              "url": "https://preview.redd.it/s0lqd49givne1.jpeg?width=108&amp;crop=smart&amp;auto=webp&amp;s=66a40fc2354e78321dfc2bcb655e89ff9e07368b",
+              "width": 108
+            },
+            {
+              "height": 143,
+              "url": "https://preview.redd.it/s0lqd49givne1.jpeg?width=216&amp;crop=smart&amp;auto=webp&amp;s=07a7ebc7507823d4473284cc3230f8abc4870e49",
+              "width": 216
+            },
+            {
+              "height": 212,
+              "url": "https://preview.redd.it/s0lqd49givne1.jpeg?width=320&amp;crop=smart&amp;auto=webp&amp;s=dbfde41c68ac1838186c1575d2eabcac99d47836",
+              "width": 320
+            },
+            {
+              "height": 425,
+              "url": "https://preview.redd.it/s0lqd49givne1.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=638fe927701044d57837769bdbf61347178891ea",
+              "width": 640
+            },
+            {
+              "height": 638,
+              "url": "https://preview.redd.it/s0lqd49givne1.jpeg?width=960&amp;crop=smart&amp;auto=webp&amp;s=55469f72b2d6d871a3a7fd609d2f9f6a62061da0",
+              "width": 960
+            },
+            {
+              "height": 718,
+              "url": "https://preview.redd.it/s0lqd49givne1.jpeg?width=1080&amp;crop=smart&amp;auto=webp&amp;s=e41333991fe2c168ec15ec90c83140770bc8b771",
+              "width": 1080
+            }
+          ],
+          "source": {
+            "height": 718,
+            "url": "https://preview.redd.it/s0lqd49givne1.jpeg?auto=webp&amp;s=65e31ed76a3a5c44fe8050d414d347d06874c761",
+            "width": 1080
+          },
+          "variants": {}
+        }
+      ]
+    },
+    "score": 1,
+    "secure_media": null,
+    "selftext": "",
+    "subreddit": "varanasi",
+    "title": "\u0930\u0902\u0917\u092d\u0930\u0940 \u090f\u0915\u093e\u0926\u0936\u0940 \u0915\u0940 \u0936\u0941\u092d\u0915\u093e\u092e\u0928\u093e\u090f\u0902 \u0906\u092a \u0938\u092d\u0940 \u0915\u094b..",
+    "upvote_ratio": 1.0,
+    "url": "https://i.redd.it/s0lqd49givne1.jpeg",
+    "url_overridden_by_dest": "https://i.redd.it/s0lqd49givne1.jpeg"
+  },
+  {
+    "author_flair_text": null,
+    "created_utc": "2025-03-10 14:35:16 UTC",
+    "id": "1j801gr",
+    "link_flair_text": "Question",
+    "media": null,
+    "num_comments": 0,
+    "score": 1,
+    "secure_media": null,
+    "selftext": "Bought a pre-owned World a few days ago, didn't have Iceborne on the cover. BUT when I put it in and load it, I see the title screen saying 'Monster Hunter World: Iceborne', and later on it says 'Iceborne add-ons available'. \n\nDid I just get an entire game/DLC for NINE DOLLARS-",
+    "subreddit": "MonsterHunterWorld",
+    "title": "Slightly Big Question",
+    "upvote_ratio": 1.0,
+    "url": "https://www.reddit.com/r/MonsterHunterWorld/comments/1j801gr/slightly_big_question/"
+  },
+  {
+    "author_flair_text": null,
+    "created_utc": "2025-03-10 14:35:15 UTC",
+    "id": "1j801gl",
+    "link_flair_text": null,
+    "media": null,
+    "num_comments": 0,
+    "preview": {
+      "enabled": true,
+      "images": [
+        {
+          "id": "2A0W9gN4phOOK3cmq_pi30DmaAXt_zCT3i4Xi5Gn2Jw",
+          "resolutions": [
+            {
+              "height": 216,
+              "url": "https://preview.redd.it/6yvjvqrfivne1.jpeg?width=108&amp;crop=smart&amp;auto=webp&amp;s=bfee42c66fc58fed1b216d8057b24ec472e4856f",
+              "width": 108
+            },
+            {
+              "height": 432,
+              "url": "https://preview.redd.it/6yvjvqrfivne1.jpeg?width=216&amp;crop=smart&amp;auto=webp&amp;s=eb7e0afd0cb35a150f34ae5db8ed253489ef8e91",
+              "width": 216
+            },
+            {
+              "height": 640,
+              "url": "https://preview.redd.it/6yvjvqrfivne1.jpeg?width=320&amp;crop=smart&amp;auto=webp&amp;s=559c2720dec0c23ebc3fc395c8606f5fa22199c2",
+              "width": 320
+            },
+            {
+              "height": 1280,
+              "url": "https://preview.redd.it/6yvjvqrfivne1.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=366614dfcbe5dbbb44a08e7d5e344ae1aa465202",
+              "width": 640
+            }
+          ],
+          "source": {
+            "height": 1600,
+            "url": "https://preview.redd.it/6yvjvqrfivne1.jpeg?auto=webp&amp;s=ac3a6378d5f791a381c1e27c9e5400344cf8044c",
+            "width": 720
+          },
+          "variants": {}
+        }
+      ]
+    },
+    "score": 1,
+    "secure_media": null,
+    "selftext": "",
+    "subreddit": "subwaysurfers",
+    "title": "Day 1 of waiting for Subway surfers to come to warsaw",
+    "upvote_ratio": 1.0,
+    "url": "https://i.redd.it/6yvjvqrfivne1.jpeg",
+    "url_overridden_by_dest": "https://i.redd.it/6yvjvqrfivne1.jpeg"
+  },
+  {
+    "author_flair_text": null,
+    "created_utc": "2025-03-10 14:35:15 UTC",
+    "id": "1j801gh",
+    "link_flair_text": null,
+    "media": null,
+    "num_comments": 0,
+    "score": 1,
+    "secure_media": null,
+    "selftext": "Hello all .  I have a major concern with Wiggles and wags treats .  My pup loves them \u2026 like crazy .\nI am very health conscious .  I began a month ago trying to reach them and they don\u2019t take outside calls .  They are pets smarts brand .  After 5 calls and three customer service managers up the line I am getting the run around about a list of \nTheir preservatives and ingredients.  There are certain preservatives that are not good for dogs .\nThere is only one phone number for all of pet smart and you cannot get through to corporate .\nThis behavior makes me very suspicious are hiding something .\nAny suggestion ms or knowledge .  She is very fussy but likes these treats for sone reason ?",
+    "subreddit": "petsmart",
+    "title": "Wiggles and Wags treats",
+    "upvote_ratio": 1.0,
+    "url": "https://www.reddit.com/r/petsmart/comments/1j801gh/wiggles_and_wags_treats/"
+  },
+  {
+    "author_flair_text": null,
+    "created_utc": "2025-03-10 14:35:15 UTC",
+    "id": "1j801gg",
+    "link_flair_text": "Sactional",
+    "media": null,
+    "num_comments": 0,
+    "preview": {
+      "enabled": true,
+      "images": [
+        {
+          "id": "90VLILReOqbftrYxb4dovuD0wUqq0TmXWiXnFai0RQQ",
+          "resolutions": [
+            {
+              "height": 144,
+              "url": "https://preview.redd.it/yatd95bgivne1.jpeg?width=108&amp;crop=smart&amp;auto=webp&amp;s=f4fb283763b9a40aa291044a4dd7c7a4ca444829",
+              "width": 108
+            },
+            {
+              "height": 288,
+              "url": "https://preview.redd.it/yatd95bgivne1.jpeg?width=216&amp;crop=smart&amp;auto=webp&amp;s=fff27d28bd2e0d45d0107079aeac43b1fce6c0c7",
+              "width": 216
+            },
+            {
+              "height": 426,
+              "url": "https://preview.redd.it/yatd95bgivne1.jpeg?width=320&amp;crop=smart&amp;auto=webp&amp;s=fd239454763709d94e734dc0d71af2038fb05b8f",
+              "width": 320
+            },
+            {
+              "height": 853,
+              "url": "https://preview.redd.it/yatd95bgivne1.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=572526c4840b04385e0b76c08c0ae211c0af1438",
+              "width": 640
+            },
+            {
+              "height": 1280,
+              "url": "https://preview.redd.it/yatd95bgivne1.jpeg?width=960&amp;crop=smart&amp;auto=webp&amp;s=6d3a170a9f58961b05aa8da5ef6b4cfd5447cc92",
+              "width": 960
+            },
+            {
+              "height": 1440,
+              "url": "https://preview.redd.it/yatd95bgivne1.jpeg?width=1080&amp;crop=smart&amp;auto=webp&amp;s=56478b20239620f49acede875eff9b0d4183f8d4",
+              "width": 1080
+            }
+          ],
+          "source": {
+            "height": 4032,
+            "url": "https://preview.redd.it/yatd95bgivne1.jpeg?auto=webp&amp;s=c5390cfdc49ff622975b88bfc94e4bea122709e9",
+            "width": 3024
+          },
+          "variants": {}
+        }
+      ]
+    },
+    "score": 1,
+    "secure_media": null,
+    "selftext": "Here\u2019s my first sactional.  It took my a while to assemble by myself\u2026.but so far seems like it was worth it. Very comfortable.    \n\n4 storage seats.  Every seat set up as deep with angled sides.  All lovesoft.  \n",
+    "subreddit": "Lovesac",
+    "title": "My first sactional",
+    "upvote_ratio": 1.0,
+    "url": "https://i.redd.it/yatd95bgivne1.jpeg",
+    "url_overridden_by_dest": "https://i.redd.it/yatd95bgivne1.jpeg"
+  },
+  {
+    "author_flair_text": null,
+    "created_utc": "2025-03-10 14:35:15 UTC",
+    "id": "1j801gf",
+    "link_flair_text": null,
+    "media": null,
+    "num_comments": 0,
+    "preview": {
+      "enabled": false,
+      "images": [
+        {
+          "id": "rUGVM-UEzEHzCbnPIOE-2rGtx6MxPoJcgYVeDm0m3HE",
+          "resolutions": [
+            {
+              "height": 56,
+              "url": "https://external-preview.redd.it/OClZIE-v4gMdRuzEQQt1NxHn1bdjlSkUmaJTFPdJ4i8.jpg?width=108&amp;crop=smart&amp;auto=webp&amp;s=91d4cbd517f55ecc3e49a4c206049db3eeca5c7d",
+              "width": 108
+            },
+            {
+              "height": 113,
+              "url": "https://external-preview.redd.it/OClZIE-v4gMdRuzEQQt1NxHn1bdjlSkUmaJTFPdJ4i8.jpg?width=216&amp;crop=smart&amp;auto=webp&amp;s=75e4e48378dcf4288c16111dd4d8d234bf869f03",
+              "width": 216
+            },
+            {
+              "height": 168,
+              "url": "https://external-preview.redd.it/OClZIE-v4gMdRuzEQQt1NxHn1bdjlSkUmaJTFPdJ4i8.jpg?width=320&amp;crop=smart&amp;auto=webp&amp;s=dcfc3a8a8fdb1f4908c2ab9d2a291746cce193ef",
+              "width": 320
+            },
+            {
+              "height": 336,
+              "url": "https://external-preview.redd.it/OClZIE-v4gMdRuzEQQt1NxHn1bdjlSkUmaJTFPdJ4i8.jpg?width=640&amp;crop=smart&amp;auto=webp&amp;s=f920274beb335ca23de14774c6f9a3730996ffd4",
+              "width": 640
+            },
+            {
+              "height": 504,
+              "url": "https://external-preview.redd.it/OClZIE-v4gMdRuzEQQt1NxHn1bdjlSkUmaJTFPdJ4i8.jpg?width=960&amp;crop=smart&amp;auto=webp&amp;s=a5e9772e80ad9d808625d4882c2a897c06cc28eb",
+              "width": 960
+            },
+            {
+              "height": 567,
+              "url": "https://external-preview.redd.it/OClZIE-v4gMdRuzEQQt1NxHn1bdjlSkUmaJTFPdJ4i8.jpg?width=1080&amp;crop=smart&amp;auto=webp&amp;s=bc7b3e488e64d608451544807aa52fa0e521278f",
+              "width": 1080
+            }
+          ],
+          "source": {
+            "height": 1260,
+            "url": "https://external-preview.redd.it/OClZIE-v4gMdRuzEQQt1NxHn1bdjlSkUmaJTFPdJ4i8.jpg?auto=webp&amp;s=99caeaa82b93886ad879008042b855950fb33f0d",
+            "width": 2400
+          },
+          "variants": {}
+        }
+      ]
+    },
+    "score": 1,
+    "secure_media": null,
+    "selftext": "",
+    "subreddit": "CouponCove",
+    "title": "Start monitoring your credit with Sofi for free and earn a minimum of $10 in rewards credits.",
+    "upvote_ratio": 1.0,
+    "url": "/r/referralcodes/comments/1j7z3d2/start_monitoring_your_credit_with_sofi_for_free/",
+    "url_overridden_by_dest": "/r/referralcodes/comments/1j7z3d2/start_monitoring_your_credit_with_sofi_for_free/"
+  },
+  {
+    "author_flair_text": null,
+    "created_utc": "2025-03-10 14:35:15 UTC",
+    "id": "1j801gd",
+    "link_flair_text": "Question",
+    "media": null,
+    "num_comments": 0,
+    "score": 1,
+    "secure_media": null,
+    "selftext": "Could you guys offer me some good retail shops or normal ones that offer loads of energy drinks brands and that have possibility to ship it to Croatia any feedback is appreciated.",
+    "subreddit": "BuyFromEU",
+    "title": "EU online shops to buy energy drinks",
+    "upvote_ratio": 1.0,
+    "url": "https://www.reddit.com/r/BuyFromEU/comments/1j801gd/eu_online_shops_to_buy_energy_drinks/"
+  },
+  {
+    "author_flair_text": null,
+    "created_utc": "2025-03-10 14:35:15 UTC",
+    "id": "1j801gc",
+    "link_flair_text": null,
+    "media": null,
+    "num_comments": 0,
+    "preview": {
+      "enabled": true,
+      "images": [
+        {
+          "id": "cKPog0daITmCuL2REIwkpIOyKLA72jAukqMkR21fL14",
+          "resolutions": [
+            {
+              "height": 144,
+              "url": "https://preview.redd.it/ff9uef99ivne1.jpeg?width=108&amp;crop=smart&amp;auto=webp&amp;s=e948185b49465e7abd8c4812db1263cca61583e8",
+              "width": 108
+            },
+            {
+              "height": 288,
+              "url": "https://preview.redd.it/ff9uef99ivne1.jpeg?width=216&amp;crop=smart&amp;auto=webp&amp;s=b85a2c4d4a7111a35fe98bf00cf9b26df3ecd075",
+              "width": 216
+            },
+            {
+              "height": 427,
+              "url": "https://preview.redd.it/ff9uef99ivne1.jpeg?width=320&amp;crop=smart&amp;auto=webp&amp;s=32f99291c0a44caf5188dd3a30878b01cfcc1bf6",
+              "width": 320
+            },
+            {
+              "height": 855,
+              "url": "https://preview.redd.it/ff9uef99ivne1.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=d897fa0ff9c02a106ac00b8c942b69d22e7cec77",
+              "width": 640
+            }
+          ],
+          "source": {
+            "height": 896,
+            "url": "https://preview.redd.it/ff9uef99ivne1.jpeg?auto=webp&amp;s=a5a62edf69a64868c5d0af0b1cc4b815ad82b550",
+            "width": 670
+          },
+          "variants": {}
+        }
+      ]
+    },
+    "score": 1,
+    "secure_media": null,
+    "selftext": "",
+    "subreddit": "StingerGT",
+    "title": "My cute little cupcake \ud83d\ude0d",
+    "upvote_ratio": 1.0,
+    "url": "https://i.redd.it/ff9uef99ivne1.jpeg",
+    "url_overridden_by_dest": "https://i.redd.it/ff9uef99ivne1.jpeg"
+  },
+  {
+    "author_flair_text": null,
+    "created_utc": "2025-03-10 14:35:15 UTC",
+    "id": "1j801gb",
+    "link_flair_text": null,
+    "media": null,
+    "num_comments": 1,
+    "score": 1,
+    "secure_media": null,
+    "selftext": "",
+    "subreddit": "AskPH",
+    "title": "Going to Cebu this April! Saan masarap magfoodtrip and magkape?",
+    "upvote_ratio": 1.0,
+    "url": "https://www.reddit.com/r/AskPH/comments/1j801gb/going_to_cebu_this_april_saan_masarap_magfoodtrip/"
+  },
+  {
+    "author_flair_text": null,
+    "created_utc": "2025-03-10 14:35:15 UTC",
+    "id": "1j801g9",
+    "link_flair_text": "Serious",
+    "media": null,
+    "num_comments": 1,
+    "score": 1,
+    "secure_media": null,
+    "selftext": "bhai maine session 1 bhi diya tha and i remeber registering for session two i mean i defintly did i made the payment(i checked google pay i actually did that) and pata nhi randomly mere dimaag main aaya ki kahin main bhool to nhi gya register krna, i remeber seeing all three green ticks after completing payment\nAnd ig payment end main hi hoti hai to maine register kiya hai right?",
+    "subreddit": "JEE",
+    "title": "Jee Mains 2 Register",
+    "upvote_ratio": 1.0,
+    "url": "https://www.reddit.com/r/JEE/comments/1j801g9/jee_mains_2_register/"
+  },
+  {
+    "author_flair_text": null,
+    "created_utc": "2025-03-10 14:35:15 UTC",
+    "id": "1j801g8",
+    "link_flair_text": null,
+    "media": null,
+    "num_comments": 0,
+    "score": 1,
+    "secure_media": null,
+    "selftext": "Hit me up with decently priced options, por flavor.",
+    "subreddit": "frederickmd",
+    "title": "I have a MIGHTY NEED for either sushi or street corn this afternoon.",
+    "upvote_ratio": 1.0,
+    "url": "https://www.reddit.com/r/frederickmd/comments/1j801g8/i_have_a_mighty_need_for_either_sushi_or_street/"
+  },
+  {
+    "author_flair_text": null,
+    "created_utc": "2025-03-10 14:35:15 UTC",
+    "id": "1j801g7",
+    "link_flair_text": "Discussion",
+    "media": null,
+    "num_comments": 0,
+    "score": 1,
+    "secure_media": null,
+    "selftext": "Exactly the title. I want to make honeycomb candy but I'm tryna see if it's ok to replace the sugar used with monkfruit since monkfruit Elly expensive here and I don't wanna waste.",
+    "subreddit": "LowCalorieCooking",
+    "title": "Can I make honeycombb candy but instead of sugar it's monkfruit",
+    "upvote_ratio": 1.0,
+    "url": "https://www.reddit.com/r/LowCalorieCooking/comments/1j801g7/can_i_make_honeycombb_candy_but_instead_of_sugar/"
+  },
+  {
+    "author_flair_text": null,
+    "created_utc": "2025-03-10 14:35:14 UTC",
+    "id": "1j801g4",
+    "link_flair_text": null,
+    "media": null,
+    "num_comments": 0,
+    "score": 1,
+    "secure_media": null,
+    "selftext": "Minha (H24) namorada (M22) pediu para eu a acompanhar no exame admissional que ela iria fazer para assumir um concurso. Ela me pediu no dia anterior, dizendo que iria ter coleta laboratorial e tinha receio de desmaiar. \n\nPerguntei que horas seria, j\u00e1 que trabalho. Ela disse que a cl\u00ednica abria 6:45 e era por ordem de chegada. Me prontifiquei a acompanhar-l\u00e1, desde que cheg\u00e1ssemos assim que abrisse, pois assim n\u00e3o me atrasaria para o trabalho. \n\nEu sou aut\u00f4nomo do mercado financeira. N\u00e3o \"bato ponto\" de maneira formal, mas ela sabe que 8h eu come\u00e7o a me fazer os estudos necess\u00e1rios para trabalhar e q \u00e0s 9h o mercado q trabalho abre. Meu hor\u00e1rio de come\u00e7ar a trabalhar \u00e9 fixo. Possuo flexibilidade para terminar, alguns dias antes do almo\u00e7o outros depois das 16 (\"terminar\" o trabalho em sim, mas depois fico o resto do hor\u00e1rio comercial estudando para me aprimorar). \n\nChegamos na cl\u00ednica antes das 7 e j\u00e1 tinha 15 pessoas l\u00e1. Chamaram o nome dela r\u00e1pido, mas foi s\u00f3 pra fazer o teste de vista. Mandaram ela esperar que a m\u00e9dica chamaria para outros testes e para solicitar os exames laboratoriais. Pararam de chamar nomes 7:30. Deu 8 horas ela falou que eu podia ir trabalhar, mas eu disse que iria esperar mais. Entre as 8 e 8h10 ela insistiu falando que n\u00e3o teria problema eu ir trabalhar mais 4 vezes. Na \u00faltima vez eu pedi a ela que perguntasse pra recep\u00e7\u00e3o o motivo de n estarem chamando mais, e a resposta foi que a m\u00e9dica nem tinha chegado ainda. \n\nAli eu decidi ir trabalhar. J\u00e1 estava atrasado, mas era o quanto q eu j\u00e1 esperava atrasar. Mas n sabiam que horas a m\u00e9dica iria chegar, e depois que chegasse havia 15 pessoas na frente e depois ainda tinha que ir no laborat\u00f3rio coletar as amostras. Se eu ficasse eu teria que dar aquele dia de trabalho como perdido, pois se eu come\u00e7ar a trabalhar depois das 10 n\u00e3o da. Teria que ficar o resto do dia s\u00f3 nos estudos. \n\nConfirmei com ela se tava tudo bem e ela me disse com sorriso que estava. Ent\u00e3o fui trabalhar. \n\n  \nNo dia seguinte ela me falou que precisava contar uma coisa que a chateou. Disse que ficou muito chateada de eu a ter deixado s\u00f3. Falei que sentia muito por ela estar chateada, e q n tive inten\u00e7\u00e3o e a questionei se ela gostaria ent\u00e3o que eu n\u00e3o trabalha-se naquele dia para a acompanhar. A\u00ed ela disse que eu insisto para ela se abrir comigo (ela \u00e9 bem evitativa), mas agora q ela se abriu eu n\u00e3o reconheci o sentimento dela. Ela ent\u00e3o me questionou se eu iria largar meu trabalho caso fosse uma emerg\u00eancia. Eu achei o questionamento desproporcional com a situa\u00e7\u00e3o e desrespeitoso, pois j\u00e1 me ofereci algumas vezes de levar ela no UPA no meio do meu trabalho, quando ela estava passando mal.  \n\nEu n\u00e3o esperava essa mentalidade vindo dela. Ela come\u00e7ou a trabalhar com 13 anos (baba e dps loja). Vem de uma fam\u00edlia de trabalhadores, sendo a primeira da parte de pai a ir para faculdade e a segunda pela parte de m\u00e3e (e ambas as fam\u00edlias s\u00e3o bem grandes). Ela se formou agora em Engenharia Qu\u00edmica e est\u00e1 assumindo um concurso onde ela j\u00e1 trabalhava h\u00e1 2 anos (est\u00e1gio e depois terceirizada). ",
+    "subreddit": "EuSouOBabaca",
+    "title": "Sou babaca por n\u00e3o ter esperado o exame da minha namorada acabar?",
+    "upvote_ratio": 1.0,
+    "url": "https://www.reddit.com/r/EuSouOBabaca/comments/1j801g4/sou_babaca_por_n\u00e3o_ter_esperado_o_exame_da_minha/"
+  },
+  {
+    "author_flair_text": null,
+    "created_utc": "2025-03-10 14:35:14 UTC",
+    "id": "1j801g3",
+    "link_flair_text": null,
+    "media": null,
+    "num_comments": 0,
+    "score": 1,
+    "secure_media": null,
+    "selftext": "",
+    "subreddit": "PastAndPresentPics",
+    "title": "From (18) depressed, drinking too much and bartending to (33) thriving, living on an island and leading yoga retreats. Time changes everything.",
+    "upvote_ratio": 1.0,
+    "url": "https://www.reddit.com/gallery/1j801g3",
+    "url_overridden_by_dest": "https://www.reddit.com/gallery/1j801g3"
+  }
+]
