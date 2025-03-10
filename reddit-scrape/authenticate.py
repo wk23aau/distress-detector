@@ -10,7 +10,7 @@ REDDIT_CLIENT_SECRET = '9jqS61XscMGA3OC5VHEEd7RicqLO5g'
 REDDIT_USERNAME = 'khanrazawaseem'
 REDDIT_PASSWORD = 'fb3bbc2c'
 
-GITHUB_TOKEN = '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'
+GITHUB_TOKEN = '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'
 GITHUB_OWNER = 'wk23aau'
 GITHUB_REPO = 'distress-detector'
 GITHUB_BRANCH = 'main'
@@ -39,7 +39,7 @@ def fetch_batch(subreddit, batch_size, after=None):
         'User-Agent': USER_AGENT
     }
     params = {
-        'limit': min(batch_size, 100),  # Reddit API max is 100
+        'limit': min(batch_size, 1000),  # Reddit API max is 100
         'after': after
     }
     
@@ -50,13 +50,13 @@ def fetch_batch(subreddit, batch_size, after=None):
     return data['data']['children'], data['data']['after']
 
 
-def fetch_raw_reddit_posts(subreddit='TrueOffMyChest', limit=10000):
+def fetch_raw_reddit_posts(subreddit, limit=10000):
     token = get_reddit_token()
     headers = {
         'Authorization': f'Bearer {token}',
         'User-Agent': USER_AGENT
     }
-    params = {'limit': 100}
+    params = {'limit': 1000}
     posts = []
     after = None
     
@@ -120,9 +120,10 @@ def upload_to_github(filename, content):
 
 def main():
     try:
+        subreddit = input("Enter subreddit name (e.g., 'TrueOffMyChest'): ")
         total_posts = int(input("Enter total number of posts to collect: "))
         batch_size = int(input("Enter batch size (max 100): "))
-        batch_size = min(batch_size, 100)
+        batch_size = min(batch_size, 1000)
         
         collected = 0
         after = None
@@ -132,7 +133,7 @@ def main():
             print(f"\nFetching batch of {current_batch_size} posts...")
             
             batch, after = fetch_batch(
-                subreddit='all', 
+                subreddit=subreddit,  # Use user-provided subreddit
                 batch_size=current_batch_size,
                 after=after
             )
@@ -144,11 +145,11 @@ def main():
             cleaned_batch = clean_reddit_data(batch)
             current_count = len(cleaned_batch)
             
-            # Generate filename with range and timestamp
+            # Generate filename with subreddit name
             start = collected + 1
             end = collected + current_count
             timestamp = datetime.now().strftime('%Y-%m-%d_%H-%M-%S')
-            filename = f'clean_reddit_posts_{start}-{end}_{timestamp}.json'
+            filename = f'{subreddit}_{start}-{end}_{timestamp}.json'
             
             upload_to_github(filename, cleaned_batch)
             collected += current_count
@@ -156,12 +157,10 @@ def main():
             print(f"Batch saved: {filename}")
             print(f"Progress: {collected}/{total_posts} posts collected")
             
-            # Respect API rate limits
             time.sleep(2)
             
     except Exception as e:
         print(f'Error: {str(e)}')
         raise
-
 if __name__ == '__main__':
     main()
