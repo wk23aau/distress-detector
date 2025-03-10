@@ -30,49 +30,54 @@
     
     // Extract data from a <shreddit-post> element.
     const extractPostData = (post) => {
-      const postId = post.getAttribute('id');
-      if (!postId || collectedPosts.has(postId)) return; // Skip duplicates
-      const shadow = post.shadowRoot;
-      if (!shadow) return;
+        const postId = post.getAttribute('id');
+        if (!postId || collectedPosts.has(postId)) return; // Skip duplicates
+        const shadow = post.shadowRoot;
+        if (!shadow) return;
       
-      // Extract title from an <a> element with slot="title" (light DOM).
-      const titleElement = post.querySelector('a[slot="title"]');
-      const title = titleElement ? titleElement.textContent.trim() : "Not found";
+        // Extract title from an <a> element with slot="title" (light DOM).
+        const titleElement = post.querySelector('a[slot="title"]');
+        const title = titleElement ? titleElement.textContent.trim() : "Not found";
       
-      // Extract post content (paragraphs) from the element with slot="text-body".
-      let content = "";
-      const contentElement = post.querySelector('a[slot="text-body"] div.md');
-      if (contentElement) {
-        content = Array.from(contentElement.querySelectorAll('p'))
-                  .map(p => p.textContent.trim())
-                  .join('\n');
-      } else {
-        content = "Not found";
-      }
+        // Extract post content (paragraphs) from the element with slot="text-body".
+        let content = "";
+        const contentElement = post.querySelector('a[slot="text-body"] div.md');
+        if (contentElement) {
+          content = Array.from(contentElement.querySelectorAll('p'))
+                    .map(p => p.textContent.trim())
+                    .join('\n');
+        } else {
+          content = "Not found";
+        }
       
-      // Extract vote count (score) from the shadow DOM.
-      const scoreElement = shadow.querySelector('[data-post-click-location="vote"] faceplate-number[pretty]');
-      const score = scoreElement 
-        ? (scoreElement.getAttribute('number') || scoreElement.textContent.trim())
-        : 'Not found';
-        
-      // Extract comments count from the shadow DOM.
-      const commentElement = shadow.querySelector('[data-post-click-location="comments-button"] faceplate-number');
-      const comments = commentElement 
-        ? (commentElement.getAttribute('number') || commentElement.textContent.trim())
-        : 'Not found';
-        
+        // Extract vote count (score) from the shadow DOM.
+        const scoreElement = shadow.querySelector('[data-post-click-location="vote"] faceplate-number[pretty]');
+        const score = scoreElement 
+          ? (scoreElement.getAttribute('number') || scoreElement.textContent.trim())
+          : 'Not found';
+      
+        // Extract comments count from the shadow DOM.
+        const commentElement = shadow.querySelector('[data-post-click-location="comments-button"] faceplate-number');
+        const comments = commentElement 
+          ? (commentElement.getAttribute('number') || commentElement.textContent.trim())
+          : 'Not found';
+      
         // Extract flair from shadow DOM
-      const flairElement = shadow.querySelector('faceplate-tracker .flair-content');
-      const flair = flairElement 
-        ? flairElement.textContent.trim()
-        : 'No flair';
+        const flairElement = post.shadowRoot
+            ?.querySelector('shreddit-post-flair') // Find the flair component
+            ?.shadowRoot // Access its shadow root
+            ?.querySelector('.flair-content'); // Select the content
 
-    const postData = { postId, title, content, score, comments, flair };
-    collectedPosts.set(postId, postData);
-    currentBatch.push(postData);
-    console.log(`Collected post: ${title.slice(0, 30)}...`);
-    };
+        const flair = flairElement 
+            ? flairElement.textContent.trim()
+            : 'No flair';
+      
+        // Construct the post data object.
+        const postData = { postId, title, content, score, comments, flair };
+        collectedPosts.set(postId, postData);
+        currentBatch.push(postData);
+        console.log(`Collected post: ${title.slice(0, 30)}...`);
+      };
             
     // Generate CSV from an array of post objects.
     function generateCSVFromArray(postsArray) {
@@ -134,7 +139,6 @@
     
     // Main batched collection function.
     async function collectPostsBatched() {
-        // Create modal container
         const modal = document.createElement('div');
         modal.style.cssText = `
           position: fixed;
@@ -147,7 +151,6 @@
           padding: 1rem;
         `;
       
-        // Create form content
         const form = `
           <div style="
             background: white;
@@ -162,21 +165,9 @@
             
             <div style="display: grid; gap: 1.25rem;">
               <div>
-                <label style="
-                  display: block;
-                  margin-bottom: 0.5rem;
-                  color: #4a5568;
-                  font-weight: 500;
-                ">Total Time (minutes)</label>
+                <label style="color: #4a5568; font-weight: 500">Total Time (minutes)</label>
                 <input type="number" id="totalTime" 
-                  style="
-                    width: 100%;
-                    padding: 0.75rem;
-                    border: 2px solid #e2e8f0;
-                    border-radius: 8px;
-                    font-size: 1rem;
-                    transition: border-color 0.2s;
-                  "
+                  style="width: 100%; padding: 0.75rem; border: 2px solid #e2e8f0; border-radius: 8px;"
                   placeholder="5"
                   min="1"
                   value="5"
@@ -213,6 +204,34 @@
                 >
               </div>
               
+              <div>
+                <label style="color: #4a5568; font-weight: 500">Scroll Amount (pixels)</label>
+                <select id="scrollBySelect" style="
+                  width: 100%;
+                  padding: 0.75rem;
+                  border: 2px solid #e2e8f0;
+                  border-radius: 8px;
+                  margin-top: 0.5rem;
+                ">
+                  <option value="2000">2000 pixels</option>
+                  <option value="3000" selected>3000 pixels (default)</option>
+                  <option value="4000">4000 pixels</option>
+                  <option value="5000">5000 pixels</option>
+                  <option value="custom">Custom...</option>
+                </select>
+                <input type="number" id="customScrollBy" 
+                  style="
+                    width: 100%;
+                    padding: 0.75rem;
+                    border: 2px solid #e2e8f0;
+                    border-radius: 8px;
+                    margin-top: 0.5rem;
+                    display: none;
+                  " 
+                  placeholder="Enter custom value"
+                >
+              </div>
+              
               <div style="display: flex; gap: 1rem">
                 <button id="startCollection" 
                   style="
@@ -225,9 +244,9 @@
                     cursor: pointer;
                     font-weight: 500;
                     transition: transform 0.2s;
-                    display: flex;          /* Added */
-                    align-items: center;    /* Added */
-                    justify-content: center; /* Added */
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
                   "
                 >Start Collection</button>
                 <button id="cancelCollection" 
@@ -241,9 +260,9 @@
                     cursor: pointer;
                     font-weight: 500;
                     transition: transform 0.2s;
-                    display: flex;          /* Added */
-                    align-items: center;    /* Added */
-                    justify-content: center; /* Added */
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
                   "
                 >Cancel</button>
               </div>
@@ -254,33 +273,62 @@
         modal.innerHTML = form;
         document.body.appendChild(modal);
       
-        // Handle form submission
+        const scrollSelect = modal.querySelector('#scrollBySelect');
+        const customInput = modal.querySelector('#customScrollBy');
         const startButton = modal.querySelector('#startCollection');
         const cancelButton = modal.querySelector('#cancelCollection');
-        const inputs = modal.querySelectorAll('input');
       
-        // Input validation
+        scrollSelect.addEventListener('change', () => {
+          customInput.style.display = scrollSelect.value === 'custom' ? 'block' : 'none';
+          if (scrollSelect.value === 'custom') customInput.focus();
+          validate();
+        });
+      
         const validate = () => {
-          let valid = true;
-          inputs.forEach(input => {
-            if (input.value <= 0) valid = false;
-            input.style.borderColor = input.value > 0 ? '#e2e8f0' : '#fc8181';
-          });
-          startButton.disabled = !valid;
-        };
+            let valid = true;
+          
+            // Validate visible numeric inputs
+            const numericInputs = modal.querySelectorAll('input[type="number"]');
+            numericInputs.forEach(input => {
+              // Skip hidden inputs (like customScrollBy when not selected)
+              if (input.offsetParent === null) return;
+          
+              if (input.value <= 0 || isNaN(input.value)) {
+                valid = false;
+                input.style.borderColor = '#fc8181';
+              } else {
+                input.style.borderColor = '#e2e8f0';
+              }
+            });
+          
+            // Validate scroll selection
+            if (scrollSelect.value === 'custom') {
+              if (!customInput.value || parseInt(customInput.value) <= 0) {
+                valid = false;
+                customInput.style.borderColor = '#fc8181';
+              } else {
+                customInput.style.borderColor = '#e2e8f0';
+              }
+            }
+          
+            startButton.disabled = !valid;
+            return valid;
+          };
       
-        inputs.forEach(input => input.addEventListener('input', validate));
-        validate();
-      
-        // Promise-based modal handling
         return new Promise(resolve => {
-          startButton.addEventListener('click', () => {
+          startButton.addEventListener('click', async () => {
+            if (!validate()) return;
+      
             const params = {
               totalTime: parseFloat(modal.querySelector('#totalTime').value) * 60000,
               totalPosts: parseInt(modal.querySelector('#totalPosts').value, 10),
               batchTime: parseFloat(modal.querySelector('#batchTime').value) * 60000,
-              batchSize: parseInt(modal.querySelector('#batchSize').value, 10)
+              batchSize: parseInt(modal.querySelector('#batchSize').value, 10),
+              scrollBy: scrollSelect.value === 'custom' 
+                ? parseInt(customInput.value, 10)
+                : parseInt(scrollSelect.value, 10)
             };
+      
             modal.remove();
             resolve(params);
           });
@@ -289,28 +337,28 @@
             modal.remove();
             resolve(null);
           });
-        }).then(params => {
+        }).then(async params => {
           if (!params) return;
-          
-          // Original collection logic using validated params
+      
           const {
             totalTime: totalTimeMs,
             totalPosts: targetTotalPosts,
             batchTime: batchTimeMs,
-            batchSize
+            batchSize,
+            scrollBy
           } = params;
       
           const overallStartTime = Date.now();
           let batchStartTime = Date.now();
       
-          const collectionLoop = async () => {
+          try {
             while(cumulativeCount < targetTotalPosts && 
                   (Date.now() - overallStartTime) < totalTimeMs) {
-              window.scrollBy(0, 2000);
+              window.scrollBy(0, scrollBy);
               await wait(1000);
               document.querySelectorAll('shreddit-post')
                 .forEach(post => extractPostData(post));
-              
+      
               if ((Date.now() - batchStartTime) >= batchTimeMs || 
                   currentBatch.length >= batchSize) {
                 await autoUploadBatch(currentBatch);
@@ -319,16 +367,17 @@
                 batchStartTime = Date.now();
               }
             }
-            
+      
             if (currentBatch.length > 0) {
               await autoUploadBatch(currentBatch);
               cumulativeCount += currentBatch.length;
             }
-            
-            displayCollectedPosts(Array.from(collectedPosts.values()));
-          };
       
-          collectionLoop();
+            displayCollectedPosts(Array.from(collectedPosts.values()));
+          } catch (error) {
+            console.error('Collection failed:', error);
+            alert('An error occurred during collection. Check console for details.');
+          }
         });
       }
     
@@ -402,91 +451,92 @@
     function displayCollectedPosts(posts) {
         const overlay = document.createElement('div');
         overlay.style.cssText = `
-            position: fixed;
-            inset: 0;
-            background: rgba(0,0,0,0.6);
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            z-index: 10001;
-            padding: 1rem;
+          position: fixed;
+          inset: 0;
+          background: rgba(0,0,0,0.6);
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          z-index: 10001;
+          padding: 1rem;
         `;
-
+      
         const modal = document.createElement('div');
         modal.style.cssText = `
-            background: white;
-            border-radius: 12px;
-            width: 100%;
-            max-width: 768px;
-            max-height: 90vh;
-            overflow: hidden;
-            box-shadow: 0 8px 32px rgba(0,0,0,0.3);
-            font-family: 'Segoe UI', sans-serif;
+          background: white;
+          border-radius: 12px;
+          width: 100%;
+          max-width: 768px;
+          max-height: 90vh;
+          overflow: hidden;
+          box-shadow: 0 8px 32px rgba(0,0,0,0.3);
+          font-family: 'Segoe UI', sans-serif;
         `;
-
+      
         // Header Section
         const header = document.createElement('div');
         header.style.cssText = `
-            background: #6200ee;
-            color: white;
-            padding: 1.5rem;
-            border-top-left-radius: 12px;
-            border-top-right-radius: 12px;
-            display: flex;
-            align-items: center;
-            gap: 1rem;
+          background: #6200ee;
+          color: white;
+          padding: 1.5rem;
+          border-top-left-radius: 12px;
+          border-top-right-radius: 12px;
+          display: flex;
+          align-items: center;
+          gap: 1rem;
         `;
-        
         header.innerHTML = `
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-                <path fill="white" d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z"/>
-                <path fill="white" d="M11 17h2v-6h-2v6zm0-8h2V7h-2v2z"/>
-            </svg>
-            <h2 style="margin: 0; flex: 1">Collected ${posts.length} Posts</h2>
-            <button id="closeModal" style="
-                background: transparent;
-                border: none;
-                color: white;
-                font-size: 1.5rem;
-                cursor: pointer;
-            ">&times;</button>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+            <path fill="white" d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z"/>
+            <path fill="white" d="M11 17h2v-6h-2v6zm0-8h2V7h-2v2z"/>
+          </svg>
+          <h2 style="margin: 0; flex: 1">Collected ${posts.length} Posts</h2>
+          <button id="closeModal" style="
+            background: transparent;
+            border: none;
+            color: white;
+            font-size: 1.5rem;
+            cursor: pointer;
+          ">&times;</button>
         `;
-
+      
         // Content Section
         const content = document.createElement('div');
         content.style.cssText = `
-            padding: 1.5rem;
-            overflow-y: auto;
-            max-height: 60vh;
+          padding: 1.5rem;
+          overflow-y: auto;
+          max-height: 60vh;
         `;
-        
+      
+        // Generate HTML for each post, including flair with an icon
         content.innerHTML = posts.map(post => `
-            <div style="padding: 1rem; border-bottom: 1px solid #eee">
-                <p><strong>🆔 ID:</strong> ${post.postId}</p>
-                <p><strong>📌 Title:</strong> ${post.title}</p>
-                <p style="color: #555">${post.content}</p>
-                <div style="display: flex; gap: 1rem; margin-top: 0.5rem">
-                    <div>👍 ${post.score}</div>
-                    <div>💬 ${post.comments}</div>
-                </div>
+          <div style="padding: 1rem; border-bottom: 1px solid #eee">
+            <p><strong>🆔 ID:</strong> ${post.postId}</p>
+            <p><strong>📌 Title:</strong> ${post.title}</p>
+            <p><strong>✨ Flair:</strong> ${post.flair || 'No flair'}</p>
+            <p style="color: #555">${post.content}</p>
+            <div style="display: flex; gap: 1rem; margin-top: 0.5rem; color: #666;">
+              <div>👍 ${post.score}</div>
+              <div>💬 ${post.comments}</div>
             </div>
+          </div>
         `).join('');
-
+      
         // Action Buttons
         const actions = document.createElement('div');
         actions.style.cssText = `
-            display: flex;
-            gap: 1rem;
-            padding: 1rem;
-            background: #f5f5f5;
-            border-bottom-left-radius: 12px;
-            border-bottom-right-radius: 12px;
+          display: flex;
+          gap: 1rem;
+          padding: 1rem;
+          background: #f5f5f5;
+          border-bottom-left-radius: 12px;
+          border-bottom-right-radius: 12px;
         `;
-        
+      
         ['CSV', 'JSON'].forEach(format => {
-            const btn = document.createElement('button');
-            btn.textContent = `.Download ${format}`;
-            btn.style.cssText = `
+          const btn = document.createElement('button');
+          btn.textContent = `Download ${format}`;
+          btn.style.cssText = `
             flex: 1;
             padding: 1rem;
             border: none;
@@ -500,32 +550,30 @@
             align-items: center;    /* Added */
             justify-content: center; /* Added */
         `;
-            
-            btn.addEventListener('click', () => {
-                const data = format === 'CSV' 
-                    ? generateCSVFromArray(posts) 
-                    : getJSONData(posts);
-                const blob = new Blob([data], { type: `application/${format.toLowerCase()}` });
-                const link = document.createElement('a');
-                link.href = URL.createObjectURL(blob);
-                link.download = `posts_${getHumanReadableTimestamp()}.${format.toLowerCase()}`;
-                link.click();
-            });
-            
-            actions.appendChild(btn);
+          btn.addEventListener('click', () => {
+            const data = format === 'CSV' 
+              ? generateCSVFromArray(posts) 
+              : getJSONData(posts);
+            const blob = new Blob([data], { type: `application/${format.toLowerCase()}` });
+            const link = document.createElement('a');
+            link.href = URL.createObjectURL(blob);
+            link.download = `posts_${getHumanReadableTimestamp()}.${format.toLowerCase()}`;
+            link.click();
+          });
+          actions.appendChild(btn);
         });
-
+      
         // Assemble modal
         modal.appendChild(header);
         modal.appendChild(content);
         modal.appendChild(actions);
         overlay.appendChild(modal);
         document.body.appendChild(overlay);
-
+      
         // Close handlers
         document.getElementById('closeModal').addEventListener('click', () => overlay.remove());
         overlay.addEventListener('click', (e) => e.target === overlay && overlay.remove());
-    }
+      }
 
     // Initialization
     window.addEventListener('load', () => {
