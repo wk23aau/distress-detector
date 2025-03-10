@@ -3,19 +3,23 @@ import json
 import time
 from datetime import datetime
 from base64 import b64encode
+from dotenv import load_dotenv
+import os
 
-# Configuration
-REDDIT_CLIENT_ID = 'dJ3T_uEzjVDzDor7AYhjQw'
-REDDIT_CLIENT_SECRET = '9jqS61XscMGA3OC5VHEEd7RicqLO5g'
-REDDIT_USERNAME = 'khanrazawaseem'
-REDDIT_PASSWORD = 'fb3bbc2c'
 
-GITHUB_TOKEN = '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'
-GITHUB_OWNER = 'wk23aau'
-GITHUB_REPO = 'distress-detector'
-GITHUB_BRANCH = 'main'
-GITHUB_PATH = 'data/raw/reddit-posts/'
+# Load environment variables from .env
+load_dotenv()
 
+# Configuration (replace hardcoded values)
+REDDIT_CLIENT_ID = os.getenv('REDDIT_CLIENT_ID')
+REDDIT_CLIENT_SECRET = os.getenv('REDDIT_CLIENT_SECRET')
+REDDIT_USERNAME = os.getenv('REDDIT_USERNAME')
+REDDIT_PASSWORD = os.getenv('REDDIT_PASSWORD')
+GITHUB_TOKEN = os.getenv('GITHUB_TOKEN')
+GITHUB_OWNER = os.getenv('GITHUB_OWNER')
+GITHUB_REPO = os.getenv('GITHUB_REPO')
+GITHUB_BRANCH = os.getenv('GITHUB_BRANCH')
+GITHUB_PATH = os.getenv('GITHUB_PATH')
 USER_AGENT = 'python:post-collector:v1.0 (by /u/khanrazawaseem)'
 
 def get_reddit_token():
