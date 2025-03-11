@@ -29,4 +29,4 @@ PyGithub>=1.55
 
 # Progress Bar
 tqdm>=4.62.0
-clean
+clean-text
