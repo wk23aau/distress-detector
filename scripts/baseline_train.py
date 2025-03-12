@@ -3,8 +3,12 @@
 Baseline Training Script for Distress Detection using TF-IDF and Logistic Regression
 
 This script loads processed CSV files (train.csv and val.csv) from the data/processed directory.
-It uses the "full_text" column if available; otherwise, it creates one by combining "title" and "selftext."
-The text is then vectorized using TF-IDF, and a Logistic Regression model is trained and evaluated.
+It uses the "full_text" column (which includes title, flair, and selftext) to generate TF-IDF features,
+trains a Logistic Regression classifier with balanced class weights, and evaluates performance
+on the validation set by printing a classification report.
+
+Usage:
+    python baseline_train.py --train data/processed/train.csv --val data/processed/val.csv --max_features 10000
 """
 
 import pandas as pd
@@ -18,7 +22,7 @@ def load_and_prepare_data(train_path, val_path):
     train_df = pd.read_csv(train_path)
     val_df = pd.read_csv(val_path)
     
-    # Check if "full_text" column exists; if not, create it
+    # Ensure "full_text" column exists; if not, create it from title and selftext.
     if "full_text" not in train_df.columns:
         train_df["full_text"] = (train_df["title"].fillna("") + " " + train_df["selftext"].fillna("")).str.strip()
     else:
@@ -32,11 +36,8 @@ def load_and_prepare_data(train_path, val_path):
     return train_df, val_df
 
 def vectorize_text(train_texts, val_texts, max_features):
-    vectorizer = TfidfVectorizer(
-        max_features=max_features,
-        ngram_range=(1, 2),
-        stop_words="english"
-    )
+    # Use TF-IDF with unigrams and bigrams, removing common English stopwords
+    vectorizer = TfidfVectorizer(max_features=max_features, ngram_range=(1, 2), stop_words="english")
     X_train = vectorizer.fit_transform(train_texts)
     X_val = vectorizer.transform(val_texts)
     return X_train, X_val, vectorizer
@@ -45,22 +46,16 @@ def train_and_evaluate(train_path, val_path, max_features):
     train_df, val_df = load_and_prepare_data(train_path, val_path)
     print(f"Training samples: {len(train_df)}, Validation samples: {len(val_df)}")
     
-    # Print label distribution for troubleshooting
-    print("Train label distribution:")
-    print(train_df['label'].value_counts())
-    print("Validation label distribution:")
-    print(val_df['label'].value_counts())
-    
-    if train_df['label'].nunique() < 2:
-        raise ValueError(f"Training data has only one class: {train_df['label'].unique()[0]}")
-    
+    # Vectorize the full_text field
     X_train, X_val, vectorizer = vectorize_text(train_df["full_text"], val_df["full_text"], max_features)
     y_train = train_df["label"]
     y_val = val_df["label"]
     
+    # Train Logistic Regression with balanced class weights
     model = LogisticRegression(class_weight="balanced", max_iter=1000, solver="liblinear")
     model.fit(X_train, y_train)
     
+    # Evaluate on validation set
     y_pred = model.predict(X_val)
     print("\nBaseline Model Performance:")
     print(classification_report(y_val, y_pred))
