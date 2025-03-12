@@ -1,8 +1,11 @@
 #!/usr/bin/env python3
 """
 Automated Labeling Pipeline for Distress Detection
-Combines VADER, a transformer-based sentiment model, and an ABSA model
-to automatically label posts as distress (1) or non-distress (0) without manual labor.
+
+This script loads a processed CSV file (e.g., TrueOffMyChest_cleaned.csv) that contains posts,
+applies three unsupervised sentiment analyses (VADER, a transformer sentiment model, and a proxy ABSA model),
+and then automatically assigns a distress label (1 for distress, 0 for non‑distress) based on preset thresholds.
+No manual annotation is required.
 
 Usage:
     python auto_label.py --input_file data/processed/TrueOffMyChest_cleaned.csv --output_file data/processed/TrueOffMyChest_auto_labeled.csv
@@ -10,7 +13,6 @@ Usage:
 
 import argparse
 import pandas as pd
-import numpy as np
 import re
 import emoji
 import nltk
@@ -23,14 +25,14 @@ nltk.download('vader_lexicon')
 # Initialize VADER sentiment analyzer
 vader_analyzer = SentimentIntensityAnalyzer()
 
-# Initialize a transformer-based sentiment analysis pipeline
-# We explicitly set truncation parameters in our calls below
+# Initialize a transformer-based sentiment analysis pipeline.
+# (We use DistilBERT fine-tuned on SST-2; adjust model as needed.)
 transformer_sentiment = pipeline(
     "sentiment-analysis", 
     model="distilbert-base-uncased-finetuned-sst-2-english"
 )
 
-# For demonstration, we'll use the same model as a proxy for ABSA sentiment
+# For a proxy ABSA sentiment signal, we use the same transformer sentiment pipeline.
 absa_sentiment = pipeline(
     "sentiment-analysis", 
     model="distilbert-base-uncased-finetuned-sst-2-english"
@@ -39,9 +41,9 @@ absa_sentiment = pipeline(
 def clean_text(text):
     """
     Clean text by:
-      - Converting emojis to text (without delimiters)
-      - Lowercasing text
-      - Removing URLs, emails, and phone numbers
+      - Converting emojis to text (without colon delimiters)
+      - Converting text to lowercase
+      - Removing URLs, email addresses, and phone numbers
       - Normalizing whitespace
     """
     if not text:
@@ -60,17 +62,22 @@ def get_vader_score(text):
     return scores["compound"]
 
 def get_transformer_sentiment(text):
-    """Return the sentiment score from the transformer-based sentiment model.
-       We pass truncation parameters to ensure inputs do not exceed the maximum length.
-       Maps 'NEGATIVE' to a negative score, 'POSITIVE' to a positive score."""
+    """
+    Return a sentiment score from the transformer-based sentiment model.
+    We use truncation with max_length=512 to avoid errors.
+    Maps 'NEGATIVE' to a negative score and 'POSITIVE' to a positive score.
+    """
     result = transformer_sentiment(text, truncation=True, max_length=512)[0]
     score = result["score"]
     label = result["label"]
     return -score if label.upper() == "NEGATIVE" else score
 
 def get_absa_sentiment(text):
-    """Return a proxy ABSA sentiment score using the transformer sentiment pipeline.
-       We pass truncation parameters similarly."""
+    """
+    Return a proxy ABSA sentiment score.
+    For demonstration purposes, we use the same transformer sentiment pipeline.
+    Again, use truncation parameters.
+    """
     result = absa_sentiment(text, truncation=True, max_length=512)[0]
     score = result["score"]
     label = result["label"]
@@ -78,19 +85,20 @@ def get_absa_sentiment(text):
 
 def auto_label_post(full_text, vader_threshold=-0.5, transformer_threshold=-0.5, absa_threshold=-0.5):
     """
-    Automatically label a post as distress if:
+    Automatically label a post as distress (1) if:
       - VADER compound score is below vader_threshold, AND
-      - Transformer sentiment score indicates negative sentiment (below transformer_threshold), AND
-      - ABSA sentiment score indicates negative sentiment (below absa_threshold).
-    Returns 1 if distress, 0 otherwise.
+      - Transformer sentiment score is below transformer_threshold, AND
+      - ABSA sentiment score is below absa_threshold.
+    Otherwise, label as non‑distress (0).
+
+    You can adjust the thresholds as needed.
     """
     text = clean_text(full_text)
-    
     vader_score = get_vader_score(text)
     transformer_score = get_transformer_sentiment(text)
     absa_score = get_absa_sentiment(text)
     
-    # For a strict rule, require all three signals to be below thresholds
+    # For a strict rule, require all three sentiment signals to indicate negativity.
     if vader_score < vader_threshold and transformer_score < transformer_threshold and absa_score < absa_threshold:
         return 1
     else:
@@ -99,11 +107,11 @@ def auto_label_post(full_text, vader_threshold=-0.5, transformer_threshold=-0.5,
 def main(input_file, output_file):
     df = pd.read_csv(input_file)
     
-    # Ensure full_text exists; if not, combine title and selftext.
+    # Ensure a full_text column exists; if not, create it from title and selftext.
     if "full_text" not in df.columns:
         df["full_text"] = (df["title"].fillna("") + " " + df["selftext"].fillna("")).str.strip()
     
-    # Apply auto labeling to every post
+    # Apply the auto-labeling function to every post.
     df["auto_label"] = df["full_text"].apply(auto_label_post)
     
     print("Auto-label distribution:")
