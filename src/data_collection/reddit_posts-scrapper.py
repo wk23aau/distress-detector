@@ -2,11 +2,11 @@ import os
 import json
 import time
 from datetime import datetime
-import pandas as pd
 import praw
 from dotenv import load_dotenv
 from prawcore.exceptions import NotFound, Forbidden, TooManyRequests
 from tqdm import tqdm
+import pandas as pd  # Added missing import for DataFrame
 
 # Load environment variables
 load_dotenv()
@@ -17,7 +17,7 @@ def setup_reddit():
         client_secret=os.getenv("REDDIT_CLIENT_SECRET"),
         username=os.getenv("REDDIT_USERNAME"),
         password=os.getenv("REDDIT_PASSWORD"),
-        user_agent="moderator_activity_analyzer by u/khanrazawaseem"
+        user_agent="moderator_activity_collector by u/khanrazawaseem"
     )
 
 def get_all_moderator_usernames():
@@ -30,108 +30,104 @@ def get_all_moderator_usernames():
                     usernames.add(mod['username'])
     return sorted(usernames)
 
-def get_total_activity_counts(reddit, username):
-    """Get total post/comment counts using official API"""
-    try:
-        redditor = reddit.redditor(username)
-        post_count = sum(1 for _ in redditor.submissions.new(limit=None))
-        comment_count = sum(1 for _ in redditor.comments.new(limit=None))
-        return post_count, comment_count
-    except NotFound:
-        return None, None
-    except Forbidden:
-        return None, None
-    except Exception as e:
-        tqdm.write(f"Error getting totals for {username}: {str(e)}")
-        return None, None
-
-def collect_posts_and_comments(reddit, username, post_limit, comment_limit):
+def collect_posts_and_comments(reddit, username, post_limit=None, comment_limit=None):
     try:
         mod = reddit.redditor(username)
         posts = []
         mod_comments = []
-        total_other_comments = 0  # Track comments by others
         
-        # Collect posts with progress
+        # Collect posts with full metadata
         post_query = mod.submissions.new(limit=post_limit)
-        with tqdm(
-            total=post_limit,
-            desc=f"Posts [{username}]: 0/{post_limit} (0 other comments)",
+        for post in tqdm(
+            post_query,
+            desc=f"Posts [{username}]",
             unit="post",
-            dynamic_ncols=True,
-            leave=False
-        ) as pbar_posts:
-            for post in post_query:
+            leave=False,
+            dynamic_ncols=True
+        ):
+            try:
                 post_data = {
                     'id': post.id,
                     'title': post.title,
                     'selftext': post.selftext,
+                    'url': post.url,
                     'subreddit': post.subreddit.display_name,
                     'created_utc': post.created_utc,
-                    'num_comments': post.num_comments,
+                    'author': post.author.name if post.author else "[deleted]",
+                    'author_fullname': post.author.fullname if post.author else None,
                     'score': post.score,
+                    'upvote_ratio': post.upvote_ratio,
+                    'num_comments': post.num_comments,
+                    'edited': post.edited,
+                    'gilded': post.gilded,
+                    'stickied': post.stickied,
+                    'locked': post.locked,
+                    'over_18': post.over_18,
+                    'spoiler': post.spoiler,
+                    'is_original_content': post.is_original_content,
+                    'domain': post.domain,
+                    'permalink': post.permalink,
+                    'link_flair_text': getattr(post, 'link_flair_text', None),  # Added
+                    'post_hint': getattr(post, 'post_hint', None),              # Added
                     'comments': []
                 }
                 
-                # Collect comments on post
-                try:
-                    post.comments.replace_more(limit=None)
-                    comments = post.comments.list()
-                    other_comments_count = 0
-                    with tqdm(
-                        total=len(comments),
-                        desc=f"  Comments for post {post.id[:6]}...: 0/{len(comments)}",
-                        leave=False,
-                        dynamic_ncols=True
-                    ) as pbar_comments:
-                        for comment in comments:
-                            if comment.author and comment.author.name != username:
-                                post_data['comments'].append({
-                                    'id': comment.id,
-                                    'author': comment.author.name,
-                                    'body': comment.body,
-                                    'created_utc': comment.created_utc,
-                                    'score': comment.score,
-                                    'post_id': post.id
-                                })
-                                other_comments_count += 1
-                                total_other_comments += 1
-                            pbar_comments.update(1)
-                            pbar_comments.set_description(
-                                f"  Comments for post {post.id[:6]}...: {other_comments_count}/{len(comments)}"
-                            )
-                except Exception as e:
-                    tqdm.write(f"Error processing comments for post {post.id}: {str(e)}")
+                # Collect comments on post with full metadata
+                post.comments.replace_more(limit=None)
+                for comment in post.comments.list():
+                    if comment.author and comment.author.name != username:
+                        comment_data = {
+                            'id': comment.id,
+                            'body': comment.body,
+                            'body_html': comment.body_html,
+                            'created_utc': comment.created_utc,
+                            'author': comment.author.name if comment.author else "[deleted]",
+                            'author_fullname': comment.author.fullname if comment.author else None,
+                            'score': comment.score,
+                            'parent_id': comment.parent_id,
+                            'link_id': comment.link_id,
+                            'gilded': comment.gilded,
+                            'stickied': comment.stickied,
+                            'edited': comment.edited,
+                            'score_hidden': comment.score_hidden,
+                            'subreddit': comment.subreddit.display_name,
+                            'permalink': comment.permalink
+                        }
+                        post_data['comments'].append(comment_data)
                 
                 posts.append(post_data)
-                pbar_posts.update(1)
-                pbar_posts.set_description(
-                    f"Posts [{username}]: {len(posts)}/{post_limit} "
-                    f"({total_other_comments} comments by others)"
-                )
+            except Exception as e:
+                tqdm.write(f"Error processing post {post.id}: {str(e)}")
         
-        # Collect moderator's own comments with progress
+        # Collect moderator's own comments with full metadata
         comment_query = mod.comments.new(limit=comment_limit)
-        with tqdm(
-            total=comment_limit,
-            desc=f"Mod Comments [{username}]: 0/{comment_limit}",
+        for comment in tqdm(
+            comment_query,
+            desc=f"Mod Comments [{username}]",
             unit="comment",
-            dynamic_ncols=True,
-            leave=False
-        ) as pbar_mod_comments:
-            for comment in comment_query:
+            leave=False,
+            dynamic_ncols=True
+        ):
+            try:
                 mod_comments.append({
                     'id': comment.id,
                     'body': comment.body,
-                    'post_id': comment.link_id.split('_')[1],
-                    'subreddit': comment.subreddit.display_name,
+                    'body_html': comment.body_html,
                     'created_utc': comment.created_utc,
-                    'score': comment.score
+                    'author': comment.author.name if comment.author else "[deleted]",
+                    'author_fullname': comment.author.fullname if comment.author else None,
+                    'score': comment.score,
+                    'parent_id': comment.parent_id,
+                    'link_id': comment.link_id,
+                    'gilded': comment.gilded,
+                    'stickied': comment.stickied,
+                    'edited': comment.edited,
+                    'score_hidden': comment.score_hidden,
+                    'subreddit': comment.subreddit.display_name,
+                    'permalink': comment.permalink
                 })
-                pbar_mod_comments.update(1)
-                pbar_mod_comments.set_description(
-                    f"Mod Comments [{username}]: {len(mod_comments)}/{comment_limit}"
-                )
+            except Exception as e:
+                tqdm.write(f"Error processing comment {comment.id}: {str(e)}")
         
         return posts, mod_comments
     
@@ -154,25 +150,42 @@ def save_data(username, posts, mod_comments):
     base_path = f"data/raw/moderator-posts/{username}"
     os.makedirs(base_path, exist_ok=True)
     
-    # Save posts with nested comments
+    # Save posts with all metadata
     if posts:
-        with open(f"{base_path}/posts_with_comments_{len(posts)}_{timestamp}.json", "w") as f:
+        with open(f"{base_path}/posts_full_{len(posts)}_{timestamp}.json", "w") as f:
             json.dump(posts, f, indent=2)
         
-        posts_csv = [{k: v for k, v in post.items() if k != 'comments'} for post in posts]
+        # Save simplified CSV for quick reference
+        posts_csv = [{
+            'id': p['id'],
+            'title': p['title'],
+            'subreddit': p['subreddit'],
+            'created_utc': p['created_utc'],
+            'score': p['score'],
+            'num_comments': p['num_comments']
+        } for p in posts]
         pd.DataFrame(posts_csv).to_csv(
-            f"{base_path}/posts_{len(posts)}_{timestamp}.csv",
+            f"{base_path}/posts_summary_{len(posts)}_{timestamp}.csv",
             index=False
         )
     
     # Save moderator's own comments
     if mod_comments:
-        pd.DataFrame(mod_comments).to_csv(
-            f"{base_path}/moderator_comments_{len(mod_comments)}_{timestamp}.csv",
+        with open(f"{base_path}/mod_comments_full_{len(mod_comments)}_{timestamp}.json", "w") as f:
+            json.dump(mod_comments, f, indent=2)
+        
+        # Save simplified CSV
+        comments_csv = [{
+            'id': c['id'],
+            'body': c['body'],
+            'subreddit': c['subreddit'],
+            'created_utc': c['created_utc'],
+            'score': c['score']
+        } for c in mod_comments]
+        pd.DataFrame(comments_csv).to_csv(
+            f"{base_path}/mod_comments_summary_{len(mod_comments)}_{timestamp}.csv",
             index=False
         )
-        with open(f"{base_path}/moderator_comments_{len(mod_comments)}_{timestamp}.json", "w") as f:
-            json.dump(mod_comments, f, indent=2)
 
 def get_user_input(prompt, default=None):
     while True:
@@ -188,51 +201,28 @@ def main():
     reddit = setup_reddit()
     all_usernames = get_all_moderator_usernames()
     
-    # Get user inputs with progress bar for input
-    with tqdm(total=3, desc="User Input", leave=False, dynamic_ncols=True) as pbar:
-        max_mods = len(all_usernames)
-        mod_count = get_user_input(
-            f"Enter number of moderators to process (max {max_mods}): ",
-            default=max_mods
-        )
-        pbar.update(1)
-        
-        post_limit = get_user_input(
-            "Enter maximum posts per moderator (leave blank to collect ALL): ",
-            default=None
-        )
-        pbar.update(1)
-        
-        comment_limit = get_user_input(
-            "Enter maximum comments per moderator (leave blank to collect ALL): ",
-            default=None
-        )
-        pbar.update(1)
+    # Get user inputs
+    max_mods = len(all_usernames)
+    mod_count = get_user_input(
+        f"Enter number of moderators to process (max {max_mods}): ",
+        default=max_mods
+    )
+    
+    post_limit = get_user_input(
+        "Enter maximum posts per moderator (leave blank to collect ALL): ",
+        default=None
+    )
+    
+    comment_limit = get_user_input(
+        "Enter maximum comments per moderator (leave blank to collect ALL): ",
+        default=None
+    )
     
     selected = all_usernames[:mod_count]
     
-    # Process moderators with progress tracking
-    for username in tqdm(selected, desc="Processing Moderators", unit="mod", dynamic_ncols=True):
-        # Get activity summary
-        total_posts, total_comments = get_total_activity_counts(reddit, username)
-        if total_posts is None or total_comments is None:
-            tqdm.write(f"Skipping {username}: Private/deleted account or API error")
-            continue
-        
-        # Determine actual limits
-        post_limit_actual = post_limit if post_limit is not None else total_posts
-        comment_limit_actual = comment_limit if comment_limit is not None else total_comments
-        
-        # Display summary
-        tqdm.write(
-            f"Processing {username} | "
-            f"Total Posts: {total_posts} (collecting {post_limit_actual}) | "
-            f"Total Comments: {total_comments} (collecting {comment_limit_actual})"
-        )
-        
-        # Collect and save data
+    for username in tqdm(selected, desc="Processing Moderators", unit="mod"):
         posts, mod_comments = collect_posts_and_comments(
-            reddit, username, post_limit_actual, comment_limit_actual
+            reddit, username, post_limit, comment_limit
         )
         save_data(username, posts, mod_comments)
         time.sleep(5)  # Rate limiting

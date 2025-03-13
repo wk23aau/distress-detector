@@ -58,7 +58,7 @@ data/raw/moderator-posts/
 
 **Data Type** Moderator Posts, Moderator Comments, Nested Comments and Activity Summary
 
-***Description** Original posts created by moderators, Comments made by moderators anywhere, Comments by others on moderator's posts and Total posts/comments per moderator
+**Description** Original posts created by moderators, Comments made by moderators anywhere, Comments by others on moderator's posts and Total posts/comments per moderator
 
 Notes
 -----
