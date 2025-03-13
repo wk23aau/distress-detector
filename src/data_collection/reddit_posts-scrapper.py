@@ -6,6 +6,7 @@ import pandas as pd
 import praw
 from dotenv import load_dotenv
 from prawcore.exceptions import NotFound, Forbidden, TooManyRequests
+from tqdm import tqdm
 
 # Load environment variables
 load_dotenv()
@@ -35,9 +36,16 @@ def collect_posts_and_comments(reddit, username, post_limit=None, comment_limit=
         posts = []
         mod_comments = []
         
-        # Collect posts with nested comments from others
-        for post in mod.submissions.new(limit=post_limit):
-            # Process post data
+        # Collect posts with progress bar
+        post_query = mod.submissions.new(limit=post_limit)
+        post_total = post_limit if post_limit is not None else 0
+        for post in tqdm(
+            post_query,
+            desc=f"Posts for u/{username}",
+            total=post_total,
+            leave=False,
+            dynamic_ncols=True
+        ):
             post_data = {
                 'id': post.id,
                 'title': post.title,
@@ -46,31 +54,43 @@ def collect_posts_and_comments(reddit, username, post_limit=None, comment_limit=
                 'created_utc': post.created_utc,
                 'num_comments': post.num_comments,
                 'score': post.score,
-                'comments': []  # Nested comments from others
+                'comments': []
             }
             
-            # Fetch and process comments on this post
+            # Collect comments on post
             try:
-                post.comments.replace_more(limit=None)  # Load all comments
-                for comment in post.comments.list():
+                post.comments.replace_more(limit=None)
+                comments = post.comments.list()
+                for comment in tqdm(
+                    comments,
+                    desc=f"Comments for post {post.id}",
+                    leave=False,
+                    dynamic_ncols=True
+                ):
                     if comment.author and comment.author.name != username:
-                        # Collect comment data
-                        comment_data = {
+                        post_data['comments'].append({
                             'id': comment.id,
                             'author': comment.author.name,
                             'body': comment.body,
                             'created_utc': comment.created_utc,
                             'score': comment.score,
                             'post_id': post.id
-                        }
-                        post_data['comments'].append(comment_data)
+                        })
             except Exception as e:
-                print(f"Error processing comments for post {post.id}: {str(e)}")
+                tqdm.write(f"Error processing comments for post {post.id}: {str(e)}")
             
             posts.append(post_data)
         
-        # Collect moderator's own comments
-        for comment in mod.comments.new(limit=comment_limit):
+        # Collect moderator's own comments with progress bar
+        comment_query = mod.comments.new(limit=comment_limit)
+        comment_total = comment_limit if comment_limit is not None else 0
+        for comment in tqdm(
+            comment_query,
+            desc=f"Mod comments for u/{username}",
+            total=comment_total,
+            leave=False,
+            dynamic_ncols=True
+        ):
             mod_comments.append({
                 'id': comment.id,
                 'body': comment.body,
@@ -83,17 +103,17 @@ def collect_posts_and_comments(reddit, username, post_limit=None, comment_limit=
         return posts, mod_comments
     
     except NotFound:
-        print(f"Moderator {username} not found")
+        tqdm.write(f"Moderator {username} not found")
         return [], []
     except Forbidden:
-        print(f"Private account: {username}")
+        tqdm.write(f"Private account: {username}")
         return [], []
     except TooManyRequests:
-        print("Rate limit exceeded. Pausing for 60 seconds...")
+        tqdm.write("Rate limit exceeded. Pausing for 60 seconds...")
         time.sleep(60)
         return collect_posts_and_comments(reddit, username, post_limit, comment_limit)
     except Exception as e:
-        print(f"Error processing {username}: {str(e)}")
+        tqdm.write(f"Error processing {username}: {str(e)}")
         return [], []
 
 def save_data(username, posts, mod_comments):
@@ -101,24 +121,20 @@ def save_data(username, posts, mod_comments):
     base_path = f"data/raw/moderator-posts/{username}"
     os.makedirs(base_path, exist_ok=True)
     
-    # Save posts with nested comments (JSON only)
-    if posts is not None:
-        # Save full data with comments to JSON
+    # Save posts with nested comments
+    if posts:
         with open(f"{base_path}/posts_with_comments_{len(posts)}_{timestamp}.json", "w") as f:
             json.dump(posts, f, indent=2)
         
-        # Save simplified version to CSV (without nested comments)
         posts_csv = [{k: v for k, v in post.items() if k != 'comments'} for post in posts]
-        df_posts = pd.DataFrame(posts_csv)
-        df_posts.to_csv(
+        pd.DataFrame(posts_csv).to_csv(
             f"{base_path}/posts_{len(posts)}_{timestamp}.csv",
             index=False
         )
     
     # Save moderator's own comments
     if mod_comments:
-        df_comments = pd.DataFrame(mod_comments)
-        df_comments.to_csv(
+        pd.DataFrame(mod_comments).to_csv(
             f"{base_path}/moderator_comments_{len(mod_comments)}_{timestamp}.csv",
             index=False
         )
@@ -139,50 +155,41 @@ def main():
     reddit = setup_reddit()
     all_usernames = get_all_moderator_usernames()
     
-    # Get user inputs
-    max_mods = len(all_usernames)
-    mod_count = get_user_input(
-        f"Enter number of moderators to process (max {max_mods}): ",
-        default=max_mods
-    )
-    
-    # Get limits (None = collect all)
-    post_limit = get_user_input(
-        "Enter maximum posts per moderator (leave blank to collect ALL): ",
-        default=None
-    )
-    
-    comment_limit = get_user_input(
-        "Enter maximum comments per moderator (leave blank to collect ALL): ",
-        default=None
-    )
+    # Get user inputs with progress bar for input
+    with tqdm(total=3, desc="User Input", leave=False) as pbar:
+        max_mods = len(all_usernames)
+        mod_count = get_user_input(
+            f"Enter number of moderators to process (max {max_mods}): ",
+            default=max_mods
+        )
+        pbar.update(1)
+        
+        post_limit = get_user_input(
+            "Enter maximum posts per moderator (leave blank to collect ALL): ",
+            default=None
+        )
+        pbar.update(1)
+        
+        comment_limit = get_user_input(
+            "Enter maximum comments per moderator (leave blank to collect ALL): ",
+            default=None
+        )
+        pbar.update(1)
     
     selected = all_usernames[:mod_count]
-    print(f"\nProcessing {len(selected)} moderators...\n")
-
-    for username in selected:
-        print(f"{'='*40}")
-        print(f"Processing moderator: {username}")
-        print(f"{'='*40}")
-        
-        # Collect data
-        print(f"Collecting posts (limit: {post_limit or 'ALL'}) and comments (limit: {comment_limit or 'ALL'})")
+    
+    # Process moderators with progress bar
+    for username in tqdm(selected, desc="Processing Moderators", unit="mod"):
         posts, mod_comments = collect_posts_and_comments(
             reddit, username, post_limit, comment_limit
         )
-        
-        # Save data
         save_data(username, posts, mod_comments)
-        print(f"\nSaved {len(posts)} posts and {len(mod_comments)} moderator comments")
-        print(f"Nested {sum(len(post['comments']) for post in posts)} comments from others on posts")
-        
-        # Rate limit handling
-        time.sleep(5)
+        time.sleep(5)  # Rate limiting
 
 if __name__ == "__main__":
     try:
         main()
     except KeyboardInterrupt:
-        print("\nProcess interrupted by user")
+        tqdm.write("\nProcess interrupted by user")
     except Exception as e:
-        print(f"Critical error: {str(e)}")
+        tqdm.write(f"Critical error: {str(e)}")
