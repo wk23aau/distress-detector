@@ -50,12 +50,13 @@ def collect_posts_and_comments(reddit, username, post_limit, comment_limit):
         mod = reddit.redditor(username)
         posts = []
         mod_comments = []
+        total_other_comments = 0  # Track comments by others
         
         # Collect posts with progress
         post_query = mod.submissions.new(limit=post_limit)
         with tqdm(
             total=post_limit,
-            desc=f"Posts [{username}]: 0/{post_limit}",
+            desc=f"Posts [{username}]: 0/{post_limit} (0 other comments)",
             unit="post",
             dynamic_ncols=True,
             leave=False
@@ -76,22 +77,38 @@ def collect_posts_and_comments(reddit, username, post_limit, comment_limit):
                 try:
                     post.comments.replace_more(limit=None)
                     comments = post.comments.list()
-                    for comment in comments:
-                        if comment.author and comment.author.name != username:
-                            post_data['comments'].append({
-                                'id': comment.id,
-                                'author': comment.author.name,
-                                'body': comment.body,
-                                'created_utc': comment.created_utc,
-                                'score': comment.score,
-                                'post_id': post.id
-                            })
+                    other_comments_count = 0
+                    with tqdm(
+                        total=len(comments),
+                        desc=f"  Comments for post {post.id[:6]}...: 0/{len(comments)}",
+                        leave=False,
+                        dynamic_ncols=True
+                    ) as pbar_comments:
+                        for comment in comments:
+                            if comment.author and comment.author.name != username:
+                                post_data['comments'].append({
+                                    'id': comment.id,
+                                    'author': comment.author.name,
+                                    'body': comment.body,
+                                    'created_utc': comment.created_utc,
+                                    'score': comment.score,
+                                    'post_id': post.id
+                                })
+                                other_comments_count += 1
+                                total_other_comments += 1
+                            pbar_comments.update(1)
+                            pbar_comments.set_description(
+                                f"  Comments for post {post.id[:6]}...: {other_comments_count}/{len(comments)}"
+                            )
                 except Exception as e:
                     tqdm.write(f"Error processing comments for post {post.id}: {str(e)}")
                 
                 posts.append(post_data)
                 pbar_posts.update(1)
-                pbar_posts.set_description(f"Posts [{username}]: {len(posts)}/{post_limit}")
+                pbar_posts.set_description(
+                    f"Posts [{username}]: {len(posts)}/{post_limit} "
+                    f"({total_other_comments} comments by others)"
+                )
         
         # Collect moderator's own comments with progress
         comment_query = mod.comments.new(limit=comment_limit)
@@ -101,7 +118,7 @@ def collect_posts_and_comments(reddit, username, post_limit, comment_limit):
             unit="comment",
             dynamic_ncols=True,
             leave=False
-        ) as pbar_comments:
+        ) as pbar_mod_comments:
             for comment in comment_query:
                 mod_comments.append({
                     'id': comment.id,
@@ -111,8 +128,10 @@ def collect_posts_and_comments(reddit, username, post_limit, comment_limit):
                     'created_utc': comment.created_utc,
                     'score': comment.score
                 })
-                pbar_comments.update(1)
-                pbar_comments.set_description(f"Mod Comments [{username}]: {len(mod_comments)}/{comment_limit}")
+                pbar_mod_comments.update(1)
+                pbar_mod_comments.set_description(
+                    f"Mod Comments [{username}]: {len(mod_comments)}/{comment_limit}"
+                )
         
         return posts, mod_comments
     
