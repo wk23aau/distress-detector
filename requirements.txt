@@ -1,32 +1,7 @@
-# Core Libraries
-pandas
-numpy
-scikit-learn
-
-# Text Preprocessing and Cleaning
-emoji
-# re # Built-in Python library (no installation needed)
-
-# Natural Language Processing (NLP)
-transformers
-torch
-datasets
-
-# Computer Vision (for facial emotion detection)
-# opencv-python
-# deepface
-
-# Reddit API Access
-praw
-
-# Progress Tracking
-tqdm
-
-# Visualization (optional, for reporting)
-# matplotlib
-# seaborn
-
-# Development Tools
-black>=23.0.0  # Code formatting
-flake8>=6.0.0  # Linting
-dotenv
+pandas>=2.0
+numpy>=1.24
+transformers>=4.30
+torch>=2.0
+praw>=7.6.0
+scikit-learn>=1.3
+matplotlib>=3.7
