@@ -29,27 +29,49 @@ def get_all_moderator_usernames():
                     usernames.add(mod['username'])
     return sorted(usernames)
 
-def collect_posts_and_comments(reddit, username, post_limit, comment_limit):
+def collect_posts_and_comments(reddit, username, post_limit=None, comment_limit=None):
     try:
         mod = reddit.redditor(username)
         posts = []
-        comments = []
+        mod_comments = []
         
-        # Collect posts with limit
+        # Collect posts with nested comments from others
         for post in mod.submissions.new(limit=post_limit):
-            posts.append({
+            # Process post data
+            post_data = {
                 'id': post.id,
                 'title': post.title,
                 'selftext': post.selftext,
                 'subreddit': post.subreddit.display_name,
                 'created_utc': post.created_utc,
                 'num_comments': post.num_comments,
-                'score': post.score
-            })
+                'score': post.score,
+                'comments': []  # Nested comments from others
+            }
+            
+            # Fetch and process comments on this post
+            try:
+                post.comments.replace_more(limit=None)  # Load all comments
+                for comment in post.comments.list():
+                    if comment.author and comment.author.name != username:
+                        # Collect comment data
+                        comment_data = {
+                            'id': comment.id,
+                            'author': comment.author.name,
+                            'body': comment.body,
+                            'created_utc': comment.created_utc,
+                            'score': comment.score,
+                            'post_id': post.id
+                        }
+                        post_data['comments'].append(comment_data)
+            except Exception as e:
+                print(f"Error processing comments for post {post.id}: {str(e)}")
+            
+            posts.append(post_data)
         
-        # Collect comments with limit
+        # Collect moderator's own comments
         for comment in mod.comments.new(limit=comment_limit):
-            comments.append({
+            mod_comments.append({
                 'id': comment.id,
                 'body': comment.body,
                 'post_id': comment.link_id.split('_')[1],
@@ -58,7 +80,8 @@ def collect_posts_and_comments(reddit, username, post_limit, comment_limit):
                 'score': comment.score
             })
         
-        return posts, comments
+        return posts, mod_comments
+    
     except NotFound:
         print(f"Moderator {username} not found")
         return [], []
@@ -73,51 +96,40 @@ def collect_posts_and_comments(reddit, username, post_limit, comment_limit):
         print(f"Error processing {username}: {str(e)}")
         return [], []
 
-def get_total_activity_counts(reddit, username):
-    """Get total post/comment counts using official API"""
-    try:
-        redditor = reddit.redditor(username)
-        post_count = sum(1 for _ in redditor.submissions.new(limit=None))
-        comment_count = sum(1 for _ in redditor.comments.new(limit=None))
-        return post_count, comment_count
-    except NotFound:
-        return None, None
-    except Forbidden:
-        return None, None
-    except Exception as e:
-        print(f"Error getting totals for {username}: {str(e)}")
-        return None, None
-
-def save_data(username, posts, comments):
+def save_data(username, posts, mod_comments):
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
     base_path = f"data/raw/moderator-posts/{username}"
     os.makedirs(base_path, exist_ok=True)
     
-    # Save posts
-    if posts:
-        df_posts = pd.DataFrame(posts)
+    # Save posts with nested comments (JSON only)
+    if posts is not None:
+        # Save full data with comments to JSON
+        with open(f"{base_path}/posts_with_comments_{len(posts)}_{timestamp}.json", "w") as f:
+            json.dump(posts, f, indent=2)
+        
+        # Save simplified version to CSV (without nested comments)
+        posts_csv = [{k: v for k, v in post.items() if k != 'comments'} for post in posts]
+        df_posts = pd.DataFrame(posts_csv)
         df_posts.to_csv(
             f"{base_path}/posts_{len(posts)}_{timestamp}.csv",
             index=False
         )
-        with open(f"{base_path}/posts_{len(posts)}_{timestamp}.json", "w") as f:
-            json.dump(posts, f, indent=2)
     
-    # Save comments
-    if comments:
-        df_comments = pd.DataFrame(comments)
+    # Save moderator's own comments
+    if mod_comments:
+        df_comments = pd.DataFrame(mod_comments)
         df_comments.to_csv(
-            f"{base_path}/comments_{len(comments)}_{timestamp}.csv",
+            f"{base_path}/moderator_comments_{len(mod_comments)}_{timestamp}.csv",
             index=False
         )
-        with open(f"{base_path}/comments_{len(comments)}_{timestamp}.json", "w") as f:
-            json.dump(comments, f, indent=2)
+        with open(f"{base_path}/moderator_comments_{len(mod_comments)}_{timestamp}.json", "w") as f:
+            json.dump(mod_comments, f, indent=2)
 
 def get_user_input(prompt, default=None):
     while True:
         value = input(prompt)
         if not value:
-            return default() if callable(default) else default
+            return default
         try:
             return int(value)
         except ValueError:
@@ -131,17 +143,18 @@ def main():
     max_mods = len(all_usernames)
     mod_count = get_user_input(
         f"Enter number of moderators to process (max {max_mods}): ",
-        default=lambda: max_mods
+        default=max_mods
     )
     
+    # Get limits (None = collect all)
     post_limit = get_user_input(
-        "Enter maximum posts per moderator (default: 1000): ",
-        default=1000
+        "Enter maximum posts per moderator (leave blank to collect ALL): ",
+        default=None
     )
     
     comment_limit = get_user_input(
-        "Enter maximum comments per moderator (default: 1000): ",
-        default=1000
+        "Enter maximum comments per moderator (leave blank to collect ALL): ",
+        default=None
     )
     
     selected = all_usernames[:mod_count]
@@ -152,26 +165,16 @@ def main():
         print(f"Processing moderator: {username}")
         print(f"{'='*40}")
         
-        # Collect recent activity
-        posts, comments = collect_posts_and_comments(
+        # Collect data
+        print(f"Collecting posts (limit: {post_limit or 'ALL'}) and comments (limit: {comment_limit or 'ALL'})")
+        posts, mod_comments = collect_posts_and_comments(
             reddit, username, post_limit, comment_limit
         )
         
         # Save data
-        save_data(username, posts, comments)
-        print(f"\nSaved {len(posts)} posts and {len(comments)} comments")
-        
-        # Get total activity counts
-        print("Calculating total activity (this may take a few moments)...")
-        total_posts, total_comments = get_total_activity_counts(reddit, username)
-        
-        # Display summary
-        print("\n--- Activity Summary ---")
-        if total_posts is not None and total_comments is not None:
-            print(f"Total Posts: {total_posts}")
-            print(f"Total Comments: {total_comments}")
-        else:
-            print("Could not retrieve total activity counts")
+        save_data(username, posts, mod_comments)
+        print(f"\nSaved {len(posts)} posts and {len(mod_comments)} moderator comments")
+        print(f"Nested {sum(len(post['comments']) for post in posts)} comments from others on posts")
         
         # Rate limit handling
         time.sleep(5)
