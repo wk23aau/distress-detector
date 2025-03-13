@@ -56,26 +56,34 @@ This project develops a **multimodal AI pipeline** to detect emotional distress 
     
 *   **transformers**, **pandas**, **numpy**, **torch**
     
-*   Install via:bashCopy1pip install -r requirements.txt
-    
+*   Install via:
+
+```bash
+pip install -r requirements.txt
+
+```
 
 🚀 Installation & Usage
 -----------------------
 
 ### Step 1: Data Collection
 
-bashCopy1python src/data\_collection/reddit\_scraper.py --query "mentalhealth" --limit 1000
+```bash
+python src/data\_collection/reddit\_scraper.py --query "mentalhealth" --limit 1000
 
+```
 _Requires Reddit API credentials (see_ _**.env.example**__)._
 
 ### Step 2: Preprocessing
 
-bashCopy1python src/preprocessing/text\_processor.py --input data/raw/ --output data/processed/
-
+```bash
+python src/preprocessing/text\_processor.py --input data/raw/ --output data/processed/
+```
 ### Step 3: Train Model
 
-bashCopy1python src/models/train\_multimodal.py --epochs 10 --batch\_size 32
-
+```bash
+python src/models/train\_multimodal.py --epochs 10 --batch\_size 32
+```
 📈 Results
 ----------
 
