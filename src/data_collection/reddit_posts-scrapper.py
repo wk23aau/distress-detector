@@ -30,75 +30,89 @@ def get_all_moderator_usernames():
                     usernames.add(mod['username'])
     return sorted(usernames)
 
-def collect_posts_and_comments(reddit, username, post_limit=None, comment_limit=None):
+def get_total_activity_counts(reddit, username):
+    """Get total post/comment counts using official API"""
+    try:
+        redditor = reddit.redditor(username)
+        post_count = sum(1 for _ in redditor.submissions.new(limit=None))
+        comment_count = sum(1 for _ in redditor.comments.new(limit=None))
+        return post_count, comment_count
+    except NotFound:
+        return None, None
+    except Forbidden:
+        return None, None
+    except Exception as e:
+        tqdm.write(f"Error getting totals for {username}: {str(e)}")
+        return None, None
+
+def collect_posts_and_comments(reddit, username, post_limit, comment_limit):
     try:
         mod = reddit.redditor(username)
         posts = []
         mod_comments = []
         
-        # Collect posts with progress bar
+        # Collect posts with progress
         post_query = mod.submissions.new(limit=post_limit)
-        post_total = post_limit if post_limit is not None else 0
-        for post in tqdm(
-            post_query,
-            desc=f"Posts for u/{username}",
-            total=post_total,
-            leave=False,
-            dynamic_ncols=True
-        ):
-            post_data = {
-                'id': post.id,
-                'title': post.title,
-                'selftext': post.selftext,
-                'subreddit': post.subreddit.display_name,
-                'created_utc': post.created_utc,
-                'num_comments': post.num_comments,
-                'score': post.score,
-                'comments': []
-            }
-            
-            # Collect comments on post
-            try:
-                post.comments.replace_more(limit=None)
-                comments = post.comments.list()
-                for comment in tqdm(
-                    comments,
-                    desc=f"Comments for post {post.id}",
-                    leave=False,
-                    dynamic_ncols=True
-                ):
-                    if comment.author and comment.author.name != username:
-                        post_data['comments'].append({
-                            'id': comment.id,
-                            'author': comment.author.name,
-                            'body': comment.body,
-                            'created_utc': comment.created_utc,
-                            'score': comment.score,
-                            'post_id': post.id
-                        })
-            except Exception as e:
-                tqdm.write(f"Error processing comments for post {post.id}: {str(e)}")
-            
-            posts.append(post_data)
+        with tqdm(
+            total=post_limit,
+            desc=f"Posts [{username}]: 0/{post_limit}",
+            unit="post",
+            dynamic_ncols=True,
+            leave=False
+        ) as pbar_posts:
+            for post in post_query:
+                post_data = {
+                    'id': post.id,
+                    'title': post.title,
+                    'selftext': post.selftext,
+                    'subreddit': post.subreddit.display_name,
+                    'created_utc': post.created_utc,
+                    'num_comments': post.num_comments,
+                    'score': post.score,
+                    'comments': []
+                }
+                
+                # Collect comments on post
+                try:
+                    post.comments.replace_more(limit=None)
+                    comments = post.comments.list()
+                    for comment in comments:
+                        if comment.author and comment.author.name != username:
+                            post_data['comments'].append({
+                                'id': comment.id,
+                                'author': comment.author.name,
+                                'body': comment.body,
+                                'created_utc': comment.created_utc,
+                                'score': comment.score,
+                                'post_id': post.id
+                            })
+                except Exception as e:
+                    tqdm.write(f"Error processing comments for post {post.id}: {str(e)}")
+                
+                posts.append(post_data)
+                pbar_posts.update(1)
+                pbar_posts.set_description(f"Posts [{username}]: {len(posts)}/{post_limit}")
         
-        # Collect moderator's own comments with progress bar
+        # Collect moderator's own comments with progress
         comment_query = mod.comments.new(limit=comment_limit)
-        comment_total = comment_limit if comment_limit is not None else 0
-        for comment in tqdm(
-            comment_query,
-            desc=f"Mod comments for u/{username}",
-            total=comment_total,
-            leave=False,
-            dynamic_ncols=True
-        ):
-            mod_comments.append({
-                'id': comment.id,
-                'body': comment.body,
-                'post_id': comment.link_id.split('_')[1],
-                'subreddit': comment.subreddit.display_name,
-                'created_utc': comment.created_utc,
-                'score': comment.score
-            })
+        with tqdm(
+            total=comment_limit,
+            desc=f"Mod Comments [{username}]: 0/{comment_limit}",
+            unit="comment",
+            dynamic_ncols=True,
+            leave=False
+        ) as pbar_comments:
+            for comment in comment_query:
+                mod_comments.append({
+                    'id': comment.id,
+                    'body': comment.body,
+                    'post_id': comment.link_id.split('_')[1],
+                    'subreddit': comment.subreddit.display_name,
+                    'created_utc': comment.created_utc,
+                    'score': comment.score
+                })
+                pbar_comments.update(1)
+                pbar_comments.set_description(f"Mod Comments [{username}]: {len(mod_comments)}/{comment_limit}")
         
         return posts, mod_comments
     
@@ -156,7 +170,7 @@ def main():
     all_usernames = get_all_moderator_usernames()
     
     # Get user inputs with progress bar for input
-    with tqdm(total=3, desc="User Input", leave=False) as pbar:
+    with tqdm(total=3, desc="User Input", leave=False, dynamic_ncols=True) as pbar:
         max_mods = len(all_usernames)
         mod_count = get_user_input(
             f"Enter number of moderators to process (max {max_mods}): ",
@@ -178,10 +192,28 @@ def main():
     
     selected = all_usernames[:mod_count]
     
-    # Process moderators with progress bar
-    for username in tqdm(selected, desc="Processing Moderators", unit="mod"):
+    # Process moderators with progress tracking
+    for username in tqdm(selected, desc="Processing Moderators", unit="mod", dynamic_ncols=True):
+        # Get activity summary
+        total_posts, total_comments = get_total_activity_counts(reddit, username)
+        if total_posts is None or total_comments is None:
+            tqdm.write(f"Skipping {username}: Private/deleted account or API error")
+            continue
+        
+        # Determine actual limits
+        post_limit_actual = post_limit if post_limit is not None else total_posts
+        comment_limit_actual = comment_limit if comment_limit is not None else total_comments
+        
+        # Display summary
+        tqdm.write(
+            f"Processing {username} | "
+            f"Total Posts: {total_posts} (collecting {post_limit_actual}) | "
+            f"Total Comments: {total_comments} (collecting {comment_limit_actual})"
+        )
+        
+        # Collect and save data
         posts, mod_comments = collect_posts_and_comments(
-            reddit, username, post_limit, comment_limit
+            reddit, username, post_limit_actual, comment_limit_actual
         )
         save_data(username, posts, mod_comments)
         time.sleep(5)  # Rate limiting
