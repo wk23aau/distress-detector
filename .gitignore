@@ -17,3 +17,4 @@ models/logs/*
 
 # Environment
 .env
+myenv
