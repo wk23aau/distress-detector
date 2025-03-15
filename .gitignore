@@ -8,9 +8,9 @@ __pycache__/
 *.pyd
 
 # Data directories (from your project structure)
-data/raw/
-data/processed/
-data/annotations/
+# data/raw/
+# data/processed/
+# data/annotations/
 
 # Experiment artifacts
 experiments/checkpoints/
