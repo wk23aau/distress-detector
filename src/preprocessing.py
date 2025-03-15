@@ -17,9 +17,26 @@ import pandas as pd
 from transformers import pipeline, AutoTokenizer, AutoModelForSequenceClassification
 from dotenv import load_dotenv
 
-# Load environment variables
+# Add these imports at the top
+from dotenv import load_dotenv
+
+# Load environment variables from .env file
 load_dotenv()
-HF_TOKEN = os.getenv("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")
+
+# Load configuration values
+HF_TOKEN = os.getenv("HF_TOKEN")  # Matches .env variable name
+MODEL_NAME = os.getenv("MODEL_NAME")  # Now loaded from .env
+
+# Validate required variables
+if not HF_TOKEN:
+    raise ValueError("HF_TOKEN not found in .env file")
+if not MODEL_NAME:
+    raise ValueError("MODEL_NAME not found in .env file")
+
+
+# # Load environment variables
+# load_dotenv()
+# HF_TOKEN = os.getenv("")
 
 # Model configuration
 MODEL_NAME = "mental/mental-bert-base-uncased"
