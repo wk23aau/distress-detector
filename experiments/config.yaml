@@ -1,0 +1,6 @@
+# Training Configuration
+random_seed: 42
+batch_size: 16
+learning_rate: 2e-5
+epochs: 5
+model_name: "mentalbert-base"
