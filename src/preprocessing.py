@@ -52,8 +52,8 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # File paths (Update these paths as needed)
-INPUT_PATH = r"D:\distress-detector\data\combined\combined_posts.csv"
-OUTPUT_PATH = r"D:\distress-detector\data\processed\processed_data.csv"
+INPUT_PATH = r"C:\Users\wk23aau\Documents\distress-detector\data\combined\combined_posts.csv"
+OUTPUT_PATH = r"C:\Users\wk23aau\Documents\distress-detector\data\processed\processed_data.csv"
 
 def load_dataset(file_path):
     """Load dataset from CSV or JSON"""
@@ -123,7 +123,9 @@ def main():
         annotator = pipeline(
             "text-classification",
             model=model,
-            tokenizer=tokenizer
+            tokenizer=tokenizer,
+            truncation=True,     # Enable truncation
+            max_length=512       # Set the max sequence length
         )
     except Exception as e:
         logger.error(f"Pipeline initialization failed: {e}")
