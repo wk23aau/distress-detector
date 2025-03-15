@@ -1,32 +1,31 @@
-# Core Libraries
-pandas
-numpy
-scikit-learn
+# Core ML libraries
+transformers    # For MentalBERT and NLP pipelines
+torch            # PyTorch for model training
+scikit-learn     # Metrics (F1-score, AUC-ROC)
+pandas           # Data manipulation
+numpy           # Numerical operations
 
-# Text Preprocessing and Cleaning
-emoji
-# re # Built-in Python library (no installation needed)
+# Explainability & Visualization
+shap            # Model interpretability
+matplotlib       # Plotting results
+seaborn         # Advanced visualizations
 
-# Natural Language Processing (NLP)
-transformers
-torch
-datasets
+# Data Collection & Preprocessing
+psaw             # Pushshift Reddit API wrapper
+praw             # Reddit API wrapper
+nltk             # Text preprocessing (tokenization, stopwords)
 
-# Computer Vision (for facial emotion detection)
-# opencv-python
-# deepface
+# Development & Deployment
+flask            # API prototyping (for future deployment)
+tqdm            # Progress bars during training
 
-# Reddit API Access
-praw
+# Testing & Linting
+pytest           # Unit testing
+flake8           # Code linting
 
-# Progress Tracking
-tqdm
+# Jupyter Support
+notebook         # For analysis notebooks
+ipykernel       # Jupyter kernel integration
 
-# Visualization (optional, for reporting)
-# matplotlib
-# seaborn
-
-# Development Tools
-black>=23.0.0  # Code formatting
-flake8>=6.0.0  # Linting
+#credentials
 dotenv
