@@ -1,32 +1,25 @@
-# Core Libraries
-pandas
+# General
 numpy
+pandas
 scikit-learn
+matplotlib
+seaborn
+pyyaml
 
-# Text Preprocessing and Cleaning
-emoji
-# re # Built-in Python library (no installation needed)
-
-# Natural Language Processing (NLP)
+# NLP
+nltk
 transformers
 torch
-datasets
 
-# Computer Vision (for facial emotion detection)
-# opencv-python
-# deepface
+# Image Processing
+torchvision
+Pillow
 
-# Reddit API Access
+# Reddit API
 praw
 
-# Progress Tracking
+# Other utilities
 tqdm
 
-# Visualization (optional, for reporting)
-# matplotlib
-# seaborn
-
-# Development Tools
-black>=23.0.0  # Code formatting
-flake8>=6.0.0  # Linting
-dotenv
+# Jupyter
+jupyter

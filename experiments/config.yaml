@@ -1,0 +1,78 @@
+# --- Data Configuration ---
+data:
+  raw_data_dir: data/raw
+  processed_data_dir: data/processed
+  annotations_dir: data/annotations
+  train_file: data/processed/train.csv
+  validation_file: data/processed/validation.csv
+  test_file: data/processed/test.csv
+  text_column: full_text
+  image_column: image_path
+  label_column: label
+  activity_columns:
+    - score
+    - num_comments
+    - upvote_ratio
+
+# --- Reddit API Configuration (Use environment variables for security!) ---
+reddit:  # All Reddit settings are *inside* this key
+  client_id: ${REDDIT_CLIENT_ID}
+  client_secret: ${REDDIT_CLIENT_SECRET}
+  user_agent: ${REDDIT_USER_AGENT}
+  subreddits:
+    - depression
+    - Anxiety
+    - SuicideWatch
+    - mentalhealth
+  data_collection_limit: 1000  # This should be *here*
+
+# --- Preprocessing Configuration ---
+preprocessing:
+  text:
+    max_length: 128
+    do_lower_case: True
+  image:
+    resize: [224, 224]
+  activity:
+    normalize: True
+
+# --- Model Configuration ---
+model:
+  model_type: mentalbert_cnn_fusion
+  text_model_name: "mental/mental-bert-base-uncased"
+  image_model_name: "resnet50"
+  num_classes: 2
+  text_embedding_size: 768
+  image_embedding_size: 2048
+  fusion_type: concatenation
+  dropout_rate: 0.1
+
+# --- Training Configuration ---
+training:
+  random_seed: 42
+  batch_size: 16
+  learning_rate: 2e-5
+  epochs: 5
+  early_stopping_patience: 3
+  optimizer: AdamW
+  loss_function: CrossEntropyLoss
+  metrics:
+    - accuracy
+    - precision
+    - recall
+    - f1
+  device: "cuda"
+  save_model_path: models/
+  logging_steps: 100
+  evaluation_steps: 500
+
+# --- Prediction Configuration ---
+prediction:
+  model_path: models/best_model.pth
+  batch_size: 32
+
+# --- Evaluation Configuration ---
+evaluation:
+  cross_validation:
+    use_cross_validation: False
+    n_splits: 5
