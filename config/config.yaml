@@ -1,0 +1,13 @@
+reddit:
+  client_id: "dJ3T_uEzjVDzDor7AYhjQw"
+  client_secret: "9jqS61XscMGA3OC5VHEEd7RicqLO5g"
+  user_agent: "DistressDetector:1.0 (by u/khanrazawaseem)"
+  subreddits_file: "subreddits.json"
+  data_collection_limit: 100
+
+data:
+  db_path: "reddit_data.db"
+
+preprocessing:
+  text:
+    do_lower_case: true
